@@ -285,6 +285,7 @@
   "showFullTagName": false,
   "maxItemCount": 120,
   "renderSiblings": false,
+  "showCrossLinks": false,
   "siblingRelativeSize": 70,
   "crossLinkOpacity": 50,
   "applyPowerFilter": false,

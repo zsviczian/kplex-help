@@ -38,11 +38,11 @@ K-Plex is a visual navigator for connected knowledge in Obsidian. It keeps one n
 
 ## Browse the reference by subject
 
-| Discover | Build | Work confidently |
-| --- | --- | --- |
-| [[01 Core concepts/Core concepts|Core concepts]] | [[03 Build and edit/Build and edit|Build and edit]] | [[06 Indexing and troubleshooting/Indexing and troubleshooting|Indexing and troubleshooting]] |
-| [[02 Navigate and explore/Navigate and explore|Navigate and explore]] | [[04 Filter and focus/Filter and focus|Filter and focus]] | [[07 Use cases/Use cases|Use cases]] |
-| [[00 Start Here/How to use this help vault|How this vault works]] | [[05 Personalize and workspace/Personalize and workspace|Personalize and workspace]] | [[08 About/About K-Plex|About and community]] |
+| Discover                       | Build                         | Work confidently                 |
+| ------------------------------ | ----------------------------- | -------------------------------- |
+| [[Core concepts]]              | [[Build and edit]]            | [[Indexing and troubleshooting]] |
+| [[Navigate and explore]]       | [[Filter and focus]]          | [[Use cases]]                    |
+| [[How to use this help vault]] | [[Personalize and workspace]] | [[About K-Plex]]                 |
 
 ## The map has a grammar
 
