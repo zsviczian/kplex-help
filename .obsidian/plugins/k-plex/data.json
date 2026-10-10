@@ -1,0 +1,737 @@
+{
+  "internalHotkeys": {
+    "moveUp": {
+      "key": "ArrowUp",
+      "modifiers": []
+    },
+    "moveDown": {
+      "key": "ArrowDown",
+      "modifiers": []
+    },
+    "moveLeft": {
+      "key": "ArrowLeft",
+      "modifiers": []
+    },
+    "moveRight": {
+      "key": "ArrowRight",
+      "modifiers": []
+    },
+    "sectionUp": {
+      "key": "ArrowUp",
+      "modifiers": [
+        "alt"
+      ]
+    },
+    "sectionDown": {
+      "key": "ArrowDown",
+      "modifiers": [
+        "alt"
+      ]
+    },
+    "sectionLeft": {
+      "key": "ArrowLeft",
+      "modifiers": [
+        "alt"
+      ]
+    },
+    "sectionRight": {
+      "key": "ArrowRight",
+      "modifiers": [
+        "alt"
+      ]
+    },
+    "activate": {
+      "key": "Enter",
+      "modifiers": []
+    },
+    "focusSearch": {
+      "key": "F4",
+      "modifiers": []
+    },
+    "focusFind": {
+      "key": "f",
+      "modifiers": [
+        "mod"
+      ]
+    },
+    "addParent": {
+      "key": "ArrowUp",
+      "modifiers": [
+        "mod"
+      ]
+    },
+    "addChild": {
+      "key": "ArrowDown",
+      "modifiers": [
+        "mod"
+      ]
+    },
+    "addFriend": {
+      "key": "ArrowLeft",
+      "modifiers": [
+        "mod"
+      ]
+    },
+    "addChallenger": {
+      "key": "ArrowRight",
+      "modifiers": [
+        "mod"
+      ]
+    }
+  },
+  "actionPreferences": {
+    "version": 1,
+    "defaultBindingsVersion": 1,
+    "localBindings": {
+      "selection.move.up": [
+        {
+          "match": "key",
+          "value": "ArrowUp",
+          "modifiers": []
+        }
+      ],
+      "selection.move.down": [
+        {
+          "match": "key",
+          "value": "ArrowDown",
+          "modifiers": []
+        }
+      ],
+      "selection.move.left": [
+        {
+          "match": "key",
+          "value": "ArrowLeft",
+          "modifiers": []
+        }
+      ],
+      "selection.move.right": [
+        {
+          "match": "key",
+          "value": "ArrowRight",
+          "modifiers": []
+        }
+      ],
+      "selection.section.up": [
+        {
+          "match": "key",
+          "value": "ArrowUp",
+          "modifiers": [
+            "alt"
+          ]
+        }
+      ],
+      "selection.section.down": [
+        {
+          "match": "key",
+          "value": "ArrowDown",
+          "modifiers": [
+            "alt"
+          ]
+        }
+      ],
+      "selection.section.left": [
+        {
+          "match": "key",
+          "value": "ArrowLeft",
+          "modifiers": [
+            "alt"
+          ]
+        }
+      ],
+      "selection.section.right": [
+        {
+          "match": "key",
+          "value": "ArrowRight",
+          "modifiers": [
+            "alt"
+          ]
+        }
+      ],
+      "node.activate": [
+        {
+          "match": "key",
+          "value": "Enter",
+          "modifiers": []
+        }
+      ],
+      "search.focus": [
+        {
+          "match": "key",
+          "value": "F4",
+          "modifiers": []
+        }
+      ],
+      "find.focus": [
+        {
+          "match": "code",
+          "value": "KeyF",
+          "modifiers": [
+            "mod"
+          ]
+        }
+      ],
+      "relationship.create-center.parent": [
+        {
+          "match": "key",
+          "value": "ArrowUp",
+          "modifiers": [
+            "mod"
+          ]
+        }
+      ],
+      "relationship.create-center.child": [
+        {
+          "match": "key",
+          "value": "ArrowDown",
+          "modifiers": [
+            "mod"
+          ]
+        }
+      ],
+      "relationship.create-center.left": [
+        {
+          "match": "key",
+          "value": "ArrowLeft",
+          "modifiers": [
+            "mod"
+          ]
+        }
+      ],
+      "relationship.create-center.right": [
+        {
+          "match": "key",
+          "value": "ArrowRight",
+          "modifiers": [
+            "mod"
+          ]
+        }
+      ]
+    },
+    "publishedCommands": {},
+    "characterShortcutsEnabled": true,
+    "crossSectionAtBoundary": false
+  },
+  "compactView": false,
+  "compactingFactor": 2,
+  "horizontalCompactingFactor": 2,
+  "minLinkLength": 18,
+  "indexUpdateInterval": 60000,
+  "indexingMode": "on-demand",
+  "urlIndexingMode": "background",
+  "indexingThrottle": "responsive",
+  "hierarchy": {
+    "exclusions": [
+      "alias",
+      "aliases",
+      "cssclasses",
+      "node-image",
+      "Note type",
+      "tag",
+      "tags",
+      "thumbnail"
+    ],
+    "parents": [
+      "Guide",
+      "Parent"
+    ],
+    "children": [
+      "Child",
+      "Explains"
+    ],
+    "leftFriends": [
+      "Friend",
+      "Related"
+    ],
+    "rightFriends": [
+      "Challenger",
+      "Watch out"
+    ],
+    "previous": [
+      "Previous"
+    ],
+    "next": [
+      "Next"
+    ],
+    "hidden": [
+      "Hidden"
+    ]
+  },
+  "inferAllLinksAsFriends": false,
+  "inverseInfer": false,
+  "datePropertyRelations": "parent",
+  "inverseArrowDirection": true,
+  "renderAlias": true,
+  "nameFields": "aliases, title",
+  "nodeTitleScript": "",
+  "backgroundColor": "#0c3e6aff",
+  "excludeFilepaths": [],
+  "autoOpenCentralDocument": true,
+  "toggleEmbedTogglesAutoOpen": true,
+  "showInferredNodes": true,
+  "showAttachments": true,
+  "showURLNodes": true,
+  "showVirtualNodes": true,
+  "showFolderNodes": false,
+  "showTagNodes": false,
+  "showPageNodes": true,
+  "showNeighborCount": true,
+  "wrapNodeLabels": false,
+  "typographyProfiles": {
+    "desktop": {
+      "maxWidth": 370
+    }
+  },
+  "baseFontSize": 13,
+  "showFullTagName": false,
+  "maxItemCount": 120,
+  "renderSiblings": false,
+  "siblingRelativeSize": 70,
+  "crossLinkOpacity": 50,
+  "applyPowerFilter": false,
+  "baseNodeStyle": {
+    "prefix": "",
+    "backgroundColor": "#00000066",
+    "fillStyle": "solid",
+    "textColor": "#ffffffff",
+    "borderColor": "#00000000",
+    "fontSize": 15,
+    "fontFamily": 3,
+    "maxLabelLength": 100,
+    "maxWidth": 250,
+    "roughness": 0,
+    "strokeShaprness": "round",
+    "strokeWidth": 0.5,
+    "strokeStyle": "solid",
+    "padding": 10,
+    "gateRadius": 5,
+    "gateOffset": 15,
+    "gateStrokeColor": "#ffffffff",
+    "gateBackgroundColor": "#ffffffff",
+    "gateFillStyle": "solid"
+  },
+  "centralNodeStyle": {
+    "fontSize": 25,
+    "maxWidth": 390,
+    "backgroundColor": "#e5e7ebff",
+    "textColor": "#111827ff",
+    "borderColor": "#94a3b8ff",
+    "strokeWidth": 1
+  },
+  "inferredNodeStyle": {
+    "backgroundColor": "#000005b3",
+    "textColor": "#95c7f3ff"
+  },
+  "urlNodeStyle": {
+    "icon": "globe"
+  },
+  "virtualNodeStyle": {
+    "backgroundColor": "#ff000066",
+    "fillStyle": "hachure",
+    "textColor": "#ffffffff"
+  },
+  "siblingNodeStyle": {
+    "fontSize": 15
+  },
+  "attachmentNodeStyle": {
+    "icon": "paperclip"
+  },
+  "folderNodeStyle": {
+    "icon": "folder",
+    "strokeShaprness": "sharp",
+    "borderColor": "#ffd700ff",
+    "textColor": "#ffd700ff"
+  },
+  "tagNodeStyle": {
+    "icon": "tag",
+    "strokeShaprness": "sharp",
+    "borderColor": "#4682b4ff",
+    "textColor": "#4682b4ff"
+  },
+  "tagNodeStyles": {
+    "#kplex-help/home": {
+      "icon": "home",
+      "backgroundColor": "#1e3a5fff",
+      "textColor": "#ffffffff",
+      "borderColor": "#60a5faff",
+      "strokeWidth": 2,
+      "fontSize": 18
+    },
+    "#kplex-help/section": {
+      "icon": "map",
+      "backgroundColor": "#1f2937ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#94a3b8ff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/concept": {
+      "icon": "lightbulb",
+      "backgroundColor": "#115e59ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#5eead4ff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/how-to": {
+      "icon": "route",
+      "backgroundColor": "#1e40afff",
+      "textColor": "#ffffffff",
+      "borderColor": "#93c5fdff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/reference": {
+      "icon": "book-open",
+      "backgroundColor": "#374151ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#d1d5dbff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/caution": {
+      "icon": "triangle-alert",
+      "backgroundColor": "#7c2d12ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#fb923cff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/example": {
+      "icon": "flask-conical",
+      "backgroundColor": "#3f6212ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#bef264ff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/about": {
+      "icon": "info",
+      "backgroundColor": "#581c87ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#d8b4feff",
+      "strokeWidth": 1
+    },
+    "#kplex-help/path": {
+      "icon": "route",
+      "backgroundColor": "#164e63ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#67e8f9ff",
+      "strokeWidth": 2,
+      "fontSize": 16
+    }
+  },
+  "tagStyleList": [
+    "#kplex-help/home",
+    "#kplex-help/section",
+    "#kplex-help/path",
+    "#kplex-help/concept",
+    "#kplex-help/how-to",
+    "#kplex-help/reference",
+    "#kplex-help/caution",
+    "#kplex-help/example",
+    "#kplex-help/about"
+  ],
+  "primaryTagField": "Note type",
+  "primaryTagFieldLowerCase": "note-type",
+  "displayAllStylePrefixes": true,
+  "baseLinkStyle": {
+    "strokeColor": "#64748bcc",
+    "strokeWidth": 0.5,
+    "strokeStyle": "solid",
+    "roughness": 0,
+    "startArrowHead": "none",
+    "endArrowHead": "arrow",
+    "showLabel": true,
+    "fontSize": 10,
+    "fontFamily": 3,
+    "textColor": "#e5e7ebff"
+  },
+  "inferredLinkStyle": {
+    "strokeStyle": "dashed",
+    "showLabel": false
+  },
+  "folderLinkStyle": {
+    "strokeColor": "#ffd700ff"
+  },
+  "tagLinkStyle": {
+    "strokeColor": "#4682b4ff"
+  },
+  "hierarchyLinkStyles": {
+    "parent": {
+      "strokeColor": "#60a5faff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "guide": {
+      "strokeColor": "#60a5faff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "child": {
+      "strokeColor": "#38bdf8ff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "explains": {
+      "strokeColor": "#38bdf8ff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "friend": {
+      "strokeColor": "#34d399ff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "related": {
+      "strokeColor": "#34d399ff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "challenger": {
+      "strokeColor": "#fb923cff",
+      "strokeWidth": 1.5,
+      "showLabel": true
+    },
+    "watch-out": {
+      "strokeColor": "#fb923cff",
+      "strokeWidth": 1.5,
+      "strokeStyle": "dashed",
+      "showLabel": true
+    },
+    "previous": {
+      "strokeColor": "#c084fcff",
+      "strokeWidth": 1,
+      "showLabel": true
+    },
+    "next": {
+      "strokeColor": "#c084fcff",
+      "strokeWidth": 1,
+      "showLabel": true
+    }
+  },
+  "navigationHistory": [
+    "04 Filter and focus/Graph Lenses.md",
+    "03 Build and edit/Unlink and delete.md",
+    "03 Build and edit/Connection details and evidence.md",
+    "01 Core concepts/What K-Plex is.md",
+    "01 Core concepts/Ontology and relationship fields.md",
+    "02 Navigate and explore/Vault Search vs Find in this Plex.md",
+    "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
+    "07 Use cases/Use cases.md",
+    "04 Filter and focus/Filter and focus.md",
+    "03 Build and edit/Excalidraw integration.md",
+    "08 About/From ExcaliBrain to K-Plex.md",
+    "Idea Compass",
+    "Assets/Icon - Compass.svg",
+    "01 Core concepts/Idea Compass.md",
+    "01 Core concepts/The spatial relationship model.md",
+    "02 Navigate and explore/Navigating the Plex.md",
+    "03 Build and edit/Create a relationship.md",
+    "01 Core concepts/Relationship roles.md",
+    "07 Use cases/Sequential workflows.md",
+    "07 Use cases/Argument maps with Challengers.md",
+    "Assets/Icon - Stopwatch.svg",
+    "https://youtu.be/O-7JHDj5d7Y",
+    "00 Start Here/First 5 minutes.md",
+    "00 Start Here/How to use this help vault.md",
+    "07 Use cases/Build a help system like this vault.md",
+    "05 Personalize and workspace/Node styles from help tags.md",
+    "05 Personalize and workspace/Layout density and typography.md",
+    "05 Personalize and workspace/Personalize and workspace.md",
+    "05 Personalize and workspace/Note-tab synchronization.md",
+    "05 Personalize and workspace/Visibility and connector styling.md",
+    "00 Start Here/Choose a topic.md",
+    "Assets/Image - About.png",
+    "08 About/Community GitHub and contributing.md",
+    "https://ko-fi.com/zsolt",
+    "08 About/Sketch Your Mind book.md",
+    "08 About/About K-Plex.md",
+    "05 Personalize and workspace/Actions and shortcuts.md",
+    "10 Discover by topic/11 Work without the mouse.md",
+    "02 Navigate and explore/K-Plex command palette.md",
+    "00 Start Here/K-Plex Help.md"
+  ],
+  "allowOntologySuggester": true,
+  "ontologySuggesterParentTrigger": "::p",
+  "ontologySuggesterChildTrigger": "::c",
+  "ontologySuggesterLeftFriendTrigger": "::l",
+  "ontologySuggesterRightFriendTrigger": "::r",
+  "ontologySuggesterPreviousTrigger": "::e",
+  "ontologySuggesterNextTrigger": "::n",
+  "ontologySuggesterTrigger": ":::",
+  "ontologySuggesterMidSentenceTrigger": "(",
+  "boldFields": false,
+  "allowAutozoom": false,
+  "allowAutofocuOnSearch": true,
+  "defaultAlwaysOnTop": false,
+  "embedCentralNode": false,
+  "excalidrawFitOnNodeOpen": true,
+  "centralNodeMarkdownMode": "source",
+  "centralNodeMarkdownZoomModes": {
+    "00 Start Here/K-Plex Help.md": "scale"
+  },
+  "centerEmbedWidth": 550,
+  "centerEmbedHeight": 700,
+  "showContentPane": false,
+  "followActiveFile": true,
+  "contentPaneWidth": 38,
+  "graphDepth": 1,
+  "connectorStyle": "bezier",
+  "nodeSortOrder": "name-asc",
+  "parentColumns": 2,
+  "childColumns": 5,
+  "friendMaxHeight": 350,
+  "siblingMaxHeight": 250,
+  "parentMaxHeight": 229,
+  "childMaxHeight": 223,
+  "noteTypeField": "Note type",
+  "noteTypeStyles": {
+    "excalidraw": {
+      "icon": "lucide-palette",
+      "backgroundColor": "#ece6a2ff",
+      "textColor": "#000000ff",
+      "borderColor": "#e09900ff"
+    }
+  },
+  "kplexInitialized": true,
+  "startInPopout": false,
+  "lastActivePath": "00 Start Here/K-Plex Help.md",
+  "pinnedNodes": [
+    "00 Start Here/K-Plex Help.md",
+    "00 Start Here/Choose a topic.md",
+    "01 Core concepts/Relationship roles.md",
+    "04 Filter and focus/Graph Lenses.md"
+  ],
+  "layoutProfiles": {
+    "desktop:leaf": {
+      "compactingFactor": 0.9,
+      "horizontalCompactingFactor": 1.65,
+      "parentColumns": 2,
+      "childColumns": 4
+    },
+    "desktop:popout": {
+      "compactingFactor": 2,
+      "horizontalCompactingFactor": 2,
+      "parentColumns": 2,
+      "childColumns": 5
+    },
+    "desktop:sidepanel": {
+      "compactingFactor": 2.65,
+      "horizontalCompactingFactor": 2.65,
+      "parentColumns": 1,
+      "childColumns": 2
+    },
+    "tablet:leaf": {
+      "compactingFactor": 2.25,
+      "horizontalCompactingFactor": 2.25,
+      "parentColumns": 2,
+      "childColumns": 4
+    },
+    "tablet:popout": {
+      "compactingFactor": 2.25,
+      "horizontalCompactingFactor": 2.25,
+      "parentColumns": 2,
+      "childColumns": 4
+    },
+    "tablet:sidepanel": {
+      "compactingFactor": 2.7,
+      "horizontalCompactingFactor": 2.7,
+      "parentColumns": 1,
+      "childColumns": 2
+    },
+    "mobile:leaf": {
+      "compactingFactor": 2.55,
+      "horizontalCompactingFactor": 2.55,
+      "parentColumns": 1,
+      "childColumns": 2
+    },
+    "mobile:popout": {
+      "compactingFactor": 2.55,
+      "horizontalCompactingFactor": 2.55,
+      "parentColumns": 1,
+      "childColumns": 2
+    },
+    "mobile:sidepanel": {
+      "compactingFactor": 2.85,
+      "horizontalCompactingFactor": 2.85,
+      "parentColumns": 1,
+      "childColumns": 2
+    }
+  },
+  "mouseInteractionMode": "smart",
+  "toolbarExpanded": false,
+  "sidecarOpen": true,
+  "sidecarPosition": "right",
+  "sidecarMarkdownMode": "source",
+  "sidecarCondensedBreakpoint": 560,
+  "sidecarLastFilePath": "00 Start Here/K-Plex Help.md",
+  "sidecarLastUrl": "",
+  "relationDefaultFields": {
+    "parent": "Parent",
+    "child": "Child",
+    "left": "Friend",
+    "right": "Challenger",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "documentSyncMode": "pinned",
+  "animationSpeed": 0.5,
+  "graphLenses": [
+    {
+      "id": "help-how-to",
+      "name": "Help · How-to notes",
+      "enabled": false,
+      "scope": "node",
+      "mode": "include",
+      "expression": "file.hasTag(\"kplex-help/how-to\")"
+    },
+    {
+      "id": "help-cautions",
+      "name": "Help · Highlight cautions",
+      "enabled": false,
+      "scope": "node",
+      "mode": "style",
+      "expression": "file.hasTag(\"kplex-help/caution\")",
+      "style": {
+        "node": {
+          "borderColor": "#fb923cff",
+          "strokeWidth": 2,
+          "strokeStyle": "solid"
+        }
+      }
+    },
+    {
+      "id": "help-challengers",
+      "name": "Help · Challenger relationships",
+      "enabled": false,
+      "scope": "edge",
+      "mode": "style",
+      "expression": "edge.role == \"right\"",
+      "style": {
+        "edge": {
+          "strokeColor": "#fb923cff",
+          "strokeWidth": 2,
+          "strokeStyle": "solid",
+          "showLabel": true
+        }
+      }
+    },
+    {
+      "id": "help-discovery-paths",
+      "name": "Help · Discovery paths",
+      "enabled": false,
+      "scope": "node",
+      "mode": "style",
+      "expression": "file.hasTag(\"kplex-help/path\")",
+      "style": {
+        "node": {
+          "borderColor": "#67e8f9ff",
+          "strokeWidth": 2,
+          "strokeStyle": "solid"
+        }
+      }
+    }
+  ],
+  "thumbnailProperty": "thumbnail",
+  "nodeImageProperty": "node-image",
+  "attachmentImageDisplay": "thumbnail-label",
+  "editNewNodeAfterCreate": false,
+  "newNodeDefaultType": "excalidraw",
+  "startupIndexInfoBubbleSeen": true,
+  "deletePromptInitialized": false,
+  "confirmFileDelete": true
+}
