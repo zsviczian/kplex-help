@@ -25,38 +25,38 @@ Friend:
 - '[[00 Start Here/How to use this help vault]]'
 - '[[00 Start Here/Glossary]]'
 - '[[00 Start Here/Recently added features]]'
+- '[[07 Use cases/Use cases]]'
 ---
-You do not need to read the help in folder order. **Choose the question you want to answer**, then follow a short, practical route. Every route links to the *same* help notes; the documentation is not duplicated.
+You do not need to read the help in folder order. Choose a question, then follow a short route through the existing reference notes.
 
-## I want to…
+**Looking for a result rather than a technique?** Start with [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Its nine everyday workflows cover topic maps, projects, writing, decisions, meeting context, procedures, gardening, rediscovery and visual ideas. The 13 routes below teach the techniques behind those outcomes.
 
-- **[[10 Discover by topic/01 First steps with K-Plex|First steps with K-Plex]]** — Get oriented in the Plex and make your first useful navigation.
-- **[[10 Discover by topic/02 Find and navigate knowledge|Find and navigate knowledge]]** — Find a note, follow its context, and avoid losing your place.
-- **[[10 Discover by topic/03 Model and edit relationships|Model and edit relationships]]** — Give links meaning and make safe edits from the graph.
-- **[[10 Discover by topic/04 Research and challenge ideas|Research and challenge ideas]]** — Explore a research question with supporting and opposing context.
-- **[[10 Discover by topic/05 Organize projects and sequences|Organize projects and sequences]]** — Model decisions, dependencies and ordered steps without mixing their meanings.
-- **[[10 Discover by topic/06 Reduce clutter and reveal detail|Reduce clutter and reveal detail]]** — Make a busy Plex readable without changing your notes.
-- **[[10 Discover by topic/07 Customize the look and workspace|Customize the look and workspace]]** — Tune readability, imagery, companion editing and screen layout.
-- **[[10 Discover by topic/08 Indexing and problem solving|Indexing and problem solving]]** — Know what is ready, what is still loading, and what to try when results look incomplete.
-- **[[10 Discover by topic/09 Work with web sources|Work with web sources]]** — Bring references and websites into the neighborhood of your notes.
-- **[[10 Discover by topic/10 ExcaliBrain origins and community|ExcaliBrain origins and community]]** — Understand the lineage, migration options and where to find other K-Plex users.
-- **[[10 Discover by topic/11 Work without the mouse|Work without the mouse]]** — Navigate by keyboard, type to select, and use the K-Plex command palette.
-- **[[10 Discover by topic/12 Connect dates and daily notes|Connect dates and daily notes]]** — Configure Date roles and try an actual date-based example.
-- **[[10 Discover by topic/13 Present and concentrate|Present and concentrate]]** — Use fullscreen and Zen to focus on your Plex.
+## Choose a discovery path
 
-## How discovery paths work in K-Plex
+- [[10 Discover by topic/01 First steps with K-Plex|First steps with K-Plex]] — get oriented and make your first useful navigation.
+- [[10 Discover by topic/02 Find and navigate knowledge|Find and navigate knowledge]] — find a note, follow its context and keep your place.
+- [[10 Discover by topic/03 Model and edit relationships|Model and edit relationships]] — give links meaning and make safe edits.
+- [[10 Discover by topic/04 Research and challenge ideas|Research and challenge ideas]] — explore supporting and opposing context.
+- [[10 Discover by topic/05 Organize projects and sequences|Organize projects and sequences]] — distinguish decisions, dependencies and ordered steps.
+- [[10 Discover by topic/06 Reduce clutter and reveal detail|Reduce clutter and reveal detail]] — make a busy Plex readable without changing notes.
+- [[10 Discover by topic/07 Customize the look and workspace|Customize the look and workspace]] — tune readability, imagery and companion editing.
+- [[10 Discover by topic/08 Indexing and problem solving|Indexing and problem solving]] — distinguish readiness from incomplete background work.
+- [[10 Discover by topic/09 Work with web sources|Work with web sources]] — connect online references to your notes.
+- [[10 Discover by topic/10 ExcaliBrain origins and community|ExcaliBrain origins and community]] — explore lineage, migration and community resources.
+- [[10 Discover by topic/11 Work without the mouse|Work without the mouse]] — use keyboard navigation, type-to-select and the local palette.
+- [[10 Discover by topic/12 Connect dates and daily notes|Connect dates and daily notes]] — configure Date roles and try the example.
+- [[10 Discover by topic/13 Present and concentrate|Present and concentrate]] — use fullscreen and Zen to focus on the Plex.
 
-Make this note the center. The paths appear as **Children**. Center one path: its reading stops appear below as **Explains** relationships (another name for Child ontology). Cross-topic neighbors also connect through **Related**, mapped to Friend ontology.
+## How the routes appear in K-Plex
 
-> [!tip] You can always navigate directly from a route to a step. **Previous/Next** is reserved for genuine sequences within the reference help; curated topic paths deliberately do not overwrite that order.
+Make this note the center. Routes appear as Children. Center a route and its reading stops appear as Explains relationships, another name for Child ontology. Related links provide cross-topic Friends.
 
-Still new? Start with [[00 Start Here/First 5 minutes|First 5 minutes]]. Want a definition? Open [[00 Start Here/Glossary|Glossary]]. Prefer an outline? Return to [[00 Start Here/K-Plex Help|K-Plex Help]].
+Previous/Next remains reserved for genuine sequences within the reference; curated routes do not overwrite that order. The paths reuse the same notes rather than duplicating their documentation.
 
-**Recently updated?** Begin at [[00 Start Here/Recently added features|Recently added features]] for a short overview of the new capabilities.
+Still new? Open [[00 Start Here/First 5 minutes]]. Need a definition? Use [[00 Start Here/Glossary]]. Prefer a subject outline? Return to [[00 Start Here/K-Plex Help]].
 
-## New places to start
+## Recent and specialized guides
 
-- **Correct a relationship without removing its other sources:** [[03 Build and edit/Remove one relationship source|Remove one relationship source]].
-- **Understand changes to cross-links and readability:** [[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]] and [[05 Personalize and workspace/Layout density and typography|Layout density and typography]].
-- **Keep Excalidraw display modes stable:** [[03 Build and edit/Excalidraw integration|Excalidraw integration]].
-- **Discover the related book and community:** [[08 About/Sketch Your Mind book|Sketch Your Mind book]].
+[[00 Start Here/Recently added features]] separates 0.1.3 from merged next-release work. Start there for themes, native dragging, creation destinations, Sidecar folding and diagnostics.
+
+For a focused reference, see [[03 Build and edit/Remove one relationship source]], [[05 Personalize and workspace/Visibility and connector styling]], [[05 Personalize and workspace/Layout density and typography]], [[03 Build and edit/Excalidraw integration]], or [[08 About/Sketch Your Mind book]].
