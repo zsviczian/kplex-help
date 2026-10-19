@@ -6,6 +6,10 @@ tags:
 - kplex/released
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.0.1]]'
+Next:
+- '[[11 Release notes/K-Plex 0.0.3]]'
 ---
 # K-Plex 0.0.2 — release notes
 
@@ -14,6 +18,10 @@ Guide:
 ## Original published release notes
 
 > [!note] Historical record
-> The text below comes from the published GitHub release, not a retrospective reconstruction. Follow the links above to the living Help pages, which may describe newer behavior.
+> The text below comes from the published GitHub release, not a retrospective reconstruction. See the release archive for links to current guides; older announcements describe their original published state.
 
 **Full Changelog**: https://github.com/zsviczian/kplex/compare/0.0.1...0.0.2
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.0.1|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.0.3|Next release →]]
