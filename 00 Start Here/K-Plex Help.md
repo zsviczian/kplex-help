@@ -18,6 +18,7 @@ Child:
 - '[[07 Use cases/Use cases]]'
 - '[[08 About/About K-Plex]]'
 - '[[00 Start Here/Recently added features]]'
+- '[[11 Release notes/Release notes]]'
 Friend:
 - https://github.com/zsviczian/kplex
 - https://obsidian.md
@@ -34,7 +35,7 @@ K-Plex is a visual navigator for connected knowledge in Obsidian. It keeps one n
 - **I'm new to K-Plex** → [[00 Start Here/First 5 minutes|Get oriented in five minutes]].
 - **I need a particular technique** → [[00 Start Here/Choose a topic|Choose a discovery path]]: 13 guided routes through the reference.
 - **I need to understand a term** → [[00 Start Here/Glossary|Glossary of K-Plex terms]].
-- **I want to know what changed** → [[00 Start Here/Recently added features|Changes since 0.1.3]], with released and next-release behavior kept separate.
+- **I want to know what changed** → [[11 Release notes/Release notes|Release notes by version]], including the draft for 0.2.0, or [[00 Start Here/Recently added features|Changes since 0.1.3]] for a rolling overview.
 
 Prefer exploring? Make this note the center, open a Child below it, then navigate back.
 
