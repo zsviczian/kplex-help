@@ -7,6 +7,7 @@ tags:
 Guide:
 - '[[11 Release notes/Release notes]]'
 Explains:
+- '[[07 Use cases/Never start a project with a blank page]]'
 - '[[03 Build and edit/Drag drop and reclassify]]'
 - '[[03 Build and edit/Create notes and placeholders]]'
 - '[[05 Personalize and workspace/Note-tab synchronization]]'
