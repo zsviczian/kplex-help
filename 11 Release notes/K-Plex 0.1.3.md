@@ -6,6 +6,10 @@ tags:
 - kplex/released
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.1.2]]'
+Next:
+- '[[11 Release notes/K-Plex 0.2.0 draft]]'
 Explains:
 - '[[02 Navigate and explore/Wander]]'
 - '[[05 Personalize and workspace/Sidecar]]'
@@ -26,7 +30,7 @@ Explains:
 ## Original published release notes
 
 > [!note] Historical record
-> The text below comes from the published GitHub release, not a retrospective reconstruction. Follow the links above to the living Help pages, which may describe newer behavior.
+> The text below comes from the published GitHub release, not a retrospective reconstruction. See the release archive for links to current guides; older announcements describe their original published state.
 
 This release brings a new way to explore your knowledge graph, smoother navigation, better Sidecar integration, and a collection of fixes that make K-Plex more reliable and enjoyable to use.
 
@@ -158,3 +162,7 @@ Happy exploring!
 
 
 **Full Changelog**: https://github.com/zsviczian/kplex/compare/0.1.2...0.1.3
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.2.0 draft|Next release →]]
