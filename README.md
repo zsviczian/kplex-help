@@ -31,6 +31,10 @@ A 0.1.3 installation will not have every next-release control described here. Th
 
 See [Changes since K-Plex 0.1.3](00%20Start%20Here/Recently%20added%20features.md) for the release-aware overview and source references.
 
+## Release history
+
+Browse [[11 Release notes/Release notes|K-Plex release notes]] for the published history from 0.0.1 through 0.1.3 and the clearly marked **0.2.0 draft**. Release pages use the Help vault's existing **Explains** relationship to link directly to feature guides, so release notes are part of the navigable graph. The bundled plugin remains at 0.1.2; do not assume the draft features are available in it.
+
 ## Explore by outcome or technique
 
 The **nine practical use cases** focus on results, with examples, short workflows and a “Done when” finishing point. They reuse and expand existing help pages rather than creating a second disconnected manual.
