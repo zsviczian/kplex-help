@@ -1,20 +1,20 @@
 ---
 aliases:
-- K-Plex 0.1.3 release notes
+  - K-Plex 0.1.3 release notes
 tags:
-- kplex-help/release-notes
-- kplex/released
+  - kplex-help/release-notes
+  - kplex/released
 Guide:
-- '[[11 Release notes/Release notes]]'
+  - "[[11 Release notes/Release notes]]"
 Previous:
-- '[[11 Release notes/K-Plex 0.1.2]]'
+  - "[[11 Release notes/K-Plex 0.1.2]]"
 Next:
-- '[[11 Release notes/K-Plex 0.2.0 draft]]'
+  - "[[K-Plex 0.2.0 release notes]]"
 Explains:
-- '[[02 Navigate and explore/Wander]]'
-- '[[05 Personalize and workspace/Sidecar]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
-- '[[05 Personalize and workspace/Images in nodes]]'
+  - "[[02 Navigate and explore/Wander]]"
+  - "[[05 Personalize and workspace/Sidecar]]"
+  - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
+  - "[[05 Personalize and workspace/Images in nodes]]"
 ---
 # K-Plex 0.1.3 — release notes
 
@@ -165,4 +165,4 @@ Happy exploring!
 
 ## Previous and next
 
-← [[11 Release notes/K-Plex 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.2.0 draft|Next release →]]
+← [[11 Release notes/K-Plex 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[K-Plex 0.2.0 release notes|Next release →]]

@@ -1,4 +1,15 @@
 {
+  "standardStyleDefaults": "native",
+  "colorPreferences": {
+    "version": 1,
+    "palette": [],
+    "semantic": {},
+    "compass": {
+      "enabled": true,
+      "fills": {},
+      "intensity": 3
+    }
+  },
   "internalHotkeys": {
     "moveUp": {
       "key": "ArrowUp",
@@ -236,7 +247,8 @@
     ],
     "children": [
       "Child",
-      "Explains"
+      "Explains",
+      "Learn more"
     ],
     "leftFriends": [
       "Friend",
@@ -263,12 +275,11 @@
   "renderAlias": true,
   "nameFields": "aliases, title",
   "nodeTitleScript": "",
-  "backgroundColor": "#0c3e6aff",
   "excludeFilepaths": [],
   "autoOpenCentralDocument": true,
   "toggleEmbedTogglesAutoOpen": true,
   "showInferredNodes": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "showURLNodes": true,
   "showVirtualNodes": true,
   "showFolderNodes": false,
@@ -291,10 +302,7 @@
   "applyPowerFilter": false,
   "baseNodeStyle": {
     "prefix": "",
-    "backgroundColor": "#00000066",
     "fillStyle": "solid",
-    "textColor": "#ffffffff",
-    "borderColor": "#00000000",
     "fontSize": 15,
     "fontFamily": 3,
     "maxLabelLength": 100,
@@ -306,29 +314,19 @@
     "padding": 10,
     "gateRadius": 5,
     "gateOffset": 15,
-    "gateStrokeColor": "#ffffffff",
-    "gateBackgroundColor": "#ffffffff",
     "gateFillStyle": "solid"
   },
   "centralNodeStyle": {
     "fontSize": 25,
     "maxWidth": 390,
-    "backgroundColor": "#e5e7ebff",
-    "textColor": "#111827ff",
-    "borderColor": "#94a3b8ff",
     "strokeWidth": 1
   },
-  "inferredNodeStyle": {
-    "backgroundColor": "#000005b3",
-    "textColor": "#95c7f3ff"
-  },
+  "inferredNodeStyle": {},
   "urlNodeStyle": {
     "icon": "globe"
   },
   "virtualNodeStyle": {
-    "backgroundColor": "#ff000066",
-    "fillStyle": "hachure",
-    "textColor": "#ffffffff"
+    "fillStyle": "hachure"
   },
   "siblingNodeStyle": {
     "fontSize": 15
@@ -338,15 +336,11 @@
   },
   "folderNodeStyle": {
     "icon": "folder",
-    "strokeShaprness": "sharp",
-    "borderColor": "#ffd700ff",
-    "textColor": "#ffd700ff"
+    "strokeShaprness": "sharp"
   },
   "tagNodeStyle": {
     "icon": "tag",
-    "strokeShaprness": "sharp",
-    "borderColor": "#4682b4ff",
-    "textColor": "#4682b4ff"
+    "strokeShaprness": "sharp"
   },
   "tagNodeStyles": {
     "#kplex-help/home": {
@@ -430,7 +424,6 @@
   "primaryTagFieldLowerCase": "note-type",
   "displayAllStylePrefixes": true,
   "baseLinkStyle": {
-    "strokeColor": "#64748bcc",
     "strokeWidth": 0.5,
     "strokeStyle": "solid",
     "roughness": 0,
@@ -438,19 +431,14 @@
     "endArrowHead": "arrow",
     "showLabel": true,
     "fontSize": 10,
-    "fontFamily": 3,
-    "textColor": "#e5e7ebff"
+    "fontFamily": 3
   },
   "inferredLinkStyle": {
     "strokeStyle": "dashed",
     "showLabel": false
   },
-  "folderLinkStyle": {
-    "strokeColor": "#ffd700ff"
-  },
-  "tagLinkStyle": {
-    "strokeColor": "#4682b4ff"
-  },
+  "folderLinkStyle": {},
+  "tagLinkStyle": {},
   "hierarchyLinkStyles": {
     "parent": {
       "strokeColor": "#60a5faff",
@@ -505,14 +493,8 @@
     }
   },
   "navigationHistory": [
-    "04 Filter and focus/Graph Lenses.md",
-    "03 Build and edit/Unlink and delete.md",
-    "03 Build and edit/Connection details and evidence.md",
-    "01 Core concepts/What K-Plex is.md",
-    "01 Core concepts/Ontology and relationship fields.md",
     "02 Navigate and explore/Vault Search vs Find in this Plex.md",
     "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
-    "07 Use cases/Use cases.md",
     "04 Filter and focus/Filter and focus.md",
     "03 Build and edit/Excalidraw integration.md",
     "08 About/From ExcaliBrain to K-Plex.md",
@@ -529,7 +511,6 @@
     "https://youtu.be/O-7JHDj5d7Y",
     "00 Start Here/First 5 minutes.md",
     "00 Start Here/How to use this help vault.md",
-    "07 Use cases/Build a help system like this vault.md",
     "05 Personalize and workspace/Node styles from help tags.md",
     "05 Personalize and workspace/Layout density and typography.md",
     "05 Personalize and workspace/Personalize and workspace.md",
@@ -544,7 +525,14 @@
     "05 Personalize and workspace/Actions and shortcuts.md",
     "10 Discover by topic/11 Work without the mouse.md",
     "02 Navigate and explore/K-Plex command palette.md",
-    "00 Start Here/K-Plex Help.md"
+    "00 Start Here/K-Plex Help.md",
+    "07 Use cases/Build a help system like this vault.md",
+    "07 Use cases/Build a Map of Content.md",
+    "07 Use cases/Garden your vault.md",
+    "07 Use cases/Use cases.md",
+    "11 Release notes/Release notes.md",
+    "11 Release notes/K-Plex 0.2.0 release notes.md",
+    "03 Build and edit/Create notes and placeholders.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
@@ -575,10 +563,10 @@
   "nodeSortOrder": "name-asc",
   "parentColumns": 2,
   "childColumns": 5,
-  "friendMaxHeight": 350,
+  "friendMaxHeight": 366,
   "siblingMaxHeight": 250,
   "parentMaxHeight": 229,
-  "childMaxHeight": 223,
+  "childMaxHeight": 182,
   "noteTypeField": "Note type",
   "noteTypeStyles": {
     "excalidraw": {
@@ -590,19 +578,22 @@
   },
   "kplexInitialized": true,
   "startInPopout": false,
-  "lastActivePath": "00 Start Here/K-Plex Help.md",
+  "lastActivePath": "11 Release notes/K-Plex 0.2.0 release notes.md",
   "pinnedNodes": [
     "00 Start Here/K-Plex Help.md",
     "00 Start Here/Choose a topic.md",
     "01 Core concepts/Relationship roles.md",
-    "04 Filter and focus/Graph Lenses.md"
+    "04 Filter and focus/Graph Lenses.md",
+    "11 Release notes/Release notes.md",
+    "07 Use cases/Use cases.md"
   ],
   "layoutProfiles": {
     "desktop:leaf": {
-      "compactingFactor": 0.9,
-      "horizontalCompactingFactor": 1.65,
+      "compactingFactor": 1.35,
+      "horizontalCompactingFactor": 0.75,
       "parentColumns": 2,
-      "childColumns": 4
+      "childColumns": 4,
+      "lateralArrangement": "left"
     },
     "desktop:popout": {
       "compactingFactor": 2,
@@ -654,6 +645,9 @@
     }
   },
   "mouseInteractionMode": "smart",
+  "hoverHighlightRequiresAlt": true,
+  "areaOutlineRequiresAlt": true,
+  "gateTooltipRequiresAlt": true,
   "toolbarExpanded": false,
   "sidecarOpen": true,
   "sidecarPosition": "right",
@@ -689,9 +683,9 @@
       "expression": "file.hasTag(\"kplex-help/caution\")",
       "style": {
         "node": {
-          "borderColor": "#fb923cff",
           "strokeWidth": 2,
-          "strokeStyle": "solid"
+          "strokeStyle": "solid",
+          "borderColor": "#fb923cff"
         }
       }
     },
@@ -704,10 +698,10 @@
       "expression": "edge.role == \"right\"",
       "style": {
         "edge": {
-          "strokeColor": "#fb923cff",
           "strokeWidth": 2,
           "strokeStyle": "solid",
-          "showLabel": true
+          "showLabel": true,
+          "strokeColor": "#fb923cff"
         }
       }
     },
@@ -720,9 +714,9 @@
       "expression": "file.hasTag(\"kplex-help/path\")",
       "style": {
         "node": {
-          "borderColor": "#67e8f9ff",
           "strokeWidth": 2,
-          "strokeStyle": "solid"
+          "strokeStyle": "solid",
+          "borderColor": "#67e8f9ff"
         }
       }
     }
@@ -730,9 +724,600 @@
   "thumbnailProperty": "thumbnail",
   "nodeImageProperty": "node-image",
   "attachmentImageDisplay": "thumbnail-label",
+  "allowRemoteNodeImages": false,
   "editNewNodeAfterCreate": false,
   "newNodeDefaultType": "excalidraw",
   "startupIndexInfoBubbleSeen": true,
   "deletePromptInitialized": false,
-  "confirmFileDelete": true
+  "confirmFileDelete": true,
+  "removeOntologyLinksOnDelete": true,
+  "appearanceThemes": {
+    "version": 1,
+    "migrationComplete": true,
+    "selectedId": "native-base",
+    "migrationNotice": false,
+    "themes": [
+      {
+        "id": "user",
+        "name": "User theme",
+        "appearance": {
+          "base": {
+            "baseNodeStyle": {
+              "prefix": "",
+              "backgroundColor": "#00000066",
+              "fillStyle": "solid",
+              "textColor": "#ffffffff",
+              "borderColor": "#00000000",
+              "fontSize": 15,
+              "fontFamily": 3,
+              "maxLabelLength": 100,
+              "maxWidth": 250,
+              "roughness": 0,
+              "strokeShaprness": "round",
+              "strokeWidth": 0.5,
+              "strokeStyle": "solid",
+              "padding": 10,
+              "gateRadius": 5,
+              "gateOffset": 15,
+              "gateStrokeColor": "#ffffffff",
+              "gateBackgroundColor": "#ffffffff",
+              "gateFillStyle": "solid"
+            },
+            "centralNodeStyle": {
+              "fontSize": 25,
+              "maxWidth": 390,
+              "backgroundColor": "#e5e7ebff",
+              "textColor": "#111827ff",
+              "borderColor": "#94a3b8ff",
+              "strokeWidth": 1
+            },
+            "inferredNodeStyle": {
+              "backgroundColor": "#000005b3",
+              "textColor": "#95c7f3ff"
+            },
+            "virtualNodeStyle": {
+              "backgroundColor": "#ff000066",
+              "fillStyle": "hachure",
+              "textColor": "#ffffffff"
+            },
+            "siblingNodeStyle": {
+              "fontSize": 15
+            },
+            "urlNodeStyle": {
+              "icon": "globe"
+            },
+            "attachmentNodeStyle": {
+              "icon": "paperclip"
+            },
+            "folderNodeStyle": {
+              "icon": "folder",
+              "strokeShaprness": "sharp",
+              "borderColor": "#ffd700ff",
+              "textColor": "#ffd700ff"
+            },
+            "tagNodeStyle": {
+              "icon": "tag",
+              "strokeShaprness": "sharp",
+              "borderColor": "#4682b4ff",
+              "textColor": "#4682b4ff"
+            },
+            "baseLinkStyle": {
+              "strokeColor": "#64748bcc",
+              "strokeWidth": 0.5,
+              "strokeStyle": "solid",
+              "roughness": 0,
+              "startArrowHead": "none",
+              "endArrowHead": "arrow",
+              "showLabel": true,
+              "fontSize": 10,
+              "fontFamily": 3,
+              "textColor": "#e5e7ebff"
+            },
+            "inferredLinkStyle": {
+              "strokeStyle": "dashed",
+              "showLabel": false
+            },
+            "folderLinkStyle": {
+              "strokeColor": "#ffd700ff"
+            },
+            "tagLinkStyle": {
+              "strokeColor": "#4682b4ff"
+            },
+            "standardStyleDefaults": "legacy",
+            "backgroundColor": "#0c3e6aff"
+          },
+          "semantic": {
+            "noteTypeStyles": {
+              "excalidraw": {
+                "icon": "lucide-palette",
+                "backgroundColor": "#ece6a2ff",
+                "textColor": "#000000ff",
+                "borderColor": "#e09900ff"
+              }
+            },
+            "tagNodeStyles": {
+              "#kplex-help/home": {
+                "icon": "home",
+                "backgroundColor": "#1e3a5fff",
+                "textColor": "#ffffffff",
+                "borderColor": "#60a5faff",
+                "strokeWidth": 2,
+                "fontSize": 18
+              },
+              "#kplex-help/section": {
+                "icon": "map",
+                "backgroundColor": "#1f2937ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#94a3b8ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/concept": {
+                "icon": "lightbulb",
+                "backgroundColor": "#115e59ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#5eead4ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/how-to": {
+                "icon": "route",
+                "backgroundColor": "#1e40afff",
+                "textColor": "#ffffffff",
+                "borderColor": "#93c5fdff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/reference": {
+                "icon": "book-open",
+                "backgroundColor": "#374151ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#d1d5dbff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/caution": {
+                "icon": "triangle-alert",
+                "backgroundColor": "#7c2d12ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#fb923cff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/example": {
+                "icon": "flask-conical",
+                "backgroundColor": "#3f6212ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#bef264ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/about": {
+                "icon": "info",
+                "backgroundColor": "#581c87ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#d8b4feff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/path": {
+                "icon": "route",
+                "backgroundColor": "#164e63ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#67e8f9ff",
+                "strokeWidth": 2,
+                "fontSize": 16
+              }
+            },
+            "tagStyleList": [
+              "#kplex-help/home",
+              "#kplex-help/section",
+              "#kplex-help/path",
+              "#kplex-help/concept",
+              "#kplex-help/how-to",
+              "#kplex-help/reference",
+              "#kplex-help/caution",
+              "#kplex-help/example",
+              "#kplex-help/about"
+            ],
+            "hierarchyLinkStyles": {
+              "parent": {
+                "strokeColor": "#60a5faff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "guide": {
+                "strokeColor": "#60a5faff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "child": {
+                "strokeColor": "#38bdf8ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "explains": {
+                "strokeColor": "#38bdf8ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "friend": {
+                "strokeColor": "#34d399ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "related": {
+                "strokeColor": "#34d399ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "challenger": {
+                "strokeColor": "#fb923cff",
+                "strokeWidth": 1.5,
+                "showLabel": true
+              },
+              "watch-out": {
+                "strokeColor": "#fb923cff",
+                "strokeWidth": 1.5,
+                "strokeStyle": "dashed",
+                "showLabel": true
+              },
+              "previous": {
+                "strokeColor": "#c084fcff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "next": {
+                "strokeColor": "#c084fcff",
+                "strokeWidth": 1,
+                "showLabel": true
+              }
+            },
+            "colorPreferences": {
+              "version": 1,
+              "palette": [],
+              "semantic": {},
+              "compass": {
+                "enabled": false,
+                "fills": {}
+              }
+            },
+            "lensColors": {
+              "help-cautions": {
+                "node": {
+                  "borderColor": "#fb923cff"
+                },
+                "edge": {}
+              },
+              "help-challengers": {
+                "node": {},
+                "edge": {
+                  "strokeColor": "#fb923cff"
+                }
+              },
+              "help-discovery-paths": {
+                "node": {
+                  "borderColor": "#67e8f9ff"
+                },
+                "edge": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "native-base",
+        "name": "Default base + my semantic colors",
+        "appearance": {
+          "base": {
+            "baseNodeStyle": {
+              "prefix": "",
+              "fillStyle": "solid",
+              "fontSize": 15,
+              "fontFamily": 3,
+              "maxLabelLength": 100,
+              "maxWidth": 250,
+              "roughness": 0,
+              "strokeShaprness": "round",
+              "strokeWidth": 0.5,
+              "strokeStyle": "solid",
+              "padding": 10,
+              "gateRadius": 5,
+              "gateOffset": 15,
+              "gateFillStyle": "solid"
+            },
+            "centralNodeStyle": {
+              "fontSize": 25,
+              "maxWidth": 390,
+              "strokeWidth": 1
+            },
+            "inferredNodeStyle": {},
+            "virtualNodeStyle": {
+              "fillStyle": "hachure"
+            },
+            "siblingNodeStyle": {
+              "fontSize": 15
+            },
+            "urlNodeStyle": {
+              "icon": "globe"
+            },
+            "attachmentNodeStyle": {
+              "icon": "paperclip"
+            },
+            "folderNodeStyle": {
+              "icon": "folder",
+              "strokeShaprness": "sharp"
+            },
+            "tagNodeStyle": {
+              "icon": "tag",
+              "strokeShaprness": "sharp"
+            },
+            "baseLinkStyle": {
+              "strokeWidth": 0.5,
+              "strokeStyle": "solid",
+              "roughness": 0,
+              "startArrowHead": "none",
+              "endArrowHead": "arrow",
+              "showLabel": true,
+              "fontSize": 10,
+              "fontFamily": 3
+            },
+            "inferredLinkStyle": {
+              "strokeStyle": "dashed",
+              "showLabel": false
+            },
+            "folderLinkStyle": {},
+            "tagLinkStyle": {},
+            "standardStyleDefaults": "native"
+          },
+          "semantic": {
+            "noteTypeStyles": {
+              "excalidraw": {
+                "icon": "lucide-palette",
+                "backgroundColor": "#ece6a2ff",
+                "textColor": "#000000ff",
+                "borderColor": "#e09900ff"
+              }
+            },
+            "tagNodeStyles": {
+              "#kplex-help/home": {
+                "icon": "home",
+                "backgroundColor": "#1e3a5fff",
+                "textColor": "#ffffffff",
+                "borderColor": "#60a5faff",
+                "strokeWidth": 2,
+                "fontSize": 18
+              },
+              "#kplex-help/section": {
+                "icon": "map",
+                "backgroundColor": "#1f2937ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#94a3b8ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/concept": {
+                "icon": "lightbulb",
+                "backgroundColor": "#115e59ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#5eead4ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/how-to": {
+                "icon": "route",
+                "backgroundColor": "#1e40afff",
+                "textColor": "#ffffffff",
+                "borderColor": "#93c5fdff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/reference": {
+                "icon": "book-open",
+                "backgroundColor": "#374151ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#d1d5dbff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/caution": {
+                "icon": "triangle-alert",
+                "backgroundColor": "#7c2d12ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#fb923cff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/example": {
+                "icon": "flask-conical",
+                "backgroundColor": "#3f6212ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#bef264ff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/about": {
+                "icon": "info",
+                "backgroundColor": "#581c87ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#d8b4feff",
+                "strokeWidth": 1
+              },
+              "#kplex-help/path": {
+                "icon": "route",
+                "backgroundColor": "#164e63ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#67e8f9ff",
+                "strokeWidth": 2,
+                "fontSize": 16
+              }
+            },
+            "tagStyleList": [
+              "#kplex-help/home",
+              "#kplex-help/section",
+              "#kplex-help/path",
+              "#kplex-help/concept",
+              "#kplex-help/how-to",
+              "#kplex-help/reference",
+              "#kplex-help/caution",
+              "#kplex-help/example",
+              "#kplex-help/about"
+            ],
+            "hierarchyLinkStyles": {
+              "parent": {
+                "strokeColor": "#60a5faff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "guide": {
+                "strokeColor": "#60a5faff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "child": {
+                "strokeColor": "#38bdf8ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "explains": {
+                "strokeColor": "#38bdf8ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "friend": {
+                "strokeColor": "#34d399ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "related": {
+                "strokeColor": "#34d399ff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "challenger": {
+                "strokeColor": "#fb923cff",
+                "strokeWidth": 1.5,
+                "showLabel": true
+              },
+              "watch-out": {
+                "strokeColor": "#fb923cff",
+                "strokeWidth": 1.5,
+                "strokeStyle": "dashed",
+                "showLabel": true
+              },
+              "previous": {
+                "strokeColor": "#c084fcff",
+                "strokeWidth": 1,
+                "showLabel": true
+              },
+              "next": {
+                "strokeColor": "#c084fcff",
+                "strokeWidth": 1,
+                "showLabel": true
+              }
+            },
+            "colorPreferences": {
+              "version": 1,
+              "palette": [],
+              "semantic": {},
+              "compass": {
+                "enabled": true,
+                "fills": {},
+                "intensity": 3
+              }
+            },
+            "lensColors": {
+              "help-cautions": {
+                "node": {
+                  "borderColor": "#fb923cff"
+                },
+                "edge": {}
+              },
+              "help-challengers": {
+                "node": {},
+                "edge": {
+                  "strokeColor": "#fb923cff"
+                }
+              },
+              "help-discovery-paths": {
+                "node": {
+                  "borderColor": "#67e8f9ff"
+                },
+                "edge": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "default",
+        "name": "Default theme",
+        "appearance": {
+          "base": {
+            "baseNodeStyle": {
+              "prefix": "",
+              "fillStyle": "solid",
+              "fontSize": 20,
+              "fontFamily": 3,
+              "maxLabelLength": 30,
+              "maxWidth": 286,
+              "roughness": 0,
+              "strokeShaprness": "round",
+              "strokeWidth": 1,
+              "strokeStyle": "solid",
+              "padding": 10,
+              "gateRadius": 5,
+              "gateOffset": 15,
+              "gateFillStyle": "solid"
+            },
+            "centralNodeStyle": {
+              "fontSize": 30,
+              "maxWidth": 370
+            },
+            "inferredNodeStyle": {},
+            "virtualNodeStyle": {
+              "fillStyle": "hachure"
+            },
+            "siblingNodeStyle": {
+              "fontSize": 15
+            },
+            "urlNodeStyle": {
+              "icon": "globe"
+            },
+            "attachmentNodeStyle": {
+              "icon": "paperclip"
+            },
+            "folderNodeStyle": {
+              "icon": "folder",
+              "strokeShaprness": "sharp"
+            },
+            "tagNodeStyle": {
+              "icon": "tag",
+              "strokeShaprness": "sharp"
+            },
+            "baseLinkStyle": {
+              "strokeWidth": 1,
+              "strokeStyle": "solid",
+              "roughness": 0,
+              "startArrowHead": "none",
+              "endArrowHead": "none",
+              "showLabel": false,
+              "fontSize": 10,
+              "fontFamily": 3
+            },
+            "inferredLinkStyle": {
+              "strokeStyle": "dashed"
+            },
+            "folderLinkStyle": {},
+            "tagLinkStyle": {},
+            "standardStyleDefaults": "native"
+          },
+          "semantic": {
+            "noteTypeStyles": {},
+            "tagNodeStyles": {},
+            "tagStyleList": [],
+            "hierarchyLinkStyles": {},
+            "colorPreferences": {
+              "version": 1,
+              "palette": [],
+              "semantic": {},
+              "compass": {
+                "enabled": false,
+                "fills": {}
+              }
+            },
+            "lensColors": {}
+          }
+        }
+      }
+    ],
+    "nativeBaseMigration": 1
+  }
 }

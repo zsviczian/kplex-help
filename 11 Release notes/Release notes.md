@@ -1,23 +1,23 @@
 ---
 aliases:
-- Release history
-- K-Plex changelog
+  - Release history
+  - K-Plex changelog
 tags:
-- kplex-help/section
-- kplex-help/release-notes
+  - kplex-help/section
+  - kplex-help/release-notes
 Guide:
-- '[[00 Start Here/K-Plex Help]]'
+  - "[[00 Start Here/K-Plex Help]]"
 Child:
-- '[[11 Release notes/K-Plex 0.2.0 draft]]'
-- '[[11 Release notes/K-Plex 0.1.3]]'
-- '[[11 Release notes/K-Plex 0.1.2]]'
-- '[[11 Release notes/K-Plex 0.1.1]]'
-- '[[11 Release notes/K-Plex 0.1.0]]'
-- '[[11 Release notes/K-Plex 0.0.5]]'
-- '[[11 Release notes/K-Plex 0.0.4]]'
-- '[[11 Release notes/K-Plex 0.0.3]]'
-- '[[11 Release notes/K-Plex 0.0.2]]'
-- '[[11 Release notes/K-Plex 0.0.1]]'
+  - "[[K-Plex 0.2.0 release notes]]"
+  - "[[11 Release notes/K-Plex 0.1.3]]"
+  - "[[11 Release notes/K-Plex 0.1.2]]"
+  - "[[11 Release notes/K-Plex 0.1.1]]"
+  - "[[11 Release notes/K-Plex 0.1.0]]"
+  - "[[11 Release notes/K-Plex 0.0.5]]"
+  - "[[11 Release notes/K-Plex 0.0.4]]"
+  - "[[11 Release notes/K-Plex 0.0.3]]"
+  - "[[11 Release notes/K-Plex 0.0.2]]"
+  - "[[11 Release notes/K-Plex 0.0.1]]"
 ---
 # K-Plex release notes
 
@@ -28,7 +28,7 @@ This archive connects **what changed** in each release with **how to use it** in
 
 ## Upcoming
 
-- [[11 Release notes/K-Plex 0.2.0 draft|K-Plex 0.2.0 — working draft]]
+- [[K-Plex 0.2.0 release notes|K-Plex 0.2.0 — working draft]]
 
 ## Published releases
 
