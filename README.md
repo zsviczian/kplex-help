@@ -23,7 +23,7 @@ Start with [What You Can Do with K-Plex](07%20Use%20cases/Use%20cases.md): nine 
 
 ## Documentation and release boundary
 
-**Reviewed October 19, 2026.** The latest published K-Plex release is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3), released October 13. This update also documents merged changes through [K-Plex main at 1076068](https://github.com/zsviczian/kplex/commit/10760685552fdbafe089a58fc8d80d318853ff31).
+**Reviewed October 19, 2026.** The latest published K-Plex release is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3), released October 13. This update also documents merged changes through [K-Plex main at 3df08a1](https://github.com/zsviczian/kplex/commit/3df08a15f7002ed60a2452286ee1f8044cb97203), including independent Plex document sync and per-Plex Footprints.
 
 **Available** refers to released 0.1.3 behavior. **Next release** marks implemented, merged changes that are not in 0.1.3. **Missing** marks capabilities not provided by the reviewed baseline. No future release number or date is assumed.
 
@@ -37,7 +37,7 @@ The **nine practical use cases** focus on results, with examples, short workflow
 
 The **13 discovery paths** in [[00 Start Here/Choose a topic]] teach techniques through the same reference notes. Browse the vault through folders, Markdown links or K-Plex's Parent/Child, Friend/Challenger and Previous/Next relationships. [[00 Start Here/K-Plex Help]] is the home base.
 
-Newly documented areas include Wander, themes and semantic color resets, native dragging, folders and tags, note-creation destinations, safe Sidecar folding, One-sided layout, modifier cross-link previews, live settings and clearer diagnostics.
+Newly documented areas include Wander, [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]], independent Plex document pairs, themes and semantic color resets, native dragging, folders and tags, note-creation destinations, safe Sidecar folding, One-sided layout, modifier cross-link previews, live settings and clearer diagnostics.
 
 ## Preserved showcase configuration
 
