@@ -8,6 +8,7 @@ Guide:
 - '[[11 Release notes/Release notes]]'
 Explains:
 - '[[07 Use cases/Never start a project with a blank page]]'
+- '[[07 Use cases/Garden your vault]]'
 - '[[03 Build and edit/Drag drop and reclassify]]'
 - '[[03 Build and edit/Create notes and placeholders]]'
 - '[[05 Personalize and workspace/Note-tab synchronization]]'
@@ -37,6 +38,14 @@ Learn more: [[03 Build and edit/Drag drop and reclassify]] · [[03 Build and edi
 Work with multiple independent Plex views and their own document synchronization and Sidecar associations. For example, keep your project or article centered in one Plex while following references in another. Fold the Plex tab group when you want more room for the document.
 
 Learn more: [[05 Personalize and workspace/Note-tab synchronization]] · [[05 Personalize and workspace/Sidecar]]. [PR #187](https://github.com/zsviczian/kplex/pull/187) · [PR #173](https://github.com/zsviczian/kplex/pull/173).
+
+### Garden notes without leaving the graph
+
+Obsidian's built-in **File properties** pane now follows the note at the center of an active Plex when the pane is unpinned and ungrouped. Browse related notes, update properties such as status or maturity, and use Graph Lenses to see those classifications reflected in the graph. It turns reviewing and improving notes into a fluid activity rather than repeatedly opening files and finding their metadata.
+
+Alongside tag and Note Type assignment through drag-and-drop, this gives you two complementary ways to garden your knowledge: **classify notes quickly** and **refine their metadata while exploring**.
+
+Learn more: [[05 Personalize and workspace/Note-tab synchronization]] · [[03 Build and edit/Drag drop and reclassify]] · [[04 Filter and focus/Graph Lenses]] · [[07 Use cases/Garden your vault|Garden your vault — one note at a time]]. [File properties: PR #171](https://github.com/zsviczian/kplex/pull/171) · [native tag actions: PR #177](https://github.com/zsviczian/kplex/pull/177).
 
 ### Retrace your visit trail with Footprints
 
