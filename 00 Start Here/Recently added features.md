@@ -34,6 +34,8 @@ Friend:
 ---
 # Changes since K-Plex 0.1.3
 
+For versioned release notes, including the **proposed 0.2.0 draft**, see [[11 Release notes/Release notes]]. This page remains a rolling summary, not the release record.
+
 **Review date: October 19, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at 3df08a1](https://github.com/zsviczian/kplex/commit/3df08a15f7002ed60a2452286ee1f8044cb97203), including merged [PR #187](https://github.com/zsviczian/kplex/pull/187).
 
 **Available** means shipped in 0.1.3. **Next release** means implemented and merged by this review but not shipped in 0.1.3. **Missing** means the reviewed baseline does not provide it. A merged PR is not itself a published plugin release; no next version number or release date is assumed.
