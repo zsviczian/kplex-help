@@ -6,6 +6,10 @@ tags:
 - kplex/released
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.0.5]]'
+Next:
+- '[[11 Release notes/K-Plex 0.1.1]]'
 Explains:
 - '[[02 Navigate and explore/Navigate and explore]]'
 - '[[03 Build and edit/Build and edit]]'
@@ -249,3 +253,7 @@ K-Plex now consistently uses K-Plex naming and canonical K-Plex command IDs. If 
 * @zsviczian made their first contribution in https://github.com/zsviczian/kplex/pull/38
 
 **Full Changelog**: https://github.com/zsviczian/kplex/compare/0.0.5...0.1.0
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.0.5|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.1.1|Next release →]]
