@@ -6,6 +6,8 @@ tags:
 - kplex/unreleased
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.1.3]]'
 Explains:
 - '[[07 Use cases/Never start a project with a blank page]]'
 - '[[07 Use cases/Garden your vault]]'
@@ -68,3 +70,7 @@ Learn more: [[06 Indexing and troubleshooting/Understanding index status]] · [[
 ## Before publishing
 
 Add screenshots captured in Obsidian, verify every workflow against the actual 0.2.0 build, update the bundled help plugin deliberately, and replace this warning with the published release date and tag. Document any known platform limitations rather than implying all interactions were manually tested.
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.1.3|Previous release]] · [[11 Release notes/Release notes|All releases]]
