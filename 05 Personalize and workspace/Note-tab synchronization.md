@@ -7,6 +7,7 @@ tags:
 - kplex/navigation
 Friend:
 - '[[02 Navigate and explore/Past nodes and pins]]'
+- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
 Previous:
 - '[[05 Personalize and workspace/Sidecar]]'
 Next:
@@ -26,13 +27,15 @@ Use a fixed reference tab or independent navigation when a draft should stay ope
 
 Passive same-file synchronization preserves an Excalidraw note's chosen drawing or Markdown representation. An explicit open command or drawing/Markdown toggle can still change it; navigation to another file follows the chosen sync behavior.
 
-## Next release: more Plex views, with an important boundary
+## Next release: independent Plex views and document pairs
 
 The toolbar **+** and **New K-Plex tab** command open another Plex in an adjacent tab group. Each view keeps its own center representation and Markdown reading/editing choice, including workspace restoration. Nodes can be dragged between views.
 
-However, the reviewed main still shares document-sync mode/target state. Do not assume that two Plexes can safely operate as two fully independent following Sidecar pairs. **Pins and saved navigation history are global and persisted**, not separate per-view collections.
+**Merged [PR #187](https://github.com/zsviczian/kplex/pull/187)** adds independent **Off, Recent and Pinned** document-sync intent and targets for each native Plex. Two Plexes can now follow different note tabs or own separate Sidecars. Switching one view's sync mode does not silently replace another view's pairing. Recent does not take over a companion Sidecar owned by another Plex. Obsidian's workspace restores the individual pairs when their saved native targets are available; duplicated Plex views start with fresh ownership rather than inheriting a live claim.
 
-Independent document synchronization and a nonpersisted per-view **Footprints** list are proposed in [PR #187](https://github.com/zsviczian/kplex/pull/187). They are not implemented in the reviewed baseline. Footprints is not the same as a future branching or metro-map visualization.
+**Pins and saved Past nodes history stay global and persisted** across Plexes. By contrast, [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]] is **owned by each Plex** and keeps every accepted visit, including repetitions, **in memory only**. Its trail stays with that Plex across window moves and is cleared when the Plex closes or Obsidian restarts.
+
+Footprints is a visit list, not an automatically branching or metro-map navigation diagram. Copy it explicitly as Markdown if you want to retain the exploration in a note.
 
 ## Next release: edit properties in context
 
@@ -40,4 +43,4 @@ An open, unpinned and ungrouped Obsidian **File properties** pane follows the ce
 
 This supports [[07 Use cases/Garden your vault]] without making the Properties pane a second note editor or changing how ordinary note tabs are linked.
 
-Sources: [earlier Excalidraw behavior #112](https://github.com/zsviczian/kplex/pull/112), [File properties #171](https://github.com/zsviczian/kplex/pull/171), [additional Plex views #177](https://github.com/zsviczian/kplex/pull/177). Status reviewed October 19, 2026; see [[00 Start Here/Recently added features]].
+Sources: [earlier Excalidraw behavior #112](https://github.com/zsviczian/kplex/pull/112), [File properties #171](https://github.com/zsviczian/kplex/pull/171), [additional Plex views #177](https://github.com/zsviczian/kplex/pull/177), [independent sessions and Footprints #187](https://github.com/zsviczian/kplex/pull/187). Status reviewed October 19, 2026; see [[00 Start Here/Recently added features]].
