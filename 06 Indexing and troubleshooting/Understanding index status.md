@@ -39,12 +39,12 @@ Ordinary prose autosaves retain an equivalent graph layout instead of appearing 
 
 Ontology settings are edited as a local draft and committed after a pause or leaving the field, rather than triggering the former work on every keystroke. A settings or relationship save can complete while the graph update is still pending.
 
-Read the actual completion message. Use a offered refresh/recovery action instead of repeating a creation or assuming the note was not saved. If a settings change is received from another device, it can update the live appearance; an indexing-strategy change still needs a restart. See [[05 Personalize and workspace/Colors and themes]].
+Read the actual completion message. Use an offered refresh/recovery action instead of repeating a creation or assuming the note was not saved. If a settings change is received from another device, it can update the live appearance; an indexing-strategy change still needs a restart. See [[05 Personalize and workspace/Colors and themes]].
 
 ## If something looks stuck
 
 Check local readiness, the actual indexing mode and URL inventory separately. Try a specific Vault Search query to locate a missing note. If the visible result contradicts the status, capture diagnostics before restarting or purging; see [[06 Indexing and troubleshooting/Rebuild purge and diagnostics]] and [[06 Indexing and troubleshooting/Troubleshooting checklist]].
 
-Do not purge just because background URL discovery is unfinished. A full application freeze during Settings Save/close has not been established as fixed by these changes; report the actual symptom rather than treating a passed startup check as proof.
+Do not purge just because background URL discovery is unfinished. If the application stops responding during a settings change, include the setting, open panes and sequence of edits in the issue; a startup-readiness message cannot explain every kind of freeze.
 
 Sources for merged improvements: [ontology settings #147](https://github.com/zsviczian/kplex/pull/147), [save completion #179](https://github.com/zsviczian/kplex/pull/179), [autosave continuity #180](https://github.com/zsviczian/kplex/pull/180), [startup #183](https://github.com/zsviczian/kplex/pull/183), [restoration #185](https://github.com/zsviczian/kplex/pull/185), [stationary refresh #186](https://github.com/zsviczian/kplex/pull/186). See [[00 Start Here/Recently added features]] for the source baseline.
