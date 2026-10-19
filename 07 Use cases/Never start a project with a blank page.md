@@ -3,6 +3,7 @@ aliases:
 - Never Start a Project with a Blank Page
 - Start a project with the knowledge you already have
 - Reuse your notes when starting a project
+Note type: Use case
 tags:
 - kplex-help/example
 - kplex/use-cases
@@ -43,7 +44,7 @@ A project can gradually become its own Map of Content. It need not begin as a ca
 
 ### 2. Keep your destination in one Plex and search in another
 
-**Next release:** Open **two K-Plex views**. Keep the new project centered in one as your *destination*. Use the other to browse and investigate older notes. When you notice something relevant, drag it into the project Plex and connect it in the appropriate area.
+Open **two K-Plex views**. Keep the new project centered in one as your *destination*. Use the other to browse and investigate older notes. When you notice something relevant, drag it into the project Plex and connect it in the appropriate area.
 
 You don't have to collect everything as Children. A useful source might be a Child, a supporting example a Friend, an objection a Challenger, or a broader idea a Parent. These directions give the growing project useful context, but you can change relationships later. Keep exploring in the source Plex without losing your destination.
 
@@ -51,7 +52,7 @@ See [[05 Personalize and workspace/Note-tab synchronization]] and [[03 Build and
 
 ### 3. Bring in notes found through Bases or the file explorer
 
-**Next release for native drag-and-drop:** Your search doesn't have to happen inside K-Plex. Use an Obsidian **Base**, the file explorer, or another supported native surface to find candidate notes. Drag a supported file or resolved note link into the project Plex to navigate or create a connection.
+Your search doesn't have to happen inside K-Plex. Use an Obsidian **Base**, the file explorer, or another supported native surface to find candidate notes. Drag a supported file or resolved note link into the project Plex to navigate or create a connection.
 
 This bridges familiar file- and table-based discovery with a project you are developing visually. Not every kind of Bases cell or drag payload is supported: use a resolved note link, and check the behavior explained in [[03 Build and edit/Drag drop and reclassify]].
 
@@ -59,9 +60,9 @@ This bridges familiar file- and table-based discovery with a project you are dev
 
 When you don't know what you're looking for, use [[02 Navigate and explore/Wander|Wander]]. Let K-Plex guide you through connected notes. An unexpected example, sketch or old insight may be exactly what your new project needs.
 
-**Pause Wander** when something catches your attention. Look at the note, then link it to your pinned project—or, with the next-release two-Plex workflow, bring it into the destination Plex. Resume exploring when you're ready. This combines serendipity with a place to capture what matters.
+**Pause Wander** when something catches your attention. Look at the note, then link it to your pinned project—or bring it into the destination Plex. Resume exploring when you're ready. This combines serendipity with a place to capture what matters.
 
-Wander is available in **0.1.3**. It is guided exploration, not a guarantee that K-Plex will automatically identify relevant project material.
+Wander is guided exploration, not a guarantee that K-Plex will automatically identify relevant project material.
 
 ## What changes in everyday work?
 
@@ -77,4 +78,3 @@ You don't need to move files or copy their contents. The project grows through r
 - [[07 Use cases/Projects and decisions|Develop the project into goals, decisions and next steps]].
 - [[07 Use cases/Research and learning|Turn the collected material into a draft]].
 
-**Release boundary:** Pin-and-connect and Wander are available in published 0.1.3. Native dragging between Plex views and from supported external Obsidian surfaces is merged for the next release ([PR #177](https://github.com/zsviczian/kplex/pull/177)), but isn't in published 0.1.3. Multiple independently synced Plex views are addressed in merged [PR #187](https://github.com/zsviczian/kplex/pull/187). See [[00 Start Here/Recently added features]].
