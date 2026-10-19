@@ -27,4 +27,14 @@ When editing the layout from a narrow or short pane, K-Plex keeps slider control
 
 In **this help vault**, the base node label limit is **100 characters**, while maximum node width and wrapping remain separate layout choices. Long titles may still be constrained by the available on-screen width.
 
-[Changes: PR #108](https://github.com/zsviczian/kplex/pull/108) · [PR #112](https://github.com/zsviczian/kplex/pull/112).
+## Next release: One-sided layout
+
+Select **One-sided layout** below the Parents and Children sliders in Layout controls to put Friends and Challengers in separate groups on the left. This removes the separate right-hand Challenger area without discarding Challenger relationships or changing their meaning and filters.
+
+The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Plex behavior → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
+
+This is a compact alternative to the standard four-direction layout, not a custom layout engine or an additional ontology region. **One-sided layout** is the current label; earlier development notes called it Simplified layout.
+
+For color rather than geometry, see [[05 Personalize and workspace/Colors and themes]]. For temporarily hiding the whole graph group, see [[05 Personalize and workspace/Sidecar]].
+
+Sources: [earlier typography #108](https://github.com/zsviczian/kplex/pull/108), [#112](https://github.com/zsviczian/kplex/pull/112), [layout #177](https://github.com/zsviczian/kplex/pull/177), and the [reviewed guide with the current label](https://github.com/zsviczian/kplex/blob/10760685552fdbafe089a58fc8d80d318853ff31/README.md#search-history-and-pins).
