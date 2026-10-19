@@ -9,6 +9,7 @@ tags:
 - kplex/navigation
 Child:
 - '[[02 Navigate and explore/Wander]]'
+- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
 - '[[05 Personalize and workspace/Colors and themes]]'
 - '[[03 Build and edit/Drag drop and reclassify]]'
 - '[[03 Build and edit/Create notes and placeholders]]'
@@ -33,7 +34,7 @@ Friend:
 ---
 # Changes since K-Plex 0.1.3
 
-**Review date: October 19, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at 1076068](https://github.com/zsviczian/kplex/commit/10760685552fdbafe089a58fc8d80d318853ff31).
+**Review date: October 19, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at 3df08a1](https://github.com/zsviczian/kplex/commit/3df08a15f7002ed60a2452286ee1f8044cb97203), including merged [PR #187](https://github.com/zsviczian/kplex/pull/187).
 
 **Available** means shipped in 0.1.3. **Next release** means implemented and merged by this review but not shipped in 0.1.3. **Missing** means the reviewed baseline does not provide it. A merged PR is not itself a published plugin release; no next version number or release date is assumed.
 
@@ -58,12 +59,13 @@ The release also improves navigation continuity, relationship editing and deleti
 | **File and tag knowledge where you find it.** Supported gate drops move files/folders or assign tags and Note Types. Actual moves require confirmation unless the modifier bypass is used; safety checks still apply. | [[03 Build and edit/Drag drop and reclassify]] |
 | **Capture ideas in the right place.** Choose creation/materialization folders and an explicit After saving outcome. Preserve intended placeholder paths and link aliases; recover partial creation without duplicating the file. | [[03 Build and edit/Create notes and placeholders]] |
 | **Find structure, not only filenames.** Search folders and hierarchical tags, use a # query for tags, and distinguish full tag paths in search/history/pins. | [[02 Navigate and explore/Vault Search vs Find in this Plex]] |
-| **Keep more than one graph context open.** The + button opens an adjacent Plex; central editor and Markdown representation choices are view-local. Document sync is not yet fully independent between views. | [[05 Personalize and workspace/Note-tab synchronization]] |
+| **Keep multiple graph and document contexts independent.** The + button opens an adjacent Plex. Each view now owns its document-sync mode, exact target and Sidecar association, so two Plexes can follow different notes. | [[05 Personalize and workspace/Note-tab synchronization]] |
+| **Retrace a session without changing shared history.** Footprints retains every visit in each Plex, including repetitions. Revisit earlier stops, start a fresh local trail or copy it as Markdown before closing. | [[02 Navigate and explore/Footprints and breadcrumbs]] |
 | **Edit metadata in context.** An unpinned, ungrouped File properties pane follows the central file and clears for non-file centers. | [[05 Personalize and workspace/Note-tab synchronization]] |
 | **Make room for the document.** Fold the entire Plex tab group and restore it from the surviving Sidecar edge, with safeguards for other tabs and ambiguous layouts. | [[05 Personalize and workspace/Sidecar]] |
 | **Use a narrower graph.** One-sided layout places Friends and Challengers in separate left-hand groups, with device/main-tab/side-panel preferences. | [[05 Personalize and workspace/Layout density and typography]] |
 
-These changes are covered by [#171](https://github.com/zsviczian/kplex/pull/171), [#173](https://github.com/zsviczian/kplex/pull/173) and [#177](https://github.com/zsviczian/kplex/pull/177). **PR #177 is merged**, including folder moves and tag assignment; those are no longer missing follow-up work.
+These changes are covered by [#171](https://github.com/zsviczian/kplex/pull/171), [#173](https://github.com/zsviczian/kplex/pull/173), [#177](https://github.com/zsviczian/kplex/pull/177) and [#187](https://github.com/zsviczian/kplex/pull/187). **PRs #177 and #187 are merged**; folder/tag actions and per-Plex Footprints are no longer missing proposals.
 
 ## Next release: make the graph fit your way of working
 
@@ -79,11 +81,11 @@ Settings received from another device update the running plugin without an immed
 
 [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Diagnostics]] adds a bounded passive activity summary to both report routes. Capture it before a restart and review it before sharing. Local readiness, URL discovery, saved data and CPU usage are different questions; these changes do not establish a universal speedup or prove the reported whole-application Settings freeze fixed.
 
-Sources: [#147](https://github.com/zsviczian/kplex/pull/147), [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#174](https://github.com/zsviczian/kplex/pull/174), [#179](https://github.com/zsviczian/kplex/pull/179), [#180](https://github.com/zsviczian/kplex/pull/180), [#183](https://github.com/zsviczian/kplex/pull/183), [#185](https://github.com/zsviczian/kplex/pull/185), [#186](https://github.com/zsviczian/kplex/pull/186). The [source comparison](https://github.com/zsviczian/kplex/compare/0.1.3...10760685552fdbafe089a58fc8d80d318853ff31) also includes supporting cache/indexing changes, validation and documentation work, which are not separate user-facing features.
+Sources: [#147](https://github.com/zsviczian/kplex/pull/147), [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#174](https://github.com/zsviczian/kplex/pull/174), [#179](https://github.com/zsviczian/kplex/pull/179), [#180](https://github.com/zsviczian/kplex/pull/180), [#183](https://github.com/zsviczian/kplex/pull/183), [#185](https://github.com/zsviczian/kplex/pull/185), [#186](https://github.com/zsviczian/kplex/pull/186). The [source comparison](https://github.com/zsviczian/kplex/compare/0.1.3...3df08a15f7002ed60a2452286ee1f8044cb97203) also includes supporting cache/indexing changes, validation and documentation work, which are not separate user-facing features.
 
 ## Not part of the reviewed implementation
 
-Independent per-Plex document sync and session Footprints remain a plan in [#187](https://github.com/zsviczian/kplex/pull/187). Pins and saved history remain global. The section-link correction in [#162](https://github.com/zsviczian/kplex/pull/162) and reciprocal ontology syntax in [#154](https://github.com/zsviczian/kplex/pull/154) are not merged and are not presented here as fixes or available syntax.
+Per-Plex session Footprints and independent document sync are implemented in merged [#187](https://github.com/zsviczian/kplex/pull/187), but a **visual branching or metro-map trail** is not part of this MVP. Footprints is not automatically persisted; pins and saved Past nodes history remain shared and persisted. The section-link correction in [#162](https://github.com/zsviczian/kplex/pull/162) and reciprocal ontology syntax in [#154](https://github.com/zsviczian/kplex/pull/154) are not merged and are not presented here as fixes or available syntax.
 
 The use cases also do not depend on checkbox-task projection, automatic whole-vault Lens queries, custom layout engines or Excalidraw focus-frame selection.
 
