@@ -6,6 +6,10 @@ tags:
 - kplex/released
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.1.0]]'
+Next:
+- '[[11 Release notes/K-Plex 0.1.2]]'
 Explains:
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
@@ -135,3 +139,7 @@ Thank you for helping shape K-Plex!
 
 
 **Full Changelog**: https://github.com/zsviczian/kplex/compare/0.1.0...0.1.1
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.1.0|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.1.2|Next release →]]
