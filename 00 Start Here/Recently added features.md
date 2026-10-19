@@ -2,57 +2,91 @@
 aliases:
 - What changed
 - Recent features
+- Changes since K-Plex 0.1.3
 tags:
 - kplex-help/section
 - kplex/getting-started
 - kplex/navigation
 Child:
+- '[[02 Navigate and explore/Wander]]'
+- '[[05 Personalize and workspace/Colors and themes]]'
+- '[[03 Build and edit/Drag drop and reclassify]]'
+- '[[03 Build and edit/Create notes and placeholders]]'
+- '[[05 Personalize and workspace/Sidecar]]'
+- '[[05 Personalize and workspace/Note-tab synchronization]]'
+- '[[05 Personalize and workspace/Layout density and typography]]'
+- '[[05 Personalize and workspace/Visibility and connector styling]]'
+- '[[06 Indexing and troubleshooting/Understanding index status]]'
+- '[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 - '[[03 Build and edit/Date properties and daily notes]]'
 - '[[03 Build and edit/Ontology autocomplete]]'
-- '[[06 Indexing and troubleshooting/Understanding index status]]'
-- "[[03 Build and edit/Remove one relationship source]]"
-- "[[08 About/Sketch Your Mind book]]"
+- '[[03 Build and edit/Remove one relationship source]]'
+- '[[08 About/Sketch Your Mind book]]'
 Friend:
 - '[[00 Start Here/Choose a topic]]'
 - '[[00 Start Here/Glossary]]'
+- '[[07 Use cases/Use cases]]'
 ---
-This is a quick route to capabilities introduced in the recent merged updates. For detailed steps, open the linked guide. This is **not** a version-specific changelog: the notes describe behavior in the current K-Plex source.
+# Changes since K-Plex 0.1.3
 
-| New or improved | What to try |
+**Review date: October 19, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at 1076068](https://github.com/zsviczian/kplex/commit/10760685552fdbafe089a58fc8d80d318853ff31).
+
+**Available** means shipped in 0.1.3. **Next release** means implemented and merged by this review but not shipped in 0.1.3. **Missing** means the reviewed baseline does not provide it. A merged PR is not itself a published plugin release; no next version number or release date is assumed.
+
+> [!important] The bundled plugin is older than these docs
+> This help repository currently includes a K-Plex **0.1.2** manifest and bundled plugin files. Update the installed plugin to 0.1.3 for the released workflows. Next-release sections require a corresponding newer build. This documentation update does not replace plugin executables, settings or workspace files.
+
+## Start with something useful
+
+[[07 Use cases/Use cases|What You Can Do with K-Plex]] now offers nine everyday workflows: build a topic map, run a project, develop an article, test a proposal, recover meeting context, follow a procedure, garden neglected notes, rediscover ideas and develop visual notes. Each starts with an outcome rather than a list of controls.
+
+## Already available in 0.1.3
+
+[[02 Navigate and explore/Wander|Wander]] explores connected notes with pause, speed and stop controls. [[05 Personalize and workspace/Sidecar|Sidecar]] adds practical adjacent-pane attachment and send/pull actions. The graph's background menu gives direct access to settings, display modes, background color, Wander and bug reporting.
+
+The release also improves navigation continuity, relationship editing and deletion feedback. [[05 Personalize and workspace/Images in nodes|Remote node images require explicit permission]] and are off by default; local node images remain available. See the release notes for the complete shipped changes.
+
+## Next release: organize and work with less friction
+
+| What improves | Where to try it |
 | --- | --- |
-| [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen]] | Maximize K-Plex inside desktop Obsidian; hide its toolbars independently in Zen mode. |
-| [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] | Run graph actions with **Alt/Option+.** while the graph has focus. |
-| [[02 Navigate and explore/Keyboard navigation|Keyboard navigation]] | Use arrows to select, Alt/Option+arrows to change relationship areas, and Enter to navigate. |
-| [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] | Type a name on the focused graph and move between matching visible nodes with Tab. |
-| [[02 Navigate and explore/Keyboard shortcuts reference|Keyboard shortcuts reference]] | Review current defaults and the differences between a graph shortcut and an Obsidian hotkey. |
-| [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]] | Record, disable, reset and publish actions; inspect saved conflicts. |
-| [[03 Build and edit/Date properties and daily notes|Date property roles]] | Choose a default Date relationship while keeping explicit field ontology in control. |
-| [[03 Build and edit/Ontology autocomplete|Ontology autocomplete]] | Add ontology fields with the editor suggester; long pastes no longer trigger the former pathological matcher. |
-| [[06 Indexing and troubleshooting/Understanding index status|Index status]] | Check local readiness separately from full indexing and URL discovery. |
+| **Bring research into a draft or another Plex.** Drag supported node links into the Markdown editor or between views. Resolved Bases links can enter the Plex, and a sibling can become a direct relation without losing its other context. | [[03 Build and edit/Drag drop and reclassify]] |
+| **File and tag knowledge where you find it.** Supported gate drops move files/folders or assign tags and Note Types. Actual moves require confirmation unless the modifier bypass is used; safety checks still apply. | [[03 Build and edit/Drag drop and reclassify]] |
+| **Capture ideas in the right place.** Choose creation/materialization folders and an explicit After saving outcome. Preserve intended placeholder paths and link aliases; recover partial creation without duplicating the file. | [[03 Build and edit/Create notes and placeholders]] |
+| **Find structure, not only filenames.** Search folders and hierarchical tags, use a # query for tags, and distinguish full tag paths in search/history/pins. | [[02 Navigate and explore/Vault Search vs Find in this Plex]] |
+| **Keep more than one graph context open.** The + button opens an adjacent Plex; central editor and Markdown representation choices are view-local. Document sync is not yet fully independent between views. | [[05 Personalize and workspace/Note-tab synchronization]] |
+| **Edit metadata in context.** An unpinned, ungrouped File properties pane follows the central file and clears for non-file centers. | [[05 Personalize and workspace/Note-tab synchronization]] |
+| **Make room for the document.** Fold the entire Plex tab group and restore it from the surviving Sidecar edge, with safeguards for other tabs and ambiguous layouts. | [[05 Personalize and workspace/Sidecar]] |
+| **Use a narrower graph.** One-sided layout places Friends and Challengers in separate left-hand groups, with device/main-tab/side-panel preferences. | [[05 Personalize and workspace/Layout density and typography]] |
 
-## Choose a hands-on route
+These changes are covered by [#171](https://github.com/zsviczian/kplex/pull/171), [#173](https://github.com/zsviczian/kplex/pull/173) and [#177](https://github.com/zsviczian/kplex/pull/177). **PR #177 is merged**, including folder moves and tag assignment; those are no longer missing follow-up work.
 
-- [[10 Discover by topic/11 Work without the mouse|Work without the mouse]] — keyboard navigation, local palette and custom actions.
-- [[10 Discover by topic/12 Connect dates and daily notes|Connect dates and daily notes]] — a Date property and an existing daily note.
-- [[10 Discover by topic/13 Present and concentrate|Present and concentrate]] — fullscreen, Zen and uncluttered layouts.
+## Next release: make the graph fit your way of working
 
-**Source references:** [Fullscreen and Zen #86](https://github.com/zsviczian/kplex/pull/86), [Action Manager #85](https://github.com/zsviczian/kplex/pull/85), [keyboard navigation #80](https://github.com/zsviczian/kplex/pull/80), [Date role #94](https://github.com/zsviczian/kplex/pull/94), [status fix #82](https://github.com/zsviczian/kplex/pull/82), [index responsiveness #78](https://github.com/zsviczian/kplex/pull/78), [ontology suggester #87](https://github.com/zsviczian/kplex/pull/87).
+[[05 Personalize and workspace/Colors and themes|Colors and themes]] covers native Obsidian colors, named K-Plex themes, Light/Dark pairs, separate base/semantic resets and optional directional tint. Existing custom appearances are preserved. Note Type tag links have their own style, and shared style controls include paired previews and inheritance resets. Sources: [#158](https://github.com/zsviczian/kplex/pull/158), [#177](https://github.com/zsviczian/kplex/pull/177).
 
-## Improvements from the most recent merged PRs
+[[05 Personalize and workspace/Visibility and connector styling|Modifier highlighting]] keeps hover effects and area outlines intentional. Alt/Option-hover can temporarily reveal eligible cross-links for a displayed node or its exact gate even when normal cross-links are off. It does not reveal filtered-out nodes or change the toggle. Sources: [#170](https://github.com/zsviczian/kplex/pull/170), [#171](https://github.com/zsviczian/kplex/pull/171), [#181](https://github.com/zsviczian/kplex/pull/181).
 
-| Improvement | Start here |
-| --- | --- |
-| **Sharper typography controls** independent of density and clearer narrow-pane sliders | [[05 Personalize and workspace/Layout density and typography|Layout density and typography]] |
-| **Windows fullscreen and Zen control placement** | [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]] |
-| **Remove one eligible frontmatter source**, with confirmation | [[03 Build and edit/Remove one relationship source|Remove one relationship source]] |
-| **Consistent node highlight** for Find and keyboard navigation | [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault vs Find]] |
-| **Correct filtered gate counts** based on semantic endpoints | [[02 Navigate and explore/Navigating the Plex|Navigating the Plex]] |
-| **Keep Excalidraw drawing/Markdown choice** while Sidecar follows the same note | [[03 Build and edit/Excalidraw integration|Excalidraw integration]] |
-| **More responsive dense URL indexing and cache restoration** | [[06 Indexing and troubleshooting/Large vault behavior|Large vault behavior]] |
-| **Sketch Your Mind — the book and project links** | [[08 About/Sketch Your Mind book|Sketch Your Mind book]] |
+Settings received from another device update the running plugin without an immediate save-back. Conflicting open appearance drafts need to be reopened before reapplying them; simultaneous cross-device edits still depend on the sync service's conflict handling. See [[05 Personalize and workspace/Colors and themes]] and [#182](https://github.com/zsviczian/kplex/pull/182).
 
-Source changes: [PR #95](https://github.com/zsviczian/kplex/pull/95), [#102](https://github.com/zsviczian/kplex/pull/102), [#104](https://github.com/zsviczian/kplex/pull/104), [#105](https://github.com/zsviczian/kplex/pull/105), [#108](https://github.com/zsviczian/kplex/pull/108) and [#112](https://github.com/zsviczian/kplex/pull/112). Documentation-only PR #103 does not change the help's end-user features.
+## Next release: clearer saves, startup and diagnostics
+
+[[06 Indexing and troubleshooting/Understanding index status|Startup and live updates]] better preserve the requested center and history while cached/background data arrives. New notes and drawings become discoverable earlier; late ontology updates refresh a stationary Plex. Ordinary prose autosaves preserve an equivalent graph layout. Settings saves distinguish accepted storage from pending graph work, and ontology-field editing no longer initiates the former work on every keystroke.
+
+[[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Diagnostics]] adds a bounded passive activity summary to both report routes. Capture it before a restart and review it before sharing. Local readiness, URL discovery, saved data and CPU usage are different questions; these changes do not establish a universal speedup or prove the reported whole-application Settings freeze fixed.
+
+Sources: [#147](https://github.com/zsviczian/kplex/pull/147), [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#174](https://github.com/zsviczian/kplex/pull/174), [#179](https://github.com/zsviczian/kplex/pull/179), [#180](https://github.com/zsviczian/kplex/pull/180), [#183](https://github.com/zsviczian/kplex/pull/183), [#185](https://github.com/zsviczian/kplex/pull/185), [#186](https://github.com/zsviczian/kplex/pull/186). The [source comparison](https://github.com/zsviczian/kplex/compare/0.1.3...10760685552fdbafe089a58fc8d80d318853ff31) also includes supporting cache/indexing changes, validation and documentation work, which are not separate user-facing features.
+
+## Not part of the reviewed implementation
+
+Independent per-Plex document sync and session Footprints remain a plan in [#187](https://github.com/zsviczian/kplex/pull/187). Pins and saved history remain global. The section-link correction in [#162](https://github.com/zsviczian/kplex/pull/162) and reciprocal ontology syntax in [#154](https://github.com/zsviczian/kplex/pull/154) are not merged and are not presented here as fixes or available syntax.
+
+The use cases also do not depend on checkbox-task projection, automatic whole-vault Lens queries, custom layout engines or Excalidraw focus-frame selection.
+
+## Earlier guides remain useful
+
+For established workflows, follow [[10 Discover by topic/11 Work without the mouse]], [[10 Discover by topic/12 Connect dates and daily notes]] or [[10 Discover by topic/13 Present and concentrate]]. The existing keyboard, command palette, shortcut, Date, autocomplete, source-removal and [[08 About/Sketch Your Mind book|book]] guides remain linked in this note's children.
