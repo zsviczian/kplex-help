@@ -30,7 +30,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 
 ## Start here: never start a project with a blank page
 
-**[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second Plex, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide distinguishes released workflows from next-release drag-and-drop.
+**[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second Plex, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide connects the workflow to the relevant feature references.
 
 ## Nine other practical outcomes
 
@@ -43,20 +43,6 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 7. **[[07 Use cases/Garden your vault|Improve neglected notes without reorganizing everything]].** Tend one topic at a time, make unfinished work visible and turn weakly connected notes into reusable knowledge.
 8. **[[07 Use cases/Rediscover and remember your notes|Make forgotten ideas useful again]].** Use Wander for rediscovery or manual recall, then connect an old insight to something you are working on now.
 9. **[[07 Use cases/Develop visual ideas|Turn a rough sketch into an idea you can explain]].** Develop visual notes with Excalidraw, connect their context and objections, and walk someone through the resulting reasoning.
-
-## What is available?
-
-**Reviewed on October 19, 2026.** The latest published K-Plex release is **0.1.3**. The core workflows above are available in that release; individual guides label improvements that require newer code.
-
-| Status | Meaning in this library |
-| --- | --- |
-| **Available** | Usable with released K-Plex 0.1.3, subject to the stated setup or companion-plugin requirements. |
-| **Next release** | Implemented and merged into K-Plex main by this review, but not shipped in 0.1.3. No release number or date is promised. |
-| **Missing** | Not available in the reviewed accepted baseline. A proposal or open PR is not a delivered feature. |
-
-For the release boundary and supporting changes, see [[00 Start Here/Recently added features]]. In particular, native cross-Plex/editor dragging, folder moves, tag assignment and improved creation destinations are **Next release**, not Missing: [PR #177](https://github.com/zsviczian/kplex/pull/177) has merged.
-
-The workflows do not assume checkbox tasks become graph items, Lenses query the whole vault, or Wander schedules reviews. **Next release:** [PR #187](https://github.com/zsviczian/kplex/pull/187) has merged independent per-Plex document-sync pairs and [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]]. Footprints keeps the full per-Plex visit sequence with repetitions, but does not persist it automatically or visualize branching trails.
 
 ## Make the pattern your own
 
