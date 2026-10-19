@@ -40,7 +40,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 4. **[[07 Use cases/Argument maps with Challengers|Challenge an assumption before acting]].** Examine a proposal from several directions and record why you accepted, changed or rejected it.
 5. **[[07 Use cases/Meeting notes and daily notes|Reconstruct what happened and why]].** Move between projects, meetings and daily notes to recover the context of a decision or a week of work.
 6. **[[07 Use cases/Sequential workflows|Follow a procedure without losing its context]].** Navigate an intentional sequence while keeping each step's instructions, examples and exceptions nearby.
-7. **[[07 Use cases/Garden your vault|Improve neglected notes without reorganizing everything]].** Tend one topic at a time, make unfinished work visible and turn weakly connected notes into reusable knowledge.
+7. **[[07 Use cases/Garden your vault|Garden your vault — one note at a time]].** Pin tags for quick classification, refine maturity or status in the following File properties pane, and use Graph Lenses to see improvements as you work.
 8. **[[07 Use cases/Rediscover and remember your notes|Make forgotten ideas useful again]].** Use Wander for rediscovery or manual recall, then connect an old insight to something you are working on now.
 9. **[[07 Use cases/Develop visual ideas|Turn a rough sketch into an idea you can explain]].** Develop visual notes with Excalidraw, connect their context and objections, and walk someone through the resulting reasoning.
 
