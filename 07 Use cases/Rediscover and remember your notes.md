@@ -10,6 +10,7 @@ Parent:
 - '[[07 Use cases/Use cases]]'
 Friend:
 - '[[02 Navigate and explore/Wander]]'
+- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
 - '[[07 Use cases/Research and learning]]'
 - '[[07 Use cases/Garden your vault]]'
 ---
@@ -32,3 +33,9 @@ Capture the result. Add a sentence to a current project explaining how the old i
 For **rediscovery**, follow curiosity and unexpected associations. For **manual active recall**, pause before reading and test what you remember. K-Plex does not generate questions, score your answers or schedule spaced-repetition reviews.
 
 Wander follows displayed, navigable connections, so filters affect the route. It is not a vault-wide random-note sampler or an automatic chronological review of last month's notes. See [[02 Navigate and explore/Wander]] for the controls and [[04 Filter and focus/Graph Lenses]] for choosing a perspective.
+
+## Next release: keep a trail of this exploration
+
+After a Wander or manual research session, open [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] to see **every accepted center visit in this Plex**, including times you came back to a familiar idea. Select a surprising earlier stop to revisit it, or **Copy as Markdown** and paste the complete newest-first trail into a note before ending the session.
+
+Footprints is temporary and per-Plex; it is not the persisted shared history below the graph, and it does not turn your exploratory route into a branching mind map. **Start here** begins a fresh trail while preserving your notes and the shared navigation history.
