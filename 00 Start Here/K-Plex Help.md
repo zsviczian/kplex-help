@@ -56,13 +56,13 @@ Parent means broader context; Child means detail or part. Friends provide relate
 The standard layout gives those meanings stable directions. [[01 Core concepts/Relationship roles]] explains the grammar, and [[01 Core concepts/Idea Compass]] turns it into thinking prompts. The next-release [[05 Personalize and workspace/Layout density and typography|One-sided layout]] changes the arrangement, not the relationships' meanings.
 
 > [!tip] Make the help interactive
-> Pin this home node and [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Inspect how Guide, Explains, Related and Watch out map to the standard roles. Use Connection details on an edge to see the source that created it.
+> Pin this home node and [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Inspect how Guide, Explains, Related and Watch out map to the standard roles. Use Connection details on an edge to see the source that created it. With a next-release build, open **Footprints** to retrace your visits to these notes without affecting shared history.
 
 ## Useful routes through the help
 
 [[10 Discover by topic/11 Work without the mouse]] combines keyboard navigation and the [[02 Navigate and explore/K-Plex command palette]]. [[10 Discover by topic/13 Present and concentrate]] uses fullscreen and Zen. [[10 Discover by topic/12 Connect dates and daily notes]] links calendar context to knowledge. [[05 Personalize and workspace/Actions and shortcuts]] explains local versus Obsidian-published commands.
 
-For newly documented workflows, try [[02 Navigate and explore/Wander]], [[05 Personalize and workspace/Colors and themes]], or [[03 Build and edit/Drag drop and reclassify]]. To remove one relationship source without deleting the others, use [[03 Build and edit/Remove one relationship source]].
+For newly documented workflows, try [[02 Navigate and explore/Wander]], [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]], [[05 Personalize and workspace/Colors and themes]], or [[03 Build and edit/Drag drop and reclassify]]. To remove one relationship source without deleting the others, use [[03 Build and edit/Remove one relationship source]].
 
 ## Official resources
 
