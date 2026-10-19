@@ -51,7 +51,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 
 For the release boundary and supporting changes, see [[00 Start Here/Recently added features]]. In particular, native cross-Plex/editor dragging, folder moves, tag assignment and improved creation destinations are **Next release**, not Missing: [PR #177](https://github.com/zsviczian/kplex/pull/177) has merged.
 
-The workflows do not assume checkbox tasks become graph items, Lenses query the whole vault, or Wander schedules reviews. Fully independent document-sync pairs and session Footprints are still proposal-stage work in [PR #187](https://github.com/zsviczian/kplex/pull/187); a branching visual trail is not supplied by saved navigation history.
+The workflows do not assume checkbox tasks become graph items, Lenses query the whole vault, or Wander schedules reviews. **Next release:** [PR #187](https://github.com/zsviczian/kplex/pull/187) has merged independent per-Plex document-sync pairs and [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]]. Footprints keeps the full per-Plex visit sequence with repetitions, but does not persist it automatically or visualize branching trails.
 
 ## Make the pattern your own
 
