@@ -6,6 +6,10 @@ tags:
 - kplex/released
 Guide:
 - '[[11 Release notes/Release notes]]'
+Previous:
+- '[[11 Release notes/K-Plex 0.0.3]]'
+Next:
+- '[[11 Release notes/K-Plex 0.0.5]]'
 Explains:
 - '[[03 Build and edit/Build and edit]]'
 - '[[02 Navigate and explore/Navigate and explore]]'
@@ -311,3 +315,7 @@ Compatible ExcaliBrain settings can be imported automatically on first use or ma
 ---
 
 **Full Changelog**: https://github.com/zsviczian/kplex/compare/0.0.3...0.0.4
+
+## Previous and next
+
+← [[11 Release notes/K-Plex 0.0.3|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.0.5|Next release →]]
