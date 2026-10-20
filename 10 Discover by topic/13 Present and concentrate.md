@@ -13,8 +13,12 @@ Explains:
 Related:
 - '[[10 Discover by topic/07 Customize the look and workspace]]'
 - '[[10 Discover by topic/11 Work without the mouse]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Give the current Plex more room, then hide distractions without losing your place.
+# Present and concentrate
+
+Give the current Plex more room, then hide distractions without losing your place. Follow this short path, then try it with your own notes.
 
 ## Follow the trail
 

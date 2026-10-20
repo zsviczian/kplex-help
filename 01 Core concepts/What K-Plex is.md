@@ -11,9 +11,15 @@ Challenger:
 Next:
   - "[[01 Core concepts/The spatial relationship model]]"
 ---
-![[Image - What is KPLEX.png]]
+# What K-Plex is
 
-K-Plex is a **relationship-oriented visual navigator for Obsidian**. Instead of showing every note in a constantly reshuffled network, it keeps one note or resource in focus and arranges its neighbors by **relationship meaning**.
+Make use of the connections already in your Obsidian notes. K-Plex puts one note in focus and shows the nearby ideas that give it context.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
+
+![[Image - What is KPLEX.png]]
 
 ## A spatial vocabulary you can learn
 
@@ -22,7 +28,7 @@ K-Plex is a **relationship-oriented visual navigator for Obsidian**. Instead of 
 - **Left — Friend / Previous:** related ideas and earlier steps.
 - **Right — Challenger / Next:** objections and later steps.
 
-The center can be a note, supported attachment, URL, folder, tag or unresolved placeholder, depending on your visibility settings. Every move rebuilds the neighborhood around the new center while preserving the spatial grammar.
+The center can be a note, supported attachment, URL, folder, tag or unresolved placeholder, depending on your visibility settings. Every move shows the neighborhood around the new center while preserving the spatial grammar.
 
 ## What you can do
 

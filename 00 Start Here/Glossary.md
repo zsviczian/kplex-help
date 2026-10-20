@@ -14,7 +14,9 @@ Related:
 - '[[03 Build and edit/Date properties and daily notes]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 ---
-These are the terms used throughout the help and interface.
+# Glossary
+
+Seen an unfamiliar word in K-Plex? Use this reference to understand the label and find the guide that shows it in action.
 
 | Term | Meaning |
 | --- | --- |
@@ -28,7 +30,7 @@ These are the terms used throughout the help and interface.
 | **Placeholder / ghost** | An unresolved link to a note that does not yet exist as a file. |
 | **Past nodes / pins** | Past nodes records where you went; pins keep chosen shortcuts available. |
 | **Graph Lens** | A reusable filter or style rule for the *visible* Plex. |
-| **On demand / Eager** | Two policies for when K-Plex prepares semantic source data. |
+| **On demand / Eager** | Two ways to prepare relationships: as you explore, or across the vault in the background. |
 | **URL inventory** | Web links K-Plex has discovered; it can remain incomplete while local graph navigation works. |
 | **Sidecar** | A normal Obsidian document pane positioned beside the graph. |
 | **Graph focus** | Keyboard ownership for K-Plex graph navigation, separate from a search field or editor. |
@@ -56,9 +58,9 @@ Continue with [[01 Core concepts/The spatial relationship model|The spatial rela
 | Term | Meaning |
 | --- | --- |
 | **Single-source removal** | Confirmed removal of one eligible frontmatter relationship occurrence, without automatically removing other evidence on the same edge. |
-| **Semantic gate count** | Number of relationship endpoints for a gate; a connector's drawing path must not inflate that count. |
+| **Gate count** | How many related notes belong to that gate; several sources can support one connection. |
 | **Drawing/Markdown representation** | An Excalidraw file's selected display mode; passive same-file Sidecar/tab follow preserves the deliberate choice. |
-| **Quick Filter cross-links toggle** | View-local Show cross-links switch; currently not saved in `data.json`. |
+| **Quick Filter cross-links toggle** | Show or hide extra connections in this Plex. This choice is not saved across a restart. |
 | **Label-length limit** | Maximum characters in a regular node label, separate from density. This help vault sets it to 100. |
 | **Cache inactivity recovery** | Retirement of startup restore work that stops making progress; not a total time limit on healthy indexing. |
 

@@ -12,7 +12,13 @@ Previous:
 Next:
   - "[[03 Build and edit/Excalidraw integration]]"
 ---
-**Unlink connection** removes one unambiguous editable property source directly. When several sources contribute to the same edge, K-Plex opens **Connection details** instead of guessing which source you intended to remove.
+# Unlink and delete
+
+Disconnect two ideas, or remove a note entirely. Choose the action that changes only what you intend: a relationship source or the file itself.
+
+![[Assets/Screenshot - Connection Details Context Menu.png]]
+
+*Open a connection's context menu to inspect its details before choosing an edit.*
 
 Deleting a Markdown-backed node uses Obsidian's normal trash workflow. The graph node can remain as a ghost if references still point to the deleted file, including when that node is currently centered. K-Plex can automatically remove references stored in note properties, but it does **not** rewrite arbitrary Markdown-body links for you.
 

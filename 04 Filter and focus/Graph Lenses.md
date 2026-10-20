@@ -14,9 +14,15 @@ Previous:
 Next:
   - "[[04 Filter and focus/Graph Lenses are local]]"
 ---
-![[Screenshot - Filters and Lenses.png]]
+# Graph Lenses
 
-A **Graph Lens** is a reusable filter or styling rule for the **currently visible Plex**. You can keep several perspectives ready rather than re-entering a Quick Filter each time.
+Revisit the same perspective on different notes. Save a Graph Lens that filters or styles the visible map according to a reusable rule.
+
+![[Assets/Screenshot - Quick filters and lenses.png]]
+
+*Quick Filter, layout choices and saved lenses share one panel. These choices refine the visible neighborhood.*
+
+![[Screenshot - Filters and Lenses.png]]
 
 A lens has three decisions:
 

@@ -10,7 +10,13 @@ Related:
 - '[[02 Navigate and explore/Vault Search vs Find in this Plex]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
 ---
-Use type-to-select when you can **see the right neighborhood** but want to reach a node faster than scanning the graph.
+# Type to select visible nodes
+
+Can you see the right neighborhood but not the note you need? Type part of its label to select it without scanning every node.
+
+![[Assets/Screenshot - Type to select.png]]
+
+*Typing gather selects the visible workshop-material note. The center stays on the plan.*
 
 1. Focus the Plex graph with **Ctrl/Cmd+Shift+G** or click empty graph space.
 2. Type part of a **displayed node label**. K-Plex looks for a contiguous phrase, ignores letter case and keeps the typed spaces. It searches the *currently displayed graph occurrences*, not the entire vault or hidden/off-screen pages.

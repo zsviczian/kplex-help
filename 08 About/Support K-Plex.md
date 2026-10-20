@@ -15,6 +15,10 @@ Next:
 Related:
 - "[[08 About/Sketch Your Mind book]]"
 ---
+# Support K-Plex
+
+Help K-Plex keep improving. Choose a contribution that fits you, from sharing a useful example to supporting independent development.
+
 K-Plex is developed independently. If it is useful to you and you want to support continued development, you can contribute through Ko-fi:
 
 **[Support K-Plex on Ko-fi](https://ko-fi.com/zsolt)**

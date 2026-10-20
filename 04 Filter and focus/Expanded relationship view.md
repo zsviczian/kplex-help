@@ -10,8 +10,22 @@ Friend:
 Previous:
   - "[[04 Filter and focus/Expand a note into sections]]"
 ---
-Expanded relationship view can show **children beneath visible first-level nodes**, giving one additional layer of context without turning the Plex into an arbitrary-depth graph.
+# Expanded relationship view
 
-Expanded descendants are smaller and more subdued than first-level nodes. Larger child groups scroll locally so one branch does not stretch the whole layout.
+Use a quick look one level beyond the notes around you. Expand their children to see the next layer without leaving the current center.
 
-Use this when the question is “what sits just underneath these neighbors?” rather than “show me the entire transitive graph.” For deeper exploration, navigate a node to the center and let K-Plex rebuild the neighborhood around it.
+![[Assets/Screenshot - Expanded neighbors.png]]
+
+*The workshop plan stays central while the material branch reveals its two source notes one level further down.*
+
+## Look one step further
+
+1. Center [[09 Showcase examples/Example - Workshop plan|the workshop plan]] or a note with several related notes.
+2. Select **Expanded view: show each node's children** in the toolbar.
+3. Look below a neighboring note for its children. Larger groups scroll within their own area.
+
+The extra nodes are smaller so you can distinguish them from the center's direct neighbors. Select one when you want to make it the center and explore its full context.
+
+This reveals one additional layer. To look inside the headings of one document instead, use [[04 Filter and focus/Expand a note into sections|section expansion]].
+
+Try [[07 Use cases/Build a Map of Content|a topic map]] to compare several branches without leaving the overview.

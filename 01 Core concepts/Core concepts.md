@@ -12,11 +12,18 @@ Explains:
   - "[[01 Core concepts/Relationship sources and inference]]"
   - "[[01 Core concepts/Node types]]"
 Related:
-  - "[[00 Start Here/First 5 minutes]]"
+- "[[00 Start Here/First 5 minutes]]"
+- '[[10 Discover by topic/01 First steps with K-Plex]]'
 Challenger:
   - "[[01 Core concepts/What K-Plex is not]]"
 ---
-Start here if the Plex feels like a diagram without an obvious reading order. Three ideas explain its behavior:
+# Core concepts
+
+Does the map look useful, but you are unsure how to read it? Learn how the center, directions and relationship names help you find your way.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
 1. **The center sets context.** You navigate one meaningful neighborhood, not an arbitrary whole-vault network.
 2. **Position carries meaning.** Parent, Child, Friend, Challenger and Previous/Next have consistent directional roles.

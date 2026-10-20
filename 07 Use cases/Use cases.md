@@ -1,33 +1,58 @@
 ---
 aliases:
 - Use cases
+- What You Can Do with K-Plex
+- Everyday K-Plex workflows
 tags:
 - kplex-help/section
 - kplex/use-cases
 Child:
-- '[[07 Use cases/Research and learning]]'
+- '[[07 Use cases/Never start a project with a blank page]]'
+- '[[07 Use cases/Build a Map of Content]]'
 - '[[07 Use cases/Projects and decisions]]'
+- '[[07 Use cases/Research and learning]]'
 - '[[07 Use cases/Argument maps with Challengers]]'
-- '[[07 Use cases/Sequential workflows]]'
-- '[[07 Use cases/Build a help system like this vault]]'
 - '[[07 Use cases/Meeting notes and daily notes]]'
+- '[[07 Use cases/Sequential workflows]]'
+- '[[07 Use cases/Garden your vault]]'
+- '[[07 Use cases/Rediscover and remember your notes]]'
+- '[[07 Use cases/Develop visual ideas]]'
+- '[[07 Use cases/Build a help system like this vault]]'
 Friend:
 - '[[01 Core concepts/Relationship roles]]'
+- '[[00 Start Here/Recently added features]]'
+Related:
+- '[[00 Start Here/Choose a topic]]'
+- '[[10 Discover by topic/04 Research and challenge ideas]]'
+- '[[10 Discover by topic/05 Organize projects and sequences]]'
 ---
+# What You Can Do with K-Plex
+
+Put your notes to work, rather than learn controls one by one. Choose a result you care about and try a small workflow that gets you there.
+
 ![[Image - Use cases.png]]
 
-K-Plex is useful where **the direction of a relationship answers a real question**. Pick a pattern below, then adjust its fields to your domain rather than adopting someone else's ontology wholesale.
 
-## Try it for…
+Start with something you want to accomplish, not a feature you want to try. These everyday workflows turn existing notes and their relationships into useful results. Each guide includes a concrete example, a short workflow and a clear finishing point.
 
-- **Research and reading:** [[07 Use cases/Research and learning|Research and learning]] — sources, related ideas and competing interpretations.
-- **Projects and decisions:** [[07 Use cases/Projects and decisions|Projects and decisions]] — goals, deliverables and risks.
-- **Argumentation:** [[07 Use cases/Argument maps with Challengers|Argument maps with Challengers]] — make objections visible.
-- **Procedures or courses:** [[07 Use cases/Sequential workflows|Sequential workflows]] — connect steps without confusing order and hierarchy.
-- **Documentation:** [[07 Use cases/Build a help system like this vault|Build a help system like this vault]] — build navigable guides through an ontology.
+## Start here: never start a project with a blank page
 
-**Try this:** Pick an initiative or research question and create just one example of each role: Parent, Child, Friend and Challenger. Add Previous/Next only where order matters.
+**[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second Plex, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide connects the workflow to the relevant feature references.
 
-For curated tracks, open [[10 Discover by topic/04 Research and challenge ideas|Research and challenge ideas]] or [[10 Discover by topic/05 Organize projects and sequences|Organize projects and sequences]].
+## More practical outcomes
 
-- **Meetings and daily notes:** [[07 Use cases/Meeting notes and daily notes|Meeting notes and daily notes]] — give Date properties an intentional role, while keeping a broader journal context.
+1. **[[07 Use cases/Build a Map of Content|Turn scattered notes into a useful topic map]].** Gather a subject around a Map of Content as you explore, so you have a reliable place to begin next time.
+2. **[[07 Use cases/Projects and decisions|Know where a project stands and what to do next]].** Bring goals, deliverables, decisions and risks together; keep the results of meaningful activities as part of the project's history.
+3. **[[07 Use cases/Research and learning|Turn research into an article]].** Develop a structure for your argument while keeping its claims connected to sources, examples and counter-evidence.
+4. **[[07 Use cases/Argument maps with Challengers|Challenge an assumption before acting]].** Examine a proposal from several directions and record why you accepted, changed or rejected it.
+5. **[[07 Use cases/Meeting notes and daily notes|Reconstruct what happened and why]].** Move between projects, meetings and daily notes to recover the context of a decision or a week of work.
+6. **[[07 Use cases/Sequential workflows|Follow a procedure without losing its context]].** Navigate an intentional sequence while keeping each step's instructions, examples and exceptions nearby.
+7. **[[07 Use cases/Garden your vault|Garden your vault — one note at a time]].** Pin tags for quick classification, refine maturity or status in the following File properties pane, and use Graph Lenses to see improvements as you work.
+8. **[[07 Use cases/Rediscover and remember your notes|Make forgotten ideas useful again]].** Use Wander for rediscovery or manual recall, then connect an old insight to something you are working on now.
+9. **[[07 Use cases/Develop visual ideas|Turn a rough sketch into an idea you can explain]].** Develop visual notes with Excalidraw, connect their context and objections, and walk someone through the resulting reasoning.
+
+## Make the pattern your own
+
+Choose one workflow and a small set of notes. Add relationships because they answer a useful question, not to fill every direction. Custom field names in these guides are examples to configure, not a required ontology.
+
+For an advanced documentation example, open [[07 Use cases/Build a help system like this vault]]. For guided feature lessons, use [[00 Start Here/Choose a topic]], especially [[10 Discover by topic/04 Research and challenge ideas]] and [[10 Discover by topic/05 Organize projects and sequences]].

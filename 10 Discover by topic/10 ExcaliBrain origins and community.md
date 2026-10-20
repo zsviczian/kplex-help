@@ -16,14 +16,22 @@ Explains:
 - "[[08 About/Sketch Your Mind book]]"
 Related:
 - '[[10 Discover by topic/01 First steps with K-Plex]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
+- 'https://community.sketch-your-mind.com/'
+- 'https://github.com/zsviczian/kplex'
+- 'https://github.com/zsviczian/obsidian-excalidraw-plugin'
+- 'https://ko-fi.com/zsolt'
 ---
-> **Your goal:** Understand the lineage, migration options and where to find other K-Plex users.
+# ExcaliBrain origins and community
+
+Understand the lineage, migration options and where to find other K-Plex users. Follow this short path, then try it with your own notes.
 
 You used ExcaliBrain, want to migrate settings, or want to support the project.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[08 About/ExcaliBrain origins|ExcaliBrain origins]]** — Understand the original spatial model.
 2. **[[08 About/From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]]** — Review the independent plugin and compatibility boundary.
@@ -31,8 +39,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 4. **[[08 About/Community GitHub and contributing|Community GitHub and contributing]]** — Find issue reports, source code and community discussion.
 5. **[[08 About/Support K-Plex|Support K-Plex]]** — Help sustain independent development.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]] — see why K-Plex shortcut preferences remain independent of ExcaliBrain imports
 
@@ -40,7 +47,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 If you are migrating, review **Settings → K-Plex → Compatibility** before importing. K-Plex and ExcaliBrain can coexist, so you can compare them safely.
 
-## Additional exercise
+## Try another small step
 
 When comparing imported and new preferences, check **Actions and shortcuts** separately from the legacy graph style/ontology importer.
 

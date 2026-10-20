@@ -1,29 +1,49 @@
 ---
 aliases:
-  - "Note-tab synchronization"
+- Note-tab synchronization
 tags:
-  - "kplex-help/reference"
-  - "kplex/workspace"
-  - "kplex/navigation"
+- kplex-help/reference
+- kplex/workspace
+- kplex/navigation
 Friend:
-  - "[[02 Navigate and explore/Past nodes and pins]]"
+- '[[02 Navigate and explore/Past nodes and pins]]'
+- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
+- '[[07 Use cases/Research and learning]]'
 Previous:
-  - "[[05 Personalize and workspace/Sidecar]]"
+- '[[05 Personalize and workspace/Sidecar]]'
 Next:
-  - "[[05 Personalize and workspace/Visibility and connector styling]]"
+- '[[05 Personalize and workspace/Visibility and connector styling]]'
 ---
-K-Plex and normal note tabs can be paired in three modes:
+# Note-tab synchronization
 
-- **Independent** — K-Plex navigation and note-tab navigation do not drive each other.
-- **Most recent note tab** — K-Plex links to the most recently used note tab.
-- **Pinned to one fixed note tab** — K-Plex stays paired with a specific note tab.
+Use a document to follow your exploration, or stay fixed while you investigate another idea. Choose how this Plex relates to its note tab.
 
-One-shot commands can send the current K-Plex note to the recent tab or bring the recent tab into K-Plex. **Show linked/pinned tab** activates the actual connected tab and briefly outlines its pane so you can identify it.
+![[Assets/Screenshot - Two independent Plexes.png]]
 
-This synchronization is controlled from the live K-Plex toolbar rather than duplicated in Settings.
+*Two adjacent Plexes keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
-## Linked Excalidraw tab behavior
+## Decide what should follow
 
-If a linked tab or Sidecar is displaying an Excalidraw file, **passive same-file synchronization** now preserves the chosen **drawing vs Markdown** representation. An explicit open command or a direct drawing/Markdown toggle can still switch representations; navigating to a different file still follows the configured sync behavior. This prevents routine pane-follow updates from unexpectedly replacing an intentional editing view.
+Open the **sync control** in the K-Plex toolbar and choose how this Plex uses a note tab.
 
-[Change: PR #112](https://github.com/zsviczian/kplex/pull/112).
+| Choice | Use it when |
+| --- | --- |
+| **Independent / Off** | Your open draft should stay put while you explore other notes. |
+| **Most recent / Recent** | The graph and the note tab you last used should follow one another. |
+| **Pinned** | This Plex should stay paired with one particular note tab. |
+
+Use **Show linked/pinned tab** to reveal the connected tab and briefly outline its pane. One-shot send/bring actions let you open the current graph note in a tab, or bring that tab's note into the graph, without changing your whole workflow.
+
+## Keep two lines of thought open
+
+The toolbar **+**, or **New K-Plex tab** in the Command Palette, opens an adjacent Plex. Each Plex can have its own center, document-following choice and companion Sidecar. Keep a reference in one and develop an idea in the other; changing one pair does not replace the other.
+
+Each view also keeps its own central editor and Markdown reading/editing choice. Drag supported nodes between the two views to [[03 Build and edit/Drag drop and reclassify|connect material without copying it]].
+
+Saved pins and Past nodes remain shared. [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] is different: each Plex keeps its own temporary visit trail, which clears when that Plex closes.
+
+## Edit the current note's properties
+
+An unpinned, ungrouped Obsidian **File properties** pane follows the central file while K-Plex is active. Pin or group that pane if it should keep its own file. A tag or folder center clears the following pane because there is no file to edit.
+
+For a document that travels with the map, use a [[05 Personalize and workspace/Sidecar|Sidecar]]. For a practical two-view workflow, try [[07 Use cases/Never start a project with a blank page|starting a project from your existing notes]].

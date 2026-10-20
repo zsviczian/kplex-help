@@ -20,14 +20,18 @@ Related:
 - '[[10 Discover by topic/06 Reduce clutter and reveal detail]]'
 - '[[10 Discover by topic/13 Present and concentrate]]'
 - '[[10 Discover by topic/11 Work without the mouse]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Tune readability, imagery, companion editing and screen layout.
+# Customize the look and workspace
+
+Tune readability, imagery, companion editing and screen layout. Follow this short path, then try it with your own notes.
 
 You want a setup that matches how you work, including tablet or phone.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[05 Personalize and workspace/Node styles from help tags|Node styles from help tags]]** — See how this vault visually distinguishes types of help.
 2. **[[05 Personalize and workspace/Layout density and typography|Layout density and typography]]** — Adjust density, text width and wrapping.
@@ -36,8 +40,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 5. **[[05 Personalize and workspace/Sidecar|Sidecar]]** — Read or edit the current note beside the Plex.
 6. **[[02 Navigate and explore/Mobile and touch|Mobile and touch]]** — Translate desktop actions to touch devices.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]] — focus without changing the graph data
 - [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]] — configure local keys and Obsidian command publication
@@ -46,7 +49,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 Compare how concept and how-to nodes are styled here. Open **Configure Plex layout**, then adjust label wrapping or density until you can scan the current neighborhood.
 
-## Additional exercise
+## Try another small step
 
 Assign a local shortcut to **Toggle Zen mode**; verify it is not also assigned to another action.
 

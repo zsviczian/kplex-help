@@ -13,14 +13,21 @@ Child:
 - '[[03 Build and edit/Excalidraw integration]]'
 - '[[03 Build and edit/Date properties and daily notes]]'
 - '[[03 Build and edit/Ontology autocomplete]]'
+- '[[03 Build and edit/Manage and clean up ontology]]'
 - "[[03 Build and edit/Remove one relationship source]]"
 Friend:
 - '[[01 Core concepts/Ontology and relationship fields]]'
+Related:
+- '[[10 Discover by topic/03 Model and edit relationships]]'
+- '[[10 Discover by topic/12 Connect dates and daily notes]]'
 ---
-K-Plex can **change relationships**, not only display them. Its edits go back to supported sources in your Markdown notes; it does not maintain a separate edge-note database.
+# Build and edit
+
+Organize an idea while you are looking at its context. Create notes, connect them and refine their relationships directly from the map.
 
 ## What do you want to do?
 
+- **Tidy relationship properties:** [[03 Build and edit/Manage and clean up ontology|Manage ontology and find its documents]].
 - **Connect ideas:** [[03 Build and edit/Create a relationship|Create a relationship]] — use a role and a property field.
 - **Plan a future note:** [[03 Build and edit/Create notes and placeholders|Create notes and placeholders]].
 - **Change a relationship's direction:** [[03 Build and edit/Drag drop and reclassify|Drag, drop and reclassify]].

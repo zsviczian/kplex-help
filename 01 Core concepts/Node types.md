@@ -1,27 +1,40 @@
 ---
 aliases:
-  - "Node types"
+- "Node types"
 tags:
-  - "kplex-help/reference"
-  - "kplex/concepts"
-  - "kplex/nodes"
+- "kplex-help/reference"
+- "kplex/concepts"
+- "kplex/nodes"
 Friend:
-  - "[[05 Personalize and workspace/Visibility and connector styling]]"
-  - "[[03 Build and edit/Create notes and placeholders]]"
-  - "[[02 Navigate and explore/Editor node and web pages]]"
+- "[[05 Personalize and workspace/Visibility and connector styling]]"
+- "[[03 Build and edit/Create notes and placeholders]]"
+- "[[02 Navigate and explore/Editor node and web pages]]"
+- '[[02 Navigate and explore/Tags and folders]]'
 Previous:
-  - "[[01 Core concepts/Relationship sources and inference]]"
+- "[[01 Core concepts/Relationship sources and inference]]"
 ---
-K-Plex can represent more than Markdown notes. Depending on visibility settings, the Plex may include:
+# Node types
 
-- Markdown files and supported plugin-owned file views;
-- attachments such as images;
-- web links;
-- unresolved links / placeholders;
-- folder nodes;
-- tag nodes;
-- section nodes created by temporary Markdown expansion.
+Explore more than notes. K-Plex can bring files, websites, tags, folders and ideas you have not written yet into the same navigable map.
 
-File-backed nodes can normally be opened in Obsidian. URLs open in the browser, or can be expanded in the center as an **Editor node**. Unresolved placeholders can later be materialized as Markdown notes. Folder and tag nodes can also become the center.
+![[Assets/Screenshot - Search tags.png]]
 
-Use [[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]] to control which categories are shown, and [[03 Build and edit/Create notes and placeholders|Create notes and placeholders]] to learn the unresolved-link workflow.
+*Type # and a name in Search Vault to distinguish tags from similarly named notes; each result also shows its full tag path.*
+
+## Choose a useful starting point
+
+| Start with | What you can explore |
+| --- | --- |
+| A note | Its context, details and related ideas |
+| An attachment | The notes and folders connected to that file |
+| A website | Notes that refer to the address |
+| A placeholder | A linked idea you have not written yet |
+| A folder | Its parent folder, subfolders and files |
+| A tag | Its parent tag, child tags and associated notes |
+| A section | Links beneath a heading in an expanded document |
+
+Use [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] to find a destination. Visibility settings determine which kinds of nodes appear around an ordinary note; a folder or tag can still be a useful center.
+
+Open file-backed nodes in Obsidian, websites in a browser or [[02 Navigate and explore/Editor node and web pages|central editor]], and [[03 Build and edit/Create notes and placeholders|turn a placeholder into a note]] when you are ready to write.
+
+Try [[02 Navigate and explore/Tags and folders|browsing by tag or folder]] when a note title is not the easiest way in.

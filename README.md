@@ -1,43 +1,38 @@
 ---
 aliases:
-  - "Opening this vault"
+- Opening this vault
 tags:
-  - "kplex-help/reference"
-  - "kplex/getting-started"
+- kplex-help/reference
+- kplex/getting-started
 Guide:
-  - "[[00 Start Here/K-Plex Help]]"
+- '[[00 Start Here/Get started]]'
 ---
-This is an **end-user guide and live showcase** for K-Plex in Obsidian. The notes use K-Plex relationships, searchable tags, topic-based discovery paths, screenshots and images.
+# Try K-Plex with a ready-made vault
 
-## Open this vault
+Explore connected notes without first designing a structure of your own. This demo vault is both a help guide and a working example: find a topic, follow its connections and try the same patterns with your own knowledge.
 
-1. Extract the archive and open its **K-Plex Help** folder as an Obsidian vault.
-2. Install or enable the **K-Plex** community plugin if you have not already. The archive contains help files and configuration, **not executable K-Plex plugin code**.
-3. Your preconfigured settings are in `.obsidian/plugins/k-plex/data.json`.
-4. Run **Open K-Plex**, use **Alt/Option+/** (current new-install default) to focus Search Vault, and search for **K-Plex Help**.
-5. Open [[00 Start Here/Choose a topic|Choose a topic]] to choose a task-led route, or [[00 Start Here/First 5 minutes|First 5 minutes]] for the quickest introduction.
+## Open the vault
 
-## What you can explore
+1. Download and extract this repository, then open its folder as a vault in Obsidian. Keep the hidden `.obsidian` folder when copying it.
+2. Review the included community plugins before enabling them. **This repository includes executable plugin files**, not just notes.
+3. Open K-Plex and search for **K-Plex Help**. This vault's saved Search Vault shortcut is **F4**; your own shortcut may differ.
+4. Start with [[00 Start Here/First 5 minutes|the five-minute tour]] or [[07 Use cases/Use cases|a practical workflow]].
 
-You can browse the same information through ordinary folders, Markdown wikilinks and a K-Plex graph: Parent/Child hierarchy, related Friends, Challengers, Previous/Next sequences, node styling by tag, URLs, images, Graph Lenses and other features.
+## Which features can I try?
 
-The 10 discovery paths reuse the existing reference notes rather than copying their text. If this is your first session, open [[00 Start Here/K-Plex Help|K-Plex Help]] as your home base.
+This checkout includes a **development build deployed October 20, 2026**, demonstrating features prepared for **0.2.0**. **0.2.0 is not yet published.** The latest published release is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3), released October 13. The included development plugin's unchanged manifest says **0.1.2**; that label does not identify its development code.
 
-## Newly covered workflows
+The living guides describe the demo's behavior. If you install published 0.1.3 instead, some controls and workflows shown here will differ. Back up the supplied settings before switching versions: they contain this vault's example ontology, colors and navigation choices. Read [[11 Release notes/Release notes|the release archive]] for historical availability and the clearly marked draft.
 
-Open [[00 Start Here/Recently added features|Recently added features]] for the local command palette, keyboard navigation, configurable action shortcuts, fullscreen/Zen, Date relationships and indexing status. The [[00 Start Here/Choose a topic|topic chooser]] now offers 13 curated routes.
+## Choose how to explore
 
-## October 10 help update
+- [[00 Start Here/K-Plex Help|Help Home]] groups the reference by subject.
+- [[00 Start Here/Choose a topic|Learning paths]] lead through a small set of guides for one task.
+- [[07 Use cases/Use cases|Everyday workflows]] combine features into useful results.
+- [[00 Start Here/Glossary|The glossary]] explains unfamiliar labels.
 
-This update documents the October 9–10 merged K-Plex improvements and refreshes the Help ontology links and topic journeys. The `.obsidian/plugins/k-plex/data.json` settings set:
+The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
 
-- `renderSiblings: false`
-- `crossLinkOpacity: 50`
-- `baseNodeStyle.maxLabelLength: 100`
-- All existing numeric `strokeWidth` values reduced by 1, with a minimum of 0.5.
+## Find support
 
-**Important:** The current K-Plex implementation initializes `Show cross-links` as a **view-local React Quick Filter switch**, not a `data.json` setting. To hide them, open **Filters and lenses → Show cross-links** in K-Plex. The vault cannot persist this switch across view mounting without a plugin change.
-
-The official Sketch Your Mind book cover is displayed via the official GitHub-hosted image URL. It requires online access; other existing help assets remain packaged in the ZIP.
-
-This is an end-user help vault, not a K-Plex plugin release or a plugin code change.
+[K-Plex and issues](https://github.com/zsviczian/kplex) · [Sketch Your Mind Community](https://community.sketch-your-mind.com/) · [[08 About/Support K-Plex|Support the project]].

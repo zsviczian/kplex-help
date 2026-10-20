@@ -12,9 +12,15 @@ Related:
 Previous:
 - '[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]'
 ---
-![[Image - Graph troubleshooting.png]]
+# Troubleshooting checklist
 
-Start with the **smallest affected scope**. A missing URL, an unfamiliar relationship and a stale graph do not have the same cause.
+Something on the map does not look right? Match the symptom to a small check before restarting or rebuilding the index.
+
+![[Assets/Screenshot - Report a problem.png]]
+
+*Report a bug copies diagnostics and opens this review dialog. Nothing is submitted automatically.*
+
+![[Image - Graph troubleshooting.png]]
 
 ## What do you observe?
 
@@ -37,12 +43,10 @@ Write down steps to reproduce, expected/actual behavior, Obsidian and K-Plex ver
 
 ## Recent status and editor-suggester fixes
 
-The index status display now catches up when K-Plex is revealed and no longer presents on-demand local publication as `x of y` vault files. Check [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]] before diagnosing a stuck counter. Long-paste ontology autocomplete has also been hardened; if editor pastes still freeze, capture a reproduction as described in [[03 Build and edit/Ontology autocomplete|Ontology autocomplete]].
+If loading appears stuck, [[06 Indexing and troubleshooting/Understanding index status|read the status]] and capture diagnostics before resetting anything.
 
 ## When startup appears stuck
 
 If the local Plex is already usable but the cache indicator remains active, first inspect the status details and allow background work to proceed. K-Plex can now retire some **inactive restore operations** rather than wait forever for a cache-loading promise. The restore watchdog checks for lack of progress; it does not declare a healthy large vault broken after a fixed total time.
 
 Only rebuild or purge the persistent index after checking [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]] and [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Rebuild, purge and diagnostics]].
-
-[Change: PR #95](https://github.com/zsviczian/kplex/pull/95).

@@ -13,10 +13,14 @@ Child:
   - "[[04 Filter and focus/Expanded relationship view]]"
 Friend:
   - "[[02 Navigate and explore/Vault Search vs Find in this Plex]]"
+Related:
+- '[[10 Discover by topic/06 Reduce clutter and reveal detail]]'
 ---
-![[Image - Filters.png]]
+# Filter and focus
 
-A Plex can grow crowded even when every connection is meaningful. You can **hide some context**, **style a subset**, or **temporarily reveal more detail** without reorganizing your source notes.
+Is the map too busy for the question you are working on? Filter distractions, highlight a useful subset or open just the detail you need.
+
+![[Image - Filters.png]]
 
 ## Choose a tool
 

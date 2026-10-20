@@ -11,7 +11,13 @@ Related:
   - "[[02 Navigate and explore/Keyboard navigation]]"
   - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
 ---
-Use **Settings → K-Plex → Actions and shortcuts** to adapt the same actions used by the graph buttons, context menus, local command palette and keyboard.
+# Actions and shortcuts
+
+Want K-Plex actions to be easier to reach? Choose local keyboard shortcuts, publish useful actions to Obsidian's Command Palette, or use both.
+
+![[Assets/Screenshot - Action preferences.png]]
+
+*Actions and shortcuts lets you find an action and keep its local key separate from its Obsidian command setting.*
 
 ## Find and change a shortcut
 
@@ -50,5 +56,3 @@ The two settings are deliberately independent:
 | Trigger a published command from anywhere Obsidian permits | Assign a **global hotkey** under Obsidian's own **Settings → Hotkeys**. |
 
 Removing a local key should **not** silently unpublish the command, and unpublishing should **not** erase a local key assignment. Review the separate warnings when an action overlaps an Obsidian global hotkey.
-
-[Refinement: PR #108](https://github.com/zsviczian/kplex/pull/108).

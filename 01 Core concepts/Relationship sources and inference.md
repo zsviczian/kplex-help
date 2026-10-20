@@ -12,21 +12,26 @@ Previous:
 Next:
 - '[[01 Core concepts/Node types]]'
 ---
-A visible K-Plex connection can be supported by more than one source. Depending on the node types and your settings, evidence can include frontmatter properties, inline properties, Markdown links, unresolved links, dates, URLs, folder hierarchy, tag hierarchy and other supported sources.
+# Relationship sources and inference
 
-An **explicit ontology** tells K-Plex the intended role. An **inferred** relationship is resolved when K-Plex can see a connection but no explicit ontology gives it a stronger meaning. The same visible edge can have multiple pieces of evidence behind it.
+Wondering why two notes are connected, or why a line remains after an edit? Inspect the sources behind the relationship before deciding what to change.
 
-This distinction matters when editing. K-Plex does not create a separate database of relationship notes: the Markdown files remain the source of truth. Use [[03 Build and edit/Connection details and evidence|Connection details and evidence]] to see why a relationship exists before changing it.
+![[Assets/Screenshot - Reading relationships.png]]
 
-> [!tip]
-> When a relationship surprises you, inspect the evidence first. The graph is a projection of your sources; understanding the source is usually more useful than forcing the display.
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
-## Scalar Date evidence
+## Look behind the line
 
-A recognized Date property linked to an existing Daily Note is tracked as Date-source evidence, not as a conventional `[[wikilink]]`. K-Plex can use its default Date role or a field-specific ontology assignment, preserving normal configured-field precedence. Learn more in [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]].
+A connection may come from a note property, an inline field, a body link, a tag, a folder, a date or a website reference. Several sources can support the same line.
 
-## Why gate counts may differ from connector paths
+An **explicit relationship** uses a property assigned to a role such as Parent or Friend. An **inferred relationship** is a connection K-Plex can see without that explicit meaning. Your [[01 Core concepts/Ontology and relationship fields|ontology settings]] tell K-Plex how to interpret property names.
 
-Gate badges count **semantic relationship endpoints**, not the number of drawing attachments or connector lines used to lay out the scene. Filtering, presentation sides and partial source loading should not multiply a relation simply because it can be drawn through several positions. A note that has one Challenger should count as one such semantic connection, not several copies of that edge.
+For example, a note might point to the same project from its Parent property and from a paragraph in the body. Removing the property leaves the body reference. The connection can remain, although its meaning or appearance may change.
 
-[Correction: PR #112](https://github.com/zsviczian/kplex/pull/112).
+## Inspect before changing
+
+Right-click a connector, or long-press on touch, and open **Connection details…**. Follow the source to understand why the relationship exists. Then [[03 Build and edit/Remove one relationship source|remove one editable source]] or edit the note itself.
+
+A Date relationship is different from a wikilink list: change its value in Obsidian's Date property editor. See [[03 Build and edit/Date properties and daily notes]].
+
+Gate badges count related endpoints, not how many source occurrences or line segments support them. Counts can be incomplete while the current neighborhood is still loading; [[06 Indexing and troubleshooting/Understanding index status|check the status]] if a number surprises you.

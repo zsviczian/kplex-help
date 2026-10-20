@@ -9,25 +9,33 @@ Related:
 - '[[01 Core concepts/Relationship roles]]'
 Next:
 - '[[03 Build and edit/Create notes and placeholders]]'
+Friend:
+- '[[03 Build and edit/Drag drop and reclassify]]'
+- '[[07 Use cases/Never start a project with a blank page]]'
+Watch out:
+- '[[03 Build and edit/Connection details and evidence]]'
 ---
-![[Image - Connections.png]]
+# Create a relationship
 
-Create Parent, Child, Friend and Challenger relationships from a gate, the Command Palette, or context menus.
+Show how two ideas belong together. Add a relationship from a gate and choose an existing note, a new note or an idea to write later.
 
-The add-related dialog can:
+![[Assets/Screenshot - Create a related note.png]]
 
-- fuzzy-search existing notes;
-- fuzzy-search ontology fields, or browse the full ontology list;
-- create a new Markdown note;
-- create an Excalidraw note when the Excalidraw plugin is available;
-- remember the last ontology field used for each role;
-- optionally open the new note for editing;
-- create a name-only **Placeholder** instead of a file;
-- accept a web link when the origin is a Markdown note.
+*Direction and relationship field sit together. Choose an existing note or create a new one, then decide what should happen after saving.*
 
-When K-Plex creates a new relationship property, it adds that property at the bottom of the document property list.
+## Connect two ideas
 
-> [!practice]
-> In a test note, run **K-Plex: Add friend** and use `Related` as the ontology. The node should appear on the left because this help `data.json` classifies `Related` as Friend ontology.
+1. Center the note you want to build from.
+2. Drag outward from a relationship gate, or choose **Add parent**, **Add child**, **Add friend** or **Add challenger** from its actions.
+3. Choose the direction beside the relationship-field suggester. **All** lets you browse fields from every direction.
+4. Find an existing note, then select **Link**. Alternatively, type a new name and create a note or placeholder.
 
-**Keyboard option:** while the graph owns focus, **Ctrl/Cmd+↑/↓/←/→** starts a Parent/Child/Friend/Challenger relationship from the **center**. The [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] also offers relationship actions, including context-dependent selected-node operations. Configure keys under [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].
+For example, center a project and add a source as a Parent, an example as a Child or a risk as a Challenger. Choose a property name that fits your work; [[01 Core concepts/Ontology and relationship fields|ontology settings]] decide where it appears.
+
+## Keep your flow
+
+**After saving** shows the next action: Return, Create another, Follow node or Edit note. Use Return to keep collecting connections around the same center. Open for editing brings the new note into a normal Sidecar editor where offered.
+
+A relationship is saved in the supported source note, not just drawn on screen. When several sources support a connection, [[03 Build and edit/Connection details and evidence|inspect its details]] before changing it.
+
+Continue with [[03 Build and edit/Create notes and placeholders|capturing an unwritten idea]] or [[07 Use cases/Never start a project with a blank page|building a project from existing notes]].

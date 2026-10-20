@@ -6,13 +6,15 @@ tags:
 - kplex/getting-started
 - kplex/ontology
 Guide:
-- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Get started]]'
 Friend:
 - '[[05 Personalize and workspace/Node styles from help tags]]'
 Next:
 - '[[01 Core concepts/Core concepts]]'
 ---
-This vault works both as **ordinary Markdown help** and as **a K-Plex showcase**. Nothing is hidden behind a custom website or proprietary note format. Start at [[00 Start Here/K-Plex Help|K-Plex Help]].
+# How to use this help vault
+
+Try K-Plex while learning it. These notes are both a readable guide and a live graph: follow a topic in Markdown or make it the center of the Plex.
 
 ## Three ways to browse
 
@@ -24,14 +26,20 @@ This vault works both as **ordinary Markdown help** and as **a K-Plex showcase**
 
 | Field in notes | K-Plex role | How it is used |
 | --- | --- | --- |
-| `Parent`, `Guide` | Parent ↑ | broader category or guide |
+| `Parent`, `Guide` | Parent ↑ | broader category or guide; paired with Child and Explains |
 | `Child`, `Explains` | Child ↓ | subtopic, step or topic explained |
 | `Friend`, `Related` | Friend ← | useful neighboring subject |
 | `Challenger`, `Watch out` | Challenger → | caveat, counterpoint or limit |
-| `Previous` | Previous ← | preceding sequential step |
+| `Previous` | Previous ← | preceding sequential step; paired with Next |
 | `Next` | Next → | following sequential step |
 
 A *property name* is not the same thing as a *role*. K-Plex maps several property names to the same direction. Try [[01 Core concepts/Ontology and relationship fields|Ontology and relationship fields]] to see the difference.
+
+## Try the configured pairs
+
+The vault uses **Guide/Explains**, **Parent/Child**, and **Previous/Next**. Center [[00 Start Here/K-Plex Help]], follow a guide connection, then come back: the caption describes the connection from the endpoint you are viewing. No duplicated note property is required.
+
+Inspect the configuration in [[03 Build and edit/Manage and clean up ontology]]. Keep the ordinary field names in note frontmatter; the slash syntax is a Settings convention only. **Learn more** remains an additional Child field used in the release notes.
 
 ## Tags and appearance
 

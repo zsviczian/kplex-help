@@ -11,7 +11,13 @@ Related:
 - '[[07 Use cases/Meeting notes and daily notes]]'
 - '[[03 Build and edit/Connection details and evidence]]'
 ---
-A native Obsidian **Date** property can connect a note to the Daily Note for that date. K-Plex now lets you choose the **spatial role of such Date links** rather than assuming one interpretation for every vault.
+# Date properties and daily notes
+
+Connect a meeting or event to the day it happened. A Date property can link it to your Daily Note without adding a separate wikilink.
+
+![[Assets/Screenshot - Date connections.png]]
+
+*The Date example connects to its daily note as well as its broader topic. These are separate reasons for the two relationships.*
 
 ## Choose a default role
 

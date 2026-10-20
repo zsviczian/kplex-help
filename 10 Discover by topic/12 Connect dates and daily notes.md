@@ -13,8 +13,12 @@ Explains:
 Related:
 - '[[10 Discover by topic/03 Model and edit relationships]]'
 - '[[10 Discover by topic/05 Organize projects and sequences]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Make a Date property a meaningful relationship to a daily note, without rewriting your date values.
+# Connect dates and daily notes
+
+Make a Date property a meaningful relationship to a daily note, without rewriting your date values. Follow this short path, then try it with your own notes.
 
 ## Follow the trail
 

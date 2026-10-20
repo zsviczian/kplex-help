@@ -17,24 +17,27 @@ Explains:
 Related:
 - '[[10 Discover by topic/09 Work with web sources]]'
 - '[[10 Discover by topic/12 Connect dates and daily notes]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Know what is ready, what is still loading, and what to try when results look incomplete.
+# Indexing and problem solving
+
+Know what is ready, what is still loading, and what to try when results look incomplete. Follow this short path, then try it with your own notes.
 
 You have a large vault, changing files, stale results or incomplete web-link inventory.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[06 Indexing and troubleshooting/How indexing works|How indexing works]]** — Separate local usability from background completeness.
-2. **[[06 Indexing and troubleshooting/On demand vs Eager|On demand vs Eager]]** — Choose when semantic relationships are prepared.
+2. **[[06 Indexing and troubleshooting/On demand vs Eager|On demand vs Eager]]** — Choose when relationships are prepared.
 3. **[[06 Indexing and troubleshooting/Large vault behavior|Large vault behavior]]** — Read incomplete counts and incremental updates.
 4. **[[06 Indexing and troubleshooting/Web link indexing|Web link indexing]]** — Understand why URLs can arrive later than local notes.
 5. **[[06 Indexing and troubleshooting/Troubleshooting checklist|Troubleshooting checklist]]** — Start with the least disruptive diagnostic.
 6. **[[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Rebuild purge and diagnostics]]** — Use cache actions only when appropriate.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]] — separate local readiness, full indexing and URL inventory
 
@@ -42,7 +45,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 Open **Settings → K-Plex → Indexing config**. Check the mode and web-link status before considering a rebuild. Do not purge a healthy cache to complete this exercise.
 
-## Additional exercise
+## Try another small step
 
 Check the index indicator after changing centers; do not interpret on-demand local readiness as whole-vault `x of y` progress.
 

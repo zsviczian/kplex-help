@@ -10,16 +10,24 @@ Related:
 - '[[03 Build and edit/Create a relationship]]'
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 ---
-K-Plex can suggest configured ontology fields while you edit a Markdown note, so adding a Parent, Child, Friend or other relationship takes less typing.
+# Ontology autocomplete
 
-1. Open **Settings → K-Plex → Ontology → Editor suggester** and enable the ontology suggester.
-2. Check or customize the triggers for **Parent, Child, Friend (left), Challenger (right), Previous, Next**, and the **all-ontology** trigger.
-3. In a Markdown editor, type the configured trigger and choose a field from the suggestions. Insert your reference using the normal note-link syntax or property editing method.
-4. When editing an existing property, use K-Plex's **ontology field assignment commands** to categorize the property without creating a second field name manually.
+Add meaningful relationships while writing, without remembering every property name. Use ontology suggestions to insert a configured field and keep typing.
 
-A trigger is a shortcut to a **field name**, not a new relationship type. The configured field still decides the link's spatial meaning; see [[01 Core concepts/Ontology and relationship fields|Ontology and relationship fields]].
+![[Assets/Screenshot - Ontology suggestions.png]]
 
-The suggester now uses **bounded literal matching** rather than repeatedly applying a backtracking pattern to an arbitrarily long editor line. This addresses a reported long-paste freeze without changing the configured triggers or suggestion insertion. If you can still reproduce a freeze, report the exact K-Plex version and steps through [GitHub issues](https://github.com/zsviczian/kplex/issues).
+*The editor-suggester Settings page shows the triggers for each direction and for all ontology fields.*
 
-> [!tip] When editing properties
-> Obsidian's own property editor also works; K-Plex reads the resulting field. For a Date-type field, consult [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]] because Date values are not standard wikilink lists.
+## Add a field while writing
+
+1. Open **Settings → K-Plex → Ontology → Editor suggester** and enable suggestions.
+2. Check the triggers for Parent, Child, Friend, Challenger, Previous, Next and all ontology fields. Use your configured values rather than copying another vault's shortcuts.
+3. In a Markdown editor, type a trigger and part of a field name. Select a suggestion, then add a note link with Obsidian's usual `[[link]]` syntax.
+
+The suggestion inserts a property name. Its configured role decides where the linked note appears in K-Plex. You can also use Obsidian's normal Properties editor.
+
+## When the right word is missing
+
+Use [[03 Build and edit/Manage and clean up ontology|Manage ontology]] to assign a field or pair its opposite meaning. If suggestions do not appear, check that the feature is enabled and the trigger matches your saved setting.
+
+For dates, use [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]]: a Date value is different from a note-link list.

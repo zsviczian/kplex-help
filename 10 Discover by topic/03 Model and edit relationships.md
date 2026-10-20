@@ -20,14 +20,18 @@ Explains:
 Related:
 - '[[10 Discover by topic/04 Research and challenge ideas]]'
 - '[[10 Discover by topic/12 Connect dates and daily notes]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Give links meaning and make safe edits from the graph.
+# Model and edit relationships
+
+Give links meaning and make safe edits from the graph. Follow this short path, then try it with your own notes.
 
 You want your ideas to have explicit Parent, Child, Friend or Challenger connections.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[01 Core concepts/Ontology and relationship fields|Ontology and relationship fields]]** — Understand how your property names map to spatial roles.
 2. **[[03 Build and edit/Create a relationship|Create a relationship]]** — Connect existing notes or create a new endpoint.
@@ -36,8 +40,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 5. **[[03 Build and edit/Connection details and evidence|Connection details and evidence]]** — Check the stored sources before changing an edge.
 6. **[[03 Build and edit/Unlink and delete|Unlink and delete]]** — Understand source-aware unlinking and the delete boundary.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]] — choose how native Dates relate to Daily Notes
 - [[03 Build and edit/Ontology autocomplete|Ontology autocomplete]] — add a configured field while editing Markdown
@@ -47,7 +50,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 In disposable notes, add a `Related` property to make a Friend. Right-click its connector, open **Connection details…**, and inspect which source created the relationship.
 
-## Additional exercise
+## Try another small step
 
 Open [[09 Showcase examples/Example - Date and a daily note|the Date example]] to compare a Date-derived Parent with a separate explicit Parent property.
 

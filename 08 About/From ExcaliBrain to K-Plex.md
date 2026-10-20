@@ -12,6 +12,14 @@ Previous:
 Next:
   - "[[08 About/Support K-Plex]]"
 ---
+# From ExcaliBrain to K-Plex
+
+Try K-Plex without rebuilding the vocabulary and appearance you used in ExcaliBrain. Import the compatible graph settings and keep learning the new workspace at your own pace.
+
+![[Assets/Screenshot - Import an ExcaliBrain appearance.png]]
+
+*The import dialog accepts a backed-up ExcaliBrain settings file. Opening it does not apply an import.*
+
 ![[Image - ExcaliBrain.png]]
 
 K-Plex is not simply a renamed ExcaliBrain. It is a new plugin with its own ID, interface and indexing system, designed so **Excalidraw and Dataview are not required**.

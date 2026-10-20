@@ -12,8 +12,20 @@ Previous:
 Next:
   - "[[04 Filter and focus/Keep layout vs Reflow]]"
 ---
-A Graph Lens evaluates the **currently visible K-Plex neighborhood**. It does not transform K-Plex into a deep whole-vault graph query engine.
+# Graph Lenses are local
 
-This is an important boundary. A note that is not part of the projected Plex cannot be revealed merely because a lens condition would match it somewhere else in the vault. Use Obsidian's global search/Bases/Dataview-style tools when your question begins with “find every note in the vault that…”.
+Expected a lens to find every matching note in your vault? A lens refines the neighborhood you are exploring; use Search Vault to find a new starting point.
 
-Within the visible Plex, however, lenses can reason about information normal note filters cannot easily express — especially **relationship role**, **relationship definition**, and **evidence source**.
+![[Assets/Screenshot - Quick filters and lenses.png]]
+
+*Quick Filter, layout choices and saved lenses share one panel. These choices refine the visible neighborhood.*
+
+## Find the right starting point first
+
+A Lens can show, hide or style notes already included in the current Plex. It does not bring in every matching note from elsewhere in the vault.
+
+For example, a lens for `#kplex-help/how-to` can emphasize the how-to notes around your current center. It will not collect every how-to page in the vault into one new map.
+
+Use [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] to find a topic, folder or tag first. Then apply the Lens to explore that neighborhood. For a broad topic collection, create a [[07 Use cases/Build a Map of Content|Map of Content]].
+
+Return to [[04 Filter and focus/Graph Lenses|Graph Lenses]] to build a reusable perspective.

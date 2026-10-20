@@ -11,7 +11,13 @@ Related:
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[03 Build and edit/Create a relationship]]'
 ---
-K-Plex has a **local command palette for the current Plex**. It is distinct from **Obsidian's Command Palette**, which lists published commands from all plugins.
+# K-Plex command palette
+
+Know what you want to do but cannot remember the button or shortcut? Search K-Plex's command palette for an action in the current graph.
+
+![[Assets/Screenshot - Command palette.png]]
+
+*Search the local palette for an action; descriptions and shortcut hints help you choose it.*
 
 ## Run an action
 

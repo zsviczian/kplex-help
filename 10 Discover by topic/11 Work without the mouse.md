@@ -13,8 +13,12 @@ Explains:
 Related:
 - '[[10 Discover by topic/02 Find and navigate knowledge]]'
 - '[[10 Discover by topic/13 Present and concentrate]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Navigate, select, connect and execute actions in K-Plex without reaching for the mouse.
+# Work without the mouse
+
+Navigate, select, connect and execute actions in K-Plex without reaching for the mouse. Follow this short path, then try it with your own notes.
 
 ## Follow the trail
 
