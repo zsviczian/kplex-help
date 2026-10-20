@@ -500,7 +500,6 @@
     }
   },
   "navigationHistory": [
-    "04 Filter and focus/Filter and focus.md",
     "03 Build and edit/Excalidraw integration.md",
     "08 About/From ExcaliBrain to K-Plex.md",
     "Idea Compass",
@@ -511,7 +510,6 @@
     "03 Build and edit/Create a relationship.md",
     "01 Core concepts/Relationship roles.md",
     "07 Use cases/Sequential workflows.md",
-    "07 Use cases/Argument maps with Challengers.md",
     "Assets/Icon - Stopwatch.svg",
     "https://youtu.be/O-7JHDj5d7Y",
     "00 Start Here/First 5 minutes.md",
@@ -521,7 +519,6 @@
     "05 Personalize and workspace/Personalize and workspace.md",
     "05 Personalize and workspace/Note-tab synchronization.md",
     "05 Personalize and workspace/Visibility and connector styling.md",
-    "00 Start Here/Choose a topic.md",
     "Assets/Image - About.png",
     "08 About/Community GitHub and contributing.md",
     "https://ko-fi.com/zsolt",
@@ -530,16 +527,19 @@
     "05 Personalize and workspace/Actions and shortcuts.md",
     "10 Discover by topic/11 Work without the mouse.md",
     "02 Navigate and explore/K-Plex command palette.md",
-    "00 Start Here/K-Plex Help.md",
     "07 Use cases/Build a help system like this vault.md",
     "07 Use cases/Build a Map of Content.md",
     "07 Use cases/Garden your vault.md",
-    "07 Use cases/Use cases.md",
     "03 Build and edit/Create notes and placeholders.md",
     "Assets/Screenshot - Named themes.png",
     "05 Personalize and workspace/Colors and themes.md",
     "11 Release notes/Release notes.md",
-    "11 Release notes/K-Plex 0.2.0 release notes.md"
+    "03 Build and edit/Build and edit.md",
+    "00 Start Here/K-Plex Help.md",
+    "07 Use cases/Use cases.md",
+    "07 Use cases/Argument maps with Challengers.md",
+    "11 Release notes/K-Plex 0.2.0 release notes.md",
+    "00 Start Here/Choose a topic.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
@@ -570,10 +570,10 @@
   "nodeSortOrder": "modified-desc",
   "parentColumns": 2,
   "childColumns": 5,
-  "friendMaxHeight": 461,
+  "friendMaxHeight": 403,
   "siblingMaxHeight": 250,
   "parentMaxHeight": 229,
-  "childMaxHeight": 182,
+  "childMaxHeight": 197,
   "noteTypeField": "Note type",
   "noteTypeStyles": {
     "excalidraw": {
@@ -585,7 +585,7 @@
   },
   "kplexInitialized": true,
   "startInPopout": false,
-  "lastActivePath": "11 Release notes/K-Plex 0.2.0 release notes.md",
+  "lastActivePath": "07 Use cases/Argument maps with Challengers.md",
   "pinnedNodes": [
     "00 Start Here/K-Plex Help.md",
     "00 Start Here/Choose a topic.md",
@@ -600,7 +600,7 @@
       "horizontalCompactingFactor": 0.75,
       "parentColumns": 2,
       "childColumns": 4,
-      "lateralArrangement": "left"
+      "lateralArrangement": "split"
     },
     "desktop:popout": {
       "compactingFactor": 2,

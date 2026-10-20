@@ -1,11 +1,11 @@
 {
   "id": "k-plex",
   "name": "K-Plex",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "minAppVersion": "1.13.0",
   "description": "Knowledge Plex: a structured visual navigator for your notes.",
   "author": "Zsolt Viczian",
-	"authorUrl": "https://community.sketch-your-mind.com",
+  "authorUrl": "https://community.sketch-your-mind.com",
   "fundingUrl": "https://ko-fi.com/zsolt",
   "isDesktopOnly": false
 }

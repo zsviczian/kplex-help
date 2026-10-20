@@ -4,34 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc27036e40e33461",
+        "id": "6ad9b265c7d9e229",
         "type": "tabs",
         "children": [
           {
-            "id": "1c5153181bcc6bf3",
+            "id": "f396e0b44d530569",
             "type": "leaf",
             "state": {
-              "type": "k-plex-react-view",
+              "type": "markdown",
               "state": {
-                "centerPresentation": {
-                  "embedCentralNode": false,
-                  "centralNodeMarkdownMode": "source"
-                },
-                "plexSession": {
-                  "version": 1,
-                  "ownerId": "1c5153181bcc6bf3",
-                  "centerPath": "11 Release notes/K-Plex 0.2.0 release notes.md",
-                  "targetId": null,
-                  "documentSyncMode": "off",
-                  "sidecarOpen": false,
-                  "sidecarPosition": "right",
-                  "sidecarLastFilePath": "",
-                  "sidecarLastUrl": "",
-                  "sidecarMarkdownMode": "source"
-                }
+                "file": "Start Here.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "brain-circuit",
-              "title": "K-Plex"
+              "icon": "lucide-file",
+              "title": "Start Here"
             }
           }
         ]
@@ -228,8 +215,10 @@
       "k-plex:Open K-Plex": false
     }
   },
-  "active": "1c5153181bcc6bf3",
+  "active": "f396e0b44d530569",
   "lastOpenFiles": [
+    "README.md",
+    "Start Here.md",
     "11 Release notes/K-Plex 0.2.0 release notes.md",
     "04 Filter and focus/Expand a note into sections.md",
     "06 Indexing and troubleshooting/On demand vs Eager.md",
@@ -247,7 +236,6 @@
     "Assets/Image - About.png",
     "Assets/logo - kplex.png",
     "00 Start Here/First 5 minutes.md",
-    "README.md",
     "09 Showcase examples/Example - Research question.md",
     "08 About/Support K-Plex.md",
     "08 About/From ExcaliBrain to K-Plex.md",
@@ -264,7 +252,6 @@
     "06 Indexing and troubleshooting/Rebuild purge and diagnostics.md",
     "06 Indexing and troubleshooting/Large vault behavior.md",
     "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
-    "06 Indexing and troubleshooting/How indexing works.md",
     "Assets/Icon - Stopwatch.svg",
     "Excalidraw",
     "Assets",
