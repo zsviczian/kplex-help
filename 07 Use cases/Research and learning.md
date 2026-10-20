@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Research and learning
 - Research and write with a Zettelkasten
@@ -15,8 +16,6 @@ Next:
 - '[[07 Use cases/Projects and decisions]]'
 ---
 **Outcome:** A collection of reading notes becomes an argument or article outline whose claims remain connected to their sources.
-
-**Status:** Available in 0.1.3. Dragging nodes directly into an editor is a next-release improvement.
 
 ## Try it: answer a question rather than collect more material
 
@@ -38,6 +37,6 @@ This vault contains [[09 Showcase examples/Example - Research question]]. That e
 
 ## From graph to draft
 
-**Next release:** Drag a file-backed note, URL or placeholder node into a Markdown editor to insert its link. You still write the synthesis yourself; K-Plex does not export an automatically ordered article. See [[03 Build and edit/Drag drop and reclassify]].
+Drag a file-backed note, URL or placeholder node into a Markdown editor to insert its link. You still write the synthesis yourself; K-Plex does not export an automatically ordered article. See [[03 Build and edit/Drag drop and reclassify]].
 
-Use [[05 Personalize and workspace/Note-tab synchronization]] to control whether the open document follows navigation. Multiple Plex views do not yet imply fully independent document-sync pairs.
+Use [[05 Personalize and workspace/Note-tab synchronization]] to control whether the open document follows navigation. Each Plex owns its document-sync target and Sidecar association, so two views can follow different working notes.

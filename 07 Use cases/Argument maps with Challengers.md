@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Argument maps with Challengers
 - Challenge assumptions with the Idea Compass
@@ -17,8 +18,6 @@ Next:
 - '[[07 Use cases/Sequential workflows]]'
 ---
 **Outcome:** A proposal becomes a better-grounded decision, with its assumptions, objections and conditions for reconsideration visible.
-
-**Status:** Available in 0.1.3.
 
 ## Try it: examine a decision you are about to make
 

@@ -20,6 +20,19 @@ A Markdown note can be expanded from the center into its **heading hierarchy**. 
 - folded sections project hidden descendant relationships onto the nearest visible section while preserving original evidence;
 - opening a section jumps to that heading in the source note.
 
-Use **Fold all sections** and **Unfold all sections** for larger documents.
+## Try it
+
+1. Center a Markdown note with several headings and ordinary links under them—for example, [[09 Showcase examples/Example - A note with sections|Project notebook]], the small live example in this vault.
+2. Use the center note's section-expansion control. Headings form a tree; links under each heading stay with that section.
+3. Adjust horizontal and vertical density in Layout controls to give the connected notes more space. The gap between document sections remains separate.
+4. Hold **Ctrl/Cmd** while hovering a section to preview that heading in the source. You can press the key after placing the pointer there.
+
+Use **Fold all sections** and **Unfold all sections** for larger documents. Available note gate counts remain useful when a note is displayed under a section; incomplete counts can still be marked while indexing continues.
+
+With the pointer over a bounded scrollable region, an ordinary wheel scroll moves that region. **Ctrl/Cmd-wheel** zooms the canvas instead.
+
+![[Assets/Screenshot - Section outline.png]]
+
+*Project notebook expanded in the real Plex. Each pair of ordinary links remains beneath the heading where it was written.*
 
 This is useful for long notes that contain several ideas but are not worth splitting into separate files solely for navigation.

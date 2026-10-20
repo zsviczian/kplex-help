@@ -2894,6 +2894,12 @@ button.kplex-style-manager-row { height: fit-content; }
 .kplex-style-manager-heading { min-width: 0; max-width: 100%; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; overflow: hidden; }
 .kplex-style-manager-name { min-width: 0; max-width: 100%; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .kplex-style-manager-summary { min-width: 0; max-width: 100%; color: var(--text-muted); font-size: var(--font-ui-smaller); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Ontology identities and both pair endpoints must remain readable at narrow native modal widths. */
+.kplex-ontology-manager .kplex-style-manager-name,
+.kplex-ontology-manager .kplex-style-manager-summary {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
 .kplex-style-manager-badges { min-width: 0; display: inline-flex; gap: 4px; flex-wrap: wrap; }
 .kplex-style-manager-badge {
   padding: 1px 5px;

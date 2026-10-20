@@ -32,7 +32,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 
 **[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second Plex, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide connects the workflow to the relevant feature references.
 
-## Nine other practical outcomes
+## More practical outcomes
 
 1. **[[07 Use cases/Build a Map of Content|Turn scattered notes into a useful topic map]].** Gather a subject around a Map of Content as you explore, so you have a reliable place to begin next time.
 2. **[[07 Use cases/Projects and decisions|Know where a project stands and what to do next]].** Bring goals, deliverables, decisions and risks together; keep the results of meaningful activities as part of the project's history.

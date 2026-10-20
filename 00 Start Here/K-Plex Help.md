@@ -31,7 +31,7 @@ K-Plex is a visual navigator for connected knowledge in Obsidian. It keeps one n
 
 ## Where would you like to begin?
 
-- **I want to accomplish something useful** → [[07 Use cases/Use cases|What You Can Do with K-Plex]]: nine everyday workflows with concrete outcomes.
+- **I want to accomplish something useful** → [[07 Use cases/Use cases|What You Can Do with K-Plex]]: practical workflows with concrete outcomes.
 - **I'm new to K-Plex** → [[00 Start Here/First 5 minutes|Get oriented in five minutes]].
 - **I need a particular technique** → [[00 Start Here/Choose a topic|Choose a discovery path]]: 13 guided routes through the reference.
 - **I need to understand a term** → [[00 Start Here/Glossary|Glossary of K-Plex terms]].
@@ -40,7 +40,7 @@ K-Plex is a visual navigator for connected knowledge in Obsidian. It keeps one n
 Prefer exploring? Make this note the center, open a Child below it, then navigate back.
 
 > [!important] Check the installed version
-> Reviewed October 19, 2026: the published release is **0.1.3**, but this repository's bundled plugin is **0.1.2**. Update the plugin for the released workflows. Sections marked **Next release** describe merged source changes not included in 0.1.3. This help update leaves bundled plugin files and settings unchanged; see [[README|Opening this vault]].
+> Reviewed October 20, 2026: the published release is **0.1.3**. This vault includes a development build from main so you can try the draft 0.2.0 features. Its manifest still says 0.1.2; see [[README|Opening this vault]] for the exact build boundary. **Next release** means merged, not published.
 
 ## Browse the reference by subject
 
@@ -58,6 +58,10 @@ The standard layout gives those meanings stable directions. [[01 Core concepts/R
 
 > [!tip] Make the help interactive
 > Pin this home node and [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Inspect how Guide, Explains, Related and Watch out map to the standard roles. Use Connection details on an edge to see the source that created it. With a next-release build, open **Footprints** to retrace your visits to these notes without affecting shared history.
+
+## Try what changed
+
+Explore [[03 Build and edit/Manage and clean up ontology]] for paired fields and a searchable list of their documents. [[06 Indexing and troubleshooting/On demand vs Eager]] explains the desktop/tablet/phone choices. The [[11 Release notes/K-Plex 0.2.0 release notes|0.2.0 draft]] connects these changes to the living guides.
 
 ## Useful routes through the help
 

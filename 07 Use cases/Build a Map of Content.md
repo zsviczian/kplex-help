@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Build a Map of Content with K-Plex
 - Turn scattered notes into a useful topic map
@@ -15,8 +16,6 @@ Friend:
 ---
 **Outcome:** A useful starting point for a subject, assembled from notes you already have—not another index you must maintain by hand.
 
-**Status:** Available in 0.1.3. Native dragging between Plex views is a next-release improvement.
-
 ## Try it: make a home for a subject
 
 Create a note for a topic you keep returning to, such as “Home renovation,” “Visual thinking” or “My next article.” Pin this Map of Content (MoC) in K-Plex, then explore related notes without keeping the MoC at the center.
@@ -31,6 +30,6 @@ Return to the MoC and look for gaps. Group a cluster under a more specific note,
 
 The graph is built from relationships in your notes. It does not automatically write a table of contents into the MoC's body or choose an editorial reading order. Add prose or explicit Previous/Next links where order matters.
 
-**Next release:** A second Plex can hold the MoC while you drag notes from another view. The simpler pin-and-gate workflow above does not depend on that improvement. See [[03 Build and edit/Drag drop and reclassify]].
+Keep the MoC centered in a second Plex while dragging notes from another view, or use the pin-and-gate workflow above. See [[03 Build and edit/Drag drop and reclassify]].
 
 Watch [Build a Map of Content with K-Plex](https://youtu.be/ii15UwpsvtU), or continue with [[07 Use cases/Research and learning|Turn research into an article]].

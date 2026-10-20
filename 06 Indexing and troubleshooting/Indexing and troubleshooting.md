@@ -28,7 +28,7 @@ K-Plex makes **foreground tasks useful before every background job is finished**
 
 Start with [[06 Indexing and troubleshooting/Troubleshooting checklist|Troubleshooting checklist]], and move to [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Rebuild, purge and diagnostics]] only if needed.
 
-**Try this:** Open **Settings → K-Plex → Indexing config** and note the current policy and URL-discovery state. You do not need to wait for URL discovery to explore local notes.
+**Try this:** Open **Settings → K-Plex → Indexing config** and review the startup and strategy choices for each device. You do not need to wait for URL discovery to explore local notes.
 
 Follow [[10 Discover by topic/08 Indexing and problem solving|Indexing and problem solving]] for a practical sequence.
 

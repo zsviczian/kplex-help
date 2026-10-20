@@ -227,6 +227,12 @@
   "horizontalCompactingFactor": 2,
   "minLinkLength": 18,
   "indexUpdateInterval": 60000,
+  "indexBeforeViewDesktop": true,
+  "indexBeforeViewTablet": false,
+  "indexBeforeViewMobile": false,
+  "indexingModeDesktop": "eager",
+  "indexingModeTablet": "on-demand",
+  "indexingModeMobile": "on-demand",
   "indexingMode": "on-demand",
   "urlIndexingMode": "background",
   "indexingThrottle": "responsive",
@@ -242,8 +248,8 @@
       "thumbnail"
     ],
     "parents": [
-      "Guide",
-      "Parent"
+      "Guide/Explains",
+      "Parent/Child"
     ],
     "children": [
       "Child",
@@ -259,7 +265,7 @@
       "Watch out"
     ],
     "previous": [
-      "Previous"
+      "Previous/Next"
     ],
     "next": [
       "Next"
@@ -268,6 +274,7 @@
       "Hidden"
     ]
   },
+  "ontologyPairingVersion": 1,
   "inferAllLinksAsFriends": false,
   "inverseInfer": false,
   "datePropertyRelations": "parent",
@@ -493,8 +500,6 @@
     }
   },
   "navigationHistory": [
-    "02 Navigate and explore/Vault Search vs Find in this Plex.md",
-    "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
     "04 Filter and focus/Filter and focus.md",
     "03 Build and edit/Excalidraw integration.md",
     "08 About/From ExcaliBrain to K-Plex.md",
@@ -530,9 +535,11 @@
     "07 Use cases/Build a Map of Content.md",
     "07 Use cases/Garden your vault.md",
     "07 Use cases/Use cases.md",
+    "03 Build and edit/Create notes and placeholders.md",
+    "Assets/Screenshot - Named themes.png",
+    "05 Personalize and workspace/Colors and themes.md",
     "11 Release notes/Release notes.md",
-    "11 Release notes/K-Plex 0.2.0 release notes.md",
-    "03 Build and edit/Create notes and placeholders.md"
+    "11 Release notes/K-Plex 0.2.0 release notes.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
@@ -560,7 +567,7 @@
   "contentPaneWidth": 38,
   "graphDepth": 1,
   "connectorStyle": "bezier",
-  "nodeSortOrder": "name-asc",
+  "nodeSortOrder": "modified-desc",
   "parentColumns": 2,
   "childColumns": 5,
   "friendMaxHeight": 366,

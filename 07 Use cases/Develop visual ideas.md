@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Build Idea Integration Boards with K-Plex
 - Create a visual knowledge system with Excalidraw and K-Plex
@@ -15,7 +16,7 @@ Friend:
 ---
 **Outcome:** A rough sketch becomes a developed idea you can explain, challenge and connect to other work, without losing the original visual thinking.
 
-**Status:** Available in 0.1.3 with the Excalidraw plugin installed for drawing creation and editing.
+**Requires:** Install the Excalidraw plugin to create and edit drawing notes.
 
 ## Try it: develop one idea card
 

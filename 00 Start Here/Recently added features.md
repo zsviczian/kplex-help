@@ -25,6 +25,9 @@ Child:
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 - '[[03 Build and edit/Date properties and daily notes]]'
 - '[[03 Build and edit/Ontology autocomplete]]'
+- '[[03 Build and edit/Manage and clean up ontology]]'
+- '[[06 Indexing and troubleshooting/On demand vs Eager]]'
+- '[[04 Filter and focus/Expand a note into sections]]'
 - '[[03 Build and edit/Remove one relationship source]]'
 - '[[08 About/Sketch Your Mind book]]'
 Friend:
@@ -36,16 +39,24 @@ Friend:
 
 For versioned release notes, including the **proposed 0.2.0 draft**, see [[11 Release notes/Release notes]]. This page remains a rolling summary, not the release record.
 
-**Review date: October 19, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at 3df08a1](https://github.com/zsviczian/kplex/commit/3df08a15f7002ed60a2452286ee1f8044cb97203), including merged [PR #187](https://github.com/zsviczian/kplex/pull/187).
+**Review date: October 20, 2026.** The latest published release is [0.1.3, released October 13](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This help update reviews accepted K-Plex source through [main at f646c75](https://github.com/zsviczian/kplex/commit/f646c75bc7d2a4b8ca2f64af43cb8826a30afab9).
 
-**Available** means shipped in 0.1.3. **Next release** means implemented and merged by this review but not shipped in 0.1.3. **Missing** means the reviewed baseline does not provide it. A merged PR is not itself a published plugin release; no next version number or release date is assumed.
+**Available** means shipped in 0.1.3. **Next release** means implemented and merged by this review but not shipped in 0.1.3. **Missing** means the reviewed baseline does not provide it. A merged PR is not itself a published plugin release; draft scope can still change before publication.
 
-> [!important] The bundled plugin is older than these docs
-> This help repository currently includes a K-Plex **0.1.2** manifest and bundled plugin files. Update the installed plugin to 0.1.3 for the released workflows. Next-release sections require a corresponding newer build. This documentation update does not replace plugin executables, settings or workspace files.
+> [!important] Development build included
+> This vault’s `main.js` and `styles.css` now come from the reviewed main commit, so you can try the draft features here. The manifest remains 0.1.2 and is not a release identifier. Latest published K-Plex is still 0.1.3; see [[README|Opening this vault]].
+
+## Added in the past day
+
+- **Inspect both ends of a relationship.** [[01 Core concepts/Ontology and relationship fields|Paired ontology fields]] supply inverse captions without mirrored note edits. The vault demonstrates Guide/Explains, Parent/Child and Previous/Next. [#190](https://github.com/zsviczian/kplex/pull/190).
+- **Find the notes behind a property.** [[03 Build and edit/Manage and clean up ontology|Manage ontology]] combines search, role filtering, document-use lists, Markdown copying and explicit count refresh. [#194](https://github.com/zsviczian/kplex/pull/194).
+- **Set indexing per device.** [[06 Indexing and troubleshooting/On demand vs Eager|Startup and strategy choices]] default to Eager at startup on desktop, and On demand at first Plex opening on tablet/phone. [#195](https://github.com/zsviczian/kplex/pull/195).
+- **Read section trees more comfortably.** [[04 Filter and focus/Expand a note into sections|Ordinary links stay under their headings]], density creates more room, and Ctrl/Cmd-hover previews the heading. One-sided layout uses a shared left list; zoomed/scrolled labels remain clearer. [#162](https://github.com/zsviczian/kplex/pull/162), [#149](https://github.com/zsviczian/kplex/pull/149), [#189](https://github.com/zsviczian/kplex/pull/189).
+- **Adopt native colors once.** [[05 Personalize and workspace/Colors and themes|The theme upgrade]] preserves the previous appearance, selects native base plus semantic colors, and explains the change in a notification. Fresh installs stay silent; future updates do not repeatedly reset the selection. [#189](https://github.com/zsviczian/kplex/pull/189).
 
 ## Start with something useful
 
-[[07 Use cases/Use cases|What You Can Do with K-Plex]] now offers nine everyday workflows: build a topic map, run a project, develop an article, test a proposal, recover meeting context, follow a procedure, garden neglected notes, rediscover ideas and develop visual notes. Each starts with an outcome rather than a list of controls.
+[[07 Use cases/Use cases|What You Can Do with K-Plex]] now offers practical workflows: build a topic map, run a project, develop an article, test a proposal, recover meeting context, follow a procedure, garden neglected notes, rediscover ideas and develop visual notes. Each starts with an outcome rather than a list of controls.
 
 ## Already available in 0.1.3
 
@@ -65,7 +76,7 @@ The release also improves navigation continuity, relationship editing and deleti
 | **Retrace a session without changing shared history.** Footprints retains every visit in each Plex, including repetitions. Revisit earlier stops, start a fresh local trail or copy it as Markdown before closing. | [[02 Navigate and explore/Footprints and breadcrumbs]] |
 | **Edit metadata in context.** An unpinned, ungrouped File properties pane follows the central file and clears for non-file centers. | [[05 Personalize and workspace/Note-tab synchronization]] |
 | **Make room for the document.** Fold the entire Plex tab group and restore it from the surviving Sidecar edge, with safeguards for other tabs and ambiguous layouts. | [[05 Personalize and workspace/Sidecar]] |
-| **Use a narrower graph.** One-sided layout places Friends and Challengers in separate left-hand groups, with device/main-tab/side-panel preferences. | [[05 Personalize and workspace/Layout density and typography]] |
+| **Use a narrower graph.** One-sided layout places Friends and Challengers in one shared left-hand list, with device/main-tab/side-panel preferences. | [[05 Personalize and workspace/Layout density and typography]] |
 
 These changes are covered by [#171](https://github.com/zsviczian/kplex/pull/171), [#173](https://github.com/zsviczian/kplex/pull/173), [#177](https://github.com/zsviczian/kplex/pull/177) and [#187](https://github.com/zsviczian/kplex/pull/187). **PRs #177 and #187 are merged**; folder/tag actions and per-Plex Footprints are no longer missing proposals.
 
@@ -83,11 +94,11 @@ Settings received from another device update the running plugin without an immed
 
 [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Diagnostics]] adds a bounded passive activity summary to both report routes. Capture it before a restart and review it before sharing. Local readiness, URL discovery, saved data and CPU usage are different questions; these changes do not establish a universal speedup or prove the reported whole-application Settings freeze fixed.
 
-Sources: [#147](https://github.com/zsviczian/kplex/pull/147), [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#174](https://github.com/zsviczian/kplex/pull/174), [#179](https://github.com/zsviczian/kplex/pull/179), [#180](https://github.com/zsviczian/kplex/pull/180), [#183](https://github.com/zsviczian/kplex/pull/183), [#185](https://github.com/zsviczian/kplex/pull/185), [#186](https://github.com/zsviczian/kplex/pull/186). The [source comparison](https://github.com/zsviczian/kplex/compare/0.1.3...3df08a15f7002ed60a2452286ee1f8044cb97203) also includes supporting cache/indexing changes, validation and documentation work, which are not separate user-facing features.
+Sources: [#147](https://github.com/zsviczian/kplex/pull/147), [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#174](https://github.com/zsviczian/kplex/pull/174), [#179](https://github.com/zsviczian/kplex/pull/179), [#180](https://github.com/zsviczian/kplex/pull/180), [#183](https://github.com/zsviczian/kplex/pull/183), [#185](https://github.com/zsviczian/kplex/pull/185), [#186](https://github.com/zsviczian/kplex/pull/186). The [source comparison](https://github.com/zsviczian/kplex/compare/0.1.3...f646c75bc7d2a4b8ca2f64af43cb8826a30afab9) also includes supporting cache/indexing changes, validation and documentation work, which are not separate user-facing features.
 
 ## Not part of the reviewed implementation
 
-Per-Plex session Footprints and independent document sync are implemented in merged [#187](https://github.com/zsviczian/kplex/pull/187), but a **visual branching or metro-map trail** is not part of this MVP. Footprints is not automatically persisted; pins and saved Past nodes history remain shared and persisted. The section-link correction in [#162](https://github.com/zsviczian/kplex/pull/162) and reciprocal ontology syntax in [#154](https://github.com/zsviczian/kplex/pull/154) are not merged and are not presented here as fixes or available syntax.
+Per-Plex session Footprints and independent document sync are implemented in merged [#187](https://github.com/zsviczian/kplex/pull/187), but a **visual branching or metro-map trail** is not part of this MVP. Footprints is not automatically persisted; pins and saved Past nodes history remain shared and persisted. Section-link preservation is merged in [#162](https://github.com/zsviczian/kplex/pull/162). Paired ontology fields are implemented by [#190](https://github.com/zsviczian/kplex/pull/190); the older #154 proposal is not the source of the supported syntax.
 
 The use cases also do not depend on checkbox-task projection, automatic whole-vault Lens queries, custom layout engines or Excalidraw focus-frame selection.
 

@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
   - "Build a help system like this vault"
 tags:

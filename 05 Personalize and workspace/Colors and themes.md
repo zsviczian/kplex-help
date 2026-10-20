@@ -16,13 +16,19 @@ Friend:
 
 ## Follow Obsidian or keep your own appearance
 
-A fresh installation uses Obsidian's live theme colors. Upgrading preserves the existing appearance as the selected **User theme** rather than silently replacing custom colors. It also provides **Default base + my semantic colors** and **Default theme**.
+A fresh installation uses Obsidian's live theme colors. The one-time upgrade saves your previous appearance as **User theme** and selects **Default base + my semantic colors**: native Obsidian base colors with your semantic styles and non-color choices preserved. A notification points you to Visual styling. **Default theme** remains available too.
+
+Fresh installs do not receive an upgrade notification. Later restarts and plugin updates keep your selected theme; the migration is not a recurring color reset. A first-run ExcaliBrain import also receives its preserved User-theme copy.
 
 Open **Settings → K-Plex → Visual styling**. Select a theme from **Theme** to apply it. **Manage themes** uses a searchable manager like the node/link style managers; opening a row does not activate it. Create an independent copy of the current theme or start from defaults.
 
 Default theme cannot be renamed, deleted or reset. Its first genuine saved appearance change creates **Custom theme**. Opening or cancelling an editor does not create a theme.
 
 Named themes store base and semantic appearance. Ontology, navigation, indexing strategy and lens rules remain shared; switching a theme does not create a separate knowledge structure or restore a deleted lens.
+
+![[Assets/Screenshot - Named themes.png]]
+
+*Visual styling in this vault: native base colors with the existing semantic colors retained.*
 
 ## Reset the right colors
 

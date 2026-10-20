@@ -29,7 +29,7 @@ In **this help vault**, the base node label limit is **100 characters**, while m
 
 ## Next release: One-sided layout
 
-Select **One-sided layout** below the Parents and Children sliders in Layout controls to put Friends and Challengers in separate groups on the left. This removes the separate right-hand Challenger area without discarding Challenger relationships or changing their meaning and filters.
+Select **One-sided layout** below the Parents and Children sliders in Layout controls to put Friends and Challengers together in one shared list on the left. This removes the separate right-hand Challenger area without discarding Challenger relationships or changing their meaning and filters.
 
 The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Plex behavior → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
 

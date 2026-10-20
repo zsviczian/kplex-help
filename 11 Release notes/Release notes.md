@@ -24,7 +24,7 @@ Child:
 This archive connects **what changed** in each release with **how to use it** in this living K-Plex Help vault. Published GitHub release notes are reproduced as historical source material, with explicit links to the current guides.
 
 > [!important] Version boundary
-> **0.2.0 is a draft, not a release.** As of October 19, 2026, the latest published version is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3). The copy of K-Plex bundled with this help vault is still 0.1.2.
+> **0.2.0 is a draft, not a release.** As of October 20, 2026, the latest published version is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This vault now includes a development build from main for trying draft features; its unchanged 0.1.2 manifest is not a release identifier. See [[README|Opening this vault]].
 
 ## Upcoming
 

@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Rediscover forgotten ideas with K-Plex Wander
 - Learn by exploring with K-Plex Wander
@@ -16,8 +17,6 @@ Friend:
 ---
 **Outcome:** An old note becomes useful again: you remember something you had forgotten, find a connection to today's work, or discover a gap worth revisiting.
 
-**Status:** Available in 0.1.3.
-
 ## Try it: revisit a subject you have not touched recently
 
 Start from an old project, a book note or a subject map. Begin **Wander** and let K-Plex choose a route through connected notes. Before each highlighted destination becomes the center, try to recall what the note says and why it connects to the current idea.
@@ -34,7 +33,7 @@ For **rediscovery**, follow curiosity and unexpected associations. For **manual 
 
 Wander follows displayed, navigable connections, so filters affect the route. It is not a vault-wide random-note sampler or an automatic chronological review of last month's notes. See [[02 Navigate and explore/Wander]] for the controls and [[04 Filter and focus/Graph Lenses]] for choosing a perspective.
 
-## Next release: keep a trail of this exploration
+## Keep a trail of this exploration
 
 After a Wander or manual research session, open [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] to see **every accepted center visit in this Plex**, including times you came back to a familiar idea. Select a surprising earlier stop to revisit it, or **Copy as Markdown** and paste the complete newest-first trail into a note before ending the session.
 

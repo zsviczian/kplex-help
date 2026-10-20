@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Sequential workflows
 - Follow project milestones and sequences
@@ -15,8 +16,6 @@ Next:
 - '[[07 Use cases/Build a help system like this vault]]'
 ---
 **Outcome:** You can follow a repeatable process, learning path or project history while keeping the instructions, evidence and exceptions for each step close at hand.
-
-**Status:** Available in 0.1.3.
 
 ## Try it: make a process reusable
 

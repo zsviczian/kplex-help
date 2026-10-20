@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Reconstruct what happened and why
 - Explore your knowledge through dates and daily notes
@@ -17,7 +18,7 @@ Related:
 ---
 **Outcome:** You can recover the context of a meeting or decision by following either the project it belongs to or the day it happened.
 
-**Status:** Available in 0.1.3 with the relevant Date properties and daily-note setup.
+**Setup:** Configure the relevant Date properties and Daily Notes.
 
 ## Try it: reconstruct last week's project decisions
 
@@ -33,7 +34,7 @@ Write the conclusion back into the project or decision note: what changed, why i
 
 With **Default Date role = Parent**, the daily note provides calendar context above the meeting. Agenda items can remain Children and related decisions Friends. Another workflow may benefit from a lateral Date role instead.
 
-Set the default for your general case, then map individual Date property names such as `Meeting Date` or `Reviewed on` under **Ontology → Relationship fields** when their meaning differs. An explicit Hidden mapping can prevent an unrelated date from becoming a graph edge.
+Set the default for your general case, then map individual Date property names such as `Meeting Date` or `Reviewed on` under **Settings → K-Plex → Ontology → Manage ontology** when their meaning differs. An explicit Hidden mapping can prevent an unrelated date from becoming a graph edge.
 
 For a deliberate journal chain, connect entries with Previous/Next. Do not assume that every date is a sequence or that K-Plex sorts your project into a timeline automatically.
 

@@ -23,6 +23,10 @@ The index indicator is a **status explanation**, not an instruction to wait befo
 
 Hover or focus the indicator for details. Click/tap to pin its information bubble; click again, click outside or press Escape to dismiss it.
 
+## Waiting for first use
+
+If startup preparation is disabled for this device and no Plex has opened, **Waiting for K-Plex to open** is intentional. It is not a completed index or a stalled scan. Opening a Plex admits the normal preparation pipeline. See [[06 Indexing and troubleshooting/On demand vs Eager]] for device defaults and restart behavior.
+
 ## Why the count depends on mode
 
 On demand prepares the requested graph rather than every note in the vault. A small locally published set is not a meaningful “x of y vault files indexed” ratio. Eager can show real full-index progress. Hidden/revealed views also update their local readiness display.

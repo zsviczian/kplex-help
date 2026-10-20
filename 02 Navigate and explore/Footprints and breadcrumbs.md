@@ -28,6 +28,10 @@ Select an earlier entry to navigate back to it. This **adds another visit** at t
 
 Use **Up/Down** to move through the entries, **Home** for the newest, and **End** for the oldest. Escape or clicking outside closes the panel. For long sessions, the panel renders a scrolling window of up to 40 rows at a time; **the trail itself is not limited to 40 visits**.
 
+![[Assets/Screenshot - Footprints trail.png]]
+
+*A real exploration through this help vault, newest visit first. Copy as Markdown and Start here sit beside the visit count.*
+
 ## Keep or restart the trail
 
 - **Copy as Markdown** copies the **whole trail**, newest first, as a Markdown bullet list, including repeated visits and entries outside the visible scroll window. Notes, attachments, folders and placeholders become wikilinks, tags retain their full `#tag/path`, and websites become Markdown links. Paste it into a note if you want a lasting record; copying does not automatically save a note.

@@ -1,4 +1,5 @@
 ---
+Note type: Use case
 aliases:
 - Projects and decisions
 - Create a visual project dashboard with K-Plex
@@ -17,13 +18,11 @@ Next:
 ---
 **Outcome:** You can return to a project, understand its current situation and choose the next meaningful action without piecing the story together from scattered notes.
 
-**Status:** Available in 0.1.3 for note-based projects and activities.
-
 ## Try it: prepare for a weekly project review
 
 Make a project note the center and pin it. Connect the goal it serves, the work or deliverables it contains, the decisions that shape it and the risks that could change the plan. Open these notes in the Sidecar to update their substance, not just their connections.
 
-Use your own domain language for relationships. For example, configure `Goal` as Parent, `Deliverable` as Child, `Dependency` as Friend and `Risk` as Challenger under **Ontology → Relationship fields**. These are example mappings, not built-in project-management fields.
+Use your own domain language for relationships. For example, configure `Goal` as Parent, `Deliverable` as Child, `Dependency` as Friend and `Risk` as Challenger under **Settings → K-Plex → Ontology → Manage ontology**. These are example mappings, not built-in project-management fields.
 
 Create a note for a significant activity, such as “Choose the renovation contractor.” Connect its options, constraints and eventual decision. When the activity is complete, record the outcome in that note and retain its relationships. The work becomes part of the project's knowledge history rather than disappearing with a checked box.
 

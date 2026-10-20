@@ -29,7 +29,7 @@ Friend:
 ---
 You do not need to read the help in folder order. Choose a question, then follow a short route through the existing reference notes.
 
-**Looking for a result rather than a technique?** Start with [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Its nine everyday workflows cover topic maps, projects, writing, decisions, meeting context, procedures, gardening, rediscovery and visual ideas. The 13 routes below teach the techniques behind those outcomes.
+**Looking for a result rather than a technique?** Start with [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Its practical workflows cover topic maps, projects, writing, decisions, meeting context, procedures, gardening, rediscovery and visual ideas. The 13 routes below teach the techniques behind those outcomes.
 
 ## Choose a discovery path
 

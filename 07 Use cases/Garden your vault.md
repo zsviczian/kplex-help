@@ -72,3 +72,7 @@ A vault doesn't become useful merely because it holds more notes. Gardening make
 - [[07 Use cases/Never start a project with a blank page|Reuse your better-connected notes in a new project]].
 - [[07 Use cases/Build a Map of Content|Give a growing subject an entry point]].
 - [[05 Personalize and workspace/Note-tab synchronization|Understand how the Properties pane follows the Plex]].
+
+## Tidy the relationship vocabulary too
+
+If you find a misspelled or unfamiliar relationship property, use [[03 Build and edit/Manage and clean up ontology]]. **Show documents** reveals its notes so you can correct the actual source rather than merely hiding the connection. Afterward, **Refresh counts** removes unused Unassigned discoveries while preserving intentional assignments.
