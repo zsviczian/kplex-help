@@ -52,9 +52,6 @@ Related:
 
 Organize your knowledge while exploring it, keep your place and make room for the document you are working on. K-Plex is becoming more than a way to navigate connected notes. Organize knowledge directly from the graph, keep different tasks in separate Plex views, retrace an exploration, and make the workspace fit your preferred appearance.
 
-> [!warning] Draft - not released
-> These notes describe the proposed 0.2.0 release. The latest published release is 0.1.3; this demo includes a development build so you can try the prepared features.
-
 ### Organize your vault while exploring
 
 Bring notes from Obsidian into K-Plex and drag them between views or into a Markdown draft. Move supported notes or folders to folder destinations, assign tags, and create new notes or placeholders in a chosen location. The graph becomes a place to **do the organizing**, not merely inspect its result.

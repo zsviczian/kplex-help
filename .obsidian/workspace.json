@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "103158d11b0d45ef",
+        "id": "cc27036e40e33461",
         "type": "tabs",
         "children": [
           {
-            "id": "a35fe0682382a598",
+            "id": "1c5153181bcc6bf3",
             "type": "leaf",
             "state": {
               "type": "k-plex-react-view",
@@ -19,39 +19,19 @@
                 },
                 "plexSession": {
                   "version": 1,
-                  "ownerId": "a35fe0682382a598",
+                  "ownerId": "1c5153181bcc6bf3",
                   "centerPath": "11 Release notes/K-Plex 0.2.0 release notes.md",
-                  "targetId": "ae189827a4859737",
-                  "documentSyncMode": "pinned",
-                  "sidecarOpen": true,
+                  "targetId": null,
+                  "documentSyncMode": "off",
+                  "sidecarOpen": false,
                   "sidecarPosition": "right",
-                  "sidecarLastFilePath": "11 Release notes/K-Plex 0.2.0 release notes.md",
+                  "sidecarLastFilePath": "",
                   "sidecarLastUrl": "",
                   "sidecarMarkdownMode": "source"
                 }
               },
               "icon": "brain-circuit",
               "title": "K-Plex"
-            }
-          }
-        ]
-      },
-      {
-        "id": "59a83e9841302f01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ae189827a4859737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11 Release notes/K-Plex 0.2.0 release notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "K-Plex 0.2.0 release notes"
             }
           }
         ]
@@ -116,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "377738ba3b233f55",
@@ -247,7 +228,7 @@
       "k-plex:Open K-Plex": false
     }
   },
-  "active": "ae189827a4859737",
+  "active": "1c5153181bcc6bf3",
   "lastOpenFiles": [
     "11 Release notes/K-Plex 0.2.0 release notes.md",
     "04 Filter and focus/Expand a note into sections.md",

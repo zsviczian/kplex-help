@@ -570,7 +570,7 @@
   "nodeSortOrder": "modified-desc",
   "parentColumns": 2,
   "childColumns": 5,
-  "friendMaxHeight": 366,
+  "friendMaxHeight": 461,
   "siblingMaxHeight": 250,
   "parentMaxHeight": 229,
   "childMaxHeight": 182,
@@ -591,8 +591,8 @@
     "00 Start Here/Choose a topic.md",
     "01 Core concepts/Relationship roles.md",
     "04 Filter and focus/Graph Lenses.md",
-    "11 Release notes/Release notes.md",
-    "07 Use cases/Use cases.md"
+    "07 Use cases/Use cases.md",
+    "11 Release notes/K-Plex 0.2.0 release notes.md"
   ],
   "layoutProfiles": {
     "desktop:leaf": {
