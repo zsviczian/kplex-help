@@ -15,7 +15,9 @@ Next:
 Related:
 - "[[03 Build and edit/Remove one relationship source]]"
 ---
-Right-click a connector and choose **Connection details…** when you want to know **why this edge exists**.
+# Connection details and evidence
+
+Does a connection look surprising? Open Connection details to see which note, property or link supports it before making an edit.
 
 ![[Screenshot - Connection Details Context Menu.png|291]]
 
@@ -34,5 +36,3 @@ This is especially important when one edge is supported by several links or fiel
 From **Connection details…**, an eligible frontmatter relationship source can now be **removed individually with confirmation**. This does not mean all evidence for the visible edge will be deleted. The action revalidates the source before writing, so an edited or replaced property occurrence is not removed based on a stale snapshot.
 
 Use [[03 Build and edit/Remove one relationship source|Remove one relationship source]] for a practical walkthrough. Inferred-only evidence remains different from an editable frontmatter declaration.
-
-[Change: PR #108](https://github.com/zsviczian/kplex/pull/108).

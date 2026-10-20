@@ -12,9 +12,13 @@ Previous:
   - "[[03 Build and edit/Unlink and delete]]"
 excalidraw-plugin: parsed
 ---
+# Excalidraw integration
 
+Use a sketch to be part of the same thinking process as your written notes. Create or open an Excalidraw drawing from the Plex while keeping its related ideas nearby.
 
-Excalidraw is **optional** in K-Plex. When the Excalidraw plugin is installed and compatible, the create-related workflow can create an Excalidraw drawing and link it in the selected K-Plex role.
+![[Assets/Screenshot - Excalidraw idea compass.png]]
+
+*The existing Idea Compass opens as a normal Excalidraw drawing. K-Plex can keep such a drawing connected to written context.*
 
 K-Plex itself no longer depends on Excalidraw as its renderer. This is an important architectural difference from ExcaliBrain, where Excalidraw was the visualization surface.
 
@@ -22,27 +26,25 @@ For full integration, Excalidraw needs to create Markdown-backed drawing files. 
 
 Read [[08 About/From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]] for the product lineage.
 
-
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
-
 
 # Excalidraw Data
 
 ## Text Elements
 Excalidraw is optional in K-Plex. When the Excalidraw plugin is installed and compatible, the create-related workflow can create an Excalidraw drawing and link it in the selected K-Plex role.
 
-K-Plex itself no longer depends on Excalidraw as its 
- renderer. This is an important architectural 
-   difference from ExcaliBrain, where Excalidraw was 
+K-Plex itself no longer depends on Excalidraw as its
+ renderer. This is an important architectural
+   difference from ExcaliBrain, where Excalidraw was
    the visualization surface.
 
-    For full integration, Excalidraw needs to create 
+    For full integration, Excalidraw needs to create
      Markdown-backed drawing files. Legacy non-
-      Markdown drawings can open in compatibility 
-        mode but cannot act as ordinary K-Plex 
+      Markdown drawings can open in compatibility
+        mode but cannot act as ordinary K-Plex
           Markdown relationship endpoints. ^vG7F1M79
 
-Excalidraw 
+Excalidraw
 Integration ^eG338SfS
 
 %%
@@ -327,5 +329,3 @@ gwIbICBxP2+GkgpgYQIGbQSkbyDQ/2PnF/egwIEgDWJ+PnZ/FgRPjD8Y+znocF4W9PzgCE/vISVCiBfQ
 An Excalidraw drawing can be viewed either in its **drawing** representation or, where supported, as its underlying **Markdown**. When linked Obsidian tabs or the companion Sidecar follow the *same file*, K-Plex now preserves the representation you deliberately selected instead of switching it underneath you. Opening another file or explicitly choosing drawing/Markdown still changes the displayed content.
 
 For the initial embedded editor representation, the Excalidraw `excalidraw-open-md` preference is respected. This is distinct from K-Plex's graph node styling; the drawing representation belongs to the editor/view.
-
-[Change: PR #112](https://github.com/zsviczian/kplex/pull/112).

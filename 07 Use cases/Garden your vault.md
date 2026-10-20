@@ -18,10 +18,13 @@ Friend:
 - '[[03 Build and edit/Connection details and evidence]]'
 - '[[07 Use cases/Build a Map of Content]]'
 ---
-
 # Garden your vault — one note at a time
 
 **The situation:** Your Obsidian vault keeps growing. Some notes are useful but hard to rediscover, others have vague labels or outdated statuses, and some promising ideas are still seedlings. Cleaning up everything at once feels overwhelming, so the maintenance never happens.
+
+![[Assets/Screenshot - Tag hierarchy.png]]
+
+*Centering #kplex-help reveals narrower tags you can explore, such as how-to, concept and example.*
 
 **The outcome:** Make a few notes easier to find, understand and reuse every time you explore. Over time, the vault becomes more meaningful without a large reorganization project.
 
@@ -45,7 +48,7 @@ Pin a frequently used tag in K-Plex, then explore your notes. When you find a no
 Where K-Plex offers the choice, apply a tag either as an **ordinary Tag** or as a **Note Type**:
 
 - **Ordinary Tag:** adds useful membership and retrieval context. A note can have several tags.
-- **Note Type:** also sets the configured note-style property, giving the note a recognizable semantic appearance. A note has one Note Type; choosing another explicitly replaces that type, while other tags can remain.
+- **Note Type:** also sets the configured note-style property, giving that kind of note a recognizable appearance. A note has one Note Type; choosing another explicitly replaces that type, while other tags can remain.
 
 Both are useful. Use ordinary tags for multiple overlapping topics, and Note Types for categories you want to recognize at a glance. Tags and Note Types are properties of the underlying notes, not temporary colors drawn only in the graph. See [[03 Build and edit/Drag drop and reclassify]] and [[05 Personalize and workspace/Node styles from help tags]].
 

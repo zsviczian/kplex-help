@@ -15,6 +15,14 @@ Friend:
 - '[[07 Use cases/Research and learning]]'
 - '[[07 Use cases/Garden your vault]]'
 ---
+# Rediscover and remember your notes
+
+Feel that useful ideas are getting lost in your archive? Revisit connected notes and bring an old insight into something you are working on now.
+
+![[Assets/Screenshot - Wander controls.png]]
+
+*Wander keeps pause/play, pace and stop controls at the bottom while the map is in Zen mode.*
+
 **Outcome:** An old note becomes useful again: you remember something you had forgotten, find a connection to today's work, or discover a gap worth revisiting.
 
 ## Try it: revisit a subject you have not touched recently

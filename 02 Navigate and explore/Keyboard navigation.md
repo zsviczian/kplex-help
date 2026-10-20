@@ -13,7 +13,13 @@ Related:
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[02 Navigate and explore/Past nodes and pins]]'
 ---
-You can explore a Plex without using the mouse. **First give the graph focus** (click empty graph space or use **Ctrl/Cmd+Shift+G**). Graph shortcuts do not take over typing inside a note editor, Search Vault, Find in Plex, buttons or dialogs.
+# Keyboard navigation
+
+Explore and connect notes without reaching for the mouse. Give the graph focus, select a nearby node and navigate or run an action from the keyboard.
+
+![[Assets/Screenshot - Keyboard help.png]]
+
+*The built-in keyboard reference shows the effective shortcuts in this vault. Your saved keys can differ from fresh-install defaults.*
 
 ## Choose and move
 
@@ -39,5 +45,3 @@ Use **Alt/Option+.** to open the [[02 Navigate and explore/K-Plex command palett
 ## Selection consistency with Find
 
 Finding a node in the current Plex and selecting one with arrow keys now share a common visual highlight. This makes the selection easier to track after switching between the Find box and graph-keyboard navigation; **Enter** still performs the navigation/activation separately.
-
-[Change: PR #108](https://github.com/zsviczian/kplex/pull/108).

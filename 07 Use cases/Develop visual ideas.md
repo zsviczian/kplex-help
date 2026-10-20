@@ -14,6 +14,14 @@ Friend:
 - '[[05 Personalize and workspace/Images in nodes]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 ---
+# Develop visual ideas
+
+Have a rough sketch that is not yet easy to explain? Develop it alongside related notes, examples and objections while preserving your visual starting point.
+
+![[Assets/Screenshot - Excalidraw idea compass.png]]
+
+*The existing Idea Compass opens as a normal Excalidraw drawing. K-Plex can keep such a drawing connected to written context.*
+
 **Outcome:** A rough sketch becomes a developed idea you can explain, challenge and connect to other work, without losing the original visual thinking.
 
 **Requires:** Install the Excalidraw plugin to create and edit drawing notes.
@@ -32,6 +40,6 @@ Return to the drawing and improve it using what you discovered. Keep a large vis
 
 Use fullscreen or Zen mode to walk someone through the central sketch, its supporting notes and its alternatives. Open a drawing when you need detail and return to the graph for context. This is an interactive explanation rather than an automatically generated slide deck.
 
-Node images can make important notes recognizable, but this workflow does not require selecting an Excalidraw focus frame as a graph card. That frame-selection integration is not covered as an available capability here. Local images also avoid the separate permission needed for remote node images.
+Node images help you recognize important notes. Use a local image when you want an offline visual cue without remote-image permission; see [[05 Personalize and workspace/Images in nodes]].
 
 Start with [[03 Build and edit/Excalidraw integration]] and [[07 Use cases/Argument maps with Challengers|Challenge an assumption before acting]].

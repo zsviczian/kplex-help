@@ -15,6 +15,14 @@ Previous:
 Next:
 - '[[07 Use cases/Build a help system like this vault]]'
 ---
+# Sequential workflows
+
+Need a process you or someone else can follow again? Connect its stages in order, with the instructions, examples and exceptions close to each step.
+
+![[Assets/Screenshot - Expanded neighbors.png]]
+
+*The workshop plan stays central while the material branch reveals its two source notes one level further down.*
+
 **Outcome:** You can follow a repeatable process, learning path or project history while keeping the instructions, evidence and exceptions for each step close at hand.
 
 ## Try it: make a process reusable

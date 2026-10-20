@@ -12,10 +12,21 @@ Previous:
 Next:
   - "[[04 Filter and focus/Expand a note into sections]]"
 ---
-Visibility filters can preserve the original geometry or rebuild it around the surviving nodes.
+# Keep layout vs Reflow
 
-**Keep layout** hides nonmatching items but leaves visible nodes in their original positions. Use it when spatial context matters.
+Hide distractions without losing your bearings, or make the remaining map more compact. Choose whether filtering keeps node positions or rearranges them.
 
-**Reflow** lays out the surviving relationships as if they were the only items in the Plex. Use it when a large graph has been reduced to a focused working set.
+![[Assets/Screenshot - Quick filters and lenses.png]]
 
-While visibility filtering is active, gate counts can use **shown/total** notation such as `2/12`. That means two relationships are visible through the gate out of twelve available, so hidden structure remains visible as context.
+*Quick Filter, layout choices and saved lenses share one panel. These choices refine the visible neighborhood.*
+
+## Choose what should happen after filtering
+
+Open **Filters and lenses**, apply a [[04 Filter and focus/Quick Filter|Quick Filter]] or [[04 Filter and focus/Graph Lenses|Lens]], then compare the layout choices.
+
+- **Keep layout** leaves the surviving nodes in their earlier positions. Use it when you want to compare the filtered map with the full one.
+- **Reflow** closes the gaps and arranges the remaining nodes more compactly. Use it when the filtered result is the map you want to work with.
+
+Clear the filter when you want the full neighborhood back. Neither choice changes files or relationship meaning.
+
+For text size, columns and permanent spacing preferences, use [[05 Personalize and workspace/Layout density and typography|Layout controls]].

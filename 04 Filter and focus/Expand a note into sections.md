@@ -11,8 +11,14 @@ Previous:
   - "[[04 Filter and focus/Keep layout vs Reflow]]"
 Next:
   - "[[04 Filter and focus/Expanded relationship view]]"
+Friend:
+- '[[09 Showcase examples/Example - A note with sections]]'
+Watch out:
+- '[[04 Filter and focus/Expanded relationship view]]'
 ---
-A Markdown note can be expanded from the center into its **heading hierarchy**. This creates a temporary document outline directly in K-Plex without permanently adding headings to the vault graph.
+# Expand a note into sections
+
+Is a useful idea buried in a long note? Expand the note by its headings to explore each section and its links without splitting the document into separate files.
 
 - heading levels become a foldable tree;
 - relationships found inside a section attach to that section;
@@ -29,7 +35,7 @@ A Markdown note can be expanded from the center into its **heading hierarchy**. 
 
 Use **Fold all sections** and **Unfold all sections** for larger documents. Available note gate counts remain useful when a note is displayed under a section; incomplete counts can still be marked while indexing continues.
 
-With the pointer over a bounded scrollable region, an ordinary wheel scroll moves that region. **Ctrl/Cmd-wheel** zooms the canvas instead.
+With the pointer over a scrollable region, an ordinary wheel scroll moves that region. **Ctrl/Cmd-wheel** zooms the canvas instead.
 
 ![[Assets/Screenshot - Section outline.png]]
 

@@ -15,8 +15,31 @@ Explains:
 - '[[02 Navigate and explore/K-Plex command palette]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 - '[[06 Indexing and troubleshooting/Understanding index status]]'
+Related:
+- 'https://community.sketch-your-mind.com'
+- 'https://github.com/zsviczian/kplex'
+- 'https://github.com/zsviczian/kplex/compare/0.1.0...0.1.1'
+- 'https://github.com/zsviczian/kplex/issues'
+- 'https://github.com/zsviczian/kplex/pull/102'
+- 'https://github.com/zsviczian/kplex/pull/103'
+- 'https://github.com/zsviczian/kplex/pull/104'
+- 'https://github.com/zsviczian/kplex/pull/105'
+- 'https://github.com/zsviczian/kplex/pull/108'
+- 'https://github.com/zsviczian/kplex/pull/112'
+- 'https://github.com/zsviczian/kplex/pull/113'
+- 'https://github.com/zsviczian/kplex/pull/80'
+- 'https://github.com/zsviczian/kplex/pull/82'
+- 'https://github.com/zsviczian/kplex/pull/85'
+- 'https://github.com/zsviczian/kplex/pull/86'
+- 'https://github.com/zsviczian/kplex/pull/87'
+- 'https://github.com/zsviczian/kplex/pull/94'
+- 'https://github.com/zsviczian/kplex/pull/95'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.1.1'
+- 'https://ko-fi.com/zsolt'
 ---
 # K-Plex 0.1.1 — release notes
+
+Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
 **Published:** 2026-10-10 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.1.1)
 

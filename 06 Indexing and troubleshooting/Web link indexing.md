@@ -13,7 +13,13 @@ Previous:
 Next:
   - "[[06 Indexing and troubleshooting/Large vault behavior]]"
 ---
-Web-link discovery runs **independently in the background**. Local note relationships can be usable before K-Plex has found every URL in the vault.
+# Web link indexing
+
+Looking for a website you know you linked from a note? Web links may still be appearing while the rest of your graph is ready to use.
+
+![[Assets/Screenshot - Index status.png]]
+
+*The status details explain the current preparation phase. This capture shows the real update in progress while the help notes were being edited.*
 
 - **Cached URLs first:** a compatible cache can restore existing results quickly.
 - **Incremental updates:** changed notes are rescanned rather than every note on every navigation.
@@ -27,10 +33,6 @@ Center [[08 About/Community GitHub and contributing|Community, GitHub and contri
 
 Learn how links open in [[02 Navigate and explore/Editor node and web pages|Editor node and web pages]], or choose [[10 Discover by topic/09 Work with web sources|Work with web sources]]. Opening a website sends normal browser requests to that external site.
 
-## Dense URL updates and startup resilience
+## If a known website is still missing
 
-Opening a high-degree website node or restoring a cache with many URLs should be more responsive: K-Plex now avoids repeated work while reconstructing shared URL references and preparing search entries. URL source updates are processed with bounded work rather than forcing all derived links onto the same immediate UI turn.
-
-Healthy background work continues as long as progress is being made. A stalled or superseded cache restore can be retired without reviving outdated results.
-
-[Changes: PR #95](https://github.com/zsviczian/kplex/pull/95) · [#102](https://github.com/zsviczian/kplex/pull/102) · [#104](https://github.com/zsviczian/kplex/pull/104) · [#105](https://github.com/zsviczian/kplex/pull/105).
+Open the note that contains the link and check its address. If web-link discovery has finished but the result remains wrong, [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|capture diagnostics]] before rebuilding.

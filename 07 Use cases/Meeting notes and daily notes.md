@@ -16,6 +16,14 @@ Related:
 - '[[07 Use cases/Sequential workflows]]'
 - '[[07 Use cases/Projects and decisions]]'
 ---
+# Meeting notes and daily notes
+
+Trying to remember what was decided, when it happened and which project it belonged to? Connect meetings to both their project and their day.
+
+![[Assets/Screenshot - Date connections.png]]
+
+*The Date example connects to its daily note as well as its broader topic. These are separate reasons for the two relationships.*
+
 **Outcome:** You can recover the context of a meeting or decision by following either the project it belongs to or the day it happened.
 
 **Setup:** Configure the relevant Date properties and Daily Notes.

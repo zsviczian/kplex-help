@@ -16,6 +16,14 @@ Previous:
 Next:
 - '[[07 Use cases/Argument maps with Challengers]]'
 ---
+# Projects and decisions
+
+Returning to a project after a break? Put goals, deliverables, decisions and risks together so you can see where things stand and choose the next action.
+
+![[Assets/Screenshot - Expanded neighbors.png]]
+
+*The workshop plan stays central while the material branch reveals its two source notes one level further down.*
+
 **Outcome:** You can return to a project, understand its current situation and choose the next meaningful action without piecing the story together from scattered notes.
 
 ## Try it: prepare for a weekly project review

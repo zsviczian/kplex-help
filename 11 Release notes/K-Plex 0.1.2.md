@@ -10,8 +10,12 @@ Previous:
 - '[[11 Release notes/K-Plex 0.1.1]]'
 Next:
 - '[[11 Release notes/K-Plex 0.1.3]]'
+Related:
+- 'https://github.com/zsviczian/kplex/releases/tag/0.1.2'
 ---
 # K-Plex 0.1.2 — release notes
+
+Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
 **Published:** 2026-10-10 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.1.2)
 

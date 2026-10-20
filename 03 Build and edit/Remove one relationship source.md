@@ -15,7 +15,13 @@ Related:
 Watch out:
 - "[[01 Core concepts/Relationship sources and inference]]"
 ---
-One visible connector may have several independent sources. For example, a note's **Parent** property and a separate body link can both refer to the same target. Removing the *connector* and removing *one source that supports it* are different operations.
+# Remove one relationship source
+
+Remove one reason for a connection while keeping the others. Open Connection details and remove the specific editable property entry you no longer need.
+
+![[Assets/Screenshot - Connection Details.png]]
+
+*Inspect each source before removing an eligible property entry; another source may still support the connection.*
 
 ## Remove a single frontmatter source
 
@@ -32,5 +38,3 @@ K-Plex rechecks the selected file and property occurrence before writing, rather
 Native scalar **Date properties** are not editable wiki-link lists; change the date value in the source note instead. See [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]].
 
 **Also see:** [[03 Build and edit/Connection details and evidence|Connection details and evidence]] and [[03 Build and edit/Unlink and delete|Unlink and delete]].
-
-[Source: merged PR #108](https://github.com/zsviczian/kplex/pull/108).

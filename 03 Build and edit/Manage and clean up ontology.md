@@ -13,10 +13,14 @@ Related:
 - '[[01 Core concepts/Ontology and relationship fields]]'
 - '[[03 Build and edit/Connection details and evidence]]'
 - '[[07 Use cases/Garden your vault]]'
+Friend:
+- '[[07 Use cases/Garden your vault]]'
+Watch out:
+- '[[03 Build and edit/Remove one relationship source]]'
 ---
 # Manage and clean up ontology
 
-A misspelled relationship property can be easy to overlook in a note and difficult to find again. **Manage ontology** lets you inspect your vocabulary and find the notes behind it before deciding what to change.
+Found a misspelled relationship property, or want to understand where a field is used? Manage ontology helps you find its notes and choose a clear, consistent meaning.
 
 ## Find a field
 

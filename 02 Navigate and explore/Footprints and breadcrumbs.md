@@ -13,12 +13,12 @@ Friend:
 - '[[02 Navigate and explore/Past nodes and pins]]'
 - '[[05 Personalize and workspace/Note-tab synchronization]]'
 - '[[07 Use cases/Rediscover and remember your notes]]'
+Watch out:
+- '[[02 Navigate and explore/Past nodes and pins]]'
 ---
-# Breadcrumbs: follow your Footprints
+# Footprints and breadcrumbs
 
-**Outcome:** Find a place you visited earlier in this exploration, or capture the route you took before closing the Plex.
-
-**Status:** **Next release** — merged in [K-Plex PR #187](https://github.com/zsviczian/kplex/pull/187), but not part of published 0.1.3. The control is labeled **Footprints** in K-Plex.
+Return to something you visited during this exploration, or keep a record of the route. Footprints lists this Plex's visits and lets you copy the trail into a note.
 
 ## Revisit a stop on your trail
 
@@ -26,7 +26,7 @@ Navigate from one note to another in the same Plex. Select the **Footprints icon
 
 Select an earlier entry to navigate back to it. This **adds another visit** at the top of Footprints; it does not erase the later part of your trail. The list follows the latest visit when opened, but if you are reading older entries, incoming visits do not pull you away from them.
 
-Use **Up/Down** to move through the entries, **Home** for the newest, and **End** for the oldest. Escape or clicking outside closes the panel. For long sessions, the panel renders a scrolling window of up to 40 rows at a time; **the trail itself is not limited to 40 visits**.
+Use **Up/Down** to move through the entries, **Home** for the newest, and **End** for the oldest. Escape or clicking outside closes the panel. You can scroll through a long trail; Copy as Markdown includes the whole list.
 
 ![[Assets/Screenshot - Footprints trail.png]]
 
@@ -53,5 +53,3 @@ Each native Plex owns its own Footprints. A second Plex has a different trail, e
 Footprints records navigation, **not the structure of your notes**. It is a chronological list, not a visual, branching breadcrumb tree, timeline or metro map. A renamed note's saved visits follow its updated location; a deleted or unavailable target can appear unavailable and cannot be reopened by selecting it.
 
 For persistent navigation and gate-to-pin actions, see [[02 Navigate and explore/Past nodes and pins]]. To use the trail while developing an idea, try [[07 Use cases/Rediscover and remember your notes]].
-
-[Implementation and validation: PR #187](https://github.com/zsviczian/kplex/pull/187) · [K-Plex navigation guide](https://github.com/zsviczian/kplex/blob/3df08a15f7002ed60a2452286ee1f8044cb97203/README.md#search-history-and-pins).

@@ -15,14 +15,18 @@ Explains:
 - '[[06 Indexing and troubleshooting/Understanding index status]]'
 Related:
 - '[[10 Discover by topic/04 Research and challenge ideas]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Bring references and websites into the neighborhood of your notes.
+# Work with web sources
+
+Bring references and websites into the neighborhood of your notes. Follow this short path, then try it with your own notes.
 
 Your research or projects depend on URLs, videos and linked web resources.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[01 Core concepts/Node types|Node types]]** — Understand URL nodes alongside notes and attachments.
 2. **[[02 Navigate and explore/Editor node and web pages|Editor node and web pages]]** — Open websites or embed them in the central editor view.
@@ -30,8 +34,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 4. **[[06 Indexing and troubleshooting/Web link indexing|Web link indexing]]** — Check when cached and newly discovered web links appear.
 5. **[[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this Plex]]** — Search indexed URLs without assuming the URL inventory is complete.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]] — verify whether URLs are still being discovered
 
@@ -39,7 +42,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 Center **Community GitHub and contributing** and explore a GitHub or community URL as a node. Website embeds make normal external requests, so only open sites you trust.
 
-## Additional exercise
+## Try another small step
 
 Compare the index indicator with web link discovery status; the local graph may already be usable.
 

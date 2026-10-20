@@ -21,9 +21,9 @@
                   "version": 1,
                   "ownerId": "a35fe0682382a598",
                   "centerPath": "11 Release notes/K-Plex 0.2.0 release notes.md",
-                  "targetId": "5932f497df5affa6",
-                  "documentSyncMode": "off",
-                  "sidecarOpen": false,
+                  "targetId": "ae189827a4859737",
+                  "documentSyncMode": "pinned",
+                  "sidecarOpen": true,
                   "sidecarPosition": "right",
                   "sidecarLastFilePath": "11 Release notes/K-Plex 0.2.0 release notes.md",
                   "sidecarLastUrl": "",
@@ -32,6 +32,26 @@
               },
               "icon": "brain-circuit",
               "title": "K-Plex"
+            }
+          }
+        ]
+      },
+      {
+        "id": "59a83e9841302f01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae189827a4859737",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 Release notes/K-Plex 0.2.0 release notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "K-Plex 0.2.0 release notes"
             }
           }
         ]
@@ -227,7 +247,7 @@
       "k-plex:Open K-Plex": false
     }
   },
-  "active": "a35fe0682382a598",
+  "active": "ae189827a4859737",
   "lastOpenFiles": [
     "11 Release notes/K-Plex 0.2.0 release notes.md",
     "04 Filter and focus/Expand a note into sections.md",

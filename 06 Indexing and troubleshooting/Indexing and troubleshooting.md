@@ -14,13 +14,17 @@ Child:
 - '[[06 Indexing and troubleshooting/Understanding index status]]'
 Friend:
 - '[[01 Core concepts/What K-Plex is not]]'
+Related:
+- '[[10 Discover by topic/08 Indexing and problem solving]]'
 ---
-K-Plex makes **foreground tasks useful before every background job is finished**. A visible local neighborhood, a complete URL inventory, and a fully prepared index are different states.
+# Indexing and troubleshooting
+
+Is a connection missing, or are you unsure what is still loading? Check the current graph's readiness, then follow the smallest useful recovery step.
 
 ## Understand readiness
 
 - [[06 Indexing and troubleshooting/How indexing works|How indexing works]] — local graph versus background work.
-- [[06 Indexing and troubleshooting/On demand vs Eager|On demand vs Eager]] — when semantic data is prepared.
+- [[06 Indexing and troubleshooting/On demand vs Eager|On demand vs Eager]] — when relationships are prepared.
 - [[06 Indexing and troubleshooting/Web link indexing|Web link indexing]] — why URLs can appear after notes.
 - [[06 Indexing and troubleshooting/Large vault behavior|Large vault behavior]] — cached data, incremental updates and gate counts.
 

@@ -20,14 +20,17 @@ Explains:
 - '[[03 Build and edit/Drag drop and reclassify]]'
 - '[[05 Personalize and workspace/Note-tab synchronization]]'
 ---
-
 # Never start a project with a blank page
 
 **The situation:** You're starting a new project, researching an unfamiliar topic or preparing something you want to create. Your Obsidian vault already contains ideas, articles, meeting notes, sketches and lessons from earlier work. You know some of these could help—but finding them and bringing them together can feel like more work than starting over.
 
+![[Assets/Screenshot - Two independent Plexes.png]]
+
+*Two adjacent Plexes keep different centers. Keep a destination in one while exploring possible sources in the other.*
+
 **The outcome:** A useful starting point for your new project, built from knowledge you've already collected. Instead of a blank page, you have a living collection of relevant ideas that you can keep expanding.
 
-> [!tip] The point is not to design a perfect structure
+> [!tip] Start with a few useful connections
 > See something useful? Connect it. Found something better? Add that instead, or remove an irrelevant relationship. Dragging a note into context should be a small, reversible action—not a major organizational decision.
 
 ## Example: starting a new project
@@ -77,4 +80,3 @@ You don't need to move files or copy their contents. The project grows through r
 - [[07 Use cases/Build a Map of Content|Turn the emerging project into a Map of Content]].
 - [[07 Use cases/Projects and decisions|Develop the project into goals, decisions and next steps]].
 - [[07 Use cases/Research and learning|Turn the collected material into a draft]].
-

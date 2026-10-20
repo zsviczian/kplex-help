@@ -12,7 +12,13 @@ Previous:
 Next:
 - '[[02 Navigate and explore/Mobile and touch]]'
 ---
-Select **Editor node** to expand a file or URL inside the central node. This keeps the document or website directly in the Plex while preserving surrounding context.
+# Editor node and web pages
+
+Read a note or website without losing the ideas around it. Expand it inside the central node and keep the surrounding map visible.
+
+![[Assets/Screenshot - Read inside the center.png]]
+
+*Reading view expands the document inside the central node; its surrounding connections remain part of the map.*
 
 Images fit both dimensions without cropping. The editor's **Open menu** exposes the same opening destinations as the normal node context menu. Maximizing the editor temporarily hides local Find and preserves its query.
 

@@ -10,7 +10,13 @@ Friend:
   - "[[04 Filter and focus/Graph Lenses are local]]"
   - "[[06 Indexing and troubleshooting/How indexing works]]"
 ---
-K-Plex is deliberately **not** an arbitrary whole-vault force graph or a replacement for every search/query workflow.
+# What K-Plex is not
+
+Trying to decide whether K-Plex is the right tool for a task? Use it to explore a meaningful neighborhood; use a vault-wide search or query when you need a complete inventory.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
 Its core working surface is the **current neighborhood around one center**. Graph Lenses evaluate the currently visible Plex; they do not run a deep arbitrary graph query over the entire vault. Section expansion is temporary; it does not permanently turn every heading into a global node. On-demand indexing can also mean that background-derived information arrives after the immediately useful local graph.
 

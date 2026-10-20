@@ -21,10 +21,17 @@ Child:
 Friend:
 - '[[01 Core concepts/Relationship roles]]'
 - '[[00 Start Here/Recently added features]]'
+Related:
+- '[[00 Start Here/Choose a topic]]'
+- '[[10 Discover by topic/04 Research and challenge ideas]]'
+- '[[10 Discover by topic/05 Organize projects and sequences]]'
 ---
+# What You Can Do with K-Plex
+
+Put your notes to work, rather than learn controls one by one. Choose a result you care about and try a small workflow that gets you there.
+
 ![[Image - Use cases.png]]
 
-# What You Can Do with K-Plex
 
 Start with something you want to accomplish, not a feature you want to try. These everyday workflows turn existing notes and their relationships into useful results. Each guide includes a concrete example, a short workflow and a clear finishing point.
 

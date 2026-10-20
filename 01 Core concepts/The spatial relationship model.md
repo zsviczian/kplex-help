@@ -1,18 +1,28 @@
 ---
 aliases:
-  - "The spatial relationship model"
+- "The spatial relationship model"
 tags:
-  - "kplex-help/concept"
-  - "kplex/concepts"
-  - "kplex/navigation"
+- "kplex-help/concept"
+- "kplex/concepts"
+- "kplex/navigation"
 Friend:
-  - "[[02 Navigate and explore/Navigating the Plex]]"
+- "[[02 Navigate and explore/Navigating the Plex]]"
+- '[[01 Core concepts/Idea Compass]]'
+- '[[01 Core concepts/Relationship roles]]'
 Previous:
-  - "[[01 Core concepts/What K-Plex is]]"
+- "[[01 Core concepts/What K-Plex is]]"
 Next:
-  - "[[01 Core concepts/Relationship roles]]"
+- "[[01 Core concepts/Relationship roles]]"
+Watch out:
+- '[[05 Personalize and workspace/Layout density and typography]]'
 ---
-K-Plex assigns stable spatial meaning to relationship roles:
+# The spatial relationship model
+
+Understand a note at a glance. Read the space around it: broader context above, details below, related ideas to the left and challenges to the right.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
 - **Parent** — above the center; broader category, source or containing idea.
 - **Child** — below; subtopic, component, example or result.

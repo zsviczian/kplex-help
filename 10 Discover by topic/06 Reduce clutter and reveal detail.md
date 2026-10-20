@@ -17,14 +17,18 @@ Explains:
 Related:
 - '[[10 Discover by topic/02 Find and navigate knowledge]]'
 - '[[10 Discover by topic/13 Present and concentrate]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Make a busy Plex readable without changing your notes.
+# Reduce clutter and reveal detail
+
+Make a busy Plex readable without changing your notes. Follow this short path, then try it with your own notes.
 
 The graph contains too many nodes or you need one temporary perspective.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[04 Filter and focus/Quick Filter|Quick Filter]]** — Reduce the neighborhood with a temporary keyword, tag or type.
 2. **[[04 Filter and focus/Graph Lenses|Graph Lenses]]** — Save a reusable Note, Relationship or Evidence rule.
@@ -33,8 +37,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 5. **[[04 Filter and focus/Expand a note into sections|Expand a note into sections]]** — Explore headings inside a long note.
 6. **[[04 Filter and focus/Expanded relationship view|Expanded relationship view]]** — Show the children of visible first-level neighbors.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]] — temporarily remove chrome while keeping graph filters and controls
 
@@ -42,7 +45,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 Center **K-Plex Help**, open **Filters and lenses**, filter by `kplex-help/how-to`, compare **Keep layout** with **Reflow**, and then clear the filter.
 
-## Additional exercise
+## Try another small step
 
 While a filter is active, enter Zen and check that the current layout and selection remain intact when you leave.
 

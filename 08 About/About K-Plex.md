@@ -17,6 +17,10 @@ Friend:
   - "https://ko-fi.com/zsolt"
   - "https://community.sketch-your-mind.com/sym"
 ---
+# About K-Plex
+
+Know who makes K-Plex and where its approach comes from. Meet the project, explore its roots and find the people sharing ways to use it.
+
 ![[About - kplex.png]]
 
 **K-Plex (Knowledge Plex)** is an independent, relationship-oriented visual navigator for Obsidian, developed by Zsolt Viczian. It continues ideas first explored in ExcaliBrain, but runs as its own plugin with its own user interface and indexing system.

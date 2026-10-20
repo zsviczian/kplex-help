@@ -13,8 +13,13 @@ Next:
 Explains:
 - '[[03 Build and edit/Build and edit]]'
 - '[[02 Navigate and explore/Navigate and explore]]'
+Related:
+- 'https://github.com/zsviczian/kplex/compare/0.0.3...0.0.4'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.0.4'
 ---
 # K-Plex 0.0.4 — release notes
+
+Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
 **Published:** 2026-09-22 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.0.4)
 

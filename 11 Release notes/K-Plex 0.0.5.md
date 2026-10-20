@@ -13,8 +13,13 @@ Next:
 Explains:
 - '[[04 Filter and focus/Graph Lenses]]'
 - '[[05 Personalize and workspace/Images in nodes]]'
+Related:
+- 'https://github.com/zsviczian/kplex/compare/0.0.4...0.0.5'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.0.5'
 ---
 # K-Plex 0.0.5 — release notes
+
+Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
 **Published:** 2026-09-24 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.0.5)
 

@@ -6,13 +6,15 @@ tags:
 - kplex/getting-started
 - kplex/ontology
 Guide:
-- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Get started]]'
 Friend:
 - '[[05 Personalize and workspace/Node styles from help tags]]'
 Next:
 - '[[01 Core concepts/Core concepts]]'
 ---
-This vault works both as **ordinary Markdown help** and as **a K-Plex showcase**. Nothing is hidden behind a custom website or proprietary note format. Start at [[00 Start Here/K-Plex Help|K-Plex Help]].
+# How to use this help vault
+
+Try K-Plex while learning it. These notes are both a readable guide and a live graph: follow a topic in Markdown or make it the center of the Plex.
 
 ## Three ways to browse
 

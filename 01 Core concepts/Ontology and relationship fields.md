@@ -13,9 +13,11 @@ Previous:
 Next:
 - '[[01 Core concepts/Relationship sources and inference]]'
 ---
-![[Image - Ontology.png]]
+# Ontology and relationship fields
 
-**Ontology** maps a property name to a spatial role. A note property named `Related` does not need to be literally called `Friend` to appear on the **left**; K-Plex can classify `Related` as Friend ontology.
+Want the map to use words that make sense for your work, such as Guide, Example or Risk? Assign your property names to relationship roles so their position explains what they mean.
+
+![[Image - Ontology.png]]
 
 ## Example from this vault
 
@@ -58,7 +60,7 @@ Guide:
   - "[[00 Start Here/K-Plex Help]]"
 ```
 
-From the topic you follow **Guide** to the help home. From the help home the inverse connection can be captioned **Explains**. You do not need to add a mirrored property to the other note. Existing authored properties, relationship evidence and editing targets remain the source of truth.
+From the topic you follow **Guide** to the help home. From the help home the inverse connection can be captioned **Explains**. You do not need to add a mirrored property to the other note. The ordinary properties in your notes remain unchanged.
 
 To inspect a real pair, open **Settings → K-Plex → Ontology → Manage ontology**, search for **Guide**, and open the row. **Pair with** shows **Explains**. Alternatively, a role field in Settings can contain `Guide/Explains` once. Prefer the structured editor when learning the syntax; it validates roles and partner choices.
 

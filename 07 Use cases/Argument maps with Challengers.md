@@ -17,6 +17,14 @@ Previous:
 Next:
 - '[[07 Use cases/Sequential workflows]]'
 ---
+# Argument maps with Challengers
+
+Need to make a decision you can explain and revisit? Put the proposal beside its evidence, objections and assumptions so you can see what would change your mind.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example includes a scope caveat as a Challenger. In your own decision, use that direction for a genuine objection or condition.*
+
 **Outcome:** A proposal becomes a better-grounded decision, with its assumptions, objections and conditions for reconsideration visible.
 
 ## Try it: examine a decision you are about to make

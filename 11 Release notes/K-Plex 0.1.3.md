@@ -15,8 +15,31 @@ Explains:
   - "[[05 Personalize and workspace/Sidecar]]"
   - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
   - "[[05 Personalize and workspace/Images in nodes]]"
+Related:
+- 'https://community.sketch-your-mind.com/'
+- 'https://github.com/zsviczian/kplex'
+- 'https://github.com/zsviczian/kplex/compare/0.1.2...0.1.3'
+- 'https://github.com/zsviczian/kplex/pull/120'
+- 'https://github.com/zsviczian/kplex/pull/121'
+- 'https://github.com/zsviczian/kplex/pull/122'
+- 'https://github.com/zsviczian/kplex/pull/123'
+- 'https://github.com/zsviczian/kplex/pull/136'
+- 'https://github.com/zsviczian/kplex/pull/137'
+- 'https://github.com/zsviczian/kplex/pull/138'
+- 'https://github.com/zsviczian/kplex/pull/139'
+- 'https://github.com/zsviczian/kplex/pull/140'
+- 'https://github.com/zsviczian/kplex/pull/141'
+- 'https://github.com/zsviczian/kplex/pull/142'
+- 'https://github.com/zsviczian/kplex/pull/146'
+- 'https://github.com/zsviczian/kplex/pull/152'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.1.3'
+- 'https://img.youtube.com/vi/ii15UwpsvtU/maxresdefault.jpg'
+- 'https://ko-fi.com/zsolt'
+- 'https://www.youtube.com/watch?v=ii15UwpsvtU'
 ---
 # K-Plex 0.1.3 — release notes
+
+Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
 **Published:** 2026-10-13 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.1.3)
 

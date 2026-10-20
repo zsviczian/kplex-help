@@ -9,6 +9,14 @@ Friend:
 Next:
 - '[[02 Navigate and explore/Vault Search vs Find in this Plex]]'
 ---
+# Navigating the Plex
+
+Follow an idea without losing its context. Make a note the center, explore a connected note and use history to return.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
+
 - **Single-click / tap** a node to make it the center.
 - **Double-click** a file-backed node to open it in Obsidian.
 - Double-click a URL to open it in the browser.
@@ -17,8 +25,6 @@ Next:
 - Right-click or long-press for context menus.
 - Click empty graph space to clear temporary highlights.
 - Use **Fit graph** to bring the visible Plex back into view.
-
-K-Plex animates navigation so nodes shared by the old and new scene visibly move to their new semantic position. Animation speed is configurable under **Plex behavior** and can be disabled.
 
 > [!practice]
 > Center [[00 Start Here/K-Plex Help|K-Plex Help]], then click this note, [[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this Plex]], and back. Watch how shared nodes move rather than being redrawn as unrelated points.
@@ -29,8 +35,6 @@ K-Plex animates navigation so nodes shared by the old and new scene visibly move
 
 ## Interpreting relationship counts
 
-The small number beside a directional gate is a relationship count, not the number of line segments drawn. A correction in the current K-Plex keeps **filtered gate badges** aligned with the actual semantic endpoints, including relationships displayed on different connector sides. Partial counts can still be marked while source data is loading.
+The small number beside a directional gate is a relationship count, not the number of line segments drawn. Gate badges count related notes, even when several sources support the same connection. Partial counts can still be marked while source data is loading.
 
 For each connector's underlying sources, open [[03 Build and edit/Connection details and evidence|Connection details and evidence]].
-
-[Correction: PR #112](https://github.com/zsviczian/kplex/pull/112).

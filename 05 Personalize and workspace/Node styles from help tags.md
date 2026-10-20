@@ -12,7 +12,13 @@ Previous:
 Next:
   - "[[05 Personalize and workspace/Images in nodes]]"
 ---
-This vault uses **tags as a visual grammar** so a graph node hints at the kind of help it contains before you open it.
+# Node styles from help tags
+
+Tell a task, concept or caution apart before opening it. Use note types or tags to give those kinds of notes a consistent visual identity.
+
+![[Assets/Screenshot - Node style rules.png]]
+
+*The same style manager lists note-property rules and the help vault's imported tag styles, with previews for comparison.*
 
 | Style tag | Meaning in the help |
 | --- | --- |

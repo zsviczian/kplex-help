@@ -12,15 +12,21 @@ Previous:
 Next:
 - '[[03 Build and edit/Drag drop and reclassify]]'
 ---
-A **placeholder** is an unresolved link to an intended note. No file exists yet. It lets you capture a useful relationship before you are ready to write the note.
+# Create notes and placeholders
 
-## Available in 0.1.3
+Capture an idea before you lose it. Create a note now, or add a placeholder so you can connect the idea first and write it later.
+
+![[Assets/Screenshot - Choose a folder.png]]
+
+*The folder input searches parts of an existing path and shows the matching folder across the available width.*
+
+## Try it
 
 Create a note or placeholder from a relationship gate or an Add parent/child/friend/challenger action. Excalidraw creation is available when its plugin is installed. Later, materialize a placeholder as a real note to develop the idea in the context already established.
 
 When folder nodes are visible, drag outward from a folder's **Child gate** to create a note in that folder. Physical location supplies the folder relationship; K-Plex does not need a redundant note-to-note property to represent it. A web relationship needs a Markdown origin in which to store the link.
 
-## Next release: choose the destination and the next action
+## choose the destination and the next action
 
 Creation and placeholder materialization use a folder selector. Choose the destination deliberately; identical filenames are allowed in different folders, but an existing file at the exact destination is not overwritten.
 
@@ -43,6 +49,4 @@ Folder-child creation produces a real Markdown note or Excalidraw drawing, not a
 
 A saved file and a fully refreshed graph are different things. If a file was created but linking or opening did not finish, use the dialog's recovery controls for that existing file rather than creating a duplicate. A saved relationship may offer a targeted refresh while indexing catches up.
 
-Merged improvements also make newly created drawings and external notes discoverable without waiting for all background indexing. They do not mean every relationship is already fully indexed at the instant a file appears.
-
-Sources for next-release behavior: [#168](https://github.com/zsviczian/kplex/pull/168), [#172](https://github.com/zsviczian/kplex/pull/172), [#177](https://github.com/zsviczian/kplex/pull/177), and the [reviewed creation guide](https://github.com/zsviczian/kplex/blob/10760685552fdbafe089a58fc8d80d318853ff31/README.md).
+Newly created notes and drawings can become searchable while wider indexing continues. Their full relationships may still be loading.

@@ -14,6 +14,10 @@ Related:
 Previous:
   - "[[08 About/Support K-Plex]]"
 ---
+# Community GitHub and contributing
+
+Have a question, a useful technique or a problem to report? Find the right place to ask, share an example or help improve K-Plex.
+
 Use these links to follow and improve K-Plex:
 
 - **Repository:** [github.com/zsviczian/kplex](https://github.com/zsviczian/kplex)

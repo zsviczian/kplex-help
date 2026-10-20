@@ -11,44 +11,37 @@ Related:
 - '[[06 Indexing and troubleshooting/Web link indexing]]'
 - '[[06 Indexing and troubleshooting/Troubleshooting checklist]]'
 ---
-The index indicator is a **status explanation**, not an instruction to wait before using K-Plex.
+# Understanding index status
 
-## Three separate things to check
+Know whether to keep working or wait for more context. Read the status for the current graph separately from wider indexing and web-link discovery.
 
-| Question | What the indicator helps you understand |
+![[Assets/Screenshot - Index status.png]]
+
+*The status details explain the current preparation phase. This capture shows the real update in progress while the help notes were being edited.*
+
+## Read the status for your task
+
+The indicator near **K-Plex** explains what is happening. Open its details when you need more context.
+
+| Status or cue | What it means for you |
 | --- | --- |
-| Is my current Plex usable? | Preparing local graph versus Local graph ready, or a local-count limitation. This is about the selected neighborhood. |
-| Is full indexing running? | In Eager mode, wider work can show a genuine ratio of processed Markdown files. |
-| Are all web links known? | URL inventory has its own preparation, cache restoration and discovery status. A usable local graph does not imply complete URL results. |
+| **Waiting for K-Plex to open** | Preparation is deferred until a Plex is opened. |
+| **Preparing local graph** | The selected note's neighborhood is still being prepared. |
+| **Local graph ready** | You can work with this neighborhood even if wider discovery continues. |
+| **≥** beside a gate count | This is a lower bound; more related notes may arrive. |
+| **Local graph counts unavailable** | A complete local count is not available; it does not mean every part of K-Plex has failed. |
+| Web-link discovery still running | Some website results may appear later. |
 
-Hover or focus the indicator for details. Click/tap to pin its information bubble; click again, click outside or press Escape to dismiss it.
+An **Eager** index can show whole-vault progress. **On demand** describes the requested neighborhood instead; it is not a promise that every note in the vault is already prepared. Choose the behavior for your devices in [[06 Indexing and troubleshooting/On demand vs Eager]].
 
-## Waiting for first use
+## Keep working while context arrives
 
-If startup preparation is disabled for this device and no Plex has opened, **Waiting for K-Plex to open** is intentional. It is not a completed index or a stalled scan. Opening a Plex admits the normal preparation pipeline. See [[06 Indexing and troubleshooting/On demand vs Eager]] for device defaults and restart behavior.
+Try navigating to the particular note you need. Filename and path search can work while richer relationships are still loading. A new file can be saved and discoverable before every connection has refreshed.
 
-## Why the count depends on mode
+Read completion messages carefully. If an edit is saved but its graph refresh is pending, use the offered recovery action rather than creating a duplicate note or repeatedly saving the same change.
 
-On demand prepares the requested graph rather than every note in the vault. A small locally published set is not a meaningful “x of y vault files indexed” ratio. Eager can show real full-index progress. Hidden/revealed views also update their local readiness display.
+## If the visible result stays wrong
 
-Background work may continue after local readiness. Counts marked **≥** are lower bounds while sources are being prepared, not final totals. URL discovery and validation can take longer in a large vault.
+Clear filters and inspect the affected connection's [[03 Build and edit/Connection details and evidence|details]]. If needed, [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|capture diagnostics]] before restarting, rebuilding or purging. Mention what you were trying to do and which status you saw.
 
-## Next release: keep working while the wider index catches up
-
-Merged changes improve reuse of cached knowledge, prioritize the requested or restored center and preserve navigation history while startup data arrives. New notes and drawings can become searchable before the entire background pass finishes. The initial stationary center and later ontology updates can refresh without requiring a trip to another node and back.
-
-Ordinary prose autosaves retain an equivalent graph layout instead of appearing to change relationship roles temporarily. Genuine relationship changes still update the Plex. These improvements do not promise instant full-vault indexing, eliminate every intermittent startup issue or establish a universal performance gain.
-
-## Next release: saved is not the same as refreshed
-
-Ontology settings are edited as a local draft and committed after a pause or leaving the field, rather than triggering the former work on every keystroke. A settings or relationship save can complete while the graph update is still pending.
-
-Read the actual completion message. Use an offered refresh/recovery action instead of repeating a creation or assuming the note was not saved. If a settings change is received from another device, it can update the live appearance; an indexing-strategy change still needs a restart. See [[05 Personalize and workspace/Colors and themes]].
-
-## If something looks stuck
-
-Check local readiness, the actual indexing mode and URL inventory separately. Try a specific Vault Search query to locate a missing note. If the visible result contradicts the status, capture diagnostics before restarting or purging; see [[06 Indexing and troubleshooting/Rebuild purge and diagnostics]] and [[06 Indexing and troubleshooting/Troubleshooting checklist]].
-
-Do not purge just because background URL discovery is unfinished. If the application stops responding during a settings change, include the setting, open panes and sequence of edits in the issue; a startup-readiness message cannot explain every kind of freeze.
-
-Sources for merged improvements: [ontology settings #147](https://github.com/zsviczian/kplex/pull/147), [save completion #179](https://github.com/zsviczian/kplex/pull/179), [autosave continuity #180](https://github.com/zsviczian/kplex/pull/180), [startup #183](https://github.com/zsviczian/kplex/pull/183), [restoration #185](https://github.com/zsviczian/kplex/pull/185), [stationary refresh #186](https://github.com/zsviczian/kplex/pull/186). See [[00 Start Here/Recently added features]] for the source baseline.
+An unfinished website inventory alone is not a reason to purge the cache. Use the [[06 Indexing and troubleshooting/Troubleshooting checklist|troubleshooting checklist]] to choose a smaller first step.

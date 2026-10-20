@@ -6,9 +6,8 @@ tags:
 - kplex-help/home
 - kplex/getting-started
 Child:
-- '[[00 Start Here/First 5 minutes]]'
+- '[[00 Start Here/Get started]]'
 - '[[00 Start Here/Choose a topic]]'
-- '[[00 Start Here/Glossary]]'
 - '[[01 Core concepts/Core concepts]]'
 - '[[02 Navigate and explore/Navigate and explore]]'
 - '[[03 Build and edit/Build and edit]]'
@@ -22,55 +21,40 @@ Child:
 Friend:
 - https://github.com/zsviczian/kplex
 - https://obsidian.md
+Related:
+- '[[07 Use cases/Never start a project with a blank page]]'
 ---
-![[logo - kplex.png|211]]
+# K-Plex Help
 
-K-Plex is a visual navigator for connected knowledge in Obsidian. It keeps one note or resource in the center, with broader context above, details below, related ideas to the left, and challenges or next steps to the right.
+Find a useful idea, understand what it connects to, or bring scattered notes into a project. Start with the result you want, then use this vault as a working example of K-Plex.
 
-**This vault is the demonstration.** Its notes, tags, folders and custom ontology form a real Plex you can navigate. Start by moving between notes here, then try the same patterns in your own vault.
+![[Assets/logo - kplex.png|180]]
 
-## Where would you like to begin?
+## Choose a starting point
 
-- **I want to accomplish something useful** → [[07 Use cases/Use cases|What You Can Do with K-Plex]]: practical workflows with concrete outcomes.
-- **I'm new to K-Plex** → [[00 Start Here/First 5 minutes|Get oriented in five minutes]].
-- **I need a particular technique** → [[00 Start Here/Choose a topic|Choose a discovery path]]: 13 guided routes through the reference.
-- **I need to understand a term** → [[00 Start Here/Glossary|Glossary of K-Plex terms]].
-- **I want to know what changed** → [[11 Release notes/Release notes|Release notes by version]], including the draft for 0.2.0, or [[00 Start Here/Recently added features|Changes since 0.1.3]] for a rolling overview.
+- **New here?** [[00 Start Here/Get started|Take a short tour]].
+- **Have a practical goal?** [[07 Use cases/Use cases|Choose an everyday workflow]].
+- **Need a particular technique?** [[00 Start Here/Choose a topic|Follow a focused learning path]].
+- **Returning after an update?** [[00 Start Here/Recently added features|See what is worth trying]].
 
-Prefer exploring? Make this note the center, open a Child below it, then navigate back.
+Make this note the center of K-Plex, then open a Child below it. Pin the home page if you want an easy way back. You can also read every guide through ordinary Markdown links and folders.
 
-> [!important] Check the installed version
-> Reviewed October 20, 2026: the published release is **0.1.3**. This vault includes a development build from main so you can try the draft 0.2.0 features. Its manifest still says 0.1.2; see [[README|Opening this vault]] for the exact build boundary. **Next release** means merged, not published.
+## Learn just what you need
 
-## Browse the reference by subject
+| Your next task | Start here |
+| --- | --- |
+| Understand the directions | [[01 Core concepts/Core concepts]] |
+| Find or revisit a note | [[02 Navigate and explore/Navigate and explore]] |
+| Create and connect ideas | [[03 Build and edit/Build and edit]] |
+| Make a busy map useful | [[04 Filter and focus/Filter and focus]] |
+| Fit the map to your workspace | [[05 Personalize and workspace/Personalize and workspace]] |
+| Understand loading or fix a problem | [[06 Indexing and troubleshooting/Indexing and troubleshooting]] |
 
-| Discover | Build | Work confidently |
-| --- | --- | --- |
-| [[Core concepts]] | [[Build and edit]] | [[Indexing and troubleshooting]] |
-| [[Navigate and explore]] | [[Filter and focus]] | [[Use cases]] |
-| [[How to use this help vault]] | [[Personalize and workspace]] | [[About K-Plex]] |
+The help itself demonstrates Parent/Child topics, Friend cross-links, Challenger caveats and Previous/Next sequences. [[00 Start Here/How to use this help vault|See how the example works]].
 
-## The map has a grammar
+> [!note] About this demo
+> The included development build demonstrates features prepared for 0.2.0. The latest published release is 0.1.3; not every control shown here is in that release. [[README|Check the setup and version guidance]] before using another build.
 
-Parent means broader context; Child means detail or part. Friends provide related perspectives; Challengers introduce tension, objections or caveats. Previous/Next describes a meaningful sequence rather than a hierarchy.
+## Keep exploring
 
-The standard layout gives those meanings stable directions. [[01 Core concepts/Relationship roles]] explains the grammar, and [[01 Core concepts/Idea Compass]] turns it into thinking prompts. The next-release [[05 Personalize and workspace/Layout density and typography|One-sided layout]] changes the arrangement, not the relationships' meanings.
-
-> [!tip] Make the help interactive
-> Pin this home node and [[07 Use cases/Use cases|What You Can Do with K-Plex]]. Inspect how Guide, Explains, Related and Watch out map to the standard roles. Use Connection details on an edge to see the source that created it. With a next-release build, open **Footprints** to retrace your visits to these notes without affecting shared history.
-
-## Try what changed
-
-Explore [[03 Build and edit/Manage and clean up ontology]] for paired fields and a searchable list of their documents. [[06 Indexing and troubleshooting/On demand vs Eager]] explains the desktop/tablet/phone choices. The [[11 Release notes/K-Plex 0.2.0 release notes|0.2.0 draft]] connects these changes to the living guides.
-
-## Useful routes through the help
-
-[[10 Discover by topic/11 Work without the mouse]] combines keyboard navigation and the [[02 Navigate and explore/K-Plex command palette]]. [[10 Discover by topic/13 Present and concentrate]] uses fullscreen and Zen. [[10 Discover by topic/12 Connect dates and daily notes]] links calendar context to knowledge. [[05 Personalize and workspace/Actions and shortcuts]] explains local versus Obsidian-published commands.
-
-For newly documented workflows, try [[02 Navigate and explore/Wander]], [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]], [[05 Personalize and workspace/Colors and themes]], or [[03 Build and edit/Drag drop and reclassify]]. To remove one relationship source without deleting the others, use [[03 Build and edit/Remove one relationship source]].
-
-## Official resources
-
-[K-Plex and issues](https://github.com/zsviczian/kplex) · [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) · [Sketch Your Mind Community](https://community.sketch-your-mind.com/) · [Support on Ko-fi](https://ko-fi.com/zsolt) · [Sketch Your Mind book](https://community.sketch-your-mind.com/sym).
-
-**Visual defaults in this help:** siblings hidden, cross-link opacity 50%, regular label length 100 and thinner node/relationship strokes. Show cross-links must be turned off manually in Filters and lenses; the reviewed implementation does not persist that view-local toggle.
+Read [[11 Release notes/Release notes|the release history]], meet [[08 About/About K-Plex|the project and community]], or try [[07 Use cases/Never start a project with a blank page|building a new project from notes you already have]].

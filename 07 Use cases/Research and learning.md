@@ -15,6 +15,14 @@ Friend:
 Next:
 - '[[07 Use cases/Projects and decisions]]'
 ---
+# Research and learning
+
+Have plenty of reading notes but no clear argument yet? Build an article around a question, connect its claims to sources and keep counter-evidence visible.
+
+![[Assets/Screenshot - Read beside the map.png]]
+
+*A normal Markdown pane sits beside the Plex so you can read or write while keeping the note's context visible.*
+
 **Outcome:** A collection of reading notes becomes an argument or article outline whose claims remain connected to their sources.
 
 ## Try it: answer a question rather than collect more material

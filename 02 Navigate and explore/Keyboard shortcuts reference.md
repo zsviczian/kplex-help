@@ -10,7 +10,13 @@ Related:
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
 ---
-These are the current **fresh-install defaults** when the relevant K-Plex surface has keyboard focus. Existing vaults can retain older assignments (such as **F4** for Search Vault), explicit disables and custom bindings. Your own settings and the in-app **Keyboard help** are authoritative for your installation.
+# Keyboard shortcuts reference
+
+Use a faster way to perform a familiar action. Find its default shortcut here, then check your saved bindings if your vault behaves differently.
+
+![[Assets/Screenshot - Keyboard help.png]]
+
+*The built-in keyboard reference shows the effective shortcuts in this vault. Your saved keys can differ from fresh-install defaults.*
 
 ## Focus, selection and movement
 

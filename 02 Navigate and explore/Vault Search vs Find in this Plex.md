@@ -12,9 +12,15 @@ Previous:
 Next:
 - '[[02 Navigate and explore/Past nodes and pins]]'
 ---
-![[Image - Search.png]]
+# Vault Search vs Find in this Plex
 
-There are two search tools because they answer **different questions**.
+Go to another note, or find something on the map already in front of you. Search Vault changes your destination; Find in this Plex locates a visible match.
+
+![[Assets/Screenshot - Find on this map.png]]
+
+*Local Find highlights a matching note on the displayed map without changing its center.*
+
+![[Image - Search.png]]
 
 | | Search Vault | Find in this Plex |
 | --- | --- | --- |
@@ -27,7 +33,7 @@ There are two search tools because they answer **different questions**.
 
 K-Plex fuzzy-matches names, display names, paths, aliases and URL substrings. Full filename/path lookup can work while richer indexing is in progress. URL discovery may still be incomplete.
 
-**Next release:** Search includes folders and hierarchical tags, with type icons to distinguish results. Type **#** before a query to search tags only. Search, history and pins retain full tag paths, so similarly named child tags are easier to distinguish.
+Search includes folders and hierarchical tags, with type icons to distinguish results. Type **#** before a query to search tags only. Search, history and pins retain full tag paths, so similarly named child tags are easier to distinguish.
 
 Make a folder the center to explore its location and contents. Make a hierarchical tag the center to see its parent, child tags and associated notes—even when tags are hidden in ordinary note neighborhoods. Native folders and tags already known to Obsidian can appear during startup without waiting for the complete richer index.
 
@@ -48,5 +54,3 @@ With the graph focused, type a phrase to select matching displayed node labels a
 The node highlight is shared by keyboard selection and Find, making it easier to follow the selected item when switching methods. Neither alone changes the Plex center.
 
 **Shortcut note:** Defaults and saved assignments can differ. Alt+/ on Windows or Option+/ on macOS is a fresh graph-local Vault Search default; F4 can remain in upgraded or customized vaults, including the supplied help configuration. Control+F / Command+F remains the editor's normal Find command when an editor has focus.
-
-Sources: [earlier Find refinement #108](https://github.com/zsviczian/kplex/pull/108), [next-release search and tag navigation #177](https://github.com/zsviczian/kplex/pull/177), [reviewed navigation guide](https://github.com/zsviczian/kplex/blob/10760685552fdbafe089a58fc8d80d318853ff31/README.md#search-history-and-pins).

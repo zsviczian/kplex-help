@@ -17,14 +17,18 @@ Explains:
 Related:
 - '[[10 Discover by topic/07 Customize the look and workspace]]'
 - '[[10 Discover by topic/12 Connect dates and daily notes]]'
+- '[[00 Start Here/K-Plex Help]]'
+- '[[00 Start Here/Choose a topic]]'
 ---
-> **Your goal:** Model decisions, dependencies and ordered steps without mixing their meanings.
+# Organize projects and sequences
+
+Model decisions, dependencies and ordered steps without mixing their meanings. Follow this short path, then try it with your own notes.
 
 You organize initiatives, projects, decisions, procedures or learning sequences.
 
 ## Follow the trail
 
-These are existing help notes, presented here in a useful order. You can follow the wikilinks in Markdown or open this path in K-Plex and explore its **Children**.
+Follow the links below, or center this path in K-Plex and explore its Children.
 
 1. **[[07 Use cases/Projects and decisions|Projects and decisions]]** — Map scope, deliverables, adjacent systems and risks.
 2. **[[07 Use cases/Sequential workflows|Sequential workflows]]** — Model step order through Previous and Next.
@@ -32,8 +36,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 4. **[[03 Build and edit/Create a relationship|Create a relationship]]** — Use explicit properties to declare important dependencies.
 5. **[[02 Navigate and explore/Past nodes and pins|Past nodes and pins]]** — Keep the project hub within easy reach.
 
-
-## New capabilities on this route
+## More ways to reach your goal
 
 - [[07 Use cases/Meeting notes and daily notes|Meeting notes and daily notes]] — distinguish date context from ordered steps
 - [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]] — configure the intended role for a date field
@@ -42,7 +45,7 @@ These are existing help notes, presented here in a useful order. You can follow 
 
 Make a three-step process. Connect its steps with **Previous/Next**, add a broader project as Parent, and keep a risk on the Challenger side.
 
-## Additional exercise
+## Try another small step
 
 Add a Date-type property to a disposable meeting note. Choose whether the daily note belongs above as context or in another explicit role.
 

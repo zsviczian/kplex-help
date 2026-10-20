@@ -16,6 +16,10 @@ Friend:
 - "https://community.sketch-your-mind.com/sym"
 - "https://github.com/zsviczian/sketch-your-mind/blob/main/images/cover.jpg"
 ---
+# Sketch Your Mind book
+
+Explore more ways to think through ideas visually. Sketch Your Mind offers practices that complement exploring relationships in K-Plex.
+
 *Sketch Your Mind* explores visual thinking and how to make ideas easier to understand, connect and remember. Its focus on thinking through relationships complements K-Plex's spatial navigation of an Obsidian vault.
 
 ![Cover of Sketch Your Mind](https://raw.githubusercontent.com/zsviczian/sketch-your-mind/main/images/cover.jpg)

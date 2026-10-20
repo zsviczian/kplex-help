@@ -10,8 +10,15 @@ Friend:
 - '[[07 Use cases/Rediscover and remember your notes]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 - '[[04 Filter and focus/Graph Lenses]]'
+- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
 ---
-**Available in K-Plex 0.1.3.** Wander takes you through connected notes when you do not have a particular destination in mind.
+# Wander
+
+Rediscover useful notes without choosing a destination. Let Wander walk through connected ideas, then pause when something catches your attention.
+
+![[Assets/Screenshot - Wander controls.png]]
+
+*Wander keeps pause/play, pace and stop controls at the bottom while the map is in Zen mode.*
 
 ## Start and steer a walk
 

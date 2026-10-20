@@ -13,7 +13,13 @@ Previous:
 Next:
 - '[[05 Personalize and workspace/Sidecar]]'
 ---
-A note can reference a small image through a property or Dataview-style inline field. By default:
+# Images in nodes
+
+Recognize an idea by its picture rather than its title. Add a thumbnail or image to a note, or display an image attachment directly in the map.
+
+![[Assets/Screenshot - A note with a thumbnail.png]]
+
+*A local Compass thumbnail appears beside the example's label. Local images do not need remote-image permission.*
 
 ```markdown
 thumbnail:: [[image.jpg]]
@@ -26,10 +32,8 @@ Image attachments can also appear as their own nodes, displayed as **file name**
 
 ## Remote images require permission
 
-**Available in 0.1.3:** Remote node images are disabled by default. Enable **Allow remote node images** in K-Plex settings only when you intend to load them. This can send a request to the image's hosting server. Local images do not need this permission.
+Remote node images are disabled by default. Enable **Allow remote node images** in K-Plex settings only when you intend to load them. This can send a request to the image's hosting server. Local images do not need this permission.
 
 A remote image embedded in an ordinary Obsidian note and that same image used as a K-Plex node image are different display paths. A book cover visible in the document is not proof that K-Plex's remote-node-image permission is enabled.
 
 For visual thinking, local images or Excalidraw notes can give ideas a recognizable identity. The workflows here do not assume an interface for choosing a particular Excalidraw focus frame as the graph card. See [[03 Build and edit/Excalidraw integration]] and [[07 Use cases/Develop visual ideas]].
-
-[Source: release 0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3).

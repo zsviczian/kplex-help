@@ -10,6 +10,10 @@ Friend:
 Next:
   - "[[08 About/From ExcaliBrain to K-Plex]]"
 ---
+# ExcaliBrain origins
+
+Used ExcaliBrain, or curious why K-Plex arranges ideas this way? Follow the origins of its spatial model and see what carries over into today's plugin.
+
 **ExcaliBrain** was the predecessor that explored a structured, spatial mind map for an Obsidian vault. It used a centered “thought” with stable directions for hierarchy and lateral relationships, and it popularized the idea of a configurable **link ontology**: properties could mean Parent, Child, Friend and other directional roles.
 
 ExcaliBrain was built deeply around the Obsidian ecosystem of its time, including Dataview for metadata processing and Excalidraw as the rendering surface. It also supported unresolved/ghost nodes, ontology suggestions and style rules driven by metadata and tags.

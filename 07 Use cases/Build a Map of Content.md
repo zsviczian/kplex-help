@@ -14,6 +14,14 @@ Friend:
 - '[[03 Build and edit/Create a relationship]]'
 - '[[07 Use cases/Research and learning]]'
 ---
+# Build a Map of Content
+
+Have useful notes scattered across a subject? Gather them around one starting point so you can return to the topic without searching from scratch.
+
+![[Assets/Screenshot - Expanded neighbors.png]]
+
+*The workshop plan stays central while the material branch reveals its two source notes one level further down.*
+
 **Outcome:** A useful starting point for a subject, assembled from notes you already have—not another index you must maintain by hand.
 
 ## Try it: make a home for a subject

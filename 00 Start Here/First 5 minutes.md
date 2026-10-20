@@ -10,9 +10,15 @@ Related:
 Next:
 - '[[00 Start Here/How to use this help vault]]'
 ---
-![[Icon - Stopwatch.svg|105]]
+# First 5 minutes
 
-Try K-Plex in this help vault before editing your own important notes.
+Understand the map before changing your own notes. Take a short walk through this help vault: find a note, follow its connections and return to where you started.
+
+![[Assets/Screenshot - Reading relationships.png]]
+
+*The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
+
+![[Icon - Stopwatch.svg|105]]
 
 1. Install and enable **K-Plex** in Obsidian 1.13.0 or newer, if it is not already enabled.
 2. Run **Open K-Plex** from Obsidian's Command Palette or choose the K-Plex ribbon icon.

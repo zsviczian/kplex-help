@@ -9,6 +9,14 @@ Friend:
 - '[[03 Build and edit/Date properties and daily notes]]'
 Date: '2026-10-09'
 ---
+# Example - Date and a daily note
+
+See how a date connects a meeting to its day. Center this example and compare its Date relationship with its ordinary Parent relationship.
+
+![[Assets/Screenshot - Date connections.png]]
+
+*The Date example connects to its daily note as well as its broader topic. These are separate reasons for the two relationships.*
+
 **This note contains a real native Date value in its properties.** Its `Date` value is `2026-10-09` (see the YAML at the top of the file). A companion file named `2026-10-09.md` exists in this vault root.
 
 ## Try it

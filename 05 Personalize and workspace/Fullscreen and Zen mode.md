@@ -11,7 +11,13 @@ Related:
 - '[[05 Personalize and workspace/Layout density and typography]]'
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 ---
-Fullscreen and Zen solve different problems. They are **independent** and can be used together; neither changes note relationships or starts a reindex.
+# Fullscreen and Zen mode
+
+Need more room to think, or fewer controls competing for attention? Use fullscreen for workspace space and Zen mode for a quieter map.
+
+![[Assets/Screenshot - Focus without toolbars.png]]
+
+*Fullscreen and Zen make more room for the map. The lower graph controls remain available so you can return to the normal view.*
 
 | Mode | What changes | Where |
 | --- | --- | --- |
@@ -37,5 +43,3 @@ Neither state is a saved vault preference. Modes last for **this view session**;
 ## Windows and narrow-window controls
 
 Recent control layout refinements keep **fullscreen and Zen buttons clear of Windows' native window controls**, including the maximized Zen editor. In smaller panes, control arrangement adapts to avoid collisions. Fullscreen still covers the owning Obsidian workspace rather than changing the operating system's fullscreen state. Toggling either mode should preserve the current camera and selected note.
-
-[Change: PR #108](https://github.com/zsviczian/kplex/pull/108).

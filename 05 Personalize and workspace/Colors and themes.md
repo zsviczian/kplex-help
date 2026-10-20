@@ -12,7 +12,9 @@ Friend:
 - '[[05 Personalize and workspace/Visibility and connector styling]]'
 - '[[04 Filter and focus/Graph Lenses]]'
 ---
-**Next release:** These appearance controls are merged into K-Plex main but are not included in released 0.1.3. See [[00 Start Here/Recently added features]] for the review baseline.
+# Colors and themes
+
+Want the map to fit your Obsidian theme while keeping colors that mean something to you? Choose a named appearance, adjust it and reset only the colors you intend to change.
 
 ## Follow Obsidian or keep your own appearance
 
@@ -54,14 +56,16 @@ Under **Colors → Named colors**, create and manage Light/Dark pairs. Renaming 
 
 ## Add a subtle directional cue
 
+![[Assets/Screenshot - Directional tint.png]]
+
+*The directional-tint editor compares Light and Dark colors and keeps Save and Cancel visible.*
+
 **Colors → Directional background tint** adds four Compass sectors behind the graph. It is off by default. Choose colors and an intensity, then Save. The sectors are orientation cues, not exact membership boundaries or drop targets; they do not change relationships.
 
 Custom node and link editors also provide paired previews and sliders with inheritance reset. Note Type tag links have a separate style and inherit twice the ordinary tag-link width by default.
 
 ## Settings arriving from another device
 
-**Next release:** Valid external settings received by Obsidian are applied to the running plugin without replaying another device's navigation or saving the same settings straight back. A conflicting open editor may ask you to reopen and reapply its draft. Unrelated local edits preserve accepted incoming changes.
+Valid external settings received by Obsidian are applied to the running plugin without replaying another device's navigation or saving the same settings straight back. A conflicting open editor may ask you to reopen and reapply its draft. Unrelated local edits preserve accepted incoming changes.
 
 This does not replace Obsidian Sync or guarantee conflict-free simultaneous offline edits. Indexing-strategy changes still require a restart. Keep a settings backup before upgrading or downgrading; older releases cannot interpret all newer theme references.
-
-Sources: [appearance guide at the reviewed commit](https://github.com/zsviczian/kplex/blob/10760685552fdbafe089a58fc8d80d318853ff31/docs/APPEARANCE.md), [themes #158](https://github.com/zsviczian/kplex/pull/158), [live settings #182](https://github.com/zsviczian/kplex/pull/182).
