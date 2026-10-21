@@ -6,6 +6,9 @@ tags:
 - kplex/getting-started
 Guide:
 - '[[00 Start Here/Get started]]'
+Related:
+- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.2.1'
 ---
 # Try K-Plex with a ready-made vault
 
@@ -20,9 +23,11 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-This checkout includes a **development build deployed October 20, 2026**, demonstrating features prepared for **0.2.0**. **0.2.0 is not yet published.** The latest published release is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3), released October 13. The included development plugin's unchanged manifest says **0.1.2**; that label does not identify its development code.
+The bundled plugin currently identifies itself as **0.2.1**. The latest published version is [0.2.1](https://github.com/zsviczian/kplex/releases/tag/0.2.1), a technical republication of the October 20 **0.2.0** release.
 
-The living guides describe the demo's behavior. If you install published 0.1.3 instead, some controls and workflows shown here will differ. Back up the supplied settings before switching versions: they contain this vault's example ontology, colors and navigation choices. Read [[11 Release notes/Release notes|the release archive]] for historical availability and the clearly marked draft.
+The living guides also describe the upcoming **0.2.2** grouping feature. The bundled plugin does not yet include it: use a build containing that feature, or update to 0.2.2 after it is published. Read [[11 Release notes/K-Plex 0.2.2 release notes|the 0.2.2 draft]] for its scope.
+
+Back up the supplied settings before switching versions: they contain this vault's example ontology, colors and navigation choices. Read [[11 Release notes/Release notes|the release archive]] for historical availability.
 
 ## Choose how to explore
 

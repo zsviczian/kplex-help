@@ -23,6 +23,9 @@ Friend:
 - https://obsidian.md
 Related:
 - '[[07 Use cases/Never start a project with a blank page]]'
+- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
+- '[[00 Start Here/How to use this help vault]]'
+- '[[README]]'
 ---
 # K-Plex Help
 
@@ -53,7 +56,7 @@ Make this note the center of K-Plex, then open a Child below it. Pin the home pa
 The help itself demonstrates Parent/Child topics, Friend cross-links, Challenger caveats and Previous/Next sequences. [[00 Start Here/How to use this help vault|See how the example works]].
 
 > [!note] About this demo
-> The included development build demonstrates features prepared for 0.2.0. The latest published release is 0.1.3; not every control shown here is in that release. [[README|Check the setup and version guidance]] before using another build.
+> The bundled plugin identifies itself as 0.2.1. These guides also cover grouping planned for [[11 Release notes/K-Plex 0.2.2 release notes|0.2.2]], which needs a newer build. [[README|Check the setup and version guidance]] before trying that feature.
 
 ## Keep exploring
 

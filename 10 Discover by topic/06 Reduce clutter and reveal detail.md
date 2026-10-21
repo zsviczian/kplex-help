@@ -13,6 +13,7 @@ Explains:
 - '[[04 Filter and focus/Keep layout vs Reflow]]'
 - '[[04 Filter and focus/Expand a note into sections]]'
 - '[[04 Filter and focus/Expanded relationship view]]'
+- '[[04 Filter and focus/Group nodes by note type]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
 Related:
 - '[[10 Discover by topic/02 Find and navigate knowledge]]'
@@ -36,6 +37,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 4. **[[04 Filter and focus/Keep layout vs Reflow|Keep layout vs Reflow]]** — Choose between spatial continuity and compact arrangement.
 5. **[[04 Filter and focus/Expand a note into sections|Expand a note into sections]]** — Explore headings inside a long note.
 6. **[[04 Filter and focus/Expanded relationship view|Expanded relationship view]]** — Show the children of visible first-level neighbors.
+7. **[[04 Filter and focus/Group nodes by note type|Group nodes by note type]]** — Start with a compact overview, then unfold the kind of material you need.
 
 ## More ways to reach your goal
 

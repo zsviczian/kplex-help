@@ -11,6 +11,7 @@ Child:
   - "[[04 Filter and focus/Keep layout vs Reflow]]"
   - "[[04 Filter and focus/Expand a note into sections]]"
   - "[[04 Filter and focus/Expanded relationship view]]"
+  - "[[04 Filter and focus/Group nodes by note type]]"
 Friend:
   - "[[02 Navigate and explore/Vault Search vs Find in this Plex]]"
 Related:
@@ -29,6 +30,7 @@ Is the map too busy for the question you are working on? Filter distractions, hi
 - **Keep layout vs Reflow:** [[04 Filter and focus/Keep layout vs Reflow|Preserve positions or compact the result]].
 - **Sections:** [[04 Filter and focus/Expand a note into sections|Expand a long Markdown note by headings]].
 - **Another layer:** [[04 Filter and focus/Expanded relationship view|Expand children beneath first-level nodes]].
+- **A compact overview:** [[04 Filter and focus/Group nodes by note type|Group related notes by type, then unfold the group you need]].
 
 > [!important] The lens boundary
 > [[04 Filter and focus/Graph Lenses are local|Graph Lenses are local]]: they evaluate the currently visible neighborhood. They do not search every disconnected note in your vault.
