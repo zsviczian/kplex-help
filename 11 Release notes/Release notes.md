@@ -8,6 +8,7 @@ tags:
 Guide:
   - "[[00 Start Here/K-Plex Help]]"
 Child:
+  - '[[11 Release notes/K-Plex 0.2.2 release notes]]'
   - "[[K-Plex 0.2.0 release notes]]"
   - "[[11 Release notes/K-Plex 0.1.3]]"
   - "[[11 Release notes/K-Plex 0.1.2]]"
@@ -19,6 +20,8 @@ Child:
   - "[[11 Release notes/K-Plex 0.0.2]]"
   - "[[11 Release notes/K-Plex 0.0.1]]"
 Related:
+- 'https://github.com/zsviczian/kplex/releases/tag/0.2.0'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.2.1'
 - '[[README]]'
 - '[[00 Start Here/Recently added features]]'
 - 'https://github.com/zsviczian/kplex/releases/tag/0.0.1'
@@ -35,17 +38,18 @@ Related:
 
 Wondering whether an update helps your workflow? Browse the release history for what changed, then follow a feature link to learn how to use it.
 
-This archive connects **what changed** in each release with **how to use it** in this living K-Plex Help vault. Published GitHub release notes are reproduced as historical source material, with explicit links to the current guides.
+This archive connects **what changed** in each release with **how to use it** in this living K-Plex Help vault. Published notes are reproduced or clearly identified as reader-facing summaries, with links to the original release and current guides.
 
 > [!important] Version boundary
-> **0.2.0 is a draft, not a release.** As of October 20, 2026, the latest published version is [0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3). This vault now includes a development build from main for trying draft features; its unchanged 0.1.2 manifest is not a release identifier. See [[README|Opening this vault]].
+> **0.2.2 is the upcoming release.** The latest published version is [0.2.1](https://github.com/zsviczian/kplex/releases/tag/0.2.1), a technical republication of 0.2.0 following a release hiccup. Its user-facing changes are covered by the 0.2.0 notes, so there is no separate 0.2.1 page. See [[README|Opening this vault]] for the bundled plugin's version.
 
 ## Upcoming
 
-- [[K-Plex 0.2.0 release notes|K-Plex 0.2.0 — working draft]]
+- [[11 Release notes/K-Plex 0.2.2 release notes|K-Plex 0.2.2 — grouping and accessible lens colors (draft)]]
 
 ## Published releases
 
+- [[11 Release notes/K-Plex 0.2.0 release notes|K-Plex 0.2.0]] — 2026-10-20 ([GitHub](https://github.com/zsviczian/kplex/releases/tag/0.2.0)); also covers the technical 0.2.1 republication.
 - [[11 Release notes/K-Plex 0.1.3|K-Plex 0.1.3]] — 2026-10-13 ([GitHub](https://github.com/zsviczian/kplex/releases/tag/0.1.3))
 - [[11 Release notes/K-Plex 0.1.2|K-Plex 0.1.2]] — 2026-10-10 ([GitHub](https://github.com/zsviczian/kplex/releases/tag/0.1.2))
 - [[11 Release notes/K-Plex 0.1.1|K-Plex 0.1.1]] — 2026-10-10 ([GitHub](https://github.com/zsviczian/kplex/releases/tag/0.1.1))

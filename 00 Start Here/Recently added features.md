@@ -19,6 +19,8 @@ Explains:
 - '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
 - '[[08 About/About K-Plex]]'
 Related:
+- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
+- '[[04 Filter and focus/Group nodes by note type]]'
 - '[[README]]'
 - '[[11 Release notes/K-Plex 0.2.0 release notes]]'
 - '[[07 Use cases/Never start a project with a blank page]]'
@@ -29,7 +31,7 @@ Related:
 
 Returning to K-Plex and wondering what is worth trying? Start with the task you want to make easier, then open the relevant guide.
 
-This demo includes features prepared for **0.2.0**. The latest published release is **0.1.3**. Use [[README|the setup guidance]] if your controls differ, and [[11 Release notes/K-Plex 0.2.0 release notes|the 0.2.0 draft]] for the proposed release overview.
+The [[11 Release notes/K-Plex 0.2.0 release notes|0.2.0 release]] introduced the workflows below; 0.2.1 was its technical republication. The [[11 Release notes/K-Plex 0.2.2 release notes|upcoming 0.2.2 update]] adds grouping and keeps lens color editors in front of their parent panel. Use [[README|the setup guidance]] if your controls differ.
 
 ## Find and revisit ideas
 
@@ -42,6 +44,8 @@ Drag supported nodes between Plexes, bring links into a draft, choose where a ne
 ## Reveal the right detail
 
 Open a long note's sections or one extra layer beneath neighboring nodes. Filter the map temporarily or save a reusable perspective. [[04 Filter and focus/Filter and focus|Choose how to focus]].
+
+For a compact overview of a busy neighborhood, [[04 Filter and focus/Group nodes by note type|group nodes by note type]], then unfold just the group you need. This is the new capability described in the 0.2.2 draft.
 
 ## Make the workspace fit
 

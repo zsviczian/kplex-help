@@ -2387,7 +2387,8 @@ button.kplex-sidecar-unfold-plex,
   box-shadow: 0 0 0 1px var(--background-modifier-border);
 }
 .kplex-filter-portal {
-  z-index: 100000;
+  /* Float above workspace panes while native color dialogs and suggestions retain their layers. */
+  z-index: var(--layer-popover, 30);
   box-sizing: border-box;
   overflow: auto;
   overscroll-behavior: contain;
@@ -3800,3 +3801,16 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 /* Native theme controls wrap on narrow Settings pages without a separate toolbar. */
 .kplex-theme-setting .setting-item-control { flex-wrap: wrap; gap: var(--size-4-2); }
 .kplex-theme-setting select { max-width: min(260px, 100%); }
+
+/* Group totals sit outside the pill and remain visible independently of gate-count settings. */
+.kplex-group-count {
+  position: absolute;
+  right: -10px;
+  bottom: -13px;
+  color: var(--text-muted);
+  font-size: 10px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.kplex-thought.is-relation-group { cursor: pointer; }
