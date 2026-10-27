@@ -30,6 +30,8 @@ Past nodes and pins use your node styles, including note-type and tag colors, bo
 
 To scroll Past nodes with a mouse, hold the primary button and drag left or right. A short click still opens the chosen note. Touch swiping, trackpad scrolling and keyboard activation remain available.
 
+In Mind Map, selecting a history entry or pin starts the map at that note as its new root. The full History and pins pickers do the same, within the canvas that opened them.
+
 You can also create relationships from these surfaces. Drag a relationship gate onto a history entry or pinned note to connect using that gate's relationship type. Dragging a node body onto a history entry or pin lets you choose the relationship type.
 
 This help vault starts with a few useful pins, including [[00 Start Here/K-Plex Help|K-Plex Help]] and [[01 Core concepts/Relationship roles|Relationship roles]].
