@@ -39,9 +39,31 @@
                   "plexView": {
                     "version": 1,
                     "id": "classic",
-                    "states": {},
-                    "areaHeights": {},
-                    "roots": {}
+                    "states": {
+                      "mindmap": {
+                        "version": 1,
+                        "scope": "11 Release notes/K-Plex 0.3.0 release notes.md",
+                        "initialGenerations": 1,
+                        "expanded": [],
+                        "collapsed": [],
+                        "sides": {
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"01 Core concepts/Canvas views.md\"]": -1,
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"02 Navigate and explore/Editor node and web pages.md\"]": 1,
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"02 Navigate and explore/Mind Map.md\"]": 1,
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Expand a note into sections.md\"]": 1,
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Facets.md\"]": -1,
+                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Share presets and lenses.md\"]": -1
+                        }
+                      }
+                    },
+                    "areaHeights": {
+                      "mindmap": {
+                        "parentHeight": 261
+                      }
+                    },
+                    "roots": {
+                      "mindmap": "11 Release notes/K-Plex 0.3.0 release notes.md"
+                    }
                   },
                   "documentSyncMode": "off",
                   "sidecarOpen": false,
@@ -222,9 +244,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "11 Release notes/K-Plex 0.2.0 release notes.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -252,6 +272,13 @@
   },
   "active": "f96c6c66434b3021",
   "lastOpenFiles": [
+    "Assets/Image - select canvas view.png",
+    "04 Filter and focus/Facets.md",
+    "Assets/Image - View Facets.png",
+    "01 Core concepts/Canvas views.md",
+    "11 Release notes/K-Plex 0.3.0 release notes.md",
+    "09 Showcase examples/Example - A note with sections.md",
+    "09 Showcase examples/Example - A visual note.md",
     "README.md",
     "Start Here.md",
     "11 Release notes/K-Plex 0.2.0 release notes.md",
@@ -260,7 +287,6 @@
     "03 Build and edit/Manage and clean up ontology.md",
     "Assets/Screenshot - Footprints trail.png",
     "Assets/Screenshot - Section outline.png",
-    "09 Showcase examples/Example - A note with sections.md",
     "Assets/Screenshot - Named themes.png",
     "Assets/Screenshot - Device indexing.png",
     "Assets/Screenshot - Ontology documents.png",
@@ -269,7 +295,6 @@
     "08 About/About K-Plex.md",
     "Assets/About - kplex.png",
     "Assets/Image - About.png",
-    "Assets/logo - kplex.png",
     "00 Start Here/First 5 minutes.md",
     "09 Showcase examples/Example - Research question.md",
     "08 About/Support K-Plex.md",
@@ -282,12 +307,6 @@
     "07 Use cases/Projects and decisions.md",
     "07 Use cases/Build a help system like this vault.md",
     "07 Use cases/Argument maps with Challengers.md",
-    "06 Indexing and troubleshooting/Web link indexing.md",
-    "06 Indexing and troubleshooting/Troubleshooting checklist.md",
-    "06 Indexing and troubleshooting/Rebuild purge and diagnostics.md",
-    "06 Indexing and troubleshooting/Large vault behavior.md",
-    "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
-    "Assets/Icon - Stopwatch.svg",
     "Excalidraw",
     "Assets",
     "02 Navigate and explore",

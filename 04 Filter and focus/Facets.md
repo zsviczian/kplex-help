@@ -1,26 +1,30 @@
 ---
 tags:
-- "kplex-help/how-to"
-- "kplex/canvas"
+  - kplex-help/how-to
+  - kplex/canvas
 Guide:
-- "[[01 Core concepts/Canvas views]]"
+  - "[[01 Core concepts/Canvas views]]"
 Explains:
-- "[[04 Filter and focus/Define a Facets workflow]]"
-- "[[04 Filter and focus/Facets layouts and classification]]"
-- "[[04 Filter and focus/Share presets and lenses]]"
-- "[[09 Showcase examples/Facets demonstrations]]"
+  - "[[04 Filter and focus/Define a Facets workflow]]"
+  - "[[04 Filter and focus/Facets layouts and classification]]"
+  - "[[04 Filter and focus/Share presets and lenses]]"
+  - "[[09 Showcase examples/Facets demonstrations]]"
 Watch out:
-- "[[04 Filter and focus/Graph Lenses are local]]"
+  - "[[04 Filter and focus/Graph Lenses are local]]"
 Related:
-- "[[Assets/Screenshot - Facets workbench questions.png]]"
+  - "[[Assets/Screenshot - Facets workbench questions.png]]"
 ---
 # Make your own workflow visible with Facets
+
+![[Image - View Facets.png]]
 
 Bring a question of your own to your connected notes: what is ready to use, which sources need attention, or where should you spend the next ten minutes? Facets lets you define useful categories and arrange the current note’s neighbors around that question.
 
 You choose the categories, the source that classifies notes and the arrangement. A preset saves those choices for reuse. It can describe your project stages, reading priorities or any other distinction already present in your notes; you do not need to adopt somebody else's system.
 
 Fresh K-Plex starts with **Wu Xing** and **Local map roles**. ARC, PARA, GTD horizons, eACCESS, Sensemaking and Publishing pipeline are [optional JSON downloads](https://github.com/zsviczian/kplex/tree/0a1365e820d343c2cf8708c66eeea8417f77cbc7/presets/facets), rather than built-in choices. Import only what you use, or define a workflow of your own. Saved definitions remain available when the built-in set changes.
+
+
 
 ## Start with a question you actually have
 

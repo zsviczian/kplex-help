@@ -17,6 +17,8 @@ map-role: supporting-map
 
 The same connected notes can answer different questions. Choose a view that makes the question easier to see; your notes and their relationships stay in place.
 
+![[Image - select canvas view.png]]
+
 ## Three ways to see your notes
 
 | View | Use it when you want to… | What stays in focus |
