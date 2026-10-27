@@ -1,22 +1,21 @@
 ---
 aliases:
-- Canvas views and reusable workflows
-- K-Plex 0.3.0 release notes
+  - K-Plex 0.3.0 release notes
 tags:
-- "kplex-help/release-notes"
+  - kplex-help/release-notes
 Guide:
-- "[[11 Release notes/Release notes]]"
+  - "[[11 Release notes/Release notes]]"
 Explains:
-- "[[01 Core concepts/Canvas views]]"
-- "[[04 Filter and focus/Facets]]"
-- "[[04 Filter and focus/Share presets and lenses]]"
-- "[[02 Navigate and explore/Mind Map]]"
-- "[[02 Navigate and explore/Editor node and web pages]]"
-- "[[04 Filter and focus/Expand a note into sections]]"
+  - "[[01 Core concepts/Canvas views]]"
+  - "[[04 Filter and focus/Facets]]"
+  - "[[04 Filter and focus/Share presets and lenses]]"
+  - "[[02 Navigate and explore/Mind Map]]"
+  - "[[02 Navigate and explore/Editor node and web pages]]"
+  - "[[04 Filter and focus/Expand a note into sections]]"
 Related:
-- "[[11 Release notes/K-Plex 0.2.4 release notes]]"
+  - "[[11 Release notes/K-Plex 0.2.4 release notes]]"
 ---
-# K-Plex 0.3.0 ? Canvas views and reusable workflows
+# Canvas views and reusable workflows
 
 Choose a perspective that suits the work in front of you. Explore a note’s context with Compass, develop a hierarchy with Mind Map, or organize connected notes through your own Facets workflow.
 
