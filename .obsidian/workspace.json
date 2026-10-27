@@ -42,18 +42,25 @@
                     "states": {
                       "mindmap": {
                         "version": 1,
-                        "scope": "11 Release notes/K-Plex 0.3.0 release notes.md",
+                        "scope": "09 Showcase examples/Example - Wu Xing perspectives.md",
                         "initialGenerations": 1,
-                        "expanded": [],
+                        "expanded": [
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"04 Filter and focus/Facets layouts and classification.md\"]",
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\",\"09 Showcase examples/Example - A visual note.md\"]",
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\"]"
+                        ],
                         "collapsed": [],
                         "sides": {
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"01 Core concepts/Canvas views.md\"]": -1,
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"02 Navigate and explore/Editor node and web pages.md\"]": 1,
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"02 Navigate and explore/Mind Map.md\"]": 1,
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Expand a note into sections.md\"]": 1,
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Facets.md\"]": -1,
-                          "[\"11 Release notes/K-Plex 0.3.0 release notes.md\",\"04 Filter and focus/Share presets and lenses.md\"]": -1
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - A note with sections.md\"]": 1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - A visual note.md\"]": -1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Research question.md\"]": 1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\"]": -1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop review.md\"]": 1
                         }
+                      },
+                      "wuxing": {
+                        "version": 1,
+                        "preset": "wuxing"
                       }
                     },
                     "areaHeights": {
@@ -62,7 +69,7 @@
                       }
                     },
                     "roots": {
-                      "mindmap": "11 Release notes/K-Plex 0.3.0 release notes.md"
+                      "mindmap": "09 Showcase examples/Example - Wu Xing perspectives.md"
                     }
                   },
                   "documentSyncMode": "off",
