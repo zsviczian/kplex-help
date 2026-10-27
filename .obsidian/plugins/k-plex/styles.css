@@ -1959,9 +1959,9 @@ button.kplex-sidecar-unfold-plex,
 }
 .kplex-node-status {
   position: absolute;
-  left: 24px;
+  left: 0;
   bottom: -16px;
-  max-width: calc(100% - 28px);
+  max-width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
