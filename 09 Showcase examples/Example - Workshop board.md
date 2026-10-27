@@ -15,6 +15,8 @@ Friend:
 - "[[04 Filter and focus/Facets]]"
 Note type: "Guide"
 Workshop stage: "Shape"
+Related:
+- "[[Assets/Screenshot - Facets workshop stage.png]]"
 ---
 # Where does the workshop material stand?
 
@@ -27,6 +29,10 @@ Prepare a workshop without losing track of the material you already have. This b
 3. Open a connected note's properties and inspect **Workshop stage**. The category comes from this exact property, regardless of its relationship role.
 
 The areas deliberately have different widths: compare a wider collection with a narrower shaping list. The arrows describe a suggested workflow; they do not create additional links.
+
+![[Assets/Screenshot - Facets workshop stage.png]]
+
+*Desktop example: the same project material appears in Collect, Shape and Share. Different area widths give the card lists different arrangements; the dashed guides describe the workflow.*
 
 ## Make it yours
 

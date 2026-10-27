@@ -11,6 +11,8 @@ Explains:
 - "[[09 Showcase examples/Facets demonstrations]]"
 Watch out:
 - "[[04 Filter and focus/Graph Lenses are local]]"
+Related:
+- "[[Assets/Screenshot - Facets workbench questions.png]]"
 ---
 # Make your own workflow visible with Facets
 
@@ -39,6 +41,10 @@ This Help vault keeps four presets with different purposes and layouts. They are
 | **Workbench questions** | What fits the time and attention I have? | Two-property category rules, in four quadrants |
 
 Open [[09 Showcase examples/Facets demonstrations|the demonstration guide]] for the exact starting note and the result to look for.
+
+![[Assets/Screenshot - Facets workbench questions.png]]
+
+*This desktop workbench is one example of a question you can define yourself. Its four categories combine two recorded properties; your categories can serve a different purpose.*
 
 ## Build something useful for your notes
 

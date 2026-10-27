@@ -6,6 +6,7 @@ tags:
 Guide:
 - '[[02 Navigate and explore/Navigate and explore]]'
 Related:
+- "[[Assets/Screenshot - Canvas keyboard shortcuts.png]]"
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
@@ -14,9 +15,9 @@ Related:
 
 Use a faster way to perform a familiar action. Find its default shortcut here, then check your saved bindings if your vault behaves differently.
 
-![[Assets/Screenshot - Keyboard help.png]]
+![[Assets/Screenshot - Canvas keyboard shortcuts.png]]
 
-*The built-in keyboard reference shows the effective shortcuts in this vault. Your saved keys can differ from fresh-install defaults.*
+*The current desktop keyboard reference shows effective canvas shortcuts, including Enter to center a note and Alt+Enter to fold a supported branch or section. Saved shortcuts and platform labels can differ.*
 
 ## Focus, selection and movement
 

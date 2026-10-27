@@ -14,6 +14,8 @@ Child:
 Friend:
 - "[[04 Filter and focus/Facets]]"
 Note type: "Guide"
+Related:
+- "[[Assets/Screenshot - Facets read by topic.png]]"
 ---
 # Find help by topic
 
@@ -28,6 +30,10 @@ Find the kind of help you need without reading every guide. This small collectio
 The notes use normal YAML tags without a leading `#`; the preset recognizes their displayed tag form with `#`.
 
 The circular layout makes these topics peers rather than stages. Narrow areas keep the guides in short stacks. Other connected notes without one of these tags belong in Unassigned.
+
+![[Assets/Screenshot - Facets read by topic.png]]
+
+*Desktop example: actual topic tags place guides in Navigation, Filtering and Workspace. Sidecar stays in Conflicting because it matches both navigation and workspace.*
 
 ## Make it yours
 

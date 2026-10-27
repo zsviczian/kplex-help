@@ -7,6 +7,8 @@ Guide:
 Friend:
 - "[[04 Filter and focus/Graph Lenses]]"
 Related:
+- "[[Assets/Screenshot - Preset import collision review.png]]"
+- "[[Assets/Screenshot - Preset export.png]]"
 - "[[04 Filter and focus/Define a Facets workflow]]"
 ---
 # Reuse a preset or lens in another vault
@@ -22,6 +24,16 @@ Keep a useful workflow when you move between vaults, or share it with someone wh
 5. Select the imported preset or lens and adapt its fields and values to the destination notes.
 
 A preset can include its own Markdown help, category colors, layout, sizing and workflow guides. A standalone Graph Lens can be shared without a Facets preset. Sharing a definition does not send the notes it describes, nor does importing one enable it on every canvas.
+
+![[Assets/Screenshot - Preset export.png]]
+
+*The desktop export shows the definition as JSON. Companion lenses are an explicit choice; copying or downloading the package does not copy the notes it describes.*
+
+## Review a collision before replacing anything
+
+![[Assets/Screenshot - Preset import collision review.png]]
+
+*This desktop preview detects an existing help-workshop ID. **Replace this installed entry** is off, so import is blocked. Choose an unused target ID or deliberately review replacement; this is a collision review, not a completed import.*
 
 ## Ask for help authoring a preset
 

@@ -5,6 +5,7 @@ tags:
 Guide:
 - "[[01 Core concepts/Canvas views]]"
 Related:
+- "[[Assets/Screenshot - Mind Map workshop.png]]"
 - "[[09 Showcase examples/Example - Workshop plan]]"
 - "[[02 Navigate and explore/Compass]]"
 - "[[04 Filter and focus/Facets]]"
@@ -23,6 +24,10 @@ Keep an outline in view while exploring its branches. Mind Map keeps its root wh
 4. Click a note or press **Enter** to center it and make it the map root. **Use as map root** and **Use current note as map root** also offer explicit root changes.
 
 With the default shortcuts, **Alt/Option+Enter** folds or unfolds the selected branch; its chevron does the same without centering the note. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Your saved shortcuts may override these defaults.
+
+![[Assets/Screenshot - Mind Map workshop.png]]
+
+*Desktop layout example: the workshop plan stays at the root while the materials branch unfolds. The visible Incomplete metadata labels and attachment placeholders are preparation states; this image illustrates arrangement and branch controls.*
 
 ## Shape an outline without losing its context
 

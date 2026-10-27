@@ -31,7 +31,7 @@ Create a workflow for your own notes, then keep its explanation with the preset.
 
 ## Reuse a workflow without copying notes
 
-Copy or download a Facets preset or Graph Lens as JSON. Review an import before adding or replacing an entry, and choose any related lenses or palette values explicitly. Preset help travels with the definition; the notes it describes stay in their vault.
+Copy or download a Facets preset or Graph Lens as JSON. Review an import before adding or replacing an entry. Choose companion lenses explicitly; referenced palette colors travel with the definition. Preset help travels with the definition; the notes it describes stay in their vault.
 
 See [[04 Filter and focus/Share presets and lenses|sharing presets and lenses]].
 

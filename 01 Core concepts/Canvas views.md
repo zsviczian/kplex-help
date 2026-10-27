@@ -9,6 +9,7 @@ Explains:
 - "[[02 Navigate and explore/Mind Map]]"
 - "[[04 Filter and focus/Facets]]"
 Related:
+- "[[Assets/Screenshot - Compass workshop.png]]"
 - "[[09 Showcase examples/Example - Workshop plan]]"
 ---
 # Choose a canvas view
@@ -24,6 +25,10 @@ The same connected notes can answer different questions. Choose a view that make
 | **Facets** | Compare connected notes by a classification that serves your work | The current note, with neighbors in categories you define |
 
 Compass is the default view. This K-Plex canvas is separate from Obsidian's **Canvas** file format; choosing a view does not create a `.canvas` file.
+
+![[Assets/Screenshot - Compass workshop.png]]
+
+*Compass is the default directional view. This desktop workshop example shows its Parent, Child and companion areas; the dashed attachment card is a placeholder.*
 
 ## Try another perspective
 

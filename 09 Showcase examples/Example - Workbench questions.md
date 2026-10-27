@@ -18,6 +18,8 @@ Friend:
 Note type: "Guide"
 learningMode: "practice"
 sessionSize: "short"
+Related:
+- "[[Assets/Screenshot - Facets workbench questions.png]]"
 ---
 # What fits the time and attention you have?
 
@@ -31,6 +33,10 @@ Choose a useful next step when you have either a brief gap or a longer session. 
 4. Open the preset editor and select **Category rule** to inspect the conditions. Each quadrant requires both facts to match.
 
 For example, the Read briefly rule is `note.learningMode == "read" and note.sessionSize == "short"`. The categories are separate combinations, so a known note fits one place. The quadrant arrangement keeps all four choices available without claiming one is always better.
+
+![[Assets/Screenshot - Facets workbench questions.png]]
+
+*Desktop example: reading or practice combines with a short or longer session to form four work choices. Notes without these properties remain in Diagnostics.*
 
 ## Make it yours
 

@@ -9,6 +9,7 @@ Explains:
 - '[[02 Navigate and explore/Type to select visible nodes]]'
 - '[[02 Navigate and explore/Keyboard shortcuts reference]]'
 Related:
+- "[[Assets/Screenshot - Canvas keyboard shortcuts.png]]"
 - '[[02 Navigate and explore/K-Plex command palette]]'
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[02 Navigate and explore/Past nodes and pins]]'
@@ -17,9 +18,9 @@ Related:
 
 Explore and connect notes without reaching for the mouse. Give the graph focus, select a nearby node and navigate or run an action from the keyboard.
 
-![[Assets/Screenshot - Keyboard help.png]]
+![[Assets/Screenshot - Canvas keyboard shortcuts.png]]
 
-*The built-in keyboard reference shows the effective shortcuts in this vault. Your saved keys can differ from fresh-install defaults.*
+*The current desktop keyboard reference shows effective canvas shortcuts, including Enter to center a note and Alt+Enter to fold a supported branch or section. Saved shortcuts and platform labels can differ.*
 
 ## Choose and move
 

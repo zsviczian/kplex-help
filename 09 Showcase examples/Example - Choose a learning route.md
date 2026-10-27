@@ -14,6 +14,8 @@ Child:
 Friend:
 - "[[04 Filter and focus/Facets]]"
 Note type: "Guide"
+Related:
+- "[[Assets/Screenshot - Facets learning route.png]]"
 ---
 # Choose a useful learning route
 
@@ -26,6 +28,10 @@ Understand an idea, try a small action, then apply it to something useful. This 
 3. Inspect **Note type** on a connected note. `Concept` leads to Understand, `Guide` to Try, and the existing `Use case` value to Apply.
 
 The two concept notes explain the map, two guides offer small actions, and two use cases put the skills to work. The focus sits beside the sequence. Wider category areas leave room for cards beside one another.
+
+![[Assets/Screenshot - Facets learning route.png]]
+
+*Desktop example: Concept, Guide and Use case values become Understand, Try and Apply. The focus sits beside the vertical sequence, with two cards across each category.*
 
 ## Make it yours
 

@@ -9,6 +9,8 @@ Child:
 - "[[09 Showcase examples/Example - Read by topic]]"
 - "[[09 Showcase examples/Example - Choose a learning route]]"
 - "[[09 Showcase examples/Example - Workbench questions]]"
+Related:
+- "[[Assets/Screenshot - Facets workshop stage.png]]"
 ---
 # Try four useful Facets workflows
 
@@ -24,6 +26,10 @@ See how the same help database supports different questions. Each example starts
 | [[09 Showcase examples/Example - Workbench questions|Workbench questions]] | **Workbench questions** | Short and longer reading or practice tasks in four quadrants |
 
 Center the named note, choose **Facets** in **Views and lenses**, then select its preset. Each preset's help explains its fields and exact values. The demonstration notes are ordinary notes, so you can inspect their properties in Obsidian.
+
+![[Assets/Screenshot - Facets workshop stage.png]]
+
+*Workshop stage is one of the four desktop examples. Open its guide to see the exact property values and adapt the pattern to your own connected notes.*
 
 ## Take the pattern with you
 

@@ -22,6 +22,7 @@ Friend:
 - https://github.com/zsviczian/kplex
 - https://obsidian.md
 Related:
+- "[[Assets/logo - kplex.png]]"
 - '[[07 Use cases/Never start a project with a blank page]]'
 - '[[11 Release notes/K-Plex 0.2.2 release notes]]'
 - '[[00 Start Here/How to use this help vault]]'

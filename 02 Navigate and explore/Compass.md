@@ -5,6 +5,7 @@ tags:
 Guide:
 - "[[01 Core concepts/Canvas views]]"
 Related:
+- "[[Assets/Screenshot - Compass workshop.png]]"
 - "[[09 Showcase examples/Example - Research question]]"
 - "[[01 Core concepts/The spatial relationship model]]"
 - "[[04 Filter and focus/Group nodes by note type]]"
@@ -30,6 +31,12 @@ Understand an idea by looking at its context, detail, companions and objections.
 A gate tells you whether relationships exist in that direction. Expand a busy neighborhood one level further, group related notes by note type, or filter the current canvas. Use One-sided layout for a narrow space. These choices change what you see, while your recorded relationships retain their meaning.
 
 Eligible Markdown notes can open in a native node editor in their place on the canvas. There is one node editor at a time; opening another saves and closes the first. A failed save keeps it available for recovery. A Sidecar gives you a separate document pane beside the canvas. Use **Settings → K-Plex → Canvas behavior → Views → Compass** for Compass arrangement, density and area tint.
+
+## Compare the workshop plan in Compass
+
+![[Assets/Screenshot - Compass workshop.png]]
+
+*Desktop layout example: the workshop plan has its Guide above, companions to the left and material below. The dashed attachment placeholder is an unresolved reference in this capture.*
 
 ## Continue with your task
 
