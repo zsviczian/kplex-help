@@ -2438,6 +2438,20 @@ button.kplex-sidecar-unfold-plex,
 }
 .kplex-filter-panel { width: min(390px, calc(100vw - 28px)); max-height: min(72vh, 720px); overflow: auto; }
 .kplex-filter-panel textarea { width: 100%; min-width: 0; resize: vertical; font: var(--font-ui-smaller) var(--font-monospace); }
+.kplex-predicate-rule-editor,
+.kplex-predicate-expression-field { display: grid; gap: 8px; min-width: 0; }
+.kplex-predicate-rule-editor label,
+.kplex-predicate-expression-field > label { display: grid; gap: 4px; min-width: 0; }
+.kplex-predicate-expression-field > label { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.kplex-predicate-expression-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 6em;
+  resize: vertical;
+  font: var(--font-ui-smaller) var(--font-monospace);
+  color: var(--text-normal);
+}
 .kplex-filter-section { display: grid; gap: 8px; }
 .kplex-filter-section + .kplex-filter-section,
 .kplex-view-controls + .kplex-filter-section { padding-top: 10px; border-top: 1px solid var(--background-modifier-border); }
