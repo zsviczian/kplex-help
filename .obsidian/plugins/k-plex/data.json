@@ -92,7 +92,7 @@
   },
   "actionPreferences": {
     "version": 1,
-    "defaultBindingsVersion": 1,
+    "defaultBindingsVersion": 3,
     "localBindings": {
       "selection.move.up": [
         {
@@ -500,7 +500,6 @@
     }
   },
   "navigationHistory": [
-    "03 Build and edit/Excalidraw integration.md",
     "08 About/From ExcaliBrain to K-Plex.md",
     "Idea Compass",
     "Assets/Icon - Compass.svg",
@@ -533,13 +532,14 @@
     "03 Build and edit/Create notes and placeholders.md",
     "Assets/Screenshot - Named themes.png",
     "05 Personalize and workspace/Colors and themes.md",
-    "11 Release notes/Release notes.md",
     "03 Build and edit/Build and edit.md",
-    "00 Start Here/K-Plex Help.md",
     "07 Use cases/Use cases.md",
     "07 Use cases/Argument maps with Challengers.md",
     "11 Release notes/K-Plex 0.2.0 release notes.md",
-    "00 Start Here/Choose a topic.md"
+    "00 Start Here/Choose a topic.md",
+    "11 Release notes/K-Plex 0.3.0 release notes.md",
+    "00 Start Here/K-Plex Help.md",
+    "11 Release notes/Release notes.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
@@ -566,6 +566,7 @@
   "followActiveFile": true,
   "contentPaneWidth": 38,
   "graphDepth": 1,
+  "groupRelations": false,
   "connectorStyle": "bezier",
   "nodeSortOrder": "modified-desc",
   "parentColumns": 2,
@@ -585,7 +586,7 @@
   },
   "kplexInitialized": true,
   "startInPopout": false,
-  "lastActivePath": "07 Use cases/Argument maps with Challengers.md",
+  "lastActivePath": "11 Release notes/Release notes.md",
   "pinnedNodes": [
     "00 Start Here/K-Plex Help.md",
     "00 Start Here/Choose a topic.md",
@@ -649,6 +650,393 @@
       "horizontalCompactingFactor": 2.85,
       "parentColumns": 1,
       "childColumns": 2
+    }
+  },
+  "canvasViewSettings": {
+    "wuxing": {
+      "version": 2,
+      "values": {
+        "presets": {
+          "help-workshop": {
+            "version": 1,
+            "name": "Workshop stage",
+            "source": "property",
+            "field": "Workshop stage",
+            "categories": {
+              "collect": {
+                "label": "Collect",
+                "values": [
+                  "Collect"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-blue"
+                },
+                "assignment": "Collect"
+              },
+              "shape": {
+                "label": "Shape",
+                "values": [
+                  "Shape"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-green"
+                },
+                "assignment": "Shape"
+              },
+              "share": {
+                "label": "Share",
+                "values": [
+                  "Share"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                },
+                "assignment": "Share"
+              }
+            },
+            "order": [
+              "collect",
+              "shape",
+              "share"
+            ],
+            "start": "collect",
+            "spacing": 56,
+            "regionWidth": 320,
+            "regionHeight": 240,
+            "guides": true,
+            "tints": true,
+            "layout": "horizontal",
+            "diagnostics": {
+              "combined": true,
+              "side": "bottom",
+              "orientation": "horizontal",
+              "showEmpty": false
+            },
+            "conflictingColor": {
+              "kind": "theme",
+              "variable": "--color-orange"
+            },
+            "unassignedColor": {
+              "kind": "theme",
+              "variable": "--background-secondary"
+            },
+            "helpMarkdown": "# Workshop stage\n\nCenter Example - Workshop board. Collect sources, shape material and share a useful result.\n\n## Note data\n\n```yaml\nWorkshop stage: Collect\n```\n\nExact values are Collect, Shape and Share. Area arrows describe a workflow, not relationships. Assignment previews change this property only after confirmation. Duplicate this preset for your own project stages.",
+            "helpSourceLocale": "en",
+            "focusAnchor": "top",
+            "flow": {
+              "direction": "forward",
+              "style": "arrow",
+              "caption": "Develop the material",
+              "captionPosition": "middle"
+            },
+            "flowOverrides": [
+              {
+                "source": "shape",
+                "target": "share",
+                "caption": "Make it useful"
+              }
+            ],
+            "areaSizes": {
+              "categories": {
+                "collect": {
+                  "width": 600,
+                  "height": 250
+                },
+                "shape": {
+                  "width": 380,
+                  "height": 300
+                },
+                "share": {
+                  "width": 560,
+                  "height": 240
+                }
+              }
+            }
+          },
+          "help-topics": {
+            "version": 1,
+            "name": "Read by topic",
+            "source": "tag",
+            "field": "tags",
+            "categories": {
+              "navigation": {
+                "label": "Navigation",
+                "values": [
+                  "#kplex/navigation"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-blue"
+                }
+              },
+              "filtering": {
+                "label": "Filtering",
+                "values": [
+                  "#kplex/filtering"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-green"
+                }
+              },
+              "workspace": {
+                "label": "Workspace",
+                "values": [
+                  "#kplex/workspace"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                }
+              }
+            },
+            "order": [
+              "navigation",
+              "filtering",
+              "workspace"
+            ],
+            "start": "navigation",
+            "spacing": 56,
+            "regionWidth": 300,
+            "regionHeight": 260,
+            "guides": false,
+            "tints": true,
+            "layout": "circular",
+            "diagnostics": {
+              "combined": false,
+              "side": "bottom",
+              "orientation": "horizontal",
+              "showEmpty": false
+            },
+            "conflictingColor": {
+              "kind": "theme",
+              "variable": "--color-orange"
+            },
+            "unassignedColor": {
+              "kind": "theme",
+              "variable": "--background-secondary"
+            },
+            "helpMarkdown": "# Read by topic\n\nCenter Example - Read by topic. Compare navigation, filtering and workspace guides.\n\n## Note data\n\n```yaml\ntags:\n- kplex/navigation\n```\n\nThe recognized tags are #kplex/navigation, #kplex/filtering and #kplex/workspace. YAML tags may omit the leading #; this preset matches their displayed tag form. Sidecar has two matching tags and stays Conflicting. Tags classify notes here; category drops do not edit them. Replace these with topics you actually use.",
+            "helpSourceLocale": "en"
+          },
+          "help-learning": {
+            "version": 1,
+            "name": "Learning route",
+            "source": "type",
+            "field": "Note type",
+            "categories": {
+              "understand": {
+                "label": "Understand",
+                "values": [
+                  "Concept"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-blue"
+                }
+              },
+              "try": {
+                "label": "Try",
+                "values": [
+                  "Guide"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-green"
+                }
+              },
+              "apply": {
+                "label": "Apply",
+                "values": [
+                  "Use case"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                }
+              }
+            },
+            "order": [
+              "understand",
+              "try",
+              "apply"
+            ],
+            "start": "understand",
+            "spacing": 56,
+            "regionWidth": 320,
+            "regionHeight": 240,
+            "guides": true,
+            "tints": true,
+            "layout": "vertical",
+            "diagnostics": {
+              "combined": true,
+              "side": "bottom",
+              "orientation": "horizontal",
+              "showEmpty": false
+            },
+            "conflictingColor": {
+              "kind": "theme",
+              "variable": "--color-orange"
+            },
+            "unassignedColor": {
+              "kind": "theme",
+              "variable": "--background-secondary"
+            },
+            "helpMarkdown": "# Learning route\n\nCenter Example - Choose a learning route. Understand a concept, try an action, then apply it.\n\n## Note data\n\n```yaml\nNote type: Concept\n```\n\nConcept, Guide and Use case are exact type values; category labels are friendly descriptions. This uses the configured Note type source, not the help tags. Category drops do not rewrite types. Choose your own existing types when adapting it.",
+            "helpSourceLocale": "en",
+            "focusAnchor": "left",
+            "flow": {
+              "style": "line",
+              "caption": "Build on what you learned",
+              "captionPosition": "middle"
+            },
+            "areaSizes": {
+              "categories": {
+                "understand": {
+                  "width": 620,
+                  "height": 220
+                },
+                "try": {
+                  "width": 620,
+                  "height": 220
+                },
+                "apply": {
+                  "width": 620,
+                  "height": 220
+                }
+              }
+            }
+          },
+          "help-workbench": {
+            "version": 1,
+            "name": "Workbench questions",
+            "source": "rules",
+            "field": "learningMode",
+            "categories": {
+              "read-short": {
+                "label": "Read briefly",
+                "values": [
+                  "read-short"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-blue"
+                },
+                "rule": "note.learningMode == \"read\" and note.sessionSize == \"short\""
+              },
+              "read-longer": {
+                "label": "Read deeply",
+                "values": [
+                  "read-longer"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-green"
+                },
+                "rule": "note.learningMode == \"read\" and note.sessionSize == \"longer\""
+              },
+              "practice-longer": {
+                "label": "Set aside practice time",
+                "values": [
+                  "practice-longer"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                },
+                "rule": "note.learningMode == \"practice\" and note.sessionSize == \"longer\""
+              },
+              "practice-short": {
+                "label": "Try something small",
+                "values": [
+                  "practice-short"
+                ],
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-purple"
+                },
+                "rule": "note.learningMode == \"practice\" and note.sessionSize == \"short\""
+              }
+            },
+            "order": [
+              "read-short",
+              "read-longer",
+              "practice-longer",
+              "practice-short"
+            ],
+            "start": "read-short",
+            "spacing": 56,
+            "regionWidth": 440,
+            "regionHeight": 260,
+            "guides": false,
+            "tints": true,
+            "layout": "quadrants",
+            "diagnostics": {
+              "combined": true,
+              "side": "bottom",
+              "orientation": "horizontal",
+              "showEmpty": false
+            },
+            "conflictingColor": {
+              "kind": "theme",
+              "variable": "--color-orange"
+            },
+            "unassignedColor": {
+              "kind": "theme",
+              "variable": "--background-secondary"
+            },
+            "helpMarkdown": "# Workbench questions\n\nCenter Example - Workbench questions. Choose reading or practice that fits a short or longer session.\n\n## Note data\n\n```yaml\nlearningMode: read\nsessionSize: short\n```\n\nEach category rule combines these two exact property facts. Example: `note.learningMode == \"read\" and note.sessionSize == \"short\"`. The condition editor and Code share the same rules. No duration is measured and no prose is analyzed. Change both the rules and this explanation when adapting it.",
+            "helpSourceLocale": "en"
+          },
+          "arc": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "para": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "wuxing": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "gtd": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "eaccess": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "sensemaking": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "publishing": {
+            "version": 1,
+            "replacement": "help-workshop"
+          },
+          "map-roles": {
+            "version": 1,
+            "replacement": "help-workshop"
+          }
+        },
+        "presetOrder": [
+          "help-workshop",
+          "help-topics",
+          "help-learning",
+          "help-workbench"
+        ]
+      }
+    },
+    "mindmap": {
+      "version": 1,
+      "values": {
+        "horizontalDensity": 1.65
+      }
     }
   },
   "mouseInteractionMode": "smart",
@@ -1326,386 +1714,5 @@
       }
     ],
     "nativeBaseMigration": 1
-  },
-  "canvasViewSettings": {
-    "wuxing": {
-      "version": 2,
-      "values": {
-        "presets": {
-          "help-workshop": {
-            "version": 1,
-            "name": "Workshop stage",
-            "source": "property",
-            "field": "Workshop stage",
-            "categories": {
-              "collect": {
-                "label": "Collect",
-                "values": [
-                  "Collect"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-blue"
-                },
-                "assignment": "Collect"
-              },
-              "shape": {
-                "label": "Shape",
-                "values": [
-                  "Shape"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-green"
-                },
-                "assignment": "Shape"
-              },
-              "share": {
-                "label": "Share",
-                "values": [
-                  "Share"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                },
-                "assignment": "Share"
-              }
-            },
-            "order": [
-              "collect",
-              "shape",
-              "share"
-            ],
-            "start": "collect",
-            "spacing": 56,
-            "regionWidth": 320,
-            "regionHeight": 240,
-            "guides": true,
-            "tints": true,
-            "layout": "horizontal",
-            "diagnostics": {
-              "combined": true,
-              "side": "bottom",
-              "orientation": "horizontal",
-              "showEmpty": false
-            },
-            "conflictingColor": {
-              "kind": "theme",
-              "variable": "--color-orange"
-            },
-            "unassignedColor": {
-              "kind": "theme",
-              "variable": "--background-secondary"
-            },
-            "helpMarkdown": "# Workshop stage\n\nCenter Example - Workshop board. Collect sources, shape material and share a useful result.\n\n## Note data\n\n```yaml\nWorkshop stage: Collect\n```\n\nExact values are Collect, Shape and Share. Area arrows describe a workflow, not relationships. Assignment previews change this property only after confirmation. Duplicate this preset for your own project stages.",
-            "helpSourceLocale": "en",
-            "focusAnchor": "top",
-            "flow": {
-              "direction": "forward",
-              "style": "arrow",
-              "caption": "Develop the material",
-              "captionPosition": "middle"
-            },
-            "flowOverrides": [
-              {
-                "source": "shape",
-                "target": "share",
-                "caption": "Make it useful"
-              }
-            ],
-            "areaSizes": {
-              "categories": {
-                "collect": {
-                  "width": 600,
-                  "height": 250
-                },
-                "shape": {
-                  "width": 380,
-                  "height": 300
-                },
-                "share": {
-                  "width": 560,
-                  "height": 240
-                }
-              }
-            }
-          },
-          "help-topics": {
-            "version": 1,
-            "name": "Read by topic",
-            "source": "tag",
-            "field": "tags",
-            "categories": {
-              "navigation": {
-                "label": "Navigation",
-                "values": [
-                  "#kplex/navigation"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-blue"
-                }
-              },
-              "filtering": {
-                "label": "Filtering",
-                "values": [
-                  "#kplex/filtering"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-green"
-                }
-              },
-              "workspace": {
-                "label": "Workspace",
-                "values": [
-                  "#kplex/workspace"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                }
-              }
-            },
-            "order": [
-              "navigation",
-              "filtering",
-              "workspace"
-            ],
-            "start": "navigation",
-            "spacing": 56,
-            "regionWidth": 300,
-            "regionHeight": 260,
-            "guides": false,
-            "tints": true,
-            "layout": "circular",
-            "diagnostics": {
-              "combined": false,
-              "side": "bottom",
-              "orientation": "horizontal",
-              "showEmpty": false
-            },
-            "conflictingColor": {
-              "kind": "theme",
-              "variable": "--color-orange"
-            },
-            "unassignedColor": {
-              "kind": "theme",
-              "variable": "--background-secondary"
-            },
-            "helpMarkdown": "# Read by topic\n\nCenter Example - Read by topic. Compare navigation, filtering and workspace guides.\n\n## Note data\n\n```yaml\ntags:\n- kplex/navigation\n```\n\nThe recognized tags are #kplex/navigation, #kplex/filtering and #kplex/workspace. YAML tags may omit the leading #; this preset matches their displayed tag form. Sidecar has two matching tags and stays Conflicting. Tags classify notes here; category drops do not edit them. Replace these with topics you actually use.",
-            "helpSourceLocale": "en"
-          },
-          "help-learning": {
-            "version": 1,
-            "name": "Learning route",
-            "source": "type",
-            "field": "Note type",
-            "categories": {
-              "understand": {
-                "label": "Understand",
-                "values": [
-                  "Concept"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-blue"
-                }
-              },
-              "try": {
-                "label": "Try",
-                "values": [
-                  "Guide"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-green"
-                }
-              },
-              "apply": {
-                "label": "Apply",
-                "values": [
-                  "Use case"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                }
-              }
-            },
-            "order": [
-              "understand",
-              "try",
-              "apply"
-            ],
-            "start": "understand",
-            "spacing": 56,
-            "regionWidth": 320,
-            "regionHeight": 240,
-            "guides": true,
-            "tints": true,
-            "layout": "vertical",
-            "diagnostics": {
-              "combined": true,
-              "side": "bottom",
-              "orientation": "horizontal",
-              "showEmpty": false
-            },
-            "conflictingColor": {
-              "kind": "theme",
-              "variable": "--color-orange"
-            },
-            "unassignedColor": {
-              "kind": "theme",
-              "variable": "--background-secondary"
-            },
-            "helpMarkdown": "# Learning route\n\nCenter Example - Choose a learning route. Understand a concept, try an action, then apply it.\n\n## Note data\n\n```yaml\nNote type: Concept\n```\n\nConcept, Guide and Use case are exact type values; category labels are friendly descriptions. This uses the configured Note type source, not the help tags. Category drops do not rewrite types. Choose your own existing types when adapting it.",
-            "helpSourceLocale": "en",
-            "focusAnchor": "left",
-            "flow": {
-              "style": "line",
-              "caption": "Build on what you learned",
-              "captionPosition": "middle"
-            },
-            "areaSizes": {
-              "categories": {
-                "understand": {
-                  "width": 620,
-                  "height": 220
-                },
-                "try": {
-                  "width": 620,
-                  "height": 220
-                },
-                "apply": {
-                  "width": 620,
-                  "height": 220
-                }
-              }
-            }
-          },
-          "help-workbench": {
-            "version": 1,
-            "name": "Workbench questions",
-            "source": "rules",
-            "field": "learningMode",
-            "categories": {
-              "read-short": {
-                "label": "Read briefly",
-                "values": [
-                  "read-short"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-blue"
-                },
-                "rule": "note.learningMode == \"read\" and note.sessionSize == \"short\""
-              },
-              "read-longer": {
-                "label": "Read deeply",
-                "values": [
-                  "read-longer"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-green"
-                },
-                "rule": "note.learningMode == \"read\" and note.sessionSize == \"longer\""
-              },
-              "practice-longer": {
-                "label": "Set aside practice time",
-                "values": [
-                  "practice-longer"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                },
-                "rule": "note.learningMode == \"practice\" and note.sessionSize == \"longer\""
-              },
-              "practice-short": {
-                "label": "Try something small",
-                "values": [
-                  "practice-short"
-                ],
-                "color": {
-                  "kind": "theme",
-                  "variable": "--color-purple"
-                },
-                "rule": "note.learningMode == \"practice\" and note.sessionSize == \"short\""
-              }
-            },
-            "order": [
-              "read-short",
-              "read-longer",
-              "practice-longer",
-              "practice-short"
-            ],
-            "start": "read-short",
-            "spacing": 56,
-            "regionWidth": 440,
-            "regionHeight": 260,
-            "guides": false,
-            "tints": true,
-            "layout": "quadrants",
-            "diagnostics": {
-              "combined": true,
-              "side": "bottom",
-              "orientation": "horizontal",
-              "showEmpty": false
-            },
-            "conflictingColor": {
-              "kind": "theme",
-              "variable": "--color-orange"
-            },
-            "unassignedColor": {
-              "kind": "theme",
-              "variable": "--background-secondary"
-            },
-            "helpMarkdown": "# Workbench questions\n\nCenter Example - Workbench questions. Choose reading or practice that fits a short or longer session.\n\n## Note data\n\n```yaml\nlearningMode: read\nsessionSize: short\n```\n\nEach category rule combines these two exact property facts. Example: `note.learningMode == \"read\" and note.sessionSize == \"short\"`. The condition editor and Code share the same rules. No duration is measured and no prose is analyzed. Change both the rules and this explanation when adapting it.",
-            "helpSourceLocale": "en"
-          },
-          "arc": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "para": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "wuxing": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "gtd": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "eaccess": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "sensemaking": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "publishing": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
-          "map-roles": {
-            "version": 1,
-            "replacement": "help-workshop"
-          }
-        },
-        "presetOrder": [
-          "help-workshop",
-          "help-topics",
-          "help-learning",
-          "help-workbench"
-        ]
-      }
-    }
   }
 }

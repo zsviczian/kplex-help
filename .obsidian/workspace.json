@@ -20,8 +20,82 @@
               "icon": "lucide-file",
               "title": "Start Here"
             }
+          },
+          {
+            "id": "1091f490c2f0d00d",
+            "type": "leaf",
+            "state": {
+              "type": "k-plex-react-view",
+              "state": {
+                "centerPresentation": {
+                  "embedCentralNode": false,
+                  "centralNodeMarkdownMode": "source"
+                },
+                "plexSession": {
+                  "version": 1,
+                  "ownerId": "1091f490c2f0d00d",
+                  "centerPath": "11 Release notes/Release notes.md",
+                  "targetId": null,
+                  "plexView": {
+                    "version": 1,
+                    "id": "wuxing",
+                    "states": {
+                      "wuxing": {
+                        "version": 1,
+                        "preset": "help-learning",
+                        "combinedDiagnostics": {
+                          "help-topics": true
+                        }
+                      },
+                      "mindmap": {
+                        "version": 1,
+                        "scope": "11 Release notes/Release notes.md",
+                        "initialGenerations": 1,
+                        "expanded": [],
+                        "collapsed": [],
+                        "sides": {
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/Early releases.md\"]": -1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.1.0.md\"]": -1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.1.1.md\"]": -1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.1.2.md\"]": 1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.1.3.md\"]": 1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.2.0 release notes.md\"]": -1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.2.2 release notes.md\"]": 1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.2.3 release notes.md\"]": 1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.2.4 release notes.md\"]": -1,
+                          "[\"11 Release notes/Release notes.md\",\"11 Release notes/K-Plex 0.3.0 release notes.md\"]": 1
+                        }
+                      }
+                    },
+                    "areaHeights": {
+                      "wuxing": {
+                        "[\"facets\",\"help-topics\",\"diagnostics\"]": 462
+                      }
+                    },
+                    "areaWidths": {
+                      "wuxing": {
+                        "[\"facets\",\"help-topics\",\"diagnostics\"]": 864
+                      }
+                    },
+                    "roots": {
+                      "mindmap": "11 Release notes/Release notes.md"
+                    },
+                    "editors": null
+                  },
+                  "documentSyncMode": "off",
+                  "sidecarOpen": false,
+                  "sidecarPosition": "right",
+                  "sidecarLastFilePath": "",
+                  "sidecarLastUrl": "",
+                  "sidecarMarkdownMode": "source"
+                }
+              },
+              "icon": "brain-circuit",
+              "title": "K-Plex"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,6 +278,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "k-plex:Open K-Plex canvas": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,11 +286,10 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "k-plex:Open K-Plex": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f396e0b44d530569",
+  "active": "1091f490c2f0d00d",
   "lastOpenFiles": [
     "README.md",
     "Start Here.md",
