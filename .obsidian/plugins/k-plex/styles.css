@@ -355,6 +355,17 @@ button.kplex-sidecar-unfold-plex:hover,
 .kplex-role-sibling { opacity: .86; }
 .kplex-role-sibling.is-dimmed { opacity: .22; }
 .kplex-thought-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Obsidian's tablet button padding outranks a single control class and can enlarge
+   even a fixed-size button in WebKit. Scope the reset to shared node controls,
+   retaining each control's visual size and the branch's separate 44px hit area. */
+.kplex-plex .kplex-thought > .kplex-thought-corner-action,
+.kplex-plex .kplex-thought > .kplex-section-fold-handle {
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+  margin: 0;
+}
 .kplex-thought-corner-action {
   position: absolute;
   z-index: 22;
@@ -365,6 +376,10 @@ button.kplex-sidecar-unfold-plex:hover,
   justify-content: center;
   width: 16px;
   height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  max-width: 16px;
+  max-height: 16px;
   padding: 0;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -3228,12 +3243,8 @@ button.kplex-style-manager-row { height: fit-content; }
   padding-left: 12px;
 }
 
-/* iPad/WebKit applies large minimum tap-target dimensions to buttons. Keep the tiny section
-   outline control visually square while its surrounding thought remains the forgiving hit area. */
+/* Keep the section outline control square; coarse pointers get a slightly larger glyph. */
 .kplex-section-fold-handle {
-  box-sizing: border-box;
-  appearance: none;
-  -webkit-appearance: none;
   inline-size: 10px;
   block-size: 10px;
   min-inline-size: 10px;
