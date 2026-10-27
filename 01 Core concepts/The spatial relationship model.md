@@ -15,6 +15,9 @@ Next:
 - "[[01 Core concepts/Relationship roles]]"
 Watch out:
 - '[[05 Personalize and workspace/Layout density and typography]]'
+Note type: "Concept"
+learningMode: "read"
+sessionSize: "longer"
 ---
 # The spatial relationship model
 

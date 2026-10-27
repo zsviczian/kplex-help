@@ -2,6 +2,7 @@
 aliases:
 - Layout density and typography
 tags:
+- kplex/workspace
 - kplex-help/how-to
 - kplex/styling
 - kplex/layout

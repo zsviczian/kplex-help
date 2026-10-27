@@ -9,6 +9,7 @@ Guide:
 - '[[05 Personalize and workspace/Images in nodes]]'
 Friend:
 - '[[01 Core concepts/Idea Compass]]'
+Workshop stage: "Shape"
 ---
 # Recognize an idea by its picture
 

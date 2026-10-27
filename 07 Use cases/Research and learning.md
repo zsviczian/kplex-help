@@ -14,6 +14,8 @@ Friend:
 - '[[07 Use cases/Build a Map of Content]]'
 Next:
 - '[[07 Use cases/Projects and decisions]]'
+learningMode: "read"
+sessionSize: "longer"
 ---
 # Research and learning
 

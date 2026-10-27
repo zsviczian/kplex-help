@@ -11,6 +11,7 @@ Child:
 - '[[09 Showcase examples/Example - Research question]]'
 Next:
 - '[[09 Showcase examples/Example - Workshop review]]'
+Workshop stage: "Collect"
 ---
 # Gather workshop material
 

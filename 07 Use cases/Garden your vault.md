@@ -17,6 +17,8 @@ Explains:
 Friend:
 - '[[03 Build and edit/Connection details and evidence]]'
 - '[[07 Use cases/Build a Map of Content]]'
+learningMode: "practice"
+sessionSize: "longer"
 ---
 # Garden your vault — one note at a time
 

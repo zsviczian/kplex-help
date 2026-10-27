@@ -19,6 +19,7 @@ Friend:
 - '[[04 Filter and focus/Filter and focus]]'
 - '[[00 Start Here/Recently added features]]'
 Related:
+- "[[01 Core concepts/Canvas views]]"
 - '[[07 Use cases/Projects and decisions]]'
 - '[[07 Use cases/Develop visual ideas]]'
 - '[[10 Discover by topic/07 Customize the look and workspace]]'
@@ -49,3 +50,7 @@ Want the map and your reading space to fit the way you work? Tune readability, c
 [[05 Personalize and workspace/Fullscreen and Zen mode]] covers maximizing the desktop workspace or hiding toolbars without discarding camera context. [[05 Personalize and workspace/Actions and shortcuts]] separates local bindings from actions published to Obsidian's Command Palette.
 
 Follow [[10 Discover by topic/07 Customize the look and workspace]], [[10 Discover by topic/13 Present and concentrate]] or [[10 Discover by topic/11 Work without the mouse]] for a guided route.
+
+## Choose a perspective
+
+[[01 Core concepts/Canvas views]] helps you choose Compass, Mind Map or categories that fit the task.

@@ -11,6 +11,9 @@ Next:
 - "[[04 Filter and focus/Graph Lenses]]"
 Watch out:
 - '[[04 Filter and focus/Graph Lenses are local]]'
+Note type: "Guide"
+learningMode: "practice"
+sessionSize: "short"
 ---
 # Quick Filter
 

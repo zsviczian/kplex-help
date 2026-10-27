@@ -8,6 +8,7 @@ Parent:
 - '[[09 Showcase examples/Example - Workshop plan]]'
 Friend:
 - '[[07 Use cases/Projects and decisions]]'
+Workshop stage: "Share"
 ---
 # Keep a lesson from the workshop
 

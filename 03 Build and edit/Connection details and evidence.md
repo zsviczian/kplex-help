@@ -14,6 +14,8 @@ Next:
 - '[[03 Build and edit/Unlink and delete]]'
 Related:
 - "[[03 Build and edit/Remove one relationship source]]"
+learningMode: "read"
+sessionSize: "short"
 ---
 # Connection details and evidence
 

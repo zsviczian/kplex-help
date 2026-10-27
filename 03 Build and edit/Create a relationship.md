@@ -14,6 +14,9 @@ Friend:
 - '[[07 Use cases/Never start a project with a blank page]]'
 Watch out:
 - '[[03 Build and edit/Connection details and evidence]]'
+Note type: "Guide"
+learningMode: "practice"
+sessionSize: "short"
 ---
 # Create a relationship
 

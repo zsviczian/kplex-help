@@ -10,6 +10,9 @@ Challenger:
   - "[[01 Core concepts/What K-Plex is not]]"
 Next:
   - "[[01 Core concepts/The spatial relationship model]]"
+Note type: "Concept"
+learningMode: "read"
+sessionSize: "short"
 ---
 # What K-Plex is
 

@@ -1,0 +1,37 @@
+---
+tags:
+- "kplex-help/how-to"
+- "kplex/canvas"
+Guide:
+- "[[01 Core concepts/Canvas views]]"
+Related:
+- "[[09 Showcase examples/Example - Workshop plan]]"
+- "[[02 Navigate and explore/Compass]]"
+- "[[04 Filter and focus/Facets]]"
+Friend:
+- "[[04 Filter and focus/Expand a note into sections]]"
+---
+# Develop a hierarchy with Mind Map
+
+Keep an outline in view while exploring its branches. Mind Map keeps a stable root, so selecting a note does not rebuild the whole map around a new center.
+
+## Try the workshop hierarchy
+
+1. Center [[09 Showcase examples/Example - Workshop plan|the workshop plan]], then choose **Mind Map** in **Views and lenses**.
+2. Unfold the materials branch to reveal its source notes. Use **Expand one generation** to reveal another layer, or fold an individual branch.
+3. Select a source note. The plan remains the map root while attention moves to that note.
+4. To start a different map, use **Use as map root** on the selected note, or **Use current note as map root**.
+
+## Shape an outline without losing its context
+
+The child tree can grow left, right or in a balanced arrangement. Parents stay above the root; peer context stays separate from the child tree. Parent areas grow upward to fit their branches; their height setting establishes a minimum. Pan and zoom the canvas to reach longer branches. Change spacing, density, initial generations and display limits in **Settings → K-Plex → Views → Mind Map**.
+
+Repeated and circular relationships can appear as references rather than expanding forever. A branch may still be preparing, have incomplete metadata, or reach a display limit. Those states do not mean the underlying note has no children.
+
+## Write where the idea belongs
+
+Open a Markdown node in its place in the map and use Obsidian's editor. There is one node editor at a time. Close it before choosing a different root or hiding the branch that contains it. Switching views saves and closes it; a failed save keeps the current editor available. Folding a branch and expanding a note's Markdown sections are different actions.
+
+## Use the view that suits the task
+
+Return to [[02 Navigate and explore/Compass|Compass]] when you want the selected note's immediate neighborhood. Try [[04 Filter and focus/Facets|Facets]] when the useful question is which category each connected note belongs to.

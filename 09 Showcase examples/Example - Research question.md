@@ -11,6 +11,7 @@ Related:
   - "[[01 Core concepts/The spatial relationship model]]"
 Watch out:
 - '[[01 Core concepts/What K-Plex is not]]'
+Workshop stage: "Collect"
 ---
 # Explore a research question
 

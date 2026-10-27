@@ -13,6 +13,7 @@ Friend:
 - '[[03 Build and edit/Excalidraw integration]]'
 - '[[05 Personalize and workspace/Images in nodes]]'
 - '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
+Workshop stage: "Share"
 ---
 # Develop visual ideas
 

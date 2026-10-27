@@ -5,6 +5,7 @@ tags:
   - "kplex-help/section"
   - "kplex/concepts"
 Explains:
+  - "[[01 Core concepts/Canvas views]]"
   - "[[01 Core concepts/What K-Plex is]]"
   - "[[01 Core concepts/The spatial relationship model]]"
   - "[[01 Core concepts/Relationship roles]]"
@@ -39,3 +40,7 @@ Does the map look useful, but you are unsure how to read it? Learn how the cente
 **Try this:** Center a reference note and identify one Parent, Child and Friend. Then inspect a connection to discover the actual property or link source behind it.
 
 Prefer a guided sequence? Follow [[10 Discover by topic/01 First steps with K-Plex|First steps with K-Plex]].
+
+## Choose a perspective
+
+[[01 Core concepts/Canvas views]] helps you choose Compass, Mind Map or categories that fit the task.
