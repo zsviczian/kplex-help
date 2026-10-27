@@ -1957,7 +1957,7 @@ button.kplex-sidecar-unfold-plex,
 .has-expanded-hit-target:hover .kplex-branch-disclosure-symbol {
   border-color: var(--interactive-accent-hover);
 }
-.kplex-thought-branch-status {
+.kplex-node-status {
   position: absolute;
   left: 24px;
   bottom: -16px;
