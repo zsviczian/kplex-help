@@ -70,7 +70,8 @@
                     },
                     "roots": {
                       "mindmap": "09 Showcase examples/Example - Wu Xing perspectives.md"
-                    }
+                    },
+                    "editors": null
                   },
                   "documentSyncMode": "off",
                   "sidecarOpen": false,
