@@ -35,4 +35,4 @@ Center the named note, choose **Facets** in **Views and lenses**, then select it
 
 The useful part is the question and the choice of source. A project might use a status property; a reading collection might use tags; a workbench might combine two simple properties. Duplicate one of these presets, replace its categories and use your own connected notes.
 
-The Help vault keeps just these four presets so every choice has a working demonstration. Other built-in templates remain useful starting points in your own vault when they fit your work.
+The Help vault keeps just these four custom presets so every choice has a working demonstration. A fresh K-Plex installation starts with Wu Xing and Local map roles. Additional workflow examples are available as optional JSON imports; keep only the presets that help you answer your own questions.

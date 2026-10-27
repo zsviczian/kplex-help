@@ -41,6 +41,14 @@ For a linear workflow, guides can use arrows, plain lines or no visible line, wi
 
 **Category rule** combines conditions through the same visual condition editor and Code syntax used by Graph Lenses. For example, `note.learningMode == "read" and note.sessionSize == "short"` places a short reading guide in one quadrant. `note` refers to the candidate; `this` can refer to the focused note. Rules using relationship evidence need a real relationship context; the focus does not have a made-up relationship to itself.
 
+## Wu Xing: Five Phases
+
+The built-in **Wu Xing** preset follows Dumo Guo's Five Phases convention. Its default Markdown property is `status`: 🟢 Wood, 🔴 Fire, 🟤 Earth, 🟡 Metal and 🔵 Water. Use one emoji, or repeated values for the same phase; English phase IDs are also accepted aliases. Wood appears at the top, followed clockwise by Fire, Earth, Metal and Water. The focused note remains centered with its phase badge.
+
+The relative labels change as you focus another note: what shares my phase, what I generate, what I regulate, what regulates me and what generates me. This is an interpretation of saved phases, separate from the actual recorded relationships that supply note connectors. Generating and regulating guides connect the phase regions as explanations; they do not create or edit relationships.
+
+Opening or navigating does not assign a phase. Missing, conflicting or unavailable information has no automatic Wood reference. Older saved presets retain their configured property and aliases, so inspect **Property name** if your notes use `phase` instead of `status`.
+
 ## Read status before making a decision
 
 - **Unassigned:** no configured category matches. A missing property can be a legitimate reason.

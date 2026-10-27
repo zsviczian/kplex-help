@@ -20,6 +20,8 @@ Bring a question of your own to your connected notes: what is ready to use, whic
 
 You choose the categories, the source that classifies notes and the arrangement. A preset saves those choices for reuse. It can describe your project stages, reading priorities or any other distinction already present in your notes; you do not need to adopt somebody else's system.
 
+Fresh K-Plex starts with **Wu Xing** and **Local map roles**. ARC, PARA, GTD horizons, eACCESS, Sensemaking and Publishing pipeline are [optional JSON downloads](https://github.com/zsviczian/kplex/tree/0a1365e820d343c2cf8708c66eeea8417f77cbc7/presets/facets), rather than built-in choices. Import only what you use, or define a workflow of your own. Saved definitions remain available when the built-in set changes.
+
 ## Start with a question you actually have
 
 1. Center a note with useful direct connections.
