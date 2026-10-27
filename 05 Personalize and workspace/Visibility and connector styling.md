@@ -37,7 +37,7 @@ This does not reveal filtered-out nodes, bypass clipping or search for every con
 
 ## separate modifier preferences
 
-Under **Settings → K-Plex → Plex behavior → Navigation & interaction**, hover highlighting and area outlines have separate modifier requirements. They require Alt/Option by default when no existing choice is saved. Turn off the hover requirement for the short delayed hover behavior instead; Alt/Option can still request the temporary cross-link preview.
+Under **Settings → K-Plex → Canvas behavior → Navigation & interaction**, hover highlighting and area outlines have separate modifier requirements. They require Alt/Option by default when no existing choice is saved. Turn off the hover requirement for the short delayed hover behavior instead; Alt/Option can still request the temporary cross-link preview.
 
 Gate tooltips also require the modifier by default. Explicit **Area settings** remains available for editing relationship areas without relying on hover outlines. Existing saved preferences are preserved.
 
@@ -45,6 +45,6 @@ Gate tooltips also require the modifier by default. Explicit **Area settings** r
 
 The supplied configuration uses **Siblings off**, **cross-link opacity 50%**, and **100-character regular node labels**. Its saved node, relationship and Graph Lens stroke widths were reduced by one point, with a 0.5-point minimum.
 
-To hide cross-links, open **Filters and lenses** in the active Plex and turn off **Show cross-links**. This is a per-view choice and starts on when a view opens; it is not kept across a restart. Opacity affects how visible those lines are when shown, not whether they are enabled.
+To hide cross-links, open **Views and lenses** in the active canvas and turn off **Show cross-links**. This is a per-view choice and starts on when a view opens; it is not kept across a restart. Opacity affects how visible those lines are when shown, not whether they are enabled.
 
 Use [[04 Filter and focus/Quick Filter]] to simplify the neighborhood further, or [[05 Personalize and workspace/Colors and themes]] to adapt the appearance without removing relationships.

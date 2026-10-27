@@ -30,7 +30,7 @@ Make a Date property a meaningful relationship to a daily note, without rewritin
 
 ## Try it in the help vault
 
-Center the sample, check its Date field, then open **Settings → K-Plex → Plex behavior → Relationship behavior → Default Date role**. With **Parent** selected, the daily note should provide upward context if Obsidian's Daily Notes target resolves. Try **Friend**, then restore Parent.
+Center the sample, check its Date field, then open **Settings → K-Plex → Canvas behavior → Relationship behavior → Default Date role**. With **Parent** selected, the daily note should provide upward context if Obsidian's Daily Notes target resolves. Try **Friend**, then restore Parent.
 
 > [!important] Configured ontology wins
 > If `Date` is already assigned explicitly to a role—even Hidden—the dropdown's fallback does not override it. The sample's extra Parent ontology link to its help section is separate from its Date-derived link.

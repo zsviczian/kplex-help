@@ -24,9 +24,9 @@ Understand the map before changing your own notes. Take a short walk through thi
 2. Run **Open K-Plex** from Obsidian's Command Palette or choose the K-Plex ribbon icon.
 3. Focus **Search Vault** (default **Alt/Option+/**, or click its field), search for **K-Plex Help**, and select the result. Existing custom or older shortcuts may differ.
 4. Single-click a **Child** to make it the new center. Use **Past nodes** or back navigation to return; double-click a file-backed node to open its note in Obsidian.
-5. Notice the spatial directions: **Parent above**, **Child below**, **Friend / Previous left**, and **Challenger / Next right**.
+5. Notice the spatial directions in **Compass**, the default view: **Parent above**, **Child below**, **Friend / Previous left**, and **Challenger / Next right**.
 6. Right-click a node, gate or connector to discover its actions. On a touch device, long-press instead.
-7. Press **Ctrl/Cmd+F** with the graph focused to **Find in Plex**. This is different from whole-vault **Search Vault**.
+7. Press **Ctrl/Cmd+F** with the graph focused to **Find in canvas**. This is different from whole-vault **Search Vault**.
 
 > [!note] Ready does not mean finished
 > Filename search and the current note's Obsidian-known relationships can work while richer indexing and URL discovery continue. There is no need to wait for the full URL inventory to browse this help.

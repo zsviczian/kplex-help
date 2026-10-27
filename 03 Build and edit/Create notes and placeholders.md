@@ -32,7 +32,7 @@ Creation and placeholder materialization use a folder selector. Choose the desti
 
 A placeholder can retain its intended path and a link display alias, for example `[[folder/path/filename|filename]]`. The alias belongs to the referring link, not to frontmatter in a nonexistent file. Materialization retains the calculated destination while letting you review it.
 
-**Control-click** on Windows or **Command-click** on macOS opens a placeholder's creation dialog without moving the originating Plex center. Double-click also provides the normal materialization route.
+**Control-click** on Windows or **Command-click** on macOS opens a placeholder's creation dialog without moving the originating canvas center. Double-click also provides the normal materialization route.
 
 The **After saving** control states what will happen:
 

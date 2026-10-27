@@ -15,10 +15,14 @@ Next:
 - "[[01 Core concepts/Relationship roles]]"
 Watch out:
 - '[[05 Personalize and workspace/Layout density and typography]]'
+Note type: "Concept"
+learningMode: "read"
+sessionSize: "longer"
+map-role: concept
 ---
 # The spatial relationship model
 
-Understand a note at a glance. Read the space around it: broader context above, details below, related ideas to the left and challenges to the right.
+Understand a note at a glance in Compass, the default view. Read the space around it: broader context above, details below, related ideas to the left and challenges to the right.
 
 ![[Assets/Screenshot - Reading relationships.png]]
 
@@ -40,4 +44,4 @@ flowchart TB
     F[Friend / Previous] --- C --- R[Challenger / Next]
 ```
 
-A node can change position when the *center* changes, but its position still communicates the relationship it has to the new center. This predictable grammar is the main reason the Plex can remain readable even when the vault itself becomes large.
+A node can change position when the *center* changes, but its position still communicates the relationship it has to the new center. This predictable grammar is the main reason the canvas can remain readable even when the vault itself becomes large.

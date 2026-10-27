@@ -22,7 +22,7 @@ Expected a lens to find every matching note in your vault? A lens refines the ne
 
 ## Find the right starting point first
 
-A Lens can show, hide or style notes already included in the current Plex. It does not bring in every matching note from elsewhere in the vault.
+A Lens can show, hide or style notes already included in the current canvas. It does not bring in every matching note from elsewhere in the vault.
 
 For example, a lens for `#kplex-help/how-to` can emphasize the how-to notes around your current center. It will not collect every how-to page in the vault into one new map.
 

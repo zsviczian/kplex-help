@@ -45,7 +45,7 @@ Open the field, then select **Show documents**. The list uses information alread
 
 ![[Assets/Screenshot - Ontology documents.png]]
 
-*Documents using Explains, filtered to Use cases. The separate row actions open a Plex or an Obsidian tab; the top button copies the filtered list.*
+*Documents using Explains, filtered to Use cases. The separate row actions open a canvas or an Obsidian tab; the top button copies the filtered list.*
 
 ## Remove stale discoveries
 

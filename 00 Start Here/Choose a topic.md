@@ -16,6 +16,7 @@ Friend:
 - '[[00 Start Here/Glossary]]'
 - '[[00 Start Here/Recently added features]]'
 - '[[07 Use cases/Use cases]]'
+map-role: hub
 ---
 # Choose a topic
 

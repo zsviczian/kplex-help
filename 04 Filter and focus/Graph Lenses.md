@@ -39,4 +39,4 @@ The bundled settings include disabled example lenses for how-to notes, cautions,
 > [!important] A Lens is not a whole-vault query
 > It does not fetch disconnected notes merely because they match a condition. Read [[04 Filter and focus/Graph Lenses are local|Graph Lenses are local]] for the scope limit.
 
-**Try it:** With [[00 Start Here/K-Plex Help|K-Plex Help]] centered, open **Filters and lenses** and inspect the example named **Help · How-to notes**. Compare its filter effect with **Style matching**. Then learn [[04 Filter and focus/Keep layout vs Reflow|Keep layout vs Reflow]].
+**Try it:** With [[00 Start Here/K-Plex Help|K-Plex Help]] centered, open **Views and lenses** and inspect the example named **Help · How-to notes**. Compare its filter effect with **Style matching**. Then learn [[04 Filter and focus/Keep layout vs Reflow|Keep layout vs Reflow]].

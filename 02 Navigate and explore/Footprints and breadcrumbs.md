@@ -18,11 +18,11 @@ Watch out:
 ---
 # Footprints and breadcrumbs
 
-Return to something you visited during this exploration, or keep a record of the route. Footprints lists this Plex's visits and lets you copy the trail into a note.
+Return to something you visited during this exploration, or keep a record of the route. Footprints lists this canvas's visits and lets you copy the trail into a note.
 
 ## Revisit a stop on your trail
 
-Navigate from one note to another in the same Plex. Select the **Footprints icon**, next to **Find in Plex** in the upper-right corner. It opens a scrollable list of this Plex's visits, **newest first**. Each visit is kept as a separate entry: if you went A → B → A, both visits to A appear.
+Navigate from one note to another in the same canvas. Select the **Footprints icon**, next to **Find in canvas** in the upper-right corner. It opens a scrollable list of this canvas's visits, **newest first**. Each visit is kept as a separate entry: if you went A → B → A, both visits to A appear.
 
 Select an earlier entry to navigate back to it. This **adds another visit** at the top of Footprints; it does not erase the later part of your trail. The list follows the latest visit when opened, but if you are reading older entries, incoming visits do not pull you away from them.
 
@@ -35,7 +35,7 @@ Use **Up/Down** to move through the entries, **Home** for the newest, and **End*
 ## Keep or restart the trail
 
 - **Copy as Markdown** copies the **whole trail**, newest first, as a Markdown bullet list, including repeated visits and entries outside the visible scroll window. Notes, attachments, folders and placeholders become wikilinks, tags retain their full `#tag/path`, and websites become Markdown links. Paste it into a note if you want a lasting record; copying does not automatically save a note.
-- **Start here** clears **this Plex's Footprints** except for the current center, so a new phase of exploration starts cleanly. It does not clear the shared Past nodes history, change pins, or reset another Plex's Footprints.
+- **Start here** clears **this canvas's Footprints** except for the current center, so a new phase of exploration starts cleanly. It does not clear the shared Past nodes history, change pins, or reset another canvas's Footprints.
 
 **Try it:** Start at a project, visit two related notes, return to the project and open Footprints. Notice that the project appears twice. Copy the trail into a working note, then choose **Start here** before exploring a different question.
 
@@ -43,12 +43,12 @@ Use **Up/Down** to move through the entries, **Home** for the newest, and **End*
 
 | | Footprints (breadcrumbs) | Past nodes (bottom history) | Pins |
 | --- | --- | --- | --- |
-| Purpose | Recall **every accepted visit** in this Plex session, including repeats | Shared back/forward navigation and recent locations | Quick access to chosen landmarks |
-| Ownership | **One Plex** | Shared by all Plexes | Shared by all Plexes |
+| Purpose | Recall **every accepted visit** in this canvas session, including repeats | Shared back/forward navigation and recent locations | Quick access to chosen landmarks |
+| Ownership | **One canvas** | Shared by all canvases | Shared by all canvases |
 | Saved across restart? | **No** | **Yes** | **Yes** |
 | What happens on return? | A new visit is appended | Normal back/forward history behavior | The pin remains a shortcut |
 
-Each native Plex owns its own Footprints. A second Plex has a different trail, even if it begins at the same node. Moving a Plex between windows retains its trail; **closing that Plex or restarting Obsidian clears it**. Duplicate views start with a fresh trail.
+Each native canvas owns its own Footprints. A second canvas has a different trail, even if it begins at the same node. Moving a canvas between windows retains its trail; **closing that canvas or restarting Obsidian clears it**. Duplicate views start with a fresh trail.
 
 Footprints records navigation, **not the structure of your notes**. It is a chronological list, not a visual, branching breadcrumb tree, timeline or metro map. A renamed note's saved visits follow its updated location; a deleted or unavailable target can appear unavailable and cannot be reopened by selecting it.
 

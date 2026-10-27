@@ -38,6 +38,6 @@ Return to the MoC and look for gaps. Group a cluster under a more specific note,
 
 The graph is built from relationships in your notes. It does not automatically write a table of contents into the MoC's body or choose an editorial reading order. Add prose or explicit Previous/Next links where order matters.
 
-Keep the MoC centered in a second Plex while dragging notes from another view, or use the pin-and-gate workflow above. See [[03 Build and edit/Drag drop and reclassify]].
+Keep the MoC centered in a second canvas while dragging notes from another view, or use the pin-and-gate workflow above. See [[03 Build and edit/Drag drop and reclassify]].
 
 Watch [Build a Map of Content with K-Plex](https://youtu.be/ii15UwpsvtU), or continue with [[07 Use cases/Research and learning|Turn research into an article]].

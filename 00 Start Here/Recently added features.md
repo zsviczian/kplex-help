@@ -2,6 +2,7 @@
 aliases:
 - What changed
 - Recent features
+- Recent K-Plex improvements
 - Changes since K-Plex 0.1.3
 tags:
 - kplex-help/section
@@ -19,6 +20,10 @@ Explains:
 - '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
 - '[[08 About/About K-Plex]]'
 Related:
+- "[[01 Core concepts/Canvas views]]"
+- "[[04 Filter and focus/Facets]]"
+- "[[11 Release notes/K-Plex 0.2.3 release notes]]"
+- "[[11 Release notes/K-Plex 0.2.4 release notes]]"
 - '[[11 Release notes/K-Plex 0.2.2 release notes]]'
 - '[[04 Filter and focus/Group nodes by note type]]'
 - '[[README]]'
@@ -31,30 +36,30 @@ Related:
 
 Returning to K-Plex and wondering what is worth trying? Start with the task you want to make easier, then open the relevant guide.
 
-The [[11 Release notes/K-Plex 0.2.0 release notes|0.2.0 release]] introduced the workflows below; 0.2.1 was its technical republication. The [[11 Release notes/K-Plex 0.2.2 release notes|upcoming 0.2.2 update]] adds grouping and keeps lens color editors in front of their parent panel. Use [[README|the setup guidance]] if your controls differ.
-
 ## Find and revisit ideas
 
-Search for folders and hierarchical tags as well as notes. Keep landmarks in pins, or use **Footprints** to retrace this Plex's visit trail and copy it into a note. [[02 Navigate and explore/Navigate and explore|Choose a navigation guide]].
+Search notes, folders and hierarchical tags. Pin landmarks, use Footprints to retrace a canvas's visit trail, or let Wander bring an old idea back into view. [[02 Navigate and explore/Navigate and explore|Choose a navigation guide]].
 
-## Organize while exploring
+## Connect and organize your work
 
-Drag supported nodes between Plexes, bring links into a draft, choose where a new note belongs and classify Markdown notes with tags or a Note Type. Manage paired ontology and find the documents behind a property before cleaning it up. [[03 Build and edit/Build and edit|Choose an editing workflow]].
+Drag supported nodes between canvases, bring links into a draft, choose a new note's destination, and classify notes with tags or a Note type. Manage paired ontology fields and inspect their document uses before cleaning them up. [[03 Build and edit/Build and edit|Choose an editing workflow]].
 
-## Reveal the right detail
+## Choose a perspective for the question
 
-Open a long note's sections or one extra layer beneath neighboring nodes. Filter the map temporarily or save a reusable perspective. [[04 Filter and focus/Filter and focus|Choose how to focus]].
+Compass keeps the familiar directional neighborhood. Mind Map keeps a stable hierarchy root while you unfold branches. Facets compares direct neighbors through categories you define using properties, tags, note types or rules. [[01 Core concepts/Canvas views|Compare the three views]], then [[04 Filter and focus/Facets|make a useful workflow visible]].
 
-For a compact overview of a busy neighborhood, [[04 Filter and focus/Group nodes by note type|group nodes by note type]], then unfold just the group you need. This is the new capability described in the 0.2.2 draft.
+## Reveal the detail you need
 
-## Make the workspace fit
+Group a busy Compass neighborhood by note type, expand another relationship layer, open headings inside a long note, or filter and style the current canvas with reusable Graph Lenses. [[04 Filter and focus/Filter and focus|Choose how to focus]].
 
-Keep separate document pairs in separate Plexes. Fold the graph's tab group to make room for the Sidecar. Choose a named appearance, retain your meaningful colors and use One-sided layout in narrow spaces. [[05 Personalize and workspace/Personalize and workspace|Tune your workspace]].
+## Give reading and writing more room
 
-## Choose when preparation starts
+Read beside the map in a Sidecar or edit a supported note on the canvas. Alt/Option-select the Sidecar controls to give the document or canvas the available space in one action. Framing adapts when the Sidecar opens or closes and respects Autozoom. [[05 Personalize and workspace/Personalize and workspace|Tune your workspace]].
 
-Set startup and Eager/On-demand behavior separately for desktop, tablet and phone. Read current-graph readiness separately from wider discovery, and capture diagnostics before resetting anything. [[06 Indexing and troubleshooting/Indexing and troubleshooting|Understand loading and recovery]].
+## Get back to work while preparation continues
+
+Choose startup and Eager/On-demand behavior separately for desktop, tablet and phone. Recent indexing improvements reuse valid work during edits and warm starts; gate counters remain stable through ordinary autosaves. Current-neighborhood readiness and wider discovery remain separate. [[06 Indexing and troubleshooting/Indexing and troubleshooting|Understand loading and recovery]].
 
 ## Put it to work
 
-Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. The goal is a useful result, not trying every new control.
+Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. Use the [[11 Release notes/K-Plex 0.2.3 release notes|0.2.3]] and [[11 Release notes/K-Plex 0.2.4 release notes|0.2.4]] notes for published indexing and workspace improvements, and the release archive for earlier history.

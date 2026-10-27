@@ -3,6 +3,7 @@ aliases:
 - Colors and appearance
 - Reset colors without losing semantic styles
 tags:
+- kplex/workspace
 - kplex-help/how-to
 - kplex/styling
 Parent:
@@ -11,6 +12,8 @@ Friend:
 - '[[05 Personalize and workspace/Node styles from help tags]]'
 - '[[05 Personalize and workspace/Visibility and connector styling]]'
 - '[[04 Filter and focus/Graph Lenses]]'
+learningMode: "practice"
+sessionSize: "longer"
 ---
 # Colors and themes
 

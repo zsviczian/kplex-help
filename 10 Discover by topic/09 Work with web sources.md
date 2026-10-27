@@ -32,7 +32,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 2. **[[02 Navigate and explore/Editor node and web pages|Editor node and web pages]]** — Open websites or embed them in the central editor view.
 3. **[[03 Build and edit/Create a relationship|Create a relationship]]** — Add a web link through a Markdown note relationship.
 4. **[[06 Indexing and troubleshooting/Web link indexing|Web link indexing]]** — Check when cached and newly discovered web links appear.
-5. **[[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this Plex]]** — Search indexed URLs without assuming the URL inventory is complete.
+5. **[[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]]** — Search indexed URLs without assuming the URL inventory is complete.
 
 ## More ways to reach your goal
 

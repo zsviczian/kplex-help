@@ -10,6 +10,9 @@ Challenger:
   - "[[01 Core concepts/What K-Plex is not]]"
 Next:
   - "[[01 Core concepts/The spatial relationship model]]"
+Note type: "Concept"
+learningMode: "read"
+sessionSize: "short"
 ---
 # What K-Plex is
 
@@ -23,12 +26,14 @@ Make use of the connections already in your Obsidian notes. K-Plex puts one note
 
 ## A spatial vocabulary you can learn
 
+Compass, the default view, gives relationships a predictable position.
+
 - **Up — Parent:** broader context.
 - **Down — Child:** components, examples and detail.
 - **Left — Friend / Previous:** related ideas and earlier steps.
 - **Right — Challenger / Next:** objections and later steps.
 
-The center can be a note, supported attachment, URL, folder, tag or unresolved placeholder, depending on your visibility settings. Every move shows the neighborhood around the new center while preserving the spatial grammar.
+The center can be a note, supported attachment, URL, folder, tag or unresolved placeholder, depending on your visibility settings. In Compass, every move shows the neighborhood around the new center while preserving the spatial grammar. Mind Map keeps a stable hierarchy root; Facets arranges the direct neighborhood using categories you define.
 
 ## What you can do
 

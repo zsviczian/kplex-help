@@ -22,6 +22,7 @@ Friend:
 - https://github.com/zsviczian/kplex
 - https://obsidian.md
 Related:
+- "[[Assets/logo - kplex.png]]"
 - '[[07 Use cases/Never start a project with a blank page]]'
 - '[[11 Release notes/K-Plex 0.2.2 release notes]]'
 - '[[00 Start Here/How to use this help vault]]'
@@ -55,8 +56,7 @@ Make this note the center of K-Plex, then open a Child below it. Pin the home pa
 
 The help itself demonstrates Parent/Child topics, Friend cross-links, Challenger caveats and Previous/Next sequences. [[00 Start Here/How to use this help vault|See how the example works]].
 
-> [!note] About this demo
-> The bundled plugin identifies itself as 0.2.1. These guides also cover grouping planned for [[11 Release notes/K-Plex 0.2.2 release notes|0.2.2]], which needs a newer build. [[README|Check the setup and version guidance]] before trying that feature.
+For the included plugin version, installation choices and the current feature guides, [[README|check the setup guidance]].
 
 ## Keep exploring
 

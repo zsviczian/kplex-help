@@ -11,10 +11,12 @@ Friend:
 - '[[05 Personalize and workspace/Node styles from help tags]]'
 Next:
 - '[[01 Core concepts/Core concepts]]'
+Related:
+- "[[09 Showcase examples/Facets demonstrations]]"
 ---
 # How to use this help vault
 
-Try K-Plex while learning it. These notes are both a readable guide and a live graph: follow a topic in Markdown or make it the center of the Plex.
+Try K-Plex while learning it. These notes are both a readable guide and a live graph: follow a topic in Markdown or make it the center of the canvas.
 
 ## Three ways to browse
 
@@ -43,7 +45,7 @@ Inspect the configuration in [[03 Build and edit/Manage and clean up ontology]].
 
 ## Tags and appearance
 
-Each note has a help-style tag such as `#kplex-help/concept`, `#kplex-help/how-to`, `#kplex-help/path`, or `#kplex-help/caution`, plus one or more topic tags. The bundled node styling makes the type of help visible in the Plex; [[05 Personalize and workspace/Node styles from help tags|Node styles from help tags]] explains the scheme.
+Each note has a help-style tag such as `#kplex-help/concept`, `#kplex-help/how-to`, `#kplex-help/path`, or `#kplex-help/caution`, plus one or more topic tags. The bundled node styling makes the type of help visible in the canvas; [[05 Personalize and workspace/Node styles from help tags|Node styles from help tags]] explains the scheme.
 
 ## Folders, images and URLs
 
@@ -55,3 +57,9 @@ Folders keep help familiar in the Obsidian file explorer. The images in `Assets/
 ## This vault demonstrates recent features
 
 The [[00 Start Here/Recently added features|recent features hub]] links to the Action Manager, graphical keyboard navigation, fullscreen/Zen and Date-property role settings. There is also a **real date example** at [[09 Showcase examples/Example - Date and a daily note|Example - Date and a daily note]]. For practice, use [[10 Discover by topic/11 Work without the mouse|keyboard path]], [[10 Discover by topic/12 Connect dates and daily notes|dates path]] or [[10 Discover by topic/13 Present and concentrate|focus path]].
+
+## Build a view around your own question
+
+The default **Compass** view teaches the relationship vocabulary used throughout the help. **Mind Map** follows a hierarchy from a stable root. **Facets** lets you define categories for the direct neighbors of a note.
+
+Open [[09 Showcase examples/Facets demonstrations|the four Facets demonstrations]] to see property, tag, note-type and category-rule sources with different arrangements. Each preset has a useful starting note and its own help. Treat them as examples for a workflow you define, rather than a system you must adopt.

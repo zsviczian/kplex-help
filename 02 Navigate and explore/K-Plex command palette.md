@@ -23,7 +23,7 @@ Know what you want to do but cannot remember the button or shortcut? Search K-Pl
 
 1. Focus a K-Plex graph and press **Alt/Option+.** (period), or use the published **K-Plex command palette** action from Obsidian's Command Palette.
 2. Type a command name. The palette searches available actions and shows descriptions and local shortcut hints.
-3. Choose an action. K-Plex carries forward the originating Plex and its selected node when relevant; actions that require an unavailable target are not offered.
+3. Choose an action. K-Plex carries forward the originating canvas and its selected node when relevant; actions that require an unavailable target are not offered.
 
 Try searching for **Pin**, **Rename**, **Connect**, **Open**, **History**, **Zoom**, or **Zen**. The palette also includes creation, connection inspection, section folding, filters/lenses, view options, and navigation, depending on the current context.
 
@@ -32,7 +32,7 @@ Try searching for **Pin**, **Rename**, **Connect**, **Open**, **History**, **Zoo
 
 ## Local commands versus Obsidian commands
 
-- The **K-Plex palette** acts in a particular Plex and shows context-appropriate actions. Its default graph shortcut is **Alt/Option+.**.
+- The **K-Plex palette** acts in a particular canvas and shows context-appropriate actions. Its default graph shortcut is **Alt/Option+.**.
 - **Obsidian's Command Palette** contains actions **published** by K-Plex plus commands from other plugins. Published actions can receive Obsidian-wide hotkeys under **Settings → Hotkeys**.
 - Publishing an action does not automatically create a global shortcut. Hiding a command from Obsidian does **not** disable its graph-local shortcut or local palette availability.
 

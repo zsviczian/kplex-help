@@ -30,3 +30,9 @@ If one note exceeds the supported relationship-loading bound, K-Plex can report 
 ## If the graph still looks incomplete
 
 Check the [[06 Indexing and troubleshooting/Understanding index status|status indicator]] and try navigating to the particular note you need. If a result stays wrong, [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|capture diagnostics]] before restarting.
+
+## Keep useful progress while notes change
+
+K-Plex reuses valid completed indexing work as notes are edited, rather than repeatedly starting the whole operation again. Reopening the vault can also reuse cached information after validation. This reduces repeated background work; the amount of time saved depends on the vault and cache state.
+
+Ordinary autosaves retain stable gate counts when relationships have not changed. Actual relationship changes still update the counts. Tag and folder nodes show zero for Friend and Challenger relationships that do not apply to them.

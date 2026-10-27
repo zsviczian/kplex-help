@@ -7,6 +7,8 @@ tags:
 - kplex/filtering
 Guide:
 - '[[04 Filter and focus/Expand a note into sections]]'
+Workshop stage: "Shape"
+status: 🔵
 ---
 # Example - A note with sections
 

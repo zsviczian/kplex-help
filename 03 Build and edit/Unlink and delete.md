@@ -22,7 +22,7 @@ Disconnect two ideas, or remove a note entirely. Choose the action that changes 
 
 Deleting a Markdown-backed node uses Obsidian's normal trash workflow. The graph node can remain as a ghost if references still point to the deleted file, including when that node is currently centered. K-Plex can automatically remove references stored in note properties, but it does **not** rewrite arbitrary Markdown-body links for you.
 
-If body references remain, K-Plex opens **Remaining references** so you can review and remove them at the source. The first delete workflow also explains confirmation behavior; the preference lives under **Plex behavior → Navigation & interaction**.
+If body references remain, K-Plex opens **Remaining references** so you can review and remove them at the source. The first delete workflow also explains confirmation behavior; the preference lives under **Canvas behavior → Navigation & interaction**.
 
 > [!warning]
 > Treat relationship editing and deletion as real vault edits. Keep backups and use test notes when learning the workflows.

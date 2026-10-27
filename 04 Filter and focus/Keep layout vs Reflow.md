@@ -22,7 +22,7 @@ Hide distractions without losing your bearings, or make the remaining map more c
 
 ## Choose what should happen after filtering
 
-Open **Filters and lenses**, apply a [[04 Filter and focus/Quick Filter|Quick Filter]] or [[04 Filter and focus/Graph Lenses|Lens]], then compare the layout choices.
+Open **Views and lenses**, apply a [[04 Filter and focus/Quick Filter|Quick Filter]] or [[04 Filter and focus/Graph Lenses|Lens]], then compare the layout choices.
 
 - **Keep layout** leaves the surviving nodes in their earlier positions. Use it when you want to compare the filtered map with the full one.
 - **Reflow** closes the gaps and arranges the remaining nodes more compactly. Use it when the filtered result is the map you want to work with.

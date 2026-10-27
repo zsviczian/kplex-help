@@ -8,7 +8,10 @@ Guide:
 - '[[00 Start Here/Get started]]'
 Related:
 - '[[11 Release notes/K-Plex 0.2.2 release notes]]'
-- 'https://github.com/zsviczian/kplex/releases/tag/0.2.1'
+- 'https://github.com/zsviczian/kplex/releases/tag/0.2.4'
+- '[[01 Core concepts/Canvas views]]'
+- '[[09 Showcase examples/Facets demonstrations]]'
+- '[[11 Release notes/Release notes]]'
 ---
 # Try K-Plex with a ready-made vault
 
@@ -23,11 +26,11 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-The bundled plugin currently identifies itself as **0.2.1**. The latest published version is [0.2.1](https://github.com/zsviczian/kplex/releases/tag/0.2.1), a technical republication of the October 20 **0.2.0** release.
+The included plugin is **0.3.0**. See [[11 Release notes/K-Plex 0.3.0 release notes|the release notes]] for canvas views, reusable Facets workflows and sharing.
 
-The living guides also describe the upcoming **0.2.2** grouping feature. The bundled plugin does not yet include it: use a build containing that feature, or update to 0.2.2 after it is published. Read [[11 Release notes/K-Plex 0.2.2 release notes|the 0.2.2 draft]] for its scope.
+These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
-Back up the supplied settings before switching versions: they contain this vault's example ontology, colors and navigation choices. Read [[11 Release notes/Release notes|the release archive]] for historical availability.
+Use [[01 Core concepts/Canvas views|the view comparison]] to choose a perspective, or [[09 Showcase examples/Facets demonstrations|the four Facets examples]] to learn how to define your own workflows. [[11 Release notes/Release notes|The release archive]] records historical availability.
 
 ## Choose how to explore
 

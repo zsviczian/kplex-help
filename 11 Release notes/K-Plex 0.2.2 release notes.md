@@ -3,7 +3,6 @@ aliases:
 - K-Plex 0.2.2 release notes
 tags:
 - kplex-help/release-notes
-- kplex/unreleased
 Guide:
 - '[[11 Release notes/Release notes]]'
 Explains:
@@ -12,12 +11,15 @@ Explains:
 Previous:
 - '[[11 Release notes/K-Plex 0.2.0 release notes]]'
 Related:
+- 'https://github.com/zsviczian/kplex/releases/tag/0.2.2'
 - 'https://github.com/zsviczian/kplex/pull/199'
 - 'https://github.com/zsviczian/kplex/pull/200'
 ---
 # K-Plex 0.2.2 — A clearer map, easier styling
 
 Get an overview of a busy neighborhood before opening its individual notes. Fixed Graph Lens style editor bug where color editor appeared behind the lens settings.
+
+Published **2026-10-21**. This is a reader-facing summary of [the published 0.2.2 release](https://github.com/zsviczian/kplex/releases/tag/0.2.2).
 
 ## Open the detail you need
 

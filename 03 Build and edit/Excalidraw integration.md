@@ -14,7 +14,7 @@ excalidraw-plugin: parsed
 ---
 # Excalidraw integration
 
-Use a sketch to be part of the same thinking process as your written notes. Create or open an Excalidraw drawing from the Plex while keeping its related ideas nearby.
+Use a sketch to be part of the same thinking process as your written notes. Create or open an Excalidraw drawing from the canvas while keeping its related ideas nearby.
 
 ![[Assets/Screenshot - Excalidraw idea compass.png]]
 

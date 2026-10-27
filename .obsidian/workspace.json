@@ -20,8 +20,72 @@
               "icon": "lucide-file",
               "title": "Start Here"
             }
+          },
+          {
+            "id": "f96c6c66434b3021",
+            "type": "leaf",
+            "state": {
+              "type": "k-plex-react-view",
+              "state": {
+                "centerPresentation": {
+                  "embedCentralNode": false,
+                  "centralNodeMarkdownMode": "source"
+                },
+                "plexSession": {
+                  "version": 1,
+                  "ownerId": "f96c6c66434b3021",
+                  "centerPath": "Start Here.md",
+                  "targetId": null,
+                  "plexView": {
+                    "version": 1,
+                    "id": "classic",
+                    "states": {
+                      "mindmap": {
+                        "version": 1,
+                        "scope": "09 Showcase examples/Example - Wu Xing perspectives.md",
+                        "initialGenerations": 1,
+                        "expanded": [
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"04 Filter and focus/Facets layouts and classification.md\"]",
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\",\"09 Showcase examples/Example - A visual note.md\"]",
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\"]"
+                        ],
+                        "collapsed": [],
+                        "sides": {
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - A note with sections.md\"]": 1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - A visual note.md\"]": -1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Research question.md\"]": 1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop materials.md\"]": -1,
+                          "[\"09 Showcase examples/Example - Wu Xing perspectives.md\",\"09 Showcase examples/Example - Workshop review.md\"]": 1
+                        }
+                      },
+                      "wuxing": {
+                        "version": 1,
+                        "preset": "wuxing"
+                      }
+                    },
+                    "areaHeights": {
+                      "mindmap": {
+                        "parentHeight": 261
+                      }
+                    },
+                    "roots": {
+                      "mindmap": "09 Showcase examples/Example - Wu Xing perspectives.md"
+                    }
+                  },
+                  "documentSyncMode": "off",
+                  "sidecarOpen": false,
+                  "sidecarPosition": "right",
+                  "sidecarLastFilePath": "",
+                  "sidecarLastUrl": "",
+                  "sidecarMarkdownMode": "source"
+                }
+              },
+              "icon": "brain-circuit",
+              "title": "K-Plex"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,9 +251,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "11 Release notes/K-Plex 0.2.0 release notes.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -204,6 +266,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "k-plex:Open K-Plex canvas": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,12 +274,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "k-plex:Open K-Plex": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f396e0b44d530569",
+  "active": "f96c6c66434b3021",
   "lastOpenFiles": [
+    "Assets/Image - select canvas view.png",
+    "04 Filter and focus/Facets.md",
+    "Assets/Image - View Facets.png",
+    "01 Core concepts/Canvas views.md",
+    "11 Release notes/K-Plex 0.3.0 release notes.md",
+    "09 Showcase examples/Example - A note with sections.md",
+    "09 Showcase examples/Example - A visual note.md",
     "README.md",
     "Start Here.md",
     "11 Release notes/K-Plex 0.2.0 release notes.md",
@@ -225,7 +294,6 @@
     "03 Build and edit/Manage and clean up ontology.md",
     "Assets/Screenshot - Footprints trail.png",
     "Assets/Screenshot - Section outline.png",
-    "09 Showcase examples/Example - A note with sections.md",
     "Assets/Screenshot - Named themes.png",
     "Assets/Screenshot - Device indexing.png",
     "Assets/Screenshot - Ontology documents.png",
@@ -234,7 +302,6 @@
     "08 About/About K-Plex.md",
     "Assets/About - kplex.png",
     "Assets/Image - About.png",
-    "Assets/logo - kplex.png",
     "00 Start Here/First 5 minutes.md",
     "09 Showcase examples/Example - Research question.md",
     "08 About/Support K-Plex.md",
@@ -247,12 +314,6 @@
     "07 Use cases/Projects and decisions.md",
     "07 Use cases/Build a help system like this vault.md",
     "07 Use cases/Argument maps with Challengers.md",
-    "06 Indexing and troubleshooting/Web link indexing.md",
-    "06 Indexing and troubleshooting/Troubleshooting checklist.md",
-    "06 Indexing and troubleshooting/Rebuild purge and diagnostics.md",
-    "06 Indexing and troubleshooting/Large vault behavior.md",
-    "06 Indexing and troubleshooting/Indexing and troubleshooting.md",
-    "Assets/Icon - Stopwatch.svg",
     "Excalidraw",
     "Assets",
     "02 Navigate and explore",

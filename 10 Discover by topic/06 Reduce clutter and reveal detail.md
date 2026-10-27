@@ -23,7 +23,7 @@ Related:
 ---
 # Reduce clutter and reveal detail
 
-Make a busy Plex readable without changing your notes. Follow this short path, then try it with your own notes.
+Make a busy canvas readable without changing your notes. Follow this short path, then try it with your own notes.
 
 The graph contains too many nodes or you need one temporary perspective.
 
@@ -45,7 +45,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 
 ## Try it in your own vault
 
-Center **K-Plex Help**, open **Filters and lenses**, filter by `kplex-help/how-to`, compare **Keep layout** with **Reflow**, and then clear the filter.
+Center **K-Plex Help**, open **Views and lenses**, filter by `kplex-help/how-to`, compare **Keep layout** with **Reflow**, and then clear the filter.
 
 ## Try another small step
 
@@ -59,4 +59,4 @@ While a filter is active, enter Zen and check that the current layout and select
 
 ## Cross-links in the help vault
 
-Siblings are disabled in this help vault. For a simpler Plex, open **Filters and lenses** and turn **Show cross-links** off. This toggle is currently view-local even though the saved `crossLinkOpacity` is 50%; consult [[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]].
+Siblings are disabled in this help vault. For a simpler canvas, open **Views and lenses** and turn **Show cross-links** off. This toggle is currently view-local even though the saved `crossLinkOpacity` is 50%; consult [[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]].

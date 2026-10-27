@@ -6,17 +6,19 @@ tags:
 Guide:
 - '[[02 Navigate and explore/Navigate and explore]]'
 Related:
+- "[[Assets/Screenshot - Canvas keyboard shortcuts.png]]"
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
+map-role: reference
 ---
 # Keyboard shortcuts reference
 
 Use a faster way to perform a familiar action. Find its default shortcut here, then check your saved bindings if your vault behaves differently.
 
-![[Assets/Screenshot - Keyboard help.png]]
+![[Assets/Screenshot - Canvas keyboard shortcuts.png]]
 
-*The built-in keyboard reference shows the effective shortcuts in this vault. Your saved keys can differ from fresh-install defaults.*
+*The current desktop keyboard reference shows effective canvas shortcuts, including Enter to center a note and Alt+Enter to fold a supported branch or section. Saved shortcuts and platform labels can differ.*
 
 ## Focus, selection and movement
 
@@ -24,15 +26,16 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 | --- | --- |
 | **Ctrl/Cmd+Shift+G** | Focus the graph. |
 | **Ctrl/Cmd+Shift+E** | Focus the existing embedded or Sidecar editor. |
-| **Arrow keys** | Select another visible node within the area. |
+| **Arrow keys** | Select another visible node; cross areas at their boundaries. |
 | **Alt/Option+arrows** | Switch relationship areas. |
 | **Alt/Option+0** | Select the center. |
-| **Enter** | Activate selected node; rename if the central file is selected. |
-| **Ctrl/Cmd+Enter** | Center the selected note and open/ensure its Sidecar. |
+| **Enter** | Center the selected node; in Mind Map, also use it as the root. |
+| **Ctrl/Cmd+Enter** | Open the selected note in a new native tab. |
+| **Alt/Option+Enter** | Fold or unfold the selected supported branch or section. |
 | **Type a label** | Select matching visible nodes (graph focus). |
 | **Tab / Shift+Tab** | Next / previous typed match (only while a type-to-select phrase is active). |
-| **Backspace** | Edit active typed phrase; otherwise return in Plex history. |
-| **Shift+Backspace** | Move forward in Plex history when not typing a search phrase. |
+| **Backspace** | Edit active typed phrase; otherwise return in canvas history. |
+| **Shift+Backspace** | Move forward in canvas history when not typing a search phrase. |
 | **Escape** | Clear active phrase first; otherwise follow the focused UI's cancellation behavior. |
 
 ## Actions and graph tools
@@ -41,8 +44,8 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 | --- | --- |
 | **Alt/Option+.** | Open the K-Plex command palette. |
 | **Alt/Option+?** | Open the read-only Keyboard help. |
-| **Alt/Option+/** | Focus Search Vault on the Plex. |
-| **Ctrl/Cmd+F** | Focus Find in Plex when the graph has focus; in an editor it stays the editor's Find. |
+| **Alt/Option+/** | Focus Search Vault on the canvas. |
+| **Ctrl/Cmd+F** | Focus Find in canvas when the graph has focus; in an editor it stays the editor's Find. |
 | **Alt/Option+R** | Rename selected node, or center. |
 | **Alt/Option+P** | Pin / unpin selected node, or center. |
 | **Alt/Option+B** | Open complete pins picker. |
@@ -56,7 +59,7 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 
 ## Field and dialog focus matters
 
-- **Search Vault:** Up/Down chooses search results, Enter opens one, Escape dismisses results. **Find in Plex:** Enter/Shift+Enter cycles matches; Escape clears and closes Find.
+- **Search Vault:** Up/Down chooses search results, Enter opens one, Escape dismisses results. **Find in canvas:** Enter/Shift+Enter cycles matches; Escape clears and closes Find.
 - **Graph:** Arrow navigation and type-to-select apply only while the graph owns focus. Native editors, note input fields and modal controls keep their own key behavior.
 - **Relationship dialog:** **Ctrl/Cmd+Enter** submits when its inputs can accept the shortcut; **Ctrl/Cmd+Shift+Enter** creates/connects another while retaining the captured origin. Accept an open suggestion first.
 - Shortcut bindings and command publication are independent. No global Obsidian hotkey is installed automatically for these local graph actions.

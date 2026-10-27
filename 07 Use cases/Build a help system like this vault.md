@@ -24,7 +24,7 @@ Want people to find an answer without reading a manual from beginning to end? Co
 
 *The help's own notes form a navigable map: broader guides, related explanations and a caveat surround a small example.*
 
-This very vault is an example of **documentation as a navigable Plex**, not just a collection of pages.
+This very vault is an example of **documentation as a navigable canvas**, not just a collection of pages.
 
 ## Keep the reader in the center
 
