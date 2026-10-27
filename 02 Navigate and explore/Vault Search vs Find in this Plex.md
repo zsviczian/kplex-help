@@ -1,5 +1,6 @@
 ---
 aliases:
+- Vault Search vs Find in this canvas
 - Vault Search vs Find in this Plex
 tags:
 - kplex-help/how-to

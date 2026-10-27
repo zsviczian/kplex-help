@@ -1,5 +1,6 @@
 ---
 aliases:
+- Navigating the canvas
 - Navigating the Plex
 tags:
 - kplex-help/how-to
