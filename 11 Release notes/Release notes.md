@@ -14,7 +14,7 @@ Child:
 - "[[11 Release notes/K-Plex 0.1.1]]"
 - "[[11 Release notes/K-Plex 0.1.0]]"
 - "[[11 Release notes/Early releases]]"
-- "[[11 Release notes/Canvas views and reusable workflows]]"
+- "[[11 Release notes/K-Plex 0.3.0 release notes]]"
 Related:
 - "[[00 Start Here/Recently added features]]"
 - "[[README]]"
@@ -23,9 +23,9 @@ Related:
 
 Wondering whether an update helps your workflow? Browse what changed, then follow a feature link to learn how to use it.
 
-## Canvas views and workflows
+## K-Plex 0.3.0 ? Canvas views and workflows
 
-[[11 Release notes/Canvas views and reusable workflows|Canvas views and reusable workflows]] brings together the view choices, Facets workflows, sharing and in-place editing.
+[[11 Release notes/K-Plex 0.3.0 release notes|K-Plex 0.3.0 ? Canvas views and reusable workflows]] brings together the view choices, Facets workflows, sharing and in-place editing.
 
 ## Published releases
 

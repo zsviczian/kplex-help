@@ -1,4 +1,7 @@
 ---
+aliases:
+- Canvas views and reusable workflows
+- K-Plex 0.3.0 release notes
 tags:
 - "kplex-help/release-notes"
 Guide:
@@ -13,7 +16,7 @@ Explains:
 Related:
 - "[[11 Release notes/K-Plex 0.2.4 release notes]]"
 ---
-# Canvas views and reusable workflows
+# K-Plex 0.3.0 ? Canvas views and reusable workflows
 
 Choose a perspective that suits the work in front of you. Explore a note’s context with Compass, develop a hierarchy with Mind Map, or organize connected notes through your own Facets workflow.
 

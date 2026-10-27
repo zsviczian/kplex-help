@@ -26,7 +26,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-The included plugin identifies itself as **0.2.2**. The latest published release is [0.2.4](https://github.com/zsviczian/kplex/releases/tag/0.2.4), with indexing and Sidecar improvements described in the release archive.
+The included plugin is **0.3.0**. See [[11 Release notes/K-Plex 0.3.0 release notes|the release notes]] for canvas views, reusable Facets workflows and sharing.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
