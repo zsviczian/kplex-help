@@ -24,11 +24,12 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 | --- | --- |
 | **Ctrl/Cmd+Shift+G** | Focus the graph. |
 | **Ctrl/Cmd+Shift+E** | Focus the existing embedded or Sidecar editor. |
-| **Arrow keys** | Select another visible node within the area. |
+| **Arrow keys** | Select another visible node; cross areas at their boundaries. |
 | **Alt/Option+arrows** | Switch relationship areas. |
 | **Alt/Option+0** | Select the center. |
-| **Enter** | Activate selected node; rename if the central file is selected. |
-| **Ctrl/Cmd+Enter** | Center the selected note and open/ensure its Sidecar. |
+| **Enter** | Center the selected node; in Mind Map, also use it as the root. |
+| **Ctrl/Cmd+Enter** | Open the selected note in a new native tab. |
+| **Alt/Option+Enter** | Fold or unfold the selected supported branch or section. |
 | **Type a label** | Select matching visible nodes (graph focus). |
 | **Tab / Shift+Tab** | Next / previous typed match (only while a type-to-select phrase is active). |
 | **Backspace** | Edit active typed phrase; otherwise return in canvas history. |

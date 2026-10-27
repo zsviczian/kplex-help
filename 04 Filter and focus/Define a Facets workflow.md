@@ -16,13 +16,13 @@ Turn a distinction you already make into a reusable view. Begin with a small set
 
 ## Make a preset
 
-1. Open **Settings → K-Plex → Views → Facets → Manage presets**, or use the selected preset's settings control on the canvas.
+1. Open **Settings → K-Plex → Canvas behavior → Views → Facets → Manage presets**, or use the selected preset's settings control on the canvas.
 2. Create a preset, or **Duplicate** a nearby example and give it a name that describes its purpose.
 3. Keep three to seven categories. Name them, set their order and colors, and choose the **Classification source**.
 4. Enter matching values for a property, tags or note types. For **Category rule**, use the condition editor to define what makes each category match.
 5. Choose a layout and **Save**. Select the preset on a Facets canvas centered on your example note.
 
-For a property such as `Workshop stage`, the help example recognizes `Collect`, `Shape` and `Share`. Matching trims spaces and preserves case. Several recognized aliases can lead to one category; the visible category label can change without rewriting note values.
+For a property such as `Workshop stage`, the help example recognizes `Collect`, `Shape` and `Share`. Matching trims spaces and preserves case. For a Tags source, enter values in their displayed form, including the leading `#`, such as `#kplex/navigation`. Normal YAML tags may omit that prefix. Several recognized aliases can lead to one category; the visible category label can change without rewriting note values.
 
 ## Separate looking from changing notes
 

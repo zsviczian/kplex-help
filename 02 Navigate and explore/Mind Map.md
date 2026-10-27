@@ -13,18 +13,20 @@ Friend:
 ---
 # Develop a hierarchy with Mind Map
 
-Keep an outline in view while exploring its branches. Mind Map keeps a stable root, so selecting a note does not rebuild the whole map around a new center.
+Keep an outline in view while exploring its branches. Mind Map keeps its root while you unfold branches or move keyboard selection. Center a note when you want to start the map from that idea.
 
 ## Try the workshop hierarchy
 
 1. Center [[09 Showcase examples/Example - Workshop plan|the workshop plan]], then choose **Mind Map** in **Views and lenses**.
 2. Unfold the materials branch to reveal its source notes. Use **Expand one generation** to reveal another layer, or fold an individual branch.
-3. Select a source note. The plan remains the map root while attention moves to that note.
-4. To start a different map, use **Use as map root** on the selected note, or **Use current note as map root**.
+3. Use the arrow keys to select and reveal a source note. The plan remains the map root; moving keyboard selection does not change the centered note.
+4. Click a note or press **Enter** to center it and make it the map root. **Use as map root** and **Use current note as map root** also offer explicit root changes.
+
+With the default shortcuts, **Alt/Option+Enter** folds or unfolds the selected branch; its chevron does the same without centering the note. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Your saved shortcuts may override these defaults.
 
 ## Shape an outline without losing its context
 
-The child tree can grow left, right or in a balanced arrangement. Parents stay above the root; peer context stays separate from the child tree. Parent areas grow upward to fit their branches; their height setting establishes a minimum. Pan and zoom the canvas to reach longer branches. Change spacing, density, initial generations and display limits in **Settings → K-Plex → Views → Mind Map**.
+The child tree can grow left, right or in a balanced arrangement. Parents stay above the root; peer context stays separate from the child tree. Parent areas grow upward to fit their branches; their height setting establishes a minimum. Pan and zoom the canvas to reach longer branches. Change spacing, density, initial generations and display limits in **Settings → K-Plex → Canvas behavior → Views → Mind Map**.
 
 Repeated and circular relationships can appear as references rather than expanding forever. A branch may still be preparing, have incomplete metadata, or reach a display limit. Those states do not mean the underlying note has no children.
 

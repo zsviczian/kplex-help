@@ -46,4 +46,4 @@ Open [[09 Showcase examples/Facets demonstrations|the demonstration guide]] for 
 
 [[04 Filter and focus/Facets layouts and classification|Choose an arrangement and understand classification]] before treating an empty category as missing work. Property, tag, note-type and rule sources are separate choices; Facets does not silently try another source when a value is missing.
 
-When a workflow is useful, [[04 Filter and focus/Share presets and lenses|share its preset]] with another vault. You choose whether to include related lenses and palette entries.
+When a workflow is useful, [[04 Filter and focus/Share presets and lenses|share its preset]] with another vault. You choose any companion lenses explicitly; referenced palette colors travel with the definition.

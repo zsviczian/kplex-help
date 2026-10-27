@@ -38,7 +38,7 @@ Other tabs in the folded group are hidden too. If the layout cannot safely prese
 
 ## Move attention, not the layout
 
-**Ctrl/Cmd+Shift+E** focuses the existing editor and **Ctrl/Cmd+Shift+G** returns to the graph. **Ctrl/Cmd+Enter** centers a selected note and ensures its Sidecar is open. Your [[05 Personalize and workspace/Actions and shortcuts|saved shortcuts]] can override these defaults.
+**Ctrl/Cmd+Shift+E** focuses the existing editor and **Ctrl/Cmd+Shift+G** returns to the graph. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Use the Sidecar edge control when you want an adjacent managed document. Your [[05 Personalize and workspace/Actions and shortcuts|saved shortcuts]] can override these defaults.
 
 A drawing can keep its chosen drawing or Markdown view when the same file is followed. Use an explicit open or representation command when you want to change it. See [[03 Build and edit/Excalidraw integration]].
 

@@ -42,7 +42,7 @@ In **this help vault**, the base node label limit is **100 characters**, while m
 
 Select **One-sided layout** below the Parents and Children sliders in Layout controls to put Friends and Challengers together in one shared list on the left. This removes the separate right-hand Challenger area without discarding Challenger relationships or changing their meaning and filters.
 
-The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Views → Compass → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
+The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Canvas behavior → Views → Compass → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
 
 This is a compact alternative to the standard four-direction layout, not a custom layout engine or an additional ontology region. **One-sided layout** is the current label; earlier development notes called it Simplified layout.
 

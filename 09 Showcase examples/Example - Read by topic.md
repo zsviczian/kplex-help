@@ -22,8 +22,10 @@ Find the kind of help you need without reading every guide. This small collectio
 ## Try it
 
 1. Center this note and choose **Facets → Read by topic**.
-2. Find **Navigation**, **Filtering** and **Workspace** around the center. The categories recognize `kplex/navigation`, `kplex/filtering` and `kplex/workspace` tags.
+2. Find **Navigation**, **Filtering** and **Workspace** around the center. The categories recognize `#kplex/navigation`, `#kplex/filtering` and `#kplex/workspace` tags.
 3. Look in **Conflicting** for Sidecar. It has both navigation and workspace tags, so neither category wins silently.
+
+The notes use normal YAML tags without a leading `#`; the preset recognizes their displayed tag form with `#`.
 
 The circular layout makes these topics peers rather than stages. Narrow areas keep the guides in short stacks. Other connected notes without one of these tags belong in Unassigned.
 

@@ -24,10 +24,10 @@ Explore and connect notes without reaching for the mouse. Give the graph focus, 
 ## Choose and move
 
 1. Press an **arrow key** to highlight a visible node in the current relationship area. Arrows move selection without moving the center or changing Past nodes.
-2. Press **Alt/Option+arrow** to move to another relationship area. The **Move across section boundaries** preference controls whether plain arrows also cross at the end of an area. New installs enable that behavior; upgraded configurations keep their existing choice.
-3. Press **Enter** to center a selected neighbor. On a selected central file it opens **Rename**. The selected node may be revealed inside a scrollable area first.
+2. Plain arrows cross to another area at its boundary. Use **Alt/Option+arrow** to move directly to another relationship area.
+3. Press **Enter** to center a selected neighbor. In Mind Map this also starts the map from that note. Use **Alt/Option+R** for Rename.
 4. **Ctrl/Cmd+Up / Down / Left / Right** starts a Parent / Child / Friend / Challenger relationship from the **canvas center**.
-5. Press **Ctrl/Cmd+Enter** on a selected note to center it and ensure its Sidecar is open. **Alt/Option+0** selects the center.
+5. Press **Ctrl/Cmd+Enter** to open a selected note in a new native tab. **Alt/Option+Enter** folds or unfolds a supported branch or section; **Alt/Option+0** selects the center.
 
 Selection follows what is currently displayed, including filtering and repacked areas. It does not inspect off-screen notes not included in the visible projection.
 

@@ -15,10 +15,10 @@ Keep a useful workflow when you move between vaults, or share it with someone wh
 
 ## Share only what is useful
 
-1. Open the Facets preset manager or a Graph Lens editor and choose **Copy JSON** or **Download JSON**.
-2. For a Facets export, explicitly select any lenses and palette entries the recipient needs.
+1. Select **Export preset** beside a workflow in **Manage presets**. A Graph Lens editor can export a lens on its own.
+2. Select any companion lenses explicitly, then choose **Copy JSON** or **Download JSON**. Only referenced palette colors accompany the definition.
 3. Review the exported data before sending it. Names, field values, rules and help may contain terms specific to your vault.
-4. In the destination vault, import the JSON and review the preview. Choose whether to create a new entry or replace an existing one, and how to handle dependencies or conflicts.
+4. In the destination vault, import the JSON and review the preview. Choose whether to create a new entry or replace an existing one, which companion lenses to include, and whether to keep existing palette values or use the imported ones.
 5. Select the imported preset or lens and adapt its fields and values to the destination notes.
 
 A preset can include its own Markdown help, category colors, layout, sizing and workflow guides. A standalone Graph Lens can be shared without a Facets preset. Sharing a definition does not send the notes it describes, nor does importing one enable it on every canvas.

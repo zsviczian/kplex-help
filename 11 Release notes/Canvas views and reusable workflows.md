@@ -19,7 +19,7 @@ Choose a perspective that suits the work in front of you. Explore a note’s con
 
 ## Keep your familiar map, choose another perspective
 
-**Compass** is the name of the default directional view. Each canvas can choose its own view through **Views and lenses**, so one topic can have a relationship map alongside a hierarchy or classified neighborhood. Shared navigation and editor defaults live under **Canvas behavior**; view-specific arrangement and presets live under **Views**.
+**Compass** is the name of the default directional view. Each canvas can choose its own view through **Views and lenses**, so one topic can have a relationship map alongside a hierarchy or classified neighborhood. Shared navigation and editor defaults live under **Canvas behavior**; view-specific arrangement and presets live in its **Views** group.
 
 See [[01 Core concepts/Canvas views|the view comparison]] to choose a starting point.
 
@@ -37,7 +37,7 @@ See [[04 Filter and focus/Share presets and lenses|sharing presets and lenses]].
 
 ## Develop ideas without losing the outline
 
-**Mind Map** keeps a stable root while you select notes and unfold branches. Choose a balanced, left or right child tree, expand one generation at a time and keep parent context above the root. Parent areas grow upward to accommodate their branches; pan and zoom to reach the rest of a longer map.
+**Mind Map** keeps a stable root while you move keyboard selection and unfold branches. Click a note or press Enter to center it and start its map; use a chevron or Alt/Option+Enter to fold a branch without centering it. Choose a balanced, left or right child tree, expand one generation at a time and keep parent context above the root. Parent areas grow upward to accommodate their branches; pan and zoom to reach the rest of a longer map.
 
 Open an eligible Markdown note for editing where it sits. Compass also supports editors on neighboring notes without moving the center. There is one node editor at a time: opening another or switching views saves and closes the existing editor; if saving fails, it stays available for recovery.
 

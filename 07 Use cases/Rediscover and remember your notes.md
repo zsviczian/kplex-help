@@ -45,4 +45,4 @@ Wander follows displayed, navigable connections, so filters affect the route. It
 
 After a Wander or manual research session, open [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] to see **every accepted center visit in this canvas**, including times you came back to a familiar idea. Select a surprising earlier stop to revisit it, or **Copy as Markdown** and paste the complete newest-first trail into a note before ending the session.
 
-Footprints is temporary and per-Plex; it is not the persisted shared history below the graph, and it does not turn your exploratory route into a branching mind map. **Start here** begins a fresh trail while preserving your notes and the shared navigation history.
+Footprints is temporary and local to each canvas; it is not the persisted shared history below the graph, and it does not turn your exploratory route into a branching mind map. **Start here** begins a fresh trail while preserving your notes and the shared navigation history.

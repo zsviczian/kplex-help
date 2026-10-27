@@ -1440,7 +1440,7 @@
               "navigation": {
                 "label": "Navigation",
                 "values": [
-                  "kplex/navigation"
+                  "#kplex/navigation"
                 ],
                 "color": {
                   "kind": "theme",
@@ -1450,7 +1450,7 @@
               "filtering": {
                 "label": "Filtering",
                 "values": [
-                  "kplex/filtering"
+                  "#kplex/filtering"
                 ],
                 "color": {
                   "kind": "theme",
@@ -1460,7 +1460,7 @@
               "workspace": {
                 "label": "Workspace",
                 "values": [
-                  "kplex/workspace"
+                  "#kplex/workspace"
                 ],
                 "color": {
                   "kind": "theme",
@@ -1494,7 +1494,7 @@
               "kind": "theme",
               "variable": "--background-secondary"
             },
-            "helpMarkdown": "# Read by topic\n\nCenter Example - Read by topic. Compare navigation, filtering and workspace guides.\n\n## Note data\n\n```yaml\ntags:\n- kplex/navigation\n```\n\nThe exact tags are kplex/navigation, kplex/filtering and kplex/workspace. Sidecar has two matching tags and stays Conflicting. Tags classify notes here; category drops do not edit them. Replace these with topics you actually use.",
+            "helpMarkdown": "# Read by topic\n\nCenter Example - Read by topic. Compare navigation, filtering and workspace guides.\n\n## Note data\n\n```yaml\ntags:\n- kplex/navigation\n```\n\nThe recognized tags are #kplex/navigation, #kplex/filtering and #kplex/workspace. YAML tags may omit the leading #; this preset matches their displayed tag form. Sidecar has two matching tags and stays Conflicting. Tags classify notes here; category drops do not edit them. Replace these with topics you actually use.",
             "helpSourceLocale": "en"
           },
           "help-learning": {

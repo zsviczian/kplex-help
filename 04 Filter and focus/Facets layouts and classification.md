@@ -31,7 +31,7 @@ For a linear workflow, guides can use arrows, plain lines or no visible line, wi
 
 ## Understand the four sources
 
-**Property** reads the named Markdown field. **Note type** reads the configured Note type value. **Tags** checks the note's actual tags. All three compare against the exact values configured for each category.
+**Property** reads the named Markdown field. **Note type** reads the configured Note type value. **Tags** checks the note's actual tags in their displayed form, including the leading `#`. All three compare against the exact values configured for each category.
 
 **Category rule** combines conditions through the same visual condition editor and Code syntax used by Graph Lenses. For example, `note.learningMode == "read" and note.sessionSize == "short"` places a short reading guide in one quadrant. `note` refers to the candidate; `this` can refer to the focused note. Rules using relationship evidence need a real relationship context; the focus does not have a made-up relationship to itself.
 
