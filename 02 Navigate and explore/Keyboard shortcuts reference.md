@@ -10,6 +10,7 @@ Related:
 - '[[05 Personalize and workspace/Actions and shortcuts]]'
 - '[[02 Navigate and explore/Keyboard navigation]]'
 - '[[02 Navigate and explore/K-Plex command palette]]'
+map-role: reference
 ---
 # Keyboard shortcuts reference
 

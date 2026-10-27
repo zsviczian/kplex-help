@@ -10,6 +10,7 @@ Guide:
 Friend:
 - '[[01 Core concepts/Idea Compass]]'
 Workshop stage: "Shape"
+status: 🔴
 ---
 # Recognize an idea by its picture
 

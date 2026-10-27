@@ -999,10 +999,6 @@
             "version": 1,
             "replacement": "help-workshop"
           },
-          "wuxing": {
-            "version": 1,
-            "replacement": "help-workshop"
-          },
           "gtd": {
             "version": 1,
             "replacement": "help-workshop"
@@ -1018,17 +1014,15 @@
           "publishing": {
             "version": 1,
             "replacement": "help-workshop"
-          },
-          "map-roles": {
-            "version": 1,
-            "replacement": "help-workshop"
           }
         },
         "presetOrder": [
           "help-workshop",
           "help-topics",
           "help-learning",
-          "help-workbench"
+          "help-workbench",
+          "wuxing",
+          "map-roles"
         ]
       }
     },

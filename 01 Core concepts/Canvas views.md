@@ -11,6 +11,7 @@ Explains:
 Related:
 - "[[Assets/Screenshot - Compass workshop.png]]"
 - "[[09 Showcase examples/Example - Workshop plan]]"
+map-role: supporting-map
 ---
 # Choose a canvas view
 

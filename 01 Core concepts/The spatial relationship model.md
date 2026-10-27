@@ -18,6 +18,7 @@ Watch out:
 Note type: "Concept"
 learningMode: "read"
 sessionSize: "longer"
+map-role: concept
 ---
 # The spatial relationship model
 

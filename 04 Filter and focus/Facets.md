@@ -31,9 +31,9 @@ Fresh K-Plex starts with **Wu Xing** and **Local map roles**. ARC, PARA, GTD hor
 
 Facets reorganizes the current note and its direct relationships. It does not collect every matching note across your vault. Create meaningful connections first, or use Obsidian search or Bases to find notes to connect.
 
-## Learn from four working examples
+## Learn from six working examples
 
-This Help vault keeps four presets with different purposes and layouts. They are examples to learn from, not a required workflow or a catalog you must keep. Each has an example note whose connected neighborhood supplies meaningful data.
+This Help vault offers four custom presets and demonstrations of the two built-ins, with different purposes and layouts. They are examples to learn from, not a required workflow or a catalog you must keep. Each has an example note whose connected neighborhood supplies meaningful data.
 
 | Help preset | The question it answers | Classification and arrangement |
 | --- | --- | --- |
@@ -41,6 +41,8 @@ This Help vault keeps four presets with different purposes and layouts. They are
 | **Read by topic** | Which kind of help do I need? | Tags, around the center |
 | **Learning route** | Should I understand, try or apply this? | Note types, in a vertical sequence |
 | **Workbench questions** | What fits the time and attention I have? | Two-property category rules, in four quadrants |
+| **Wu Xing** | How does this material relate to my current phase? | A saved phase property and changing relative labels, around the center |
+| **Local map roles** | What does each page contribute to this map? | A map-role property, in concentric regions |
 
 Open [[09 Showcase examples/Facets demonstrations|the demonstration guide]] for the exact starting note and the result to look for.
 

@@ -9,10 +9,12 @@ Child:
 - "[[09 Showcase examples/Example - Read by topic]]"
 - "[[09 Showcase examples/Example - Choose a learning route]]"
 - "[[09 Showcase examples/Example - Workbench questions]]"
+- "[[09 Showcase examples/Example - Wu Xing perspectives]]"
+- "[[09 Showcase examples/Example - Local map roles]]"
 Related:
 - "[[Assets/Screenshot - Facets workshop stage.png]]"
 ---
-# Try four useful Facets workflows
+# Try six useful Facets workflows
 
 See how the same help database supports different questions. Each example starts from a specific note with a small connected neighborhood, then uses a preset built for that question.
 
@@ -24,15 +26,17 @@ See how the same help database supports different questions. Each example starts
 | [[09 Showcase examples/Example - Read by topic|Read by topic]] | **Read by topic** | Navigation, filtering and workspace guides in a circular arrangement; Sidecar matches two topics |
 | [[09 Showcase examples/Example - Choose a learning route|Choose a learning route]] | **Learning route** | Concepts, how-to guides and use cases in a vertical sequence |
 | [[09 Showcase examples/Example - Workbench questions|Workbench questions]] | **Workbench questions** | Short and longer reading or practice tasks in four quadrants |
+| [[09 Showcase examples/Example - Wu Xing perspectives|Wu Xing perspectives]] | **Wu Xing** | Five saved phases, with relative interpretations that change as you center another note |
+| [[09 Showcase examples/Example - Local map roles|Local map roles]] | **Local map roles** | Hubs, supporting maps, concepts and references in concentric regions |
 
 Center the named note, choose **Facets** in **Views and lenses**, then select its preset. Each preset's help explains its fields and exact values. The demonstration notes are ordinary notes, so you can inspect their properties in Obsidian.
 
 ![[Assets/Screenshot - Facets workshop stage.png]]
 
-*Workshop stage is one of the four desktop examples. Open its guide to see the exact property values and adapt the pattern to your own connected notes.*
+*Workshop stage is one of the four custom workflows, alongside the two built-in demonstrations. Open its guide to see the exact property values and adapt the pattern to your own connected notes.*
 
 ## Take the pattern with you
 
 The useful part is the question and the choice of source. A project might use a status property; a reading collection might use tags; a workbench might combine two simple properties. Duplicate one of these presets, replace its categories and use your own connected notes.
 
-The Help vault keeps just these four custom presets so every choice has a working demonstration. A fresh K-Plex installation starts with Wu Xing and Local map roles. Additional workflow examples are available as optional JSON imports; keep only the presets that help you answer your own questions.
+The Help vault offers four custom presets and the two built-ins, each with a working demonstration. A fresh K-Plex installation starts with Wu Xing and Local map roles. Additional workflow examples are available as optional JSON imports; keep only the presets that help you answer your own questions.

@@ -9,6 +9,7 @@ Parent:
 Friend:
 - '[[07 Use cases/Projects and decisions]]'
 Workshop stage: "Share"
+status: 🟡
 ---
 # Keep a lesson from the workshop
 

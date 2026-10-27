@@ -12,6 +12,7 @@ Child:
 Next:
 - '[[09 Showcase examples/Example - Workshop review]]'
 Workshop stage: "Collect"
+status: 🟤
 ---
 # Gather workshop material
 
