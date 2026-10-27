@@ -37,9 +37,9 @@ sessionSize: "longer"
 
 Imagine you have notes about books, sketches and workshop ideas. Some contain only a rough observation; others are mature insights you can use in a presentation. Add a simple personal property such as `maturity: 1` through `maturity: 5` to describe how developed a note feels. K-Plex doesn't assign these scores for you—you choose the meaning of each value.
 
-Keep the Obsidian **File properties** pane open beside K-Plex. As you move from note to note in the Plex, the unpinned, ungrouped Properties pane follows the central file, letting you adjust its metadata without losing the surrounding graph. If the center is a folder or tag rather than a file, the pane clears. A pinned or grouped Properties pane intentionally does not follow.
+Keep the Obsidian **File properties** pane open beside K-Plex. As you move from note to note in the canvas, the unpinned, ungrouped Properties pane follows the central file, letting you adjust its metadata without losing the surrounding graph. If the center is a folder or tag rather than a file, the pane clears. A pinned or grouped Properties pane intentionally does not follow.
 
-Turn on an appropriate [[04 Filter and focus/Graph Lenses|Graph Lens]] with **Style matching** rules to show the maturity values visually: for example, bright styling for seedlings and quieter styling for mature notes. Navigate, update a value, and inspect the changing visual pattern. A Lens operates on the current Plex neighborhood; it is not an automatic quality audit of the entire vault.
+Turn on an appropriate [[04 Filter and focus/Graph Lenses|Graph Lens]] with **Style matching** rules to show the maturity values visually: for example, bright styling for seedlings and quieter styling for mature notes. Navigate, update a value, and inspect the changing visual pattern. A Lens operates on the current canvas neighborhood; it is not an automatic quality audit of the entire vault.
 
 ## Two simple gardening workflows
 
@@ -76,7 +76,7 @@ A vault doesn't become useful merely because it holds more notes. Gardening make
 
 - [[07 Use cases/Never start a project with a blank page|Reuse your better-connected notes in a new project]].
 - [[07 Use cases/Build a Map of Content|Give a growing subject an entry point]].
-- [[05 Personalize and workspace/Note-tab synchronization|Understand how the Properties pane follows the Plex]].
+- [[05 Personalize and workspace/Note-tab synchronization|Understand how the Properties pane follows the canvas]].
 
 ## Tidy the relationship vocabulary too
 

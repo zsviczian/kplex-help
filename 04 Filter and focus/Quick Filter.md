@@ -25,7 +25,7 @@ Need a momentary view of just the relevant notes? Use Quick Filter to narrow the
 
 ## Narrow this map for a moment
 
-1. Select the funnel button, **Filters and lenses**.
+1. Select the funnel button, **Views and lenses**.
 2. Enter a keyword, choose a tag or select a note type in Quick Filter.
 3. Review the remaining nodes. Clear the filter to bring the rest back.
 

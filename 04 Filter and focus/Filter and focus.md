@@ -36,7 +36,7 @@ Is the map too busy for the question you are working on? Filter distractions, hi
 > [!important] The lens boundary
 > [[04 Filter and focus/Graph Lenses are local|Graph Lenses are local]]: they evaluate the currently visible neighborhood. They do not search every disconnected note in your vault.
 
-**Try this:** Open **Filters and lenses**, filter for `kplex-help/how-to`, then compare Keep layout and Reflow. Use [[10 Discover by topic/06 Reduce clutter and reveal detail|Reduce clutter and reveal detail]] for the full route.
+**Try this:** Open **Views and lenses**, filter for `kplex-help/how-to`, then compare Keep layout and Reflow. Use [[10 Discover by topic/06 Reduce clutter and reveal detail|Reduce clutter and reveal detail]] for the full route.
 
 ## Choose a perspective
 

@@ -18,7 +18,7 @@ Related:
 ---
 # Present and concentrate
 
-Give the current Plex more room, then hide distractions without losing your place. Follow this short path, then try it with your own notes.
+Give the current canvas more room, then hide distractions without losing your place. Follow this short path, then try it with your own notes.
 
 ## Follow the trail
 
@@ -30,7 +30,7 @@ Give the current Plex more room, then hide distractions without losing your plac
 
 ## Try it in the help vault
 
-Make this route the Plex center, pan a little, enter **Zen** with **Expand**, then use **Maximize** for fullscreen on desktop. Exit using **Shrink** and **Minimize** or unclaimed Escape presses. Notice that pan/zoom and navigation history are preserved. On mobile and tablet, try Zen only.
+Make this route the canvas center, pan a little, enter **Zen** with **Expand**, then use **Maximize** for fullscreen on desktop. Exit using **Shrink** and **Minimize** or unclaimed Escape presses. Notice that pan/zoom and navigation history are preserved. On mobile and tablet, try Zen only.
 
 > [!tip] Different jobs, different modes
 > **Fullscreen** covers the Obsidian workspace within its window; **Zen** hides the K-Plex toolbar and history. Both are session-only.

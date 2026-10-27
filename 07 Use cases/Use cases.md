@@ -37,7 +37,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 
 ## Start here: never start a project with a blank page
 
-**[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second Plex, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide connects the workflow to the relevant feature references.
+**[[07 Use cases/Never start a project with a blank page|Bring your existing knowledge into a new project]].** Pin a new project, discover relevant notes by browsing, through a second canvas, Obsidian Bases or the file explorer, or let Wander surface unexpected inspiration. Connect notes as you encounter them—without needing to design the perfect Map of Content in advance. The guide connects the workflow to the relevant feature references.
 
 ## More practical outcomes
 

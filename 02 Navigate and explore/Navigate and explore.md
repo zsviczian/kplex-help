@@ -33,10 +33,10 @@ Find a destination, explore its context or return to a useful idea. Choose the n
 
 ## Pick your task
 
-- **Move around the map:** [[02 Navigate and explore/Navigating the Plex]] — click, open, pan, zoom and use context menus.
-- **Find a destination or a local match:** [[02 Navigate and explore/Vault Search vs Find in this Plex]] — includes folder and hierarchical-tag search.
+- **Move around the map:** [[02 Navigate and explore/Navigating the Plex|Navigating the canvas]] — click, open, pan, zoom and use context menus.
+- **Find a destination or a local match:** [[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]] — includes folder and hierarchical-tag search.
 - **Go back or keep a landmark:** [[02 Navigate and explore/Past nodes and pins]] — shared, saved history and pins.
-- **Retrace this Plex's complete exploration:** [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (breadcrumbs)]] — session-only history that keeps repeated visits.
+- **Retrace this canvas's complete exploration:** [[02 Navigate and explore/Footprints and breadcrumbs|Footprints (breadcrumbs)]] — session-only history that keeps repeated visits.
 - **Read a file or website:** [[02 Navigate and explore/Editor node and web pages]].
 - **Explore on a tablet or phone:** [[02 Navigate and explore/Mobile and touch]].
 - **Rediscover something without a destination:** [[02 Navigate and explore/Wander]]
@@ -57,4 +57,4 @@ Follow [[10 Discover by topic/11 Work without the mouse]] to practice these toge
 
 Build a [[07 Use cases/Build a Map of Content|Map of Content]], [[07 Use cases/Rediscover and remember your notes|make an old idea useful again]], or choose another outcome in [[07 Use cases/Use cases|What You Can Do with K-Plex]].
 
-For dragging between views and into an editor, see [[03 Build and edit/Drag drop and reclassify]]. To keep different documents beside different Plexes, see [[05 Personalize and workspace/Note-tab synchronization]].
+For dragging between views and into an editor, see [[03 Build and edit/Drag drop and reclassify]]. To keep different documents beside different canvases, see [[05 Personalize and workspace/Note-tab synchronization]].

@@ -26,17 +26,17 @@ Want K-Plex ready sooner on your desktop, but to wait until needed on your phone
 
 ## Start at launch or first use
 
-**Prepare index before opening K-Plex** allows preparation at plugin startup, including loading saved index data. Turn it off to wait until a Plex opens. A restored Plex counts as open, even in an inactive tab or sidebar. Saved history and pins alone do not start preparation; an explicit rebuild does.
+**Prepare index before opening K-Plex** allows preparation at plugin startup, including loading saved index data. Turn it off to wait until a canvas opens. A restored canvas counts as open, even in an inactive tab or sidebar. Saved history and pins alone do not start preparation; an explicit rebuild does.
 
 | Device | Default preparation | Default strategy |
 | --- | --- | --- |
 | Desktop | At plugin startup | Eager |
-| Tablet | At first Plex opening | On demand |
-| Phone | At first Plex opening | On demand |
+| Tablet | At first canvas opening | On demand |
+| Phone | At first canvas opening | On demand |
 
 Missing device preferences receive these defaults on upgrade. Your saved device choices are preserved. The older single indexing-mode choice does not override the new defaults for all devices.
 
-Deferring preparation avoids starting that pipeline in a session where you never open K-Plex. The first opening may take longer. Once admitted, closing and reopening a Plex reuses the same session rather than starting everything over.
+Deferring preparation avoids starting that pipeline in a session where you never open K-Plex. The first opening may take longer. Once admitted, closing and reopening a canvas reuses the same session rather than starting everything over.
 
 ![[Assets/Screenshot - Device indexing.png]]
 
@@ -46,7 +46,7 @@ Deferring preparation avoids starting that pipeline in a session where you never
 
 | | **On demand** | **Eager** |
 | --- | --- | --- |
-| First goal | Prepare the notes needed for the requested Plex | The same useful foreground graph |
+| First goal | Prepare the notes needed for the requested canvas | The same useful foreground graph |
 | Wider work | More relationships are prepared as you explore | Also prepares the full index in the background |
 | Saved results | Reused when valid | Reused when valid |
 | Relationship meaning | The same ontology and precedence | The same ontology and precedence |

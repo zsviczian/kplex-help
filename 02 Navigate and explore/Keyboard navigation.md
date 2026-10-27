@@ -26,14 +26,14 @@ Explore and connect notes without reaching for the mouse. Give the graph focus, 
 1. Press an **arrow key** to highlight a visible node in the current relationship area. Arrows move selection without moving the center or changing Past nodes.
 2. Press **Alt/Option+arrow** to move to another relationship area. The **Move across section boundaries** preference controls whether plain arrows also cross at the end of an area. New installs enable that behavior; upgraded configurations keep their existing choice.
 3. Press **Enter** to center a selected neighbor. On a selected central file it opens **Rename**. The selected node may be revealed inside a scrollable area first.
-4. **Ctrl/Cmd+Up / Down / Left / Right** starts a Parent / Child / Friend / Challenger relationship from the **Plex center**.
+4. **Ctrl/Cmd+Up / Down / Left / Right** starts a Parent / Child / Friend / Challenger relationship from the **canvas center**.
 5. Press **Ctrl/Cmd+Enter** on a selected note to center it and ensure its Sidecar is open. **Alt/Option+0** selects the center.
 
 Selection follows what is currently displayed, including filtering and repacked areas. It does not inspect off-screen notes not included in the visible projection.
 
 ## Find a visible node by typing
 
-Just type part of its displayed label while the **graph** is focused. See [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] for Tab, Backspace and Escape behavior. This is not Vault search or Find in Plex.
+Just type part of its displayed label while the **graph** is focused. See [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] for Tab, Backspace and Escape behavior. This is not Vault search or Find in canvas.
 
 ## Do more without leaving the graph
 
@@ -44,4 +44,4 @@ Use **Alt/Option+.** to open the [[02 Navigate and explore/K-Plex command palett
 
 ## Selection consistency with Find
 
-Finding a node in the current Plex and selecting one with arrow keys now share a common visual highlight. This makes the selection easier to track after switching between the Find box and graph-keyboard navigation; **Enter** still performs the navigation/activation separately.
+Finding a node in the current canvas and selecting one with arrow keys now share a common visual highlight. This makes the selection easier to track after switching between the Find box and graph-keyboard navigation; **Enter** still performs the navigation/activation separately.

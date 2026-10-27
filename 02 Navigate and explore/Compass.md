@@ -29,7 +29,7 @@ Understand an idea by looking at its context, detail, companions and objections.
 
 A gate tells you whether relationships exist in that direction. Expand a busy neighborhood one level further, group related notes by note type, or filter the current canvas. Use One-sided layout for a narrow space. These choices change what you see, while your recorded relationships retain their meaning.
 
-Eligible Markdown notes can open in a native node editor in their place on the canvas. There is one node editor at a time; opening another saves and closes the first. A failed save keeps it available for recovery. a Sidecar gives you a separate document pane beside the canvas. Use **Settings → K-Plex → Views → Compass** for Compass arrangement, density and area tint.
+Eligible Markdown notes can open in a native node editor in their place on the canvas. There is one node editor at a time; opening another saves and closes the first. A failed save keeps it available for recovery. A Sidecar gives you a separate document pane beside the canvas. Use **Settings → K-Plex → Views → Compass** for Compass arrangement, density and area tint.
 
 ## Continue with your task
 

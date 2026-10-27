@@ -41,9 +41,9 @@ Want the map and your reading space to fit the way you work? Tune readability, c
 
 ## Keep context beside the map
 
-[[05 Personalize and workspace/Sidecar]] provides a normal document pane and explains folding of the complete Plex tab group. [[05 Personalize and workspace/Note-tab synchronization]] distinguishes document following from a fixed reference tab and explains how each Plex keeps its own document pairing.
+[[05 Personalize and workspace/Sidecar]] provides a normal document pane and explains folding of the complete canvas tab group. [[05 Personalize and workspace/Note-tab synchronization]] distinguishes document following from a fixed reference tab and explains how each canvas keeps its own document pairing.
 
-**Try this:** Inspect the help's tag-based styles, then change density or label wrapping in Configure Plex layout. For an actual project, use [[07 Use cases/Projects and decisions]]; for visual notes, try [[07 Use cases/Develop visual ideas]].
+**Try this:** Inspect the help's tag-based styles, then change density or label wrapping in Layout controls. For an actual project, use [[07 Use cases/Projects and decisions]]; for visual notes, try [[07 Use cases/Develop visual ideas]].
 
 ## Workflows and display modes
 

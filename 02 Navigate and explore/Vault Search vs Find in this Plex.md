@@ -12,9 +12,9 @@ Previous:
 Next:
 - '[[02 Navigate and explore/Past nodes and pins]]'
 ---
-# Vault Search vs Find in this Plex
+# Vault Search vs Find in this canvas
 
-Go to another note, or find something on the map already in front of you. Search Vault changes your destination; Find in this Plex locates a visible match.
+Go to another note, or find something on the map already in front of you. Search Vault changes your destination; Find in this canvas locates a visible match.
 
 ![[Assets/Screenshot - Find on this map.png]]
 
@@ -22,10 +22,10 @@ Go to another note, or find something on the map already in front of you. Search
 
 ![[Image - Search.png]]
 
-| | Search Vault | Find in this Plex |
+| | Search Vault | Find in this canvas |
 | --- | --- | --- |
 | Question | Where should I go? | Where is something on this map? |
-| Scope | Vault-wide names, aliases, paths, supported files and discovered URLs | Nodes and ontology labels in the displayed Plex |
+| Scope | Vault-wide names, aliases, paths, supported files and discovered URLs | Nodes and ontology labels in the displayed canvas |
 | Open | The toolbar search box or your configured Vault Search shortcut | The local magnifier or Control+F / Command+F while the graph has focus |
 | Result | Navigate to another center | Reveal local matches without moving the center |
 
@@ -39,18 +39,18 @@ Make a folder the center to explore its location and contents. Make a hierarchic
 
 To change membership or move files rather than simply navigate, see [[03 Build and edit/Drag drop and reclassify]].
 
-## Use Find in this Plex to locate
+## Use Find in this canvas to locate
 
 Local Find searches the projected graph, including ontology labels. Turn on **Include paths** to include file paths. Use Enter and Shift+Enter to cycle through matches; Escape closes and clears Find.
 
-Select **Filter matching notes** to retain label-matching nodes and reflow the local Plex. Switch it off to restore the previous filter/layout; editing Filters and lenses manually takes ownership of that temporary filter. Matching a note does not automatically highlight all its surrounding connections.
+Select **Filter matching notes** to retain label-matching nodes and reflow the local canvas. Switch it off to restore the previous filter/layout; editing Views and lenses manually takes ownership of that temporary filter. Matching a note does not automatically highlight all its surrounding connections.
 
-**Try it:** Use Vault Search to navigate to **Ontology and relationship fields**, then local Find to locate **Child** in its displayed Plex. See [[10 Discover by topic/02 Find and navigate knowledge]].
+**Try it:** Use Vault Search to navigate to **Ontology and relationship fields**, then local Find to locate **Child** in its displayed canvas. See [[10 Discover by topic/02 Find and navigate knowledge]].
 
 ## A third choice: type to select
 
 With the graph focused, type a phrase to select matching displayed node labels and use Tab/Shift+Tab to cycle through them. This is temporary selection, not Vault Search or a Find filter. See [[02 Navigate and explore/Type to select visible nodes]].
 
-The node highlight is shared by keyboard selection and Find, making it easier to follow the selected item when switching methods. Neither alone changes the Plex center.
+The node highlight is shared by keyboard selection and Find, making it easier to follow the selected item when switching methods. Neither alone changes the canvas center.
 
 **Shortcut note:** Defaults and saved assignments can differ. Alt+/ on Windows or Option+/ on macOS is a fresh graph-local Vault Search default; F4 can remain in upgraded or customized vaults, including the supplied help configuration. Control+F / Command+F remains the editor's normal Find command when an editor has focus.

@@ -34,7 +34,7 @@ For working space rather than text density, use [[05 Personalize and workspace/F
 
 **Maximum label length is independent of horizontal/vertical density.** A label limit of 100 does not shrink when you make the layout denser. Under **Settings → K-Plex → Visual styling**, device-specific typography choices apply consistently to both the center and surrounding nodes, including sparse configurations with only one field overridden.
 
-When editing the layout from a narrow or short pane, K-Plex keeps slider controls usable and prevents the panel from colliding with the bottom-left disclosure. Font size, label length and node width controls stack vertically, with **Wrap node labels** below them. Slider gestures that begin on a slider continue to adjust that control rather than unexpectedly panning the Plex.
+When editing the layout from a narrow or short pane, K-Plex keeps slider controls usable and prevents the panel from colliding with the bottom-left disclosure. Font size, label length and node width controls stack vertically, with **Wrap node labels** below them. Slider gestures that begin on a slider continue to adjust that control rather than unexpectedly panning the canvas.
 
 In **this help vault**, the base node label limit is **100 characters**, while maximum node width and wrapping remain separate layout choices. Long titles may still be constrained by the available on-screen width.
 
@@ -42,7 +42,7 @@ In **this help vault**, the base node label limit is **100 characters**, while m
 
 Select **One-sided layout** below the Parents and Children sliders in Layout controls to put Friends and Challengers together in one shared list on the left. This removes the separate right-hand Challenger area without discarding Challenger relationships or changing their meaning and filters.
 
-The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Plex behavior → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
+The checkbox changes the current device and pane context. All six choices are available under **Settings → K-Plex → Canvas behavior → One-sided layout**: desktop, tablet and mobile, each with main-tab and side-panel choices. Pop-outs follow their device's main-tab choice for this option.
 
 This is a compact alternative to the standard four-direction layout, not a custom layout engine or an additional ontology region. **One-sided layout** is the current label; earlier development notes called it Simplified layout.
 

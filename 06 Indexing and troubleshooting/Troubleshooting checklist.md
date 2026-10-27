@@ -47,6 +47,6 @@ If loading appears stuck, [[06 Indexing and troubleshooting/Understanding index 
 
 ## When startup appears stuck
 
-If the local Plex is already usable but the cache indicator remains active, first inspect the status details and allow background work to proceed. K-Plex can now retire some **inactive restore operations** rather than wait forever for a cache-loading promise. The restore watchdog checks for lack of progress; it does not declare a healthy large vault broken after a fixed total time.
+If the local canvas is already usable but the cache indicator remains active, first inspect the status details and allow background work to proceed. K-Plex can now retire some **inactive restore operations** rather than wait forever for a cache-loading promise. The restore watchdog checks for lack of progress; it does not declare a healthy large vault broken after a fixed total time.
 
 Only rebuild or purge the persistent index after checking [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]] and [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|Rebuild, purge and diagnostics]].

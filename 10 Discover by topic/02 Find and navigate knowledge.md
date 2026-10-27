@@ -30,8 +30,8 @@ You know what you want to find but not where it lives in your vault.
 
 Follow the links below, or center this path in K-Plex and explore its Children.
 
-1. **[[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this Plex]]** — Choose between Search Vault and Find in this Plex.
-2. **[[02 Navigate and explore/Navigating the Plex|Navigating the Plex]]** — Center results, pan, zoom, and use context menus.
+1. **[[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]]** — Choose between Search Vault and Find in this canvas.
+2. **[[02 Navigate and explore/Navigating the Plex|Navigating the canvas]]** — Center results, pan, zoom, and use context menus.
 3. **[[02 Navigate and explore/Past nodes and pins|Past nodes and pins]]** — Use history for backtracking and pins as stable anchors.
 4. **[[05 Personalize and workspace/Sidecar|Sidecar]]** — Keep note content alongside the map.
 5. **[[05 Personalize and workspace/Note-tab synchronization|Note-tab synchronization]]** — Choose when note tabs and K-Plex should follow each other.
@@ -39,7 +39,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 ## More ways to reach your goal
 
 - [[02 Navigate and explore/Keyboard navigation|Keyboard navigation]] — select and center nodes using the arrow keys
-- [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] — choose a label within the current Plex
+- [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] — choose a label within the current canvas
 
 ## Try it in your own vault
 
@@ -57,4 +57,4 @@ From a focused graph, type `Glossary` to select a displayed match, then use Tab 
 
 ## Selection highlight
 
-Find in Plex and graph-keyboard movement now use one highlight for the active occurrence. Try both in [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault vs Find]]; Enter activates the selected node only when you choose it.
+Find in canvas and graph-keyboard movement now use one highlight for the active occurrence. Try both in [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault vs Find]]; Enter activates the selected node only when you choose it.

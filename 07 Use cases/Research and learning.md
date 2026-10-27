@@ -23,7 +23,7 @@ Have plenty of reading notes but no clear argument yet? Build an article around 
 
 ![[Assets/Screenshot - Read beside the map.png]]
 
-*A normal Markdown pane sits beside the Plex so you can read or write while keeping the note's context visible.*
+*A normal Markdown pane sits beside the canvas so you can read or write while keeping the note's context visible.*
 
 **Outcome:** A collection of reading notes becomes an argument or article outline whose claims remain connected to their sources.
 
@@ -49,4 +49,4 @@ This vault contains [[09 Showcase examples/Example - Research question]]. That e
 
 Drag a file-backed note, URL or placeholder node into a Markdown editor to insert its link. You still write the synthesis yourself; K-Plex does not export an automatically ordered article. See [[03 Build and edit/Drag drop and reclassify]].
 
-Use [[05 Personalize and workspace/Note-tab synchronization]] to control whether the open document follows navigation. Each Plex owns its document-sync target and Sidecar association, so two views can follow different working notes.
+Use [[05 Personalize and workspace/Note-tab synchronization]] to control whether the open document follows navigation. Each canvas owns its document-sync target and Sidecar association, so two views can follow different working notes.

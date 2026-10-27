@@ -32,7 +32,7 @@ A slash separates levels: `#project/workshop` belongs beneath `#project`. You ca
 
 ## Tag a note as you explore
 
-Drag a tag's gate onto a Markdown note in the Plex, history or pins. You can also drop a tag from another Plex into a note's Parents area. Choose **Tag** for topic membership or **Note Type** when the tag should also determine the note's type.
+Drag a tag's gate onto a Markdown note in the canvas, history or pins. You can also drop a tag from another canvas into a note's Parents area. Choose **Tag** for topic membership or **Note Type** when the tag should also determine the note's type.
 
 A note has one Note Type. If it already has a different type, choose whether to replace it or keep the new value as an ordinary tag. Replacing the type can retain the earlier value as a tag.
 

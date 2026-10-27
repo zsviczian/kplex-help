@@ -39,6 +39,12 @@ With the pointer over a scrollable region, an ordinary wheel scroll moves that r
 
 ![[Assets/Screenshot - Section outline.png]]
 
-*Project notebook expanded in the real Plex. Each pair of ordinary links remains beneath the heading where it was written.*
+*Project notebook expanded in the real canvas. Each pair of ordinary links remains beneath the heading where it was written.*
 
 This is useful for long notes that contain several ideas but are not worth splitting into separate files solely for navigation.
+
+## Choose which note supplies the outline
+
+In **Compass**, sections belong to the current focused Markdown note. In **Mind Map**, they belong to the stable map root, even when another node is selected. Branch chevrons expand the graph hierarchy; section controls expand headings inside that one document. You can use both without turning headings into permanent note relationships.
+
+Changing the Mind Map root closes the old outline. Expand sections explicitly on the new root when you need them. An editor on the same source note takes the place of its outline; an editor on a different note can coexist with the root outline. **Facets** does not offer section expansion.

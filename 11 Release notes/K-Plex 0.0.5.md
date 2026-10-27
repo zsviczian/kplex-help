@@ -5,7 +5,7 @@ tags:
 - kplex-help/release-notes
 - kplex/released
 Guide:
-- '[[11 Release notes/Release notes]]'
+- '[[11 Release notes/Early releases]]'
 Previous:
 - '[[11 Release notes/K-Plex 0.0.4]]'
 Next:

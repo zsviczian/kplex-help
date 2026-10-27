@@ -22,7 +22,7 @@ Connect a meeting or event to the day it happened. A Date property can link it t
 ## Choose a default role
 
 1. Enable Obsidian's **Daily notes** core plugin and ensure the target daily note follows your configured date format and folder. Give the source property Obsidian's **Date** property type.
-2. Open **Settings → K-Plex → Plex behavior → Relationship behavior → Default Date role**.
+2. Open **Settings → K-Plex → Canvas behavior → Relationship behavior → Default Date role**.
 3. Choose **Parent** (default), **Friend**, **Child**, **Challenger**, **Previous**, or **Next**. This is the fallback for Date properties **without** a configured ontology role.
 4. Navigate to a note with a recognized Date value and an existing resolvable Daily Note. K-Plex shows the relationship in the chosen direction. **Connection details** retains its Date provenance.
 

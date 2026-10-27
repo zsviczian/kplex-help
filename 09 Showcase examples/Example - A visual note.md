@@ -13,7 +13,7 @@ Workshop stage: "Shape"
 ---
 # Recognize an idea by its picture
 
-Spot an idea before reading its title. This note uses a local Compass image as a thumbnail, so it has a recognizable visual cue in the Plex.
+Spot an idea before reading its title. This note uses a local Compass image as a thumbnail, so it has a recognizable visual cue in the canvas.
 
 ![[Assets/Screenshot - A note with a thumbnail.png]]
 

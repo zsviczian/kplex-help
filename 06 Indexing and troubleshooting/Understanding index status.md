@@ -25,7 +25,7 @@ The indicator near **K-Plex** explains what is happening. Open its details when 
 
 | Status or cue | What it means for you |
 | --- | --- |
-| **Waiting for K-Plex to open** | Preparation is deferred until a Plex is opened. |
+| **Waiting for K-Plex to open** | Preparation is deferred until a canvas is opened. |
 | **Preparing local graph** | The selected note's neighborhood is still being prepared. |
 | **Local graph ready** | You can work with this neighborhood even if wider discovery continues. |
 | **≥** beside a gate count | This is a lower bound; more related notes may arrive. |

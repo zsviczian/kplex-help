@@ -21,7 +21,7 @@ Connect notes, bring material into a project or move a file into a folder. Drag 
 
 ![[Assets/Screenshot - Two independent Plexes.png]]
 
-*Two adjacent Plexes keep different centers. Keep a destination in one while exploring possible sources in the other.*
+*Two adjacent canvases keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
 ## Try it
 
@@ -29,13 +29,13 @@ Drag a file from Obsidian's file explorer onto the central node to navigate to i
 
 Valid drop areas light up. After reclassifying a connection with several sources, inspect [[03 Build and edit/Connection details and evidence|Connection details]] rather than assuming every source has changed.
 
-## bring notes into and out of the Plex
+## bring notes into and out of the canvas
 
 Resolved note links from **Bases** use the same center/relationship-area destinations as file-explorer notes. Dropping a sibling into a relationship area adds a direct relationship to the center without removing its shared parent or other relationships.
 
-Drag a note, attachment, URL or placeholder **node body** into a Markdown editor to insert its link. Tags insert `#tag` text. Drag supported nodes into another Plex to navigate or start a relationship there. Gates retain their connection gestures.
+Drag a note, attachment, URL or placeholder **node body** into a Markdown editor to insert its link. Tags insert `#tag` text. Drag supported nodes into another canvas to navigate or start a relationship there. Gates retain their connection gestures.
 
-Use the toolbar **+** or **New K-Plex tab** to open an adjacent Plex. Its central editor/normal-node choice and Markdown mode belong to that view. Each Plex can follow its own document tab; see [[05 Personalize and workspace/Note-tab synchronization]].
+Use the toolbar **+** or **New K-Plex tab** to open an adjacent canvas. Its central editor/normal-node choice and Markdown mode belong to that view. Each canvas can follow its own document tab; see [[05 Personalize and workspace/Note-tab synchronization]].
 
 ## move files into folders
 
@@ -47,7 +47,7 @@ A folder's Child gate dragged into empty space still creates a note inside that 
 
 ## assign a tag or Note Type
 
-Drag a Markdown note onto a tag in history or pins to add it to the note's `tags` property. A tag's gate can also be dropped onto a Markdown note in the Plex, history or pins. A tag from another Plex can be dropped into a note's Parents area.
+Drag a Markdown note onto a tag in history or pins to add it to the note's `tags` property. A tag's gate can also be dropped onto a Markdown note in the canvas, history or pins. A tag from another canvas can be dropped into a note's Parents area.
 
 Where offered, choose **Tag** or **Note Type**. A Note Type keeps the tag in the YAML `tags` list and also uses the configured Style property. A note has one Note Type; replacing an existing type requires an explicit choice, with the other remaining an ordinary tag.
 

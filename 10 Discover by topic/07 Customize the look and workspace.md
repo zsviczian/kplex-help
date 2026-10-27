@@ -37,7 +37,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 2. **[[05 Personalize and workspace/Layout density and typography|Layout density and typography]]** — Adjust density, text width and wrapping.
 3. **[[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]]** — Choose which node kinds and connections to display.
 4. **[[05 Personalize and workspace/Images in nodes|Images in nodes]]** — Use thumbnail and node-image properties.
-5. **[[05 Personalize and workspace/Sidecar|Sidecar]]** — Read or edit the current note beside the Plex.
+5. **[[05 Personalize and workspace/Sidecar|Sidecar]]** — Read or edit the current note beside the canvas.
 6. **[[02 Navigate and explore/Mobile and touch|Mobile and touch]]** — Translate desktop actions to touch devices.
 
 ## More ways to reach your goal
@@ -47,7 +47,7 @@ Follow the links below, or center this path in K-Plex and explore its Children.
 
 ## Try it in your own vault
 
-Compare how concept and how-to nodes are styled here. Open **Configure Plex layout**, then adjust label wrapping or density until you can scan the current neighborhood.
+Compare how concept and how-to nodes are styled here. Open **Layout controls**, then adjust label wrapping or density until you can scan the current neighborhood.
 
 ## Try another small step
 

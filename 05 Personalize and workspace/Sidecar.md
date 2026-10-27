@@ -14,11 +14,11 @@ Next:
 ---
 # Sidecar
 
-Read or edit a note while keeping its connections in view. Open a Sidecar: a normal Obsidian document pane beside the Plex.
+Read or edit a note while keeping its connections in view. Open a Sidecar: a normal Obsidian document pane beside the canvas.
 
 ![[Assets/Screenshot - Read beside the map.png]]
 
-*A normal Markdown pane sits beside the Plex so you can read or write while keeping the note's context visible.*
+*A normal Markdown pane sits beside the canvas so you can read or write while keeping the note's context visible.*
 
 ## Read and edit beside the map
 
@@ -41,3 +41,9 @@ Other tabs in the folded group are hidden too. If the layout cannot safely prese
 **Ctrl/Cmd+Shift+E** focuses the existing editor and **Ctrl/Cmd+Shift+G** returns to the graph. **Ctrl/Cmd+Enter** centers a selected note and ensures its Sidecar is open. Your [[05 Personalize and workspace/Actions and shortcuts|saved shortcuts]] can override these defaults.
 
 A drawing can keep its chosen drawing or Markdown view when the same file is followed. Use an explicit open or representation command when you want to change it. See [[03 Build and edit/Excalidraw integration]].
+
+## Give either side the available space
+
+Alt/Option-select the Sidecar controls to maximize the document or the K-Plex canvas in one action. This is useful when you alternate between reading a long passage and exploring its context.
+
+Opening or closing the Sidecar recenters the canvas for the available space. With **Autozoom** off, this preserves your chosen zoom level; with Autozoom on, framing can adjust to the new space.

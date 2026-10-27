@@ -9,7 +9,7 @@ Friend:
 Next:
 - '[[02 Navigate and explore/Vault Search vs Find in this Plex]]'
 ---
-# Navigating the Plex
+# Navigating the canvas
 
 Follow an idea without losing its context. Make a note the center, explore a connected note and use history to return.
 
@@ -24,10 +24,10 @@ Follow an idea without losing its context. Make a note the center, explore a con
 - Drag empty graph space to pan; use the wheel or pinch to zoom.
 - Right-click or long-press for context menus.
 - Click empty graph space to clear temporary highlights.
-- Use **Fit graph** to bring the visible Plex back into view.
+- Use **Fit graph** to bring the visible canvas back into view.
 
 > [!practice]
-> Center [[00 Start Here/K-Plex Help|K-Plex Help]], then click this note, [[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this Plex]], and back. Watch how shared nodes move rather than being redrawn as unrelated points.
+> Center [[00 Start Here/K-Plex Help|K-Plex Help]], then click this note, [[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]], and back. Watch how shared nodes move rather than being redrawn as unrelated points.
 
 ## Prefer the keyboard?
 

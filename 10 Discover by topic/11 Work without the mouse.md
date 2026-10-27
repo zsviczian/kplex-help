@@ -33,10 +33,10 @@ Navigate, select, connect and execute actions in K-Plex without reaching for the
 Open **K-Plex Help**, focus the graph with **Ctrl/Cmd+Shift+G**, type `Glossary`, then press **Enter** on the selected match. Return with **Backspace** when no typing phrase is active. Open the local palette with **Alt/Option+.**, type `Pin` and choose the available action.
 
 > [!note] Typing is not Vault search
-> Type-to-select searches only labels of displayed nodes. Use [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] when the destination is not in the current Plex.
+> Type-to-select searches only labels of displayed nodes. Use [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] when the destination is not in the current canvas.
 
 Continue to [[10 Discover by topic/02 Find and navigate knowledge|Find and navigate knowledge]] or [[00 Start Here/Choose a topic|all routes]].
 
 ## Find highlight and shortcuts
 
-The current Plex uses a shared visual highlight for local Find and keyboard selection. Local shortcut assignments are independent of whether an action is published into Obsidian's Command Palette. See [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].
+The current canvas uses a shared visual highlight for local Find and keyboard selection. Local shortcut assignments are independent of whether an action is published into Obsidian's Command Palette. See [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].

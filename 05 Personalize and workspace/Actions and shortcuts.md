@@ -41,7 +41,7 @@ Graph-local shortcuts need a focused K-Plex surface. You can always start with *
 Existing customized shortcuts, explicitly disabled bindings and published-command choices survive plugin updates. Importing graph settings from ExcaliBrain does **not** import its commands or hotkeys. A new default that clashes with your preserved choice can remain unbound until you choose it explicitly.
 
 > [!important] Local and global are different
-> A graph-local shortcut is scoped to K-Plex; Obsidian's **Settings → Hotkeys** applies to published commands. Turning off command publication does not remove the local action. Some actions require a selected node or live Plex and will be unavailable without it.
+> A graph-local shortcut is scoped to K-Plex; Obsidian's **Settings → Hotkeys** applies to published commands. Turning off command publication does not remove the local action. Some actions require a selected node or live canvas and will be unavailable without it.
 
 See [[02 Navigate and explore/Keyboard shortcuts reference|Keyboard shortcuts reference]] for examples and [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] for using the catalog without memorizing keys.
 

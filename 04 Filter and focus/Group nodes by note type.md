@@ -42,7 +42,7 @@ If everything appears under **Notes**, check the notes' `Note type` values and y
 
 ## Keep control of the detail
 
-Unfold one group while leaving the rest compact. The grouping toggle stays on as you navigate, but each newly centered note starts with its groups folded. Unfolding a group in one Plex does not unfold the same group in another Plex.
+Unfold one group while leaving the rest compact. The grouping toggle stays on as you navigate, but each newly centered note starts with its groups folded. Unfolding a group in one canvas does not unfold the same group in another canvas.
 
 ![[Assets/Screenshot - Unfolded source group.png]]
 

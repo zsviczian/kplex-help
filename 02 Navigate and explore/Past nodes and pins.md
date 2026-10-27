@@ -32,8 +32,8 @@ This help vault starts with a few useful pins, including [[00 Start Here/K-Plex 
 
 **Keyboard routes:** **Backspace** goes back and **Shift+Backspace** goes forward when no type-to-select phrase is active. **Alt/Option+B** opens pins, **Alt/Option+H** opens the full history picker, and **Alt/Option+P** toggles the current selection/center pin. These defaults can be changed in [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].
 
-## Want every visit in just this Plex?
+## Want every visit in just this canvas?
 
-[[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]] records the complete visit sequence of **one Plex**, newest first, including repeated visits. Use the footprints icon next to Find in Plex, rather than the shared Past nodes bar at the bottom. Footprints is **not persisted**: it survives moving that Plex between windows, but clears when the Plex closes or Obsidian restarts.
+[[02 Navigate and explore/Footprints and breadcrumbs|Footprints (session breadcrumbs)]] records the complete visit sequence of **one canvas**, newest first, including repeated visits. Use the footprints icon next to Find in canvas, rather than the shared Past nodes bar at the bottom. Footprints is **not persisted**: it survives moving that canvas between windows, but clears when the canvas closes or Obsidian restarts.
 
-Selecting an earlier Footprints visit appends another visit. **Start here** resets only that Plex's trail, while **Copy as Markdown** exports the whole list for pasting into a note. Neither action clears Past nodes or pins. For a practical exercise, try [[07 Use cases/Rediscover and remember your notes]].
+Selecting an earlier Footprints visit appends another visit. **Start here** resets only that canvas's trail, while **Copy as Markdown** exports the whole list for pasting into a note. Neither action clears Past nodes or pins. For a practical exercise, try [[07 Use cases/Rediscover and remember your notes]].

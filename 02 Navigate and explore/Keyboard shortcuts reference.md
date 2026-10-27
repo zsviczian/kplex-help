@@ -31,8 +31,8 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 | **Ctrl/Cmd+Enter** | Center the selected note and open/ensure its Sidecar. |
 | **Type a label** | Select matching visible nodes (graph focus). |
 | **Tab / Shift+Tab** | Next / previous typed match (only while a type-to-select phrase is active). |
-| **Backspace** | Edit active typed phrase; otherwise return in Plex history. |
-| **Shift+Backspace** | Move forward in Plex history when not typing a search phrase. |
+| **Backspace** | Edit active typed phrase; otherwise return in canvas history. |
+| **Shift+Backspace** | Move forward in canvas history when not typing a search phrase. |
 | **Escape** | Clear active phrase first; otherwise follow the focused UI's cancellation behavior. |
 
 ## Actions and graph tools
@@ -41,8 +41,8 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 | --- | --- |
 | **Alt/Option+.** | Open the K-Plex command palette. |
 | **Alt/Option+?** | Open the read-only Keyboard help. |
-| **Alt/Option+/** | Focus Search Vault on the Plex. |
-| **Ctrl/Cmd+F** | Focus Find in Plex when the graph has focus; in an editor it stays the editor's Find. |
+| **Alt/Option+/** | Focus Search Vault on the canvas. |
+| **Ctrl/Cmd+F** | Focus Find in canvas when the graph has focus; in an editor it stays the editor's Find. |
 | **Alt/Option+R** | Rename selected node, or center. |
 | **Alt/Option+P** | Pin / unpin selected node, or center. |
 | **Alt/Option+B** | Open complete pins picker. |
@@ -56,7 +56,7 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 
 ## Field and dialog focus matters
 
-- **Search Vault:** Up/Down chooses search results, Enter opens one, Escape dismisses results. **Find in Plex:** Enter/Shift+Enter cycles matches; Escape clears and closes Find.
+- **Search Vault:** Up/Down chooses search results, Enter opens one, Escape dismisses results. **Find in canvas:** Enter/Shift+Enter cycles matches; Escape clears and closes Find.
 - **Graph:** Arrow navigation and type-to-select apply only while the graph owns focus. Native editors, note input fields and modal controls keep their own key behavior.
 - **Relationship dialog:** **Ctrl/Cmd+Enter** submits when its inputs can accept the shortcut; **Ctrl/Cmd+Shift+Enter** creates/connects another while retaining the captured origin. Accept an open suggestion first.
 - Shortcut bindings and command publication are independent. No global Obsidian hotkey is installed automatically for these local graph actions.

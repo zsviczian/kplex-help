@@ -26,7 +26,7 @@ Explains:
 
 ![[Assets/Screenshot - Two independent Plexes.png]]
 
-*Two adjacent Plexes keep different centers. Keep a destination in one while exploring possible sources in the other.*
+*Two adjacent canvases keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
 **The outcome:** A useful starting point for your new project, built from knowledge you've already collected. Instead of a blank page, you have a living collection of relevant ideas that you can keep expanding.
 
@@ -45,17 +45,17 @@ Start with a new project note (or a Map of Content) and **pin it**. Explore your
 
 A project can gradually become its own Map of Content. It need not begin as a carefully curated index. See [[02 Navigate and explore/Past nodes and pins]], [[03 Build and edit/Create a relationship]], and [[07 Use cases/Build a Map of Content]].
 
-### 2. Keep your destination in one Plex and search in another
+### 2. Keep your destination in one canvas and search in another
 
-Open **two K-Plex views**. Keep the new project centered in one as your *destination*. Use the other to browse and investigate older notes. When you notice something relevant, drag it into the project Plex and connect it in the appropriate area.
+Open **two K-Plex views**. Keep the new project centered in one as your *destination*. Use the other to browse and investigate older notes. When you notice something relevant, drag it into the project canvas and connect it in the appropriate area.
 
-You don't have to collect everything as Children. A useful source might be a Child, a supporting example a Friend, an objection a Challenger, or a broader idea a Parent. These directions give the growing project useful context, but you can change relationships later. Keep exploring in the source Plex without losing your destination.
+You don't have to collect everything as Children. A useful source might be a Child, a supporting example a Friend, an objection a Challenger, or a broader idea a Parent. These directions give the growing project useful context, but you can change relationships later. Keep exploring in the source canvas without losing your destination.
 
 See [[05 Personalize and workspace/Note-tab synchronization]] and [[03 Build and edit/Drag drop and reclassify]].
 
 ### 3. Bring in notes found through Bases or the file explorer
 
-Your search doesn't have to happen inside K-Plex. Use an Obsidian **Base**, the file explorer, or another supported native surface to find candidate notes. Drag a supported file or resolved note link into the project Plex to navigate or create a connection.
+Your search doesn't have to happen inside K-Plex. Use an Obsidian **Base**, the file explorer, or another supported native surface to find candidate notes. Drag a supported file or resolved note link into the project canvas to navigate or create a connection.
 
 This bridges familiar file- and table-based discovery with a project you are developing visually. Not every kind of Bases cell or drag payload is supported: use a resolved note link, and check the behavior explained in [[03 Build and edit/Drag drop and reclassify]].
 
@@ -63,7 +63,7 @@ This bridges familiar file- and table-based discovery with a project you are dev
 
 When you don't know what you're looking for, use [[02 Navigate and explore/Wander|Wander]]. Let K-Plex guide you through connected notes. An unexpected example, sketch or old insight may be exactly what your new project needs.
 
-**Pause Wander** when something catches your attention. Look at the note, then link it to your pinned project—or bring it into the destination Plex. Resume exploring when you're ready. This combines serendipity with a place to capture what matters.
+**Pause Wander** when something catches your attention. Look at the note, then link it to your pinned project—or bring it into the destination canvas. Resume exploring when you're ready. This combines serendipity with a place to capture what matters.
 
 Wander is guided exploration, not a guarantee that K-Plex will automatically identify relevant project material.
 
