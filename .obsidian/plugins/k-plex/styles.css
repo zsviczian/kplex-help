@@ -3907,7 +3907,7 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-literal-editor { border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); margin: 0; padding: var(--size-4-3); min-width: 0; }
 .kplex-literal-controls { display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: end; gap: var(--size-4-2); }
 .kplex-color-swatch { background: var(--kplex-color-swatch); width: 28px; height: 28px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-s); }
-.kplex-literal-opacity { display: grid; grid-template-columns: minmax(0, 1fr) 5.5em auto; align-items: end; gap: var(--size-4-3); margin-top: var(--size-4-3); }
+.kplex-literal-opacity { margin-top: var(--size-4-3); }
 .kplex-literal-opacity input { width: 100%; }
 .kplex-color-previews { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--size-4-3); margin-top: var(--size-4-3); }
 .kplex-color-preview { border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); padding: var(--size-4-2); min-width: 0; }
@@ -4100,3 +4100,8 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-package-intro p { flex: 1; margin-top: 0; }
 .kplex-package-source { width: 100%; min-height: 140px; height: clamp(140px, 24vh, 260px); max-height: 45vh; font-family: var(--font-monospace); resize: vertical; }
 .kplex-package-json { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* Shared native numeric settings keep their value visible without a hover-only tooltip. */
+.kplex-number-value { min-width: 3em; text-align: end; font-variant-numeric: tabular-nums; color: var(--text-muted); }
+.kplex-number-setting .slider-value { display: none; }
+.kplex-literal-opacity .setting-item { padding: 0; border: 0; }
