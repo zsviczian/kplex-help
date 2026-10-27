@@ -33,7 +33,9 @@ Try the URL friend attached to [[08 About/Community GitHub and contributing|Comm
 
 ## Edit a note where it belongs
 
-Eligible Markdown notes expose a node-editor corner action. In Compass and Mind Map, a neighboring note can open in place without moving the focus of the map. Facets keeps its editor attached to the current focus. There is one node editor at a time; opening another saves and closes the first. A failed save leaves the existing editor available for recovery.
+Eligible Markdown notes expose a node-editor corner action. In Compass, Mind Map and Facets, a neighboring note opens in place without moving the focus of the map. In Facets it stays in its category. There is one node editor at a time; opening another saves and closes the first. A failed save leaves the existing editor available for recovery.
+
+The containing area grows temporarily in width and height to fit the complete editor, including its controls. Opening or resizing reveals it within a scrollable area; ordinary scrolling afterward remains yours. Closing the editor restores the configured area dimensions. This does not change your saved area settings or the note's category.
 
 Switching the canvas view also saves and closes the existing node editor first. In Mind Map, close it before changing the root or folding away its branch. Use the normal document pane or Sidecar when you want to read other files beside the canvas.
 
