@@ -12,6 +12,8 @@ Child:
 - '[[09 Showcase examples/Example - A note with sections]]'
 Friend:
 - '[[04 Filter and focus/Facets layouts and classification]]'
+Related:
+- '[[Assets/Screenshot - Facets Wu Xing.png]]'
 Note type: Guide
 status: 🟢
 ---
@@ -36,6 +38,10 @@ Use the built-in Wu Xing preset to consider how connected material contributes t
 | A note with sections | 🔵 Water | Keeps context available for reflection |
 
 Inspect **status** in Properties to see the stored value. The focus and the research question share Wood. The materials note stays Earth when the focus changes from Wood to Metal; only its relative role changes.
+
+![[Assets/Screenshot - Facets Wu Xing.png]]
+
+*Desktop overview: the workshop examples occupy all five phases, with Wood at the top. The focus has a Wood badge; two linked help pages have no phase and remain in Diagnostics. Thin region guides are separate from the colored note connectors.*
 
 ## Keep three meanings separate
 
