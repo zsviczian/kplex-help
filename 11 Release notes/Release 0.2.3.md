@@ -1,21 +1,26 @@
 ---
 tags:
-- "kplex-help/release-notes"
+  - kplex-help/release-notes
 Guide:
-- "[[11 Release notes/Release notes]]"
+  - "[[11 Release notes/Release notes]]"
 Explains:
-- "[[06 Indexing and troubleshooting/How indexing works]]"
-- "[[06 Indexing and troubleshooting/Large vault behavior]]"
-- "[[06 Indexing and troubleshooting/On demand vs Eager]]"
+  - "[[06 Indexing and troubleshooting/How indexing works]]"
+  - "[[06 Indexing and troubleshooting/Large vault behavior]]"
+  - "[[06 Indexing and troubleshooting/On demand vs Eager]]"
+Previous:
+  - "[[Release 0.2.2]]"
+Next:
+  - "[[Release 0.2.4]]"
 Related:
-- "https://github.com/zsviczian/kplex/releases/tag/0.2.3"
-- "https://github.com/zsviczian/kplex/pull/201"
-- "https://github.com/zsviczian/kplex/pull/203"
-- "https://github.com/zsviczian/kplex/pull/204"
-- "https://github.com/zsviczian/kplex/pull/205"
-- "https://github.com/zsviczian/kplex/pull/207"
-- "https://github.com/zsviczian/kplex/pull/206"
-- "https://github.com/zsviczian/kplex/compare/0.2.2...0.2.3"
+  - https://github.com/zsviczian/kplex/releases/tag/0.2.3
+  - https://github.com/zsviczian/kplex/pull/201
+  - https://github.com/zsviczian/kplex/pull/203
+  - https://github.com/zsviczian/kplex/pull/204
+  - https://github.com/zsviczian/kplex/pull/205
+  - https://github.com/zsviczian/kplex/pull/207
+  - https://github.com/zsviczian/kplex/pull/206
+  - https://github.com/zsviczian/kplex/compare/0.2.2...0.2.3
+Note type: ReleaseNotes
 ---
 # K-Plex 0.2.3 — Less waiting, more exploring
 

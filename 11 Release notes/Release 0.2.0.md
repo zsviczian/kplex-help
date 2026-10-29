@@ -5,49 +5,52 @@ tags:
 Guide:
   - "[[11 Release notes/Release notes]]"
 Explains:
-- '[[02 Navigate and explore/Navigate and explore]]'
-- '[[03 Build and edit/Build and edit]]'
-- '[[04 Filter and focus/Filter and focus]]'
-- '[[05 Personalize and workspace/Personalize and workspace]]'
-- '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
-- '[[07 Use cases/Use cases]]'
+  - "[[02 Navigate and explore/Navigate and explore]]"
+  - "[[03 Build and edit/Build and edit]]"
+  - "[[04 Filter and focus/Filter and focus]]"
+  - "[[05 Personalize and workspace/Personalize and workspace]]"
+  - "[[06 Indexing and troubleshooting/Indexing and troubleshooting]]"
+  - "[[07 Use cases/Use cases]]"
 Previous:
-  - "[[11 Release notes/K-Plex 0.1.3]]"
+  - "[[Release 0.1.3]]"
+Next:
+  - "[[Release 0.2.2]]"
 Related:
-- 'https://github.com/zsviczian/kplex/releases/tag/0.2.0'
-- '[[03 Build and edit/Drag drop and reclassify]]'
-- '[[03 Build and edit/Create notes and placeholders]]'
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
-- '[[05 Personalize and workspace/Sidecar]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[07 Use cases/Garden your vault]]'
-- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
-- '[[05 Personalize and workspace/Colors and themes]]'
-- '[[05 Personalize and workspace/Visibility and connector styling]]'
-- '[[05 Personalize and workspace/Layout density and typography]]'
-- '[[01 Core concepts/Ontology and relationship fields]]'
-- '[[03 Build and edit/Manage and clean up ontology]]'
-- '[[06 Indexing and troubleshooting/On demand vs Eager]]'
-- '[[04 Filter and focus/Expand a note into sections]]'
-- '[[06 Indexing and troubleshooting/Understanding index status]]'
-- '[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]'
-- 'https://github.com/zsviczian/kplex/pull/149'
-- 'https://github.com/zsviczian/kplex/pull/158'
-- 'https://github.com/zsviczian/kplex/pull/162'
-- 'https://github.com/zsviczian/kplex/pull/171'
-- 'https://github.com/zsviczian/kplex/pull/173'
-- 'https://github.com/zsviczian/kplex/pull/174'
-- 'https://github.com/zsviczian/kplex/pull/177'
-- 'https://github.com/zsviczian/kplex/pull/180'
-- 'https://github.com/zsviczian/kplex/pull/181'
-- 'https://github.com/zsviczian/kplex/pull/182'
-- 'https://github.com/zsviczian/kplex/pull/183'
-- 'https://github.com/zsviczian/kplex/pull/186'
-- 'https://github.com/zsviczian/kplex/pull/187'
-- 'https://github.com/zsviczian/kplex/pull/189'
-- 'https://github.com/zsviczian/kplex/pull/190'
-- 'https://github.com/zsviczian/kplex/pull/194'
-- 'https://github.com/zsviczian/kplex/pull/195'
+  - https://github.com/zsviczian/kplex/releases/tag/0.2.0
+  - "[[03 Build and edit/Drag drop and reclassify]]"
+  - "[[03 Build and edit/Create notes and placeholders]]"
+  - "[[05 Personalize and workspace/Note-tab synchronization]]"
+  - "[[05 Personalize and workspace/Sidecar]]"
+  - "[[04 Filter and focus/Graph Lenses]]"
+  - "[[07 Use cases/Garden your vault]]"
+  - "[[02 Navigate and explore/Footprints and breadcrumbs]]"
+  - "[[05 Personalize and workspace/Colors and themes]]"
+  - "[[05 Personalize and workspace/Visibility and connector styling]]"
+  - "[[05 Personalize and workspace/Layout density and typography]]"
+  - "[[01 Core concepts/Ontology and relationship fields]]"
+  - "[[03 Build and edit/Manage and clean up ontology]]"
+  - "[[06 Indexing and troubleshooting/On demand vs Eager]]"
+  - "[[04 Filter and focus/Expand a note into sections]]"
+  - "[[06 Indexing and troubleshooting/Understanding index status]]"
+  - "[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]"
+  - https://github.com/zsviczian/kplex/pull/149
+  - https://github.com/zsviczian/kplex/pull/158
+  - https://github.com/zsviczian/kplex/pull/162
+  - https://github.com/zsviczian/kplex/pull/171
+  - https://github.com/zsviczian/kplex/pull/173
+  - https://github.com/zsviczian/kplex/pull/174
+  - https://github.com/zsviczian/kplex/pull/177
+  - https://github.com/zsviczian/kplex/pull/180
+  - https://github.com/zsviczian/kplex/pull/181
+  - https://github.com/zsviczian/kplex/pull/182
+  - https://github.com/zsviczian/kplex/pull/183
+  - https://github.com/zsviczian/kplex/pull/186
+  - https://github.com/zsviczian/kplex/pull/187
+  - https://github.com/zsviczian/kplex/pull/189
+  - https://github.com/zsviczian/kplex/pull/190
+  - https://github.com/zsviczian/kplex/pull/194
+  - https://github.com/zsviczian/kplex/pull/195
+Note type: ReleaseNotes
 ---
 # K-Plex 0.2.0 — Your knowledge, your workspace
 

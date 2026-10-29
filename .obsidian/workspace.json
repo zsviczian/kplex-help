@@ -252,7 +252,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "11 Release notes/Release 0.3.1.md"
+              },
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -280,16 +282,17 @@
   },
   "active": "f96c6c66434b3021",
   "lastOpenFiles": [
+    "11 Release notes/Release 0.3.1.md",
     "Assets/Image - select canvas view.png",
     "04 Filter and focus/Facets.md",
     "Assets/Image - View Facets.png",
     "01 Core concepts/Canvas views.md",
-    "11 Release notes/K-Plex 0.3.0 release notes.md",
+    "11 Release notes/Release 0.3.0.md",
     "09 Showcase examples/Example - A note with sections.md",
     "09 Showcase examples/Example - A visual note.md",
     "README.md",
     "Start Here.md",
-    "11 Release notes/K-Plex 0.2.0 release notes.md",
+    "11 Release notes/Release 0.2.0.md",
     "04 Filter and focus/Expand a note into sections.md",
     "06 Indexing and troubleshooting/On demand vs Eager.md",
     "03 Build and edit/Manage and clean up ontology.md",

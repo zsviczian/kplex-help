@@ -1,21 +1,26 @@
 ---
 tags:
-- "kplex-help/release-notes"
+  - kplex-help/release-notes
 Guide:
-- "[[11 Release notes/Release notes]]"
+  - "[[11 Release notes/Release notes]]"
 Explains:
-- "[[05 Personalize and workspace/Sidecar]]"
-- "[[02 Navigate and explore/Editor node and web pages]]"
-- "[[05 Personalize and workspace/Visibility and connector styling]]"
-- "[[06 Indexing and troubleshooting/How indexing works]]"
+  - "[[05 Personalize and workspace/Sidecar]]"
+  - "[[02 Navigate and explore/Editor node and web pages]]"
+  - "[[05 Personalize and workspace/Visibility and connector styling]]"
+  - "[[06 Indexing and troubleshooting/How indexing works]]"
+Previous:
+  - "[[Release 0.2.3]]"
+Next:
+  - "[[Release 0.3.0]]"
 Related:
-- "https://github.com/zsviczian/kplex/releases/tag/0.2.4"
-- "https://github.com/zsviczian/kplex/pull/210"
-- "https://github.com/zsviczian/kplex/pull/211"
-- "https://github.com/zsviczian/kplex/pull/213"
-- "https://github.com/zsviczian/kplex/pull/212"
-- "https://github.com/zsviczian/kplex/pull/214"
-- "https://github.com/zsviczian/kplex/compare/0.2.3...0.2.4"
+  - https://github.com/zsviczian/kplex/releases/tag/0.2.4
+  - https://github.com/zsviczian/kplex/pull/210
+  - https://github.com/zsviczian/kplex/pull/211
+  - https://github.com/zsviczian/kplex/pull/213
+  - https://github.com/zsviczian/kplex/pull/212
+  - https://github.com/zsviczian/kplex/pull/214
+  - https://github.com/zsviczian/kplex/compare/0.2.3...0.2.4
+Note type: ReleaseNotes
 ---
 # K-Plex 0.2.4 — More room for your work
 

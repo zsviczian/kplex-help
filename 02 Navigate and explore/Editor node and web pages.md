@@ -37,6 +37,6 @@ Eligible Markdown notes expose a node-editor corner action. In Compass, Mind Map
 
 The containing area grows temporarily in width and height to fit the complete editor, including its controls. Opening or resizing reveals it within a scrollable area; ordinary scrolling afterward remains yours. Closing the editor restores the configured area dimensions. This does not change your saved area settings or the note's category.
 
-Switching the canvas view also saves and closes the existing node editor first. In Mind Map, close it before changing the root or folding away its branch. Use the normal document pane or Sidecar when you want to read other files beside the canvas.
+Switching the canvas view also saves and closes the existing node editor first. In Mind Map, when the central note is open in the editor, clicking another Markdown note saves the previous note and opens the new center in the same reading or editing mode and dimensions. A failed save keeps the current editor available. Close an editor before folding away its branch. Use the normal document pane or Sidecar when you want to read other files beside the canvas.
 
 Alt/Option-select **Use editor as central node** to open directly in expanded editor mode. The regular action retains its normal behavior.

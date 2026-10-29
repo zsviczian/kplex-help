@@ -37,7 +37,9 @@ Repeated and circular relationships can appear as references rather than expandi
 
 ## Write where the idea belongs
 
-Open a Markdown node in its place in the map and use Obsidian's editor. There is one node editor at a time. Close it before choosing a different root or hiding the branch that contains it. Switching views saves and closes it; a failed save keeps the current editor available. Folding a branch and expanding a note's Markdown sections are different actions.
+Open a Markdown node in its place in the map and use Obsidian's editor. There is one node editor at a time. With the central note open in the editor, click another Markdown note to center it: K-Plex saves the previous note and opens the new center in the same reading or editing mode, preserving the editor's dimensions. You can keep navigating while the next editor loads. A failed save keeps the current editor available.
+
+Close an editor before folding away the branch that contains it. Switching views saves and closes it. Folding a branch and expanding a note's Markdown sections are different actions.
 
 ## Use the view that suits the task
 

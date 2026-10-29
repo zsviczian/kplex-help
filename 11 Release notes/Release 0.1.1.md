@@ -1,41 +1,41 @@
 ---
 aliases:
-- K-Plex 0.1.1 release notes
 tags:
-- kplex-help/release-notes
-- kplex/released
+  - kplex-help/release-notes
+  - kplex/released
 Guide:
-- '[[11 Release notes/Release notes]]'
+  - "[[11 Release notes/Release notes]]"
 Previous:
-- '[[11 Release notes/K-Plex 0.1.0]]'
+  - "[[Release 0.1.0]]"
 Next:
-- '[[11 Release notes/K-Plex 0.1.2]]'
+  - "[[Release 0.1.2]]"
 Explains:
-- '[[02 Navigate and explore/Keyboard navigation]]'
-- '[[02 Navigate and explore/K-Plex command palette]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
-- '[[06 Indexing and troubleshooting/Understanding index status]]'
+  - "[[02 Navigate and explore/Keyboard navigation]]"
+  - "[[02 Navigate and explore/K-Plex command palette]]"
+  - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
+  - "[[06 Indexing and troubleshooting/Understanding index status]]"
 Related:
-- 'https://community.sketch-your-mind.com'
-- 'https://github.com/zsviczian/kplex'
-- 'https://github.com/zsviczian/kplex/compare/0.1.0...0.1.1'
-- 'https://github.com/zsviczian/kplex/issues'
-- 'https://github.com/zsviczian/kplex/pull/102'
-- 'https://github.com/zsviczian/kplex/pull/103'
-- 'https://github.com/zsviczian/kplex/pull/104'
-- 'https://github.com/zsviczian/kplex/pull/105'
-- 'https://github.com/zsviczian/kplex/pull/108'
-- 'https://github.com/zsviczian/kplex/pull/112'
-- 'https://github.com/zsviczian/kplex/pull/113'
-- 'https://github.com/zsviczian/kplex/pull/80'
-- 'https://github.com/zsviczian/kplex/pull/82'
-- 'https://github.com/zsviczian/kplex/pull/85'
-- 'https://github.com/zsviczian/kplex/pull/86'
-- 'https://github.com/zsviczian/kplex/pull/87'
-- 'https://github.com/zsviczian/kplex/pull/94'
-- 'https://github.com/zsviczian/kplex/pull/95'
-- 'https://github.com/zsviczian/kplex/releases/tag/0.1.1'
-- 'https://ko-fi.com/zsolt'
+  - https://community.sketch-your-mind.com
+  - https://github.com/zsviczian/kplex
+  - https://github.com/zsviczian/kplex/compare/0.1.0...0.1.1
+  - https://github.com/zsviczian/kplex/issues
+  - https://github.com/zsviczian/kplex/pull/102
+  - https://github.com/zsviczian/kplex/pull/103
+  - https://github.com/zsviczian/kplex/pull/104
+  - https://github.com/zsviczian/kplex/pull/105
+  - https://github.com/zsviczian/kplex/pull/108
+  - https://github.com/zsviczian/kplex/pull/112
+  - https://github.com/zsviczian/kplex/pull/113
+  - https://github.com/zsviczian/kplex/pull/80
+  - https://github.com/zsviczian/kplex/pull/82
+  - https://github.com/zsviczian/kplex/pull/85
+  - https://github.com/zsviczian/kplex/pull/86
+  - https://github.com/zsviczian/kplex/pull/87
+  - https://github.com/zsviczian/kplex/pull/94
+  - https://github.com/zsviczian/kplex/pull/95
+  - https://github.com/zsviczian/kplex/releases/tag/0.1.1
+  - https://ko-fi.com/zsolt
+Note type: ReleaseNotes
 ---
 # K-Plex 0.1.1 — release notes
 
@@ -165,4 +165,4 @@ Thank you for helping shape K-Plex!
 
 ## Previous and next
 
-← [[11 Release notes/K-Plex 0.1.0|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.1.2|Next release →]]
+← [[Release 0.1.0|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.2|Next release →]]

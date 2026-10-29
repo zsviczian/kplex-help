@@ -4,7 +4,7 @@ Child:
   - "[[Use cases]]"
   - "[[Choose a topic]]"
   - "[[Relationship roles]]"
-  - "[[K-Plex 0.3.0 release notes]]"
+  - "[[Release 0.3.0]]"
   - "[[Canvas views]]"
 ---
 1. "Trust plugins" in plugin settings or when prompted

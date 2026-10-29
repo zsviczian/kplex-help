@@ -1,36 +1,36 @@
 ---
 aliases:
-- What changed
-- Recent features
-- Recent K-Plex improvements
-- Changes since K-Plex 0.1.3
+  - What changed
+  - Recent features
+  - Recent K-Plex improvements
+  - Changes since K-Plex 0.1.3
 tags:
-- kplex-help/section
-- kplex/getting-started
-- kplex/navigation
+  - kplex-help/section
+  - kplex/getting-started
+  - kplex/navigation
 Friend:
-- '[[00 Start Here/Choose a topic]]'
-- '[[00 Start Here/Glossary]]'
-- '[[07 Use cases/Use cases]]'
+  - "[[00 Start Here/Choose a topic]]"
+  - "[[00 Start Here/Glossary]]"
+  - "[[07 Use cases/Use cases]]"
 Explains:
-- '[[02 Navigate and explore/Navigate and explore]]'
-- '[[03 Build and edit/Build and edit]]'
-- '[[04 Filter and focus/Filter and focus]]'
-- '[[05 Personalize and workspace/Personalize and workspace]]'
-- '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
-- '[[08 About/About K-Plex]]'
+  - "[[02 Navigate and explore/Navigate and explore]]"
+  - "[[03 Build and edit/Build and edit]]"
+  - "[[04 Filter and focus/Filter and focus]]"
+  - "[[05 Personalize and workspace/Personalize and workspace]]"
+  - "[[06 Indexing and troubleshooting/Indexing and troubleshooting]]"
+  - "[[08 About/About K-Plex]]"
 Related:
-- "[[01 Core concepts/Canvas views]]"
-- "[[04 Filter and focus/Facets]]"
-- "[[11 Release notes/K-Plex 0.2.3 release notes]]"
-- "[[11 Release notes/K-Plex 0.2.4 release notes]]"
-- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
-- '[[04 Filter and focus/Group nodes by note type]]'
-- '[[README]]'
-- '[[11 Release notes/K-Plex 0.2.0 release notes]]'
-- '[[07 Use cases/Never start a project with a blank page]]'
-- '[[07 Use cases/Garden your vault]]'
-- '[[07 Use cases/Research and learning]]'
+  - "[[01 Core concepts/Canvas views]]"
+  - "[[04 Filter and focus/Facets]]"
+  - "[[Release 0.2.3]]"
+  - "[[Release 0.2.4]]"
+  - "[[Release 0.2.2]]"
+  - "[[04 Filter and focus/Group nodes by note type]]"
+  - "[[README]]"
+  - "[[Release 0.2.0]]"
+  - "[[07 Use cases/Never start a project with a blank page]]"
+  - "[[07 Use cases/Garden your vault]]"
+  - "[[07 Use cases/Research and learning]]"
 ---
 # Find a useful improvement
 
@@ -62,4 +62,4 @@ Choose startup and Eager/On-demand behavior separately for desktop, tablet and p
 
 ## Put it to work
 
-Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. Use the [[11 Release notes/K-Plex 0.2.3 release notes|0.2.3]] and [[11 Release notes/K-Plex 0.2.4 release notes|0.2.4]] notes for published indexing and workspace improvements, and the release archive for earlier history.
+Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. Use the [[Release 0.2.3|0.2.3]] and [[Release 0.2.4|0.2.4]] notes for published indexing and workspace improvements, and the release archive for earlier history.

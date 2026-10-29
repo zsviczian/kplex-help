@@ -1,19 +1,21 @@
 ---
 aliases:
-- K-Plex 0.2.2 release notes
 tags:
-- kplex-help/release-notes
+  - kplex-help/release-notes
 Guide:
-- '[[11 Release notes/Release notes]]'
+  - "[[11 Release notes/Release notes]]"
 Explains:
-- '[[04 Filter and focus/Group nodes by note type]]'
-- '[[04 Filter and focus/Graph Lenses]]'
+  - "[[04 Filter and focus/Group nodes by note type]]"
+  - "[[04 Filter and focus/Graph Lenses]]"
 Previous:
-- '[[11 Release notes/K-Plex 0.2.0 release notes]]'
+  - "[[Release 0.2.0]]"
+Next:
+  - "[[Release 0.2.3]]"
 Related:
-- 'https://github.com/zsviczian/kplex/releases/tag/0.2.2'
-- 'https://github.com/zsviczian/kplex/pull/199'
-- 'https://github.com/zsviczian/kplex/pull/200'
+  - https://github.com/zsviczian/kplex/releases/tag/0.2.2
+  - https://github.com/zsviczian/kplex/pull/199
+  - https://github.com/zsviczian/kplex/pull/200
+Note type: ReleaseNotes
 ---
 # K-Plex 0.2.2 — A clearer map, easier styling
 
@@ -41,7 +43,7 @@ See [[04 Filter and focus/Graph Lenses|Graph Lenses]] for reusable views and sty
 
 ## About 0.2.1
 
-0.2.1 was a technical republication following a release hiccup. It has no separate user-facing release-note page; [[11 Release notes/K-Plex 0.2.0 release notes|the 0.2.0 notes]] describe that update's features.
+0.2.1 was a technical republication following a release hiccup. It has no separate user-facing release-note page; [[Release 0.2.0|the 0.2.0 notes]] describe that update's features.
 
 ## Sources
 

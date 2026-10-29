@@ -1,17 +1,17 @@
 ---
 aliases:
-- Opening this vault
+  - Opening this vault
 tags:
-- kplex-help/reference
-- kplex/getting-started
+  - kplex-help/reference
+  - kplex/getting-started
 Guide:
-- '[[00 Start Here/Get started]]'
+  - "[[00 Start Here/Get started]]"
 Related:
-- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
-- 'https://github.com/zsviczian/kplex/releases/tag/0.2.4'
-- '[[01 Core concepts/Canvas views]]'
-- '[[09 Showcase examples/Facets demonstrations]]'
-- '[[11 Release notes/Release notes]]'
+  - "[[Release 0.2.2]]"
+  - https://github.com/zsviczian/kplex/releases/tag/0.2.4
+  - "[[01 Core concepts/Canvas views]]"
+  - "[[09 Showcase examples/Facets demonstrations]]"
+  - "[[11 Release notes/Release notes]]"
 ---
 # Try K-Plex with a ready-made vault
 
@@ -26,7 +26,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-The included plugin is **0.3.0**. See [[11 Release notes/K-Plex 0.3.0 release notes|the release notes]] for canvas views, reusable Facets workflows and sharing.
+The included plugin is **0.3.0**. See [[Release 0.3.0|the release notes]] for canvas views, reusable Facets workflows and sharing.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 

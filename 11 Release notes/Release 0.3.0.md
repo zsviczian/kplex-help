@@ -1,6 +1,4 @@
 ---
-aliases:
-  - K-Plex 0.3.0 release notes
 tags:
   - kplex-help/release-notes
 Guide:
@@ -12,8 +10,11 @@ Explains:
   - "[[02 Navigate and explore/Mind Map]]"
   - "[[02 Navigate and explore/Editor node and web pages]]"
   - "[[04 Filter and focus/Expand a note into sections]]"
-Related:
-  - "[[11 Release notes/K-Plex 0.2.4 release notes]]"
+Previous:
+  - "[[Release 0.2.4]]"
+Next:
+  - "[[Release 0.3.1]]"
+Note type: ReleaseNotes
 ---
 # Canvas views and reusable workflows
 

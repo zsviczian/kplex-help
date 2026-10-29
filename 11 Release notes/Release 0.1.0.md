@@ -1,47 +1,47 @@
 ---
 aliases:
-- K-Plex 0.1.0 release notes
 tags:
-- kplex-help/release-notes
-- kplex/released
+  - kplex-help/release-notes
+  - kplex/released
 Guide:
-- '[[11 Release notes/Release notes]]'
+  - "[[11 Release notes/Release notes]]"
 Previous:
-- '[[11 Release notes/K-Plex 0.0.5]]'
+  - "[[Release 0.0.5]]"
 Next:
-- '[[11 Release notes/K-Plex 0.1.1]]'
+  - "[[Release 0.1.1]]"
 Explains:
-- '[[02 Navigate and explore/Navigate and explore]]'
-- '[[03 Build and edit/Build and edit]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[06 Indexing and troubleshooting/Understanding index status]]'
+  - "[[02 Navigate and explore/Navigate and explore]]"
+  - "[[03 Build and edit/Build and edit]]"
+  - "[[04 Filter and focus/Graph Lenses]]"
+  - "[[06 Indexing and troubleshooting/Understanding index status]]"
 Related:
-- 'https://github.com/user-attachments/assets/53d4e74f-2e41-478a-bf8e-af75522c3989'
-- 'https://github.com/user-attachments/assets/a2a985be-4466-41cb-912b-2d53c10ed63d'
-- 'https://github.com/zsviczian/kplex/compare/0.0.5...0.1.0'
-- 'https://github.com/zsviczian/kplex/pull/38'
-- 'https://github.com/zsviczian/kplex/pull/39'
-- 'https://github.com/zsviczian/kplex/pull/40'
-- 'https://github.com/zsviczian/kplex/pull/41'
-- 'https://github.com/zsviczian/kplex/pull/42'
-- 'https://github.com/zsviczian/kplex/pull/43'
-- 'https://github.com/zsviczian/kplex/pull/44'
-- 'https://github.com/zsviczian/kplex/pull/45'
-- 'https://github.com/zsviczian/kplex/pull/46'
-- 'https://github.com/zsviczian/kplex/pull/47'
-- 'https://github.com/zsviczian/kplex/pull/48'
-- 'https://github.com/zsviczian/kplex/pull/49'
-- 'https://github.com/zsviczian/kplex/pull/52'
-- 'https://github.com/zsviczian/kplex/pull/53'
-- 'https://github.com/zsviczian/kplex/pull/55'
-- 'https://github.com/zsviczian/kplex/pull/57'
-- 'https://github.com/zsviczian/kplex/pull/58'
-- 'https://github.com/zsviczian/kplex/pull/72'
-- 'https://github.com/zsviczian/kplex/pull/74'
-- 'https://github.com/zsviczian/kplex/pull/75'
-- 'https://github.com/zsviczian/kplex/pull/76'
-- 'https://github.com/zsviczian/kplex/pull/78'
-- 'https://github.com/zsviczian/kplex/releases/tag/0.1.0'
+  - https://github.com/user-attachments/assets/53d4e74f-2e41-478a-bf8e-af75522c3989
+  - https://github.com/user-attachments/assets/a2a985be-4466-41cb-912b-2d53c10ed63d
+  - https://github.com/zsviczian/kplex/compare/0.0.5...0.1.0
+  - https://github.com/zsviczian/kplex/pull/38
+  - https://github.com/zsviczian/kplex/pull/39
+  - https://github.com/zsviczian/kplex/pull/40
+  - https://github.com/zsviczian/kplex/pull/41
+  - https://github.com/zsviczian/kplex/pull/42
+  - https://github.com/zsviczian/kplex/pull/43
+  - https://github.com/zsviczian/kplex/pull/44
+  - https://github.com/zsviczian/kplex/pull/45
+  - https://github.com/zsviczian/kplex/pull/46
+  - https://github.com/zsviczian/kplex/pull/47
+  - https://github.com/zsviczian/kplex/pull/48
+  - https://github.com/zsviczian/kplex/pull/49
+  - https://github.com/zsviczian/kplex/pull/52
+  - https://github.com/zsviczian/kplex/pull/53
+  - https://github.com/zsviczian/kplex/pull/55
+  - https://github.com/zsviczian/kplex/pull/57
+  - https://github.com/zsviczian/kplex/pull/58
+  - https://github.com/zsviczian/kplex/pull/72
+  - https://github.com/zsviczian/kplex/pull/74
+  - https://github.com/zsviczian/kplex/pull/75
+  - https://github.com/zsviczian/kplex/pull/76
+  - https://github.com/zsviczian/kplex/pull/78
+  - https://github.com/zsviczian/kplex/releases/tag/0.1.0
+Note type: ReleaseNotes
 ---
 # K-Plex 0.1.0 — release notes
 
@@ -285,4 +285,4 @@ K-Plex now consistently uses K-Plex naming and canonical K-Plex command IDs. If 
 
 ## Previous and next
 
-← [[11 Release notes/K-Plex 0.0.5|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.1.1|Next release →]]
+← [[Release 0.0.5|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.1|Next release →]]

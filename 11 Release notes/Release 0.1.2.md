@@ -1,17 +1,17 @@
 ---
 aliases:
-- K-Plex 0.1.2 release notes
 tags:
-- kplex-help/release-notes
-- kplex/released
+  - kplex-help/release-notes
+  - kplex/released
 Guide:
-- '[[11 Release notes/Release notes]]'
+  - "[[11 Release notes/Release notes]]"
 Previous:
-- '[[11 Release notes/K-Plex 0.1.1]]'
+  - "[[Release 0.1.1]]"
 Next:
-- '[[11 Release notes/K-Plex 0.1.3]]'
+  - "[[Release 0.1.3]]"
 Related:
-- 'https://github.com/zsviczian/kplex/releases/tag/0.1.2'
+  - https://github.com/zsviczian/kplex/releases/tag/0.1.2
+Note type: ReleaseNotes
 ---
 # K-Plex 0.1.2 — release notes
 
@@ -28,4 +28,4 @@ Added crosslinks to plugin settings.
 
 ## Previous and next
 
-← [[11 Release notes/K-Plex 0.1.1|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[11 Release notes/K-Plex 0.1.3|Next release →]]
+← [[Release 0.1.1|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.3|Next release →]]

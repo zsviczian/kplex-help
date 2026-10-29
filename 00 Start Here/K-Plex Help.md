@@ -1,32 +1,32 @@
 ---
 aliases:
-- K-Plex Help
-- Help Home
+  - K-Plex Help
+  - Help Home
 tags:
-- kplex-help/home
-- kplex/getting-started
+  - kplex-help/home
+  - kplex/getting-started
 Child:
-- '[[00 Start Here/Get started]]'
-- '[[00 Start Here/Choose a topic]]'
-- '[[01 Core concepts/Core concepts]]'
-- '[[02 Navigate and explore/Navigate and explore]]'
-- '[[03 Build and edit/Build and edit]]'
-- '[[04 Filter and focus/Filter and focus]]'
-- '[[05 Personalize and workspace/Personalize and workspace]]'
-- '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
-- '[[07 Use cases/Use cases]]'
-- '[[08 About/About K-Plex]]'
-- '[[00 Start Here/Recently added features]]'
-- '[[11 Release notes/Release notes]]'
+  - "[[00 Start Here/Get started]]"
+  - "[[00 Start Here/Choose a topic]]"
+  - "[[01 Core concepts/Core concepts]]"
+  - "[[02 Navigate and explore/Navigate and explore]]"
+  - "[[03 Build and edit/Build and edit]]"
+  - "[[04 Filter and focus/Filter and focus]]"
+  - "[[05 Personalize and workspace/Personalize and workspace]]"
+  - "[[06 Indexing and troubleshooting/Indexing and troubleshooting]]"
+  - "[[07 Use cases/Use cases]]"
+  - "[[08 About/About K-Plex]]"
+  - "[[00 Start Here/Recently added features]]"
+  - "[[11 Release notes/Release notes]]"
 Friend:
-- https://github.com/zsviczian/kplex
-- https://obsidian.md
+  - https://github.com/zsviczian/kplex
+  - https://obsidian.md
 Related:
-- "[[Assets/logo - kplex.png]]"
-- '[[07 Use cases/Never start a project with a blank page]]'
-- '[[11 Release notes/K-Plex 0.2.2 release notes]]'
-- '[[00 Start Here/How to use this help vault]]'
-- '[[README]]'
+  - "[[Assets/logo - kplex.png]]"
+  - "[[07 Use cases/Never start a project with a blank page]]"
+  - "[[Release 0.2.2]]"
+  - "[[00 Start Here/How to use this help vault]]"
+  - "[[README]]"
 ---
 # K-Plex Help
 

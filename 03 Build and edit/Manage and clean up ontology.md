@@ -34,6 +34,12 @@ In this vault, search for **Guide**. Its partner **Explains** describes the same
 
 *Search for Guide to see its paired Explains assignment without changing either note property.*
 
+## Define a field when you need it
+
+In **Pair with**, type the missing partner's property name and choose **Create … as paired field**. Save to define both fields together; the partner receives the reciprocal role. You do not need to add the new property to a note first.
+
+When adding or specifying ontology for a connection, choose **Create ontology…** in its **Note property** selector. Define the field and optional partner, then return to the connection with the saved field selected. Confirm the connection to apply it to the note. Creating a definition alone does not change note properties.
+
 ## See the documents behind it
 
 Open the field, then select **Show documents**. The list uses information already available to K-Plex; opening it does not start an extra whole-vault indexing pass.

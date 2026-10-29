@@ -1,41 +1,41 @@
 ---
 aliases:
-  - K-Plex 0.1.3 release notes
 tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
   - "[[11 Release notes/Release notes]]"
 Previous:
-  - "[[11 Release notes/K-Plex 0.1.2]]"
+  - "[[Release 0.1.2]]"
 Next:
-  - "[[K-Plex 0.2.0 release notes]]"
+  - "[[Release 0.2.0]]"
 Explains:
   - "[[02 Navigate and explore/Wander]]"
   - "[[05 Personalize and workspace/Sidecar]]"
   - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
   - "[[05 Personalize and workspace/Images in nodes]]"
 Related:
-- 'https://community.sketch-your-mind.com/'
-- 'https://github.com/zsviczian/kplex'
-- 'https://github.com/zsviczian/kplex/compare/0.1.2...0.1.3'
-- 'https://github.com/zsviczian/kplex/pull/120'
-- 'https://github.com/zsviczian/kplex/pull/121'
-- 'https://github.com/zsviczian/kplex/pull/122'
-- 'https://github.com/zsviczian/kplex/pull/123'
-- 'https://github.com/zsviczian/kplex/pull/136'
-- 'https://github.com/zsviczian/kplex/pull/137'
-- 'https://github.com/zsviczian/kplex/pull/138'
-- 'https://github.com/zsviczian/kplex/pull/139'
-- 'https://github.com/zsviczian/kplex/pull/140'
-- 'https://github.com/zsviczian/kplex/pull/141'
-- 'https://github.com/zsviczian/kplex/pull/142'
-- 'https://github.com/zsviczian/kplex/pull/146'
-- 'https://github.com/zsviczian/kplex/pull/152'
-- 'https://github.com/zsviczian/kplex/releases/tag/0.1.3'
-- 'https://img.youtube.com/vi/ii15UwpsvtU/maxresdefault.jpg'
-- 'https://ko-fi.com/zsolt'
-- 'https://www.youtube.com/watch?v=ii15UwpsvtU'
+  - https://community.sketch-your-mind.com/
+  - https://github.com/zsviczian/kplex
+  - https://github.com/zsviczian/kplex/compare/0.1.2...0.1.3
+  - https://github.com/zsviczian/kplex/pull/120
+  - https://github.com/zsviczian/kplex/pull/121
+  - https://github.com/zsviczian/kplex/pull/122
+  - https://github.com/zsviczian/kplex/pull/123
+  - https://github.com/zsviczian/kplex/pull/136
+  - https://github.com/zsviczian/kplex/pull/137
+  - https://github.com/zsviczian/kplex/pull/138
+  - https://github.com/zsviczian/kplex/pull/139
+  - https://github.com/zsviczian/kplex/pull/140
+  - https://github.com/zsviczian/kplex/pull/141
+  - https://github.com/zsviczian/kplex/pull/142
+  - https://github.com/zsviczian/kplex/pull/146
+  - https://github.com/zsviczian/kplex/pull/152
+  - https://github.com/zsviczian/kplex/releases/tag/0.1.3
+  - https://img.youtube.com/vi/ii15UwpsvtU/maxresdefault.jpg
+  - https://ko-fi.com/zsolt
+  - https://www.youtube.com/watch?v=ii15UwpsvtU
+Note type: ReleaseNotes
 ---
 # K-Plex 0.1.3 — release notes
 
@@ -188,4 +188,4 @@ Happy exploring!
 
 ## Previous and next
 
-← [[11 Release notes/K-Plex 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[K-Plex 0.2.0 release notes|Next release →]]
+← [[Release 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.2.0|Next release →]]
