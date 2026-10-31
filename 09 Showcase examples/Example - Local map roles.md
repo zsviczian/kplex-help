@@ -1,18 +1,18 @@
 ---
 tags:
-- kplex-help/example
-- kplex/facets
+  - kplex-help/example
+  - kplex/facets
 Guide:
-- '[[09 Showcase examples/Facets demonstrations]]'
+  - "[[09 Showcase examples/Facets demonstrations]]"
 Child:
-- '[[00 Start Here/Choose a topic]]'
-- '[[01 Core concepts/Canvas views]]'
-- '[[01 Core concepts/The spatial relationship model]]'
-- '[[02 Navigate and explore/Keyboard shortcuts reference]]'
+  - "[[00 Start Here/Choose a topic]]"
+  - "[[01 Core concepts/Canvas views]]"
+  - "[[01 Core concepts/The spatial relationship model]]"
+  - "[[02 Navigate and explore/Keyboard shortcuts reference]]"
 Friend:
-- '[[04 Filter and focus/Facets layouts and classification]]'
+  - "[[04 Filter and focus/Facets layouts and classification]]"
 Related:
-- '[[Assets/Screenshot - Facets Local map roles.png]]'
+  - "[[Assets/Screenshot - Facets Local map roles.png]]"
 Note type: Guide
 map-role: hub
 ---
@@ -43,3 +43,4 @@ This starting note also uses `hub`, shown as **Major maps** on its centered cate
 ## Make it yours
 
 Use a hub you already maintain and classify a few useful neighbors. A supporting map can be an ordinary Markdown note linking a focused collection; it does not need to be an Obsidian Canvas file. These are roles in your workflow, separate from **Note type** and graph relationship roles. Duplicate the preset to choose categories and an arrangement that suit your own map.
+
