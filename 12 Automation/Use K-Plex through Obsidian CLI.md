@@ -22,7 +22,7 @@ Let a terminal script or local assistant inspect your map without a separate ser
 
 Point Codex, Claude or another local assistant at [skill.md](../skill.md). For example:
 
-> Read the K-Plex skill at `<path-to-kplex-help>/skill.md`. In vault `<my-vault>`, find my workshop plan and explain its direct Child relationships. Report any incomplete coverage. Do not change my notes.
+> Read the K-Plex skill at `https://github.com/zsviczian/kplex-help/blob/main/skill.md`. In vault `<my-vault>`, find my workshop plan and explain its direct Child relationships. Report any incomplete coverage. Do not change my notes.
 
 The file is also available [directly on GitHub](https://raw.githubusercontent.com/zsviczian/kplex-help/main/skill.md). If your tool installs skills by folder, copy it into a `kplex-obsidian-cli` folder as `SKILL.md` using that tool's installation convention.
 
