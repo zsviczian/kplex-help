@@ -41,6 +41,10 @@ Open a Markdown node in its place in the map and use Obsidian's editor. There is
 
 Close an editor before folding away the branch that contains it. Switching views saves and closes it. Folding a branch and expanding a note's Markdown sections are different actions.
 
+## Use your outline elsewhere
+
+Choose **Export → Canvas to MindMap Markdown** in the canvas context menu to copy or save the constructed map or a selected branch. The outline keeps links and supported cross-links; folds and filters still limit its scope. Choose **Canvas to image** for a PNG instead. See [[03 Build and edit/Export and share a canvas|Export and share a canvas]] for preview choices and limitations.
+
 ## Use the view that suits the task
 
 Return to [[02 Navigate and explore/Compass|Compass]] when you want the selected note's immediate neighborhood. Try [[04 Filter and focus/Facets|Facets]] when the useful question is which category each connected note belongs to.

@@ -39,4 +39,12 @@ The containing area grows temporarily in width and height to fit the complete ed
 
 Switching the canvas view also saves and closes the existing node editor first. In Mind Map, when the central note is open in the editor, clicking another Markdown note saves the previous note and opens the new center in the same reading or editing mode and dimensions. A failed save keeps the current editor available. Close an editor before folding away its branch. Use the normal document pane or Sidecar when you want to read other files beside the canvas.
 
-Alt/Option-select **Use editor as central node** to open directly in expanded editor mode. The regular action retains its normal behavior.
+Hold **Alt** on Windows or **Option** on macOS while selecting a node-editor corner action or **Use editor as central node** to open it maximized. This works for Mind Map roots as well as neighboring nodes. The regular action retains its normal behavior.
+
+## Keep the document and its controls within reach
+
+The editor title stays on one line while the document scrolls independently. Large or panned editors keep recovery controls reachable, including collapse and minimize. Maximizing keeps the same native document open; it does not replace your editor with a copy.
+
+Images, audio and video use Obsidian's native file viewers inside the node editor. An unpinned, ungrouped **File properties** pane follows the file in the open node editor, including a neighbor that is not the map center. Closing the editor returns Properties to the current map root or center. Pinned or grouped Properties panes retain their own target.
+
+When you revisit a note in a canvas view, K-Plex can restore its reading/editing and editor view state during the current session. This temporary memory is bounded and is not a permanent bookmark or a copy of the note's contents.

@@ -15,6 +15,8 @@ Child:
 - '[[03 Build and edit/Ontology autocomplete]]'
 - '[[03 Build and edit/Manage and clean up ontology]]'
 - "[[03 Build and edit/Remove one relationship source]]"
+- '[[03 Build and edit/Export and share a canvas]]'
+- '[[12 Automation/Automation and scripting]]'
 Friend:
 - '[[01 Core concepts/Ontology and relationship fields]]'
 Related:
@@ -34,6 +36,8 @@ Organize an idea while you are looking at its context. Create notes, connect the
 - **Understand an edge before editing:** [[03 Build and edit/Connection details and evidence|Connection details and evidence]].
 - **Remove something safely:** [[03 Build and edit/Unlink and delete|Unlink and delete]].
 - **Create drawing notes:** [[03 Build and edit/Excalidraw integration|Optional Excalidraw integration]].
+- **Use the map elsewhere:** [[03 Build and edit/Export and share a canvas|Export a PNG, linked outline or visit trail]].
+- **Work with scripts or assistants:** [[12 Automation/Automation and scripting|Read ontology, relationships and canvas context through the public API]].
 
 **Try this:** In two disposable notes, make a Friend relationship using the `Related` property. Open **Connection details…** to see the source. Do not test deletion on important material.
 

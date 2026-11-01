@@ -44,6 +44,8 @@ Saved pins and Past nodes remain shared. [[02 Navigate and explore/Footprints an
 
 ## Edit the current note's properties
 
-An unpinned, ungrouped Obsidian **File properties** pane follows the central file while K-Plex is active. Pin or group that pane if it should keep its own file. A tag or folder center clears the following pane because there is no file to edit.
+An unpinned, ungrouped Obsidian **File properties** pane follows the open node editor, including a neighbor that is not central. When that editor closes, it returns to the rendered map root or center. Pin or group the pane if it should keep its own file. A tag or folder focus without a file clears the following pane.
+
+Passive document following reuses an existing destination rather than opening another pane. Use an explicit Open or Sync action when you want to create a destination. Ordinary K-Plex tab captions show the centered file's name and the K-Plex icon, helping you tell independent maps apart.
 
 For a document that travels with the map, use a [[05 Personalize and workspace/Sidecar|Sidecar]]. For a practical two-view workflow, try [[07 Use cases/Never start a project with a blank page|starting a project from your existing notes]].

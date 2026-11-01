@@ -16,6 +16,7 @@ Child:
   - "[[11 Release notes/Early releases]]"
   - "[[Release 0.3.0]]"
   - "[[Release 0.3.1]]"
+  - "[[11 Release notes/Release 0.4.0]]"
 Related:
   - "[[00 Start Here/Recently added features]]"
   - "[[README]]"
@@ -24,13 +25,15 @@ Related:
 
 Wondering whether an update helps your workflow? Browse what changed, then follow a feature link to learn how to use it.
 
-## K-Plex 0.3.0 ? Canvas views and workflows
+## K-Plex 0.4.0 — Put your map to work
 
-[[Release 0.3.0|K-Plex 0.3.0 ? Canvas views and reusable workflows]] brings together the view choices, Facets workflows, sharing and in-place editing.
+[[11 Release notes/Release 0.4.0|K-Plex 0.4.0]] adds PNG and linked Markdown export, a public API for local scripts and assistants, ontology descriptions, file-menu navigation, drawing templates and trackpad controls.
 
 ## Published releases
 
+- [[11 Release notes/Release 0.4.0|K-Plex 0.4.0]] — Put your map to work through export and automation, with easier navigation and editing.
 - [[Release 0.3.1|release 0.3.1]] — Create ontology fields as you connect notes, browse folders during indexing, and keep editing as you center another Mind Map note.
+- [[Release 0.3.0|K-Plex 0.3.0]] — Canvas views, reusable Facets workflows, sharing and in-place editing.
 - [[Release 0.2.4|K-Plex 0.2.4]] — 2026-10-24: Sidecar space, framing, editor shortcuts and stable gate counts.
 - [[Release 0.2.3|K-Plex 0.2.3]] — 2026-10-24: less repeated indexing work during startup and editing.
 - [[Release 0.2.2|K-Plex 0.2.2]] — 2026-10-21: grouping by note type and accessible lens color controls.

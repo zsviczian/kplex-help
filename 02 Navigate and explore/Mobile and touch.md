@@ -25,4 +25,8 @@ Phones naturally fit the side-panel experience, while tablets can use a normal K
 
 If a desktop instruction says **right-click**, use **long-press** on touch. The directions and relationship actions work the same way on each device.
 
+Existing files also offer a **K-Plex** submenu in supported Obsidian file, tab and resolved-link context menus. Phones offer **Open in side panel**. Tablets additionally offer **Open**, **Open in new tab** and **Open to the right**; new pop-out windows are desktop-only. See [[02 Navigate and explore/Navigating the Plex|Navigating the canvas]] for the destination choices.
+
+The Rename dialog adjusts to the on-screen keyboard so its controls stay within reach. Native editor nodes keep their own scrolling and recovery controls; desktop trackpad navigation is a separate preference from touch pan and pinch.
+
 **Display modes:** [[05 Personalize and workspace/Fullscreen and Zen mode|Zen mode]] is supported on tablet and phone, where it hides K-Plex toolbars while leaving graph controls accessible. Workspace **fullscreen** is desktop-only. External keyboard navigation is configurable, but native text inputs and touch gestures keep their own behavior.

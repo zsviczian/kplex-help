@@ -5,6 +5,8 @@ Guide:
   - "[[11 Release notes/Release notes]]"
 Previous:
   - "[[Release 0.3.0]]"
+Next:
+  - "[[11 Release notes/Release 0.4.0]]"
 Explains:
   - "[[03 Build and edit/Manage and clean up ontology]]"
   - "[[03 Build and edit/Connection details and evidence]]"

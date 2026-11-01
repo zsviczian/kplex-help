@@ -7,6 +7,8 @@ tags:
 Guide:
   - "[[00 Start Here/Get started]]"
 Related:
+  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[12 Automation/Automation and scripting]]"
   - "[[Release 0.2.2]]"
   - https://github.com/zsviczian/kplex/releases/tag/0.2.4
   - "[[01 Core concepts/Canvas views]]"
@@ -26,7 +28,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-The included plugin is **0.3.0**. See [[Release 0.3.0|the release notes]] for canvas views, reusable Facets workflows and sharing.
+These guides cover **K-Plex 0.4.0**, including [[11 Release notes/Release 0.4.0|export, automation and easier navigation]]. The bundled executable is **0.3.1**; update K-Plex separately to try the newer controls.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
@@ -40,6 +42,10 @@ Use [[01 Core concepts/Canvas views|the view comparison]] to choose a perspectiv
 - [[00 Start Here/Glossary|The glossary]] explains unfamiliar labels.
 
 The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
+
+## Use scripts and local assistants
+
+The [automation guide](12%20Automation/Automation%20and%20scripting.md) includes API examples and Obsidian CLI instructions. Point Codex, Claude or another local assistant at [skill.md](skill.md) to explain how to access K-Plex in your chosen vault.
 
 ## Find support
 

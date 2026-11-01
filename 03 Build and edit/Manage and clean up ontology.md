@@ -40,6 +40,14 @@ In **Pair with**, type the missing partner's property name and choose **Create �
 
 When adding or specifying ontology for a connection, choose **Create ontology…** in its **Note property** selector. Define the field and optional partner, then return to the connection with the saved field selected. Confirm the connection to apply it to the note. Creating a definition alone does not change note properties.
 
+## Explain when to use a field
+
+Open a field in **Manage ontology** and fill in **Description**. For a pair, use **Paired field description** for the opposite endpoint. Each physical property has its own explanation; the description is optional and allows up to 1,000 characters.
+
+For example, describe **Guide** as “The broader guide this note belongs to” and **Explains** as “Topics this guide helps the reader understand.” Use wording that fits your own vault. Save to keep the descriptions, Cancel to leave them unchanged, or clear a description and save to remove it.
+
+Descriptions appear in the manager and ontology suggestions. They also become available to scripts through the public API. They do not rename fields, change roles or edit notes. See [[12 Automation/Automation and scripting|Automation and scripting]] for using the same vocabulary in a local assistant.
+
 ## See the documents behind it
 
 Open the field, then select **Show documents**. The list uses information already available to K-Plex; opening it does not start an extra whole-vault indexing pass.

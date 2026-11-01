@@ -155,7 +155,6 @@
 }
 
 .kplex-topbar button,
-.kplex-content-actions button,
 .kplex-find button,
 button.kplex-footprints-trigger,
 button.kplex-layout-toggle,
@@ -179,7 +178,6 @@ button.kplex-sidecar-unfold-plex,
 }
 
 .kplex-topbar button:hover,
-.kplex-content-actions button:hover,
 .kplex-find button:hover,
 button.kplex-footprints-trigger:hover,
 button.kplex-layout-toggle:hover,
@@ -231,7 +229,7 @@ button.kplex-sidecar-unfold-plex:hover,
   box-shadow: var(--shadow-s);
   padding: 6px;
 }
-.kplex-search-result {
+.kplex-search-results .kplex-search-result {
   width: 100%;
   display: grid;
   grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
@@ -244,8 +242,13 @@ button.kplex-sidecar-unfold-plex:hover,
   border-radius: 6px;
   padding: 8px 10px;
   cursor: pointer;
+  height: auto;
+  box-shadow: none;
 }
-.kplex-search-result:hover { background: var(--background-modifier-hover); }
+.kplex-search-results .kplex-search-result:hover { background: var(--background-modifier-hover); }
+.kplex-search-results .kplex-search-result + .kplex-search-result {
+  border-top: 1px solid var(--background-modifier-border-faint);
+}
 .kplex-search-result.has-prefix {
   grid-template-columns: 16px minmax(0, .9fr) minmax(0, 1.1fr);
   gap: 10px;
@@ -296,6 +299,9 @@ button.kplex-sidecar-unfold-plex:hover,
 /* Let Chromium reraster labels at the current zoom. A permanent transform hint retains old-scale
    textures, so scrolling tiles and expanded outlines can stay soft after camera motion settles. */
 .kplex-camera { position: absolute; width: 0; height: 0; transform-origin: 0 0; }
+/* Promote only during desktop camera input. Idle releases this hint to restore sharp labels;
+   the existing coarse-pointer rule below avoids large GPU layers on mobile WebViews. */
+.kplex-camera.is-camera-moving { will-change: transform; }
 .kplex-links { position: absolute; left: -1600px; top: -1200px; overflow: visible; pointer-events: none; z-index: 4; }
 .kplex-nodes { position: absolute; left: 0; top: 0; z-index: 8; }
 .kplex-edge { transition: opacity .11s ease, filter .11s ease; }
@@ -303,7 +309,7 @@ button.kplex-sidecar-unfold-plex:hover,
 .kplex-edge-hit { pointer-events: stroke; cursor: pointer; }
 .kplex-edge.is-hover-peek .kplex-edge-hit { pointer-events: none; }
 .kplex-edge.is-highlighted .kplex-edge-visible { filter: none; }
-.kplex-edge.is-dimmed { opacity: .16; }
+.kplex-edge.is-dimmed, .kplex-expanded-connector.is-dimmed { opacity: .16; }
 .kplex-edge-label { pointer-events: none; paint-order: stroke; stroke: var(--kplex-link-label-background, var(--background-primary)); stroke-width: 3px; stroke-linejoin: round; }
 
 .kplex-zone-label {
@@ -492,36 +498,6 @@ button.kplex-sidecar-unfold-plex,
 .kplex-central-editor-toolbar button,
 .kplex-find button { width: 30px; padding: 0; }
 
-.kplex-content-pane {
-  width: var(--kplex-content-width);
-  max-width: 760px;
-  min-width: 290px;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  background: var(--background-secondary);
-  border-left: 1px solid var(--kplex-line, var(--background-modifier-border));
-  box-shadow: var(--shadow-s);
-  z-index: 24;
-}
-.kplex-content-header { padding: 18px 22px 14px; border-bottom: 1px solid var(--kplex-line, var(--background-modifier-border)); }
-.kplex-content-kicker { font-size: 9px; letter-spacing: .16em; color: var(--text-accent); font-weight: 700; margin-bottom: 6px; }
-.kplex-content-header h2 { margin: 0 0 4px; font-size: 22px; color: var(--kplex-text, var(--text-normal)); }
-.kplex-content-path { color: var(--kplex-muted, var(--text-muted)); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.kplex-content-actions { display: flex; gap: 6px; margin-top: 12px; }
-.kplex-content-scroll { min-height: 0; overflow: auto; padding: 18px 22px 32px; }
-.kplex-markdown { color: var(--text-normal); }
-.kplex-markdown h1:first-child { margin-top: 0; }
-.kplex-loading { color: var(--kplex-muted, var(--text-muted)); padding: 8px 0; }
-.kplex-special-content { padding: 28px 16px; text-align: center; border: 1px solid var(--kplex-line, var(--background-modifier-border)); border-radius: 10px; background: var(--background-modifier-hover); }
-.kplex-special-icon { font-size: 34px; margin-bottom: 10px; }
-.kplex-mapped-links { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--kplex-line, var(--background-modifier-border)); }
-.kplex-mapped-links h3 { margin: 0 0 10px; font-size: 12px; text-transform: uppercase; letter-spacing: .09em; color: var(--kplex-muted, var(--text-muted)); }
-.kplex-mapped-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 6px; }
-.kplex-mapped-list button { display: flex; justify-content: space-between; gap: 10px; color: var(--kplex-text, var(--text-normal)); background: var(--background-modifier-hover); border: 1px solid var(--kplex-line, var(--background-modifier-border)); border-radius: 6px; padding: 7px 8px; cursor: pointer; text-align: left; }
-.kplex-mapped-list button:hover { background: var(--background-modifier-hover); }
-.kplex-mapped-list small { color: var(--kplex-muted, var(--text-muted)); text-transform: uppercase; font-size: 8px; letter-spacing: .08em; }
-
 .kplex-history-bar {
   z-index: 30;
   display: flex;
@@ -590,7 +566,6 @@ button.kplex-sidecar-unfold-plex,
   }
 }
 
-
 /* K-Plex Lucide icons */
 .kplex-icon { display: inline-flex; align-items: center; justify-content: center; line-height: 0; flex: 0 0 auto; }
 .kplex-icon svg { display: block; stroke: currentColor; }
@@ -632,23 +607,7 @@ button.kplex-sidecar-unfold-plex,
   stroke-dasharray: 5 4;
   filter: none;
 }
-.kplex-relation-popover {
-  position: absolute;
-  z-index: 80;
-  width: 372px;
-  max-width: calc(100% - 16px);
-  padding: 10px;
-  color: var(--text-normal);
-  background: var(--background-primary);
-  border: 1px solid var(--background-modifier-border, var(--background-modifier-border));
-  border-radius: 10px;
-  box-shadow: var(--shadow-s);
-  user-select: text;
-  cursor: default;
-}
-.kplex-relation-popover-title { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 9px; }
-.kplex-relation-popover-title strong { font-size: 13px; }
-.kplex-popover-icon,
+
 .kplex-relation-actions button {
   display: inline-flex;
   align-items: center;
@@ -676,7 +635,7 @@ button.kplex-sidecar-unfold-plex,
 .kplex-relation-results small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .kplex-relation-results small { color: var(--text-muted); text-align: right; }
 .kplex-relation-empty { padding: 10px 8px; color: var(--text-muted); font-size: 11px; }
-.kplex-relation-popover select { width: 100%; }
+
 .kplex-relation-hint { margin-top: 8px; padding: 7px 8px; color: var(--text-muted); background: var(--background-secondary); border-radius: 6px; font-size: 10px; line-height: 1.35; }
 .kplex-relation-summary { display: flex; align-items: center; gap: 8px; min-width: 0; padding: 8px; border-radius: 7px; background: var(--background-secondary); }
 .kplex-relation-summary > span:last-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -1058,80 +1017,15 @@ button.kplex-sidecar-unfold-plex,
   background: var(--background-secondary);
   backdrop-filter: blur(2px);
 }
-.kplex-mini-slider {
-  display: grid;
-  grid-template-rows: 15px 11px;
-  justify-items: center;
-  width: 104px;
-  color: var(--text-muted);
-  font-size: 8px;
-  line-height: 1;
-  letter-spacing: .02em;
-  cursor: default;
-}
-.kplex-mini-slider input[type="range"] {
-  width: 100px;
-  height: 13px;
-  margin: 0;
-  padding: 0;
-  cursor: ew-resize;
-}
-.kplex-mini-slider span {
-  align-self: end;
-  user-select: none;
-}
 
 @media (max-width: 760px) {
   .kplex-layout-controls { left: 8px; bottom: 12px; gap: 6px; padding: 4px; }
-  .kplex-mini-slider { width: 82px; }
-  .kplex-mini-slider input[type="range"] { width: 78px; }
+
 }
 
 /* Compactness is visual density only: keep the tight node interior padding at every setting. */
 .kplex-thought { padding: 3px 8px; }
 .kplex-role-center { padding: 7px 11px; }
-
-/* Small, unobtrusive graph-layout sliders. */
-.kplex-mini-slider input[type="range"] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100px;
-  height: 10px;
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  cursor: ew-resize;
-}
-.kplex-mini-slider input[type="range"]::-webkit-slider-runnable-track {
-  height: 2px;
-  border-radius: 999px;
-  background: var(--background-modifier-border);
-}
-.kplex-mini-slider input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 9px;
-  height: 9px;
-  margin-top: -3.5px;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 50%;
-  background: var(--interactive-accent);
-  box-shadow: 0 0 0 1px var(--background-modifier-border);
-}
-.kplex-mini-slider input[type="range"]::-moz-range-track {
-  height: 2px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--background-modifier-border);
-}
-.kplex-mini-slider input[type="range"]::-moz-range-thumb {
-  width: 9px;
-  height: 9px;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 50%;
-  background: var(--interactive-accent);
-  box-shadow: 0 0 0 1px var(--background-modifier-border);
-}
 
 /* Expanded view: each first-level thought can expose a lightweight, scrollable 3x2 child strip. */
 .kplex-expanded-cluster {
@@ -1217,68 +1111,6 @@ button.kplex-sidecar-unfold-plex,
   border-radius: 7px;
   background: var(--background-secondary);
   box-shadow: var(--shadow-s);
-}
-.kplex-mini-slider {
-  grid-template-rows: 12px 10px;
-  width: 94px;
-  gap: 2px;
-  font-size: 7px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-.kplex-plex .kplex-layout-controls .kplex-mini-slider input[type="range"] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 90px;
-  height: 10px;
-  min-height: 10px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-  outline: none;
-  cursor: ew-resize;
-}
-.kplex-plex .kplex-layout-controls .kplex-mini-slider input[type="range"]::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  height: 1px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--background-modifier-border);
-  box-shadow: none;
-}
-.kplex-plex .kplex-layout-controls .kplex-mini-slider input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 7px;
-  height: 7px;
-  min-width: 7px;
-  min-height: 7px;
-  margin-top: -3px;
-  padding: 0;
-  border: 1px solid var(--background-primary);
-  border-radius: 50%;
-  background: var(--interactive-accent);
-  box-shadow: 0 0 0 1px var(--background-modifier-border);
-}
-.kplex-plex .kplex-layout-controls .kplex-mini-slider input[type="range"]::-moz-range-track {
-  height: 1px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--background-modifier-border);
-  box-shadow: none;
-}
-.kplex-plex .kplex-layout-controls .kplex-mini-slider input[type="range"]::-moz-range-thumb {
-  width: 7px;
-  height: 7px;
-  padding: 0;
-  border: 1px solid var(--background-primary);
-  border-radius: 50%;
-  background: var(--interactive-accent);
-  box-shadow: 0 0 0 1px var(--background-modifier-border);
 }
 
 /* Performance/UI pass: tighter thought chrome and professional micro controls. */
@@ -1495,7 +1327,7 @@ button.kplex-sidecar-unfold-plex,
 }
 
 /* Keyboard search selection mirrors pointer hover and remains visible while arrowing. */
-.kplex-search-result.is-selected {
+.kplex-search-results .kplex-search-result.is-selected {
   color: var(--text-normal);
   background: var(--background-modifier-hover);
   box-shadow: inset 2px 0 0 var(--interactive-accent);
@@ -1678,14 +1510,14 @@ button.kplex-sidecar-unfold-plex,
    scenes visibly migrate between their actual old/new positions. CSS only handles connector
    appearance; duplicating positional CSS transitions here makes the FLIP transform fight layout. */
 @keyframes kplex-edge-arrive { from { opacity: 0; } to { opacity: 1; } }
-.kplex-edge,
-.kplex-expanded-edge {
+/* Arrival opacity belongs to an inner paint group. A finished fill-both animation on the
+   focus group would override is-dimmed forever, keeping relationship captions opaque. */
+.kplex-edge-paint {
   animation: kplex-edge-arrive max(120ms, calc(var(--kplex-motion-ms, 560ms) * .55)) ease-out both;
 }
-.kplex-plex.is-following-document .kplex-edge,
-.kplex-plex.is-following-document .kplex-expanded-edge { animation: none; }
+.kplex-plex.is-following-document .kplex-edge-paint { animation: none; }
 @media (prefers-reduced-motion: reduce) {
-  .kplex-edge, .kplex-expanded-edge { animation: none; }
+  .kplex-edge-paint { animation: none; }
 }
 
 .kplex-plex.is-section-expanded .kplex-thought.is-selected {
@@ -1739,18 +1571,18 @@ button.kplex-sidecar-unfold-plex,
   .kplex-view-host .kplex-layout-controls { max-width: calc(100% - 70px); }
 }
 
-/* A navigation render gets the transition class on the first frame, before the
-   activePath effect runs, so shared keyed thoughts can glide from their old
-   coordinates rather than jumping and only then becoming animated. */
+/* Fade the bounded canvas, not the zero-sized camera whose overflow can span thousands of
+   scroll rows. Keeping the opacity layer inside the canvas clip avoids oversized stale scroll
+   textures during navigation/window exposure. Individual visible thoughts retain their motion. */
 @keyframes kplex-scene-arrive {
   0% { opacity: .82; }
   100% { opacity: 1; }
 }
-.kplex-plex.is-scene-transitioning .kplex-camera {
+.kplex-plex.is-scene-transitioning {
   animation: kplex-scene-arrive max(120ms, calc(var(--kplex-motion-ms, 560ms) * .72)) ease-out both;
 }
 @media (prefers-reduced-motion: reduce) {
-  .kplex-plex.is-scene-transitioning .kplex-camera { animation: none; }
+  .kplex-plex.is-scene-transitioning { animation: none; }
 }
 
 /* Touch/mobile rendering stability --------------------------------------
@@ -1759,11 +1591,10 @@ button.kplex-sidecar-unfold-plex,
    of simultaneous drop-shadow/position animations during a gesture. Camera motion itself is
    requestAnimationFrame-batched in PlexGraph. */
 @media (hover: none) and (pointer: coarse) {
-  .kplex-camera { will-change: auto; }
+  .kplex-camera.is-camera-moving { will-change: auto; }
   .kplex-edge-visible { filter: none; }
   .kplex-edge.is-highlighted .kplex-edge-visible { filter: none; }
 }
-
 
 /* Direct manipulation is intentionally visually cheaper than an idle Plex. In particular, iOS
    WebViews can reload under memory pressure when a large transformed graph, drop shadows and
@@ -1785,7 +1616,6 @@ button.kplex-sidecar-unfold-plex,
 .kplex-plex.is-pinch-gesturing .kplex-section-tree-edge {
   filter: none;
 }
-
 
 /* iOS WebKit is particularly prone to process reloads when a large SVG relationship layer and
    hundreds of shadowed HTML nodes are continuously rescaled together. During the *active* pinch
@@ -2142,6 +1972,8 @@ button.kplex-sidecar-unfold-plex,
 }
 .kplex-creation-completion-row {
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
   justify-content: flex-end;
   min-width: 0;
   padding: var(--size-4-3) 0;
@@ -2169,17 +2001,6 @@ button.kplex-sidecar-unfold-plex,
 .kplex-add-related-control-row .kplex-add-related-role-select {
   height: 38px;
   max-width: 100%;
-}
-.kplex-add-related-footer .kplex-create-edit-toggle {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  color: var(--text-muted);
-  font-size: var(--font-ui-small);
-}
-.kplex-add-related-footer .kplex-create-edit-copy strong {
-  font-weight: normal;
-  color: var(--text-muted);
 }
 .kplex-add-related-compose-row {
   display: grid;
@@ -2834,24 +2655,6 @@ body.kplex-filter-panel-open .tooltip { z-index: 100300; }
   }
 }
 
-/* New-note creation uses the host's native checkbox-container styling so the preference looks and
-   behaves like an Obsidian toggle instead of introducing a second switch visual language. */
-.kplex-create-edit-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  min-height: 38px;
-  padding: 4px 8px 4px 10px;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: var(--radius-s);
-  background: var(--background-secondary);
-  cursor: pointer;
-  white-space: nowrap;
-}
-.kplex-create-edit-copy { display: flex; align-items: center; min-width: 0; }
-.kplex-create-edit-toggle .checkbox-container { flex: 0 0 auto; }
-
 /* Connection details is optimized for skimming provenance occurrences and hands actual editing
    off to the native Markdown source view. */
 .kplex-edge-properties-modal { width: min(860px, calc(100vw - 36px)); max-width: min(860px, calc(100vw - 36px)); }
@@ -2940,7 +2743,6 @@ body.kplex-filter-panel-open .tooltip { z-index: 100300; }
 }
 
 /* The companion control remains on the remembered side even when the native sidecar is closed. */
-
 
 /* Searchable managers keep large style/ontology collections compact and native-looking. */
 .modal.kplex-style-manager-modal {
@@ -3358,6 +3160,25 @@ button.kplex-style-manager-row { height: fit-content; }
 .kplex-central-editor-overlay.is-maximized {
   box-shadow: 0 0 0 1px var(--background-modifier-border-hover), 0 12px 42px var(--background-modifier-box-shadow);
 }
+.kplex-central-editor-overlay.is-area-clipped {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  pointer-events: none;
+}
+.kplex-central-editor-overlay.is-area-clipped .kplex-central-editor-document,
+.kplex-central-editor-overlay.is-area-clipped .kplex-central-editor-toolbar { pointer-events: auto; }
+/* Only the document/frame follow the area aperture; native recovery controls stay outside it. */
+.kplex-central-editor-overlay.is-area-clipped::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border: 1px solid var(--background-modifier-border-hover);
+  border-radius: inherit;
+  background: var(--background-primary);
+  clip: var(--kplex-editor-frame-clip, auto);
+  pointer-events: none;
+}
 .kplex-central-editor-placeholder {
   width: 100%;
   height: 100%;
@@ -3393,6 +3214,7 @@ button.kplex-style-manager-row { height: fit-content; }
   touch-action: pan-x pan-y;
 }
 .kplex-central-editor-content,
+.kplex-central-editor-document,
 .kplex-central-editor-leaf-host,
 .kplex-embedded-workspace-root {
   width: 100%;
@@ -3404,10 +3226,16 @@ button.kplex-style-manager-row { height: fit-content; }
   position: relative;
   overflow: visible;
   border-radius: inherit;
-  background: var(--background-primary);
   color: var(--text-normal);
   isolation: isolate;
   touch-action: pan-x pan-y;
+}
+.kplex-central-editor-document {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--background-primary);
+  clip: var(--kplex-editor-body-clip, auto);
 }
 .kplex-central-editor-content.is-edit-mode {
   cursor: default;
@@ -3421,7 +3249,7 @@ button.kplex-style-manager-row { height: fit-content; }
   background: var(--background-primary);
 }
 /* Only Markdown opts into camera scaling; canvas hosts and editor controls remain untransformed. */
-.kplex-central-editor-content.is-markdown-zoom-scaled > .kplex-central-editor-leaf-host {
+.kplex-central-editor-content.is-markdown-zoom-scaled > .kplex-central-editor-document > .kplex-central-editor-leaf-host {
   width: calc(100% / var(--kplex-editor-camera-scale, 1));
   height: calc(100% / var(--kplex-editor-camera-scale, 1));
   transform: scale(var(--kplex-editor-camera-scale, 1));
@@ -3437,6 +3265,7 @@ button.kplex-style-manager-row { height: fit-content; }
   border-radius: 0;
   box-shadow: none;
 }
+.kplex-central-editor-overlay.is-native-view-fullscreen .kplex-central-editor-document { clip: auto; }
 .kplex-central-editor-overlay.is-native-view-fullscreen .kplex-central-editor-leaf-host,
 .kplex-central-editor-overlay.is-native-view-fullscreen .kplex-embedded-workspace-root {
   border-radius: 0;
@@ -3472,31 +3301,29 @@ button.kplex-style-manager-row { height: fit-content; }
 .kplex-central-editor-toolbar {
   position: absolute;
   z-index: 32;
-  top: -34px;
-  right: 1px;
+  top: var(--kplex-editor-toolbar-top, -34px);
+  right: var(--kplex-editor-toolbar-right, 1px);
+  left: var(--kplex-editor-toolbar-left, 1px);
   display: flex;
   gap: 2px;
+  align-items: center;
   padding: 2px;
   border: 1px solid var(--kplex-line, var(--background-modifier-border));
   border-radius: 6px;
   background: var(--kplex-panel, var(--background-primary));
   box-shadow: var(--shadow-s);
 }
-/* Area editors keep their native controls inside the visible viewport, including while
-   the tall document scrolls behind the shared area clip. Native content retains its own host. */
-.kplex-central-editor-overlay.is-area-clipped .kplex-central-editor-toolbar {
-  top: calc(var(--kplex-editor-area-top, 0px) + 4px);
-  right: calc(var(--kplex-editor-area-right, 0px) + 4px);
-  max-width: calc(100% - var(--kplex-editor-area-left, 0px) - var(--kplex-editor-area-right, 0px) - 8px);
-  flex-wrap: wrap;
+.kplex-central-editor-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: var(--font-ui-small);
+  font-weight: var(--font-semibold);
 }
-.kplex-central-editor-overlay.is-area-clipped .kplex-central-editor-leaf-host {
-  top: 36px;
-  height: calc(100% - 36px);
-}
-.kplex-central-editor-overlay.is-area-clipped .is-markdown-zoom-scaled > .kplex-central-editor-leaf-host {
-  height: calc((100% - 36px) / var(--kplex-editor-camera-scale, 1));
-}
+.kplex-central-editor-toolbar > button { flex-shrink: 0; }
 .kplex-central-editor-status {
   position: absolute;
   z-index: 31;
@@ -3968,9 +3795,13 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 /* Explicit appearance drafts share one scrolling body; native Save/Cancel stay visible. */
 .modal.kplex-scroll-editor-modal { display: flex; flex-direction: column; max-height: 90vh; }
 .modal.kplex-scroll-editor-modal .modal-content { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
-.kplex-style-editor-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
-.kplex-style-editor-actions { flex: 0 0 auto; background: var(--modal-background, var(--background-primary)); }
+.kplex-style-editor-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding-inline-end: var(--size-4-2); padding-bottom: var(--size-4-3); }
+.kplex-style-editor-actions { flex: 0 0 auto; padding-top: var(--size-4-2); background: var(--modal-background, var(--background-primary)); }
 .kplex-style-editor-actions .setting-item { border-top: var(--border-width) solid var(--background-modifier-border); padding-bottom: 0; }
+/* Shared native modal controls leave room for scrollbars, chevrons and button icons. */
+.kplex-scroll-editor-modal .setting-item-control { min-width: 0; }
+.kplex-scroll-editor-modal .setting-item-control select { min-width: 0; max-width: 100%; padding-inline-end: var(--size-4-6); }
+.kplex-modal-action-row button { display: inline-flex; align-items: center; gap: var(--size-4-1); }
 .kplex-modal-action-row .setting-item-info { display: none; }
 .kplex-modal-action-row .setting-item-control { flex: 1; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
 .modal button.kplex-icon-action { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 36px; min-width: 36px; height: 36px; padding: 8px; font-size: 0; }
@@ -4054,6 +3885,10 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-facet-help-source { flex-direction: column; align-items: stretch; gap: 12px; }
 .kplex-facet-help-source .setting-item-info { margin-right: 0; }
 .kplex-facet-help-source .setting-item-control { width: 100%; }
+.kplex-ontology-description-setting { flex-direction: column; align-items: stretch; gap: var(--size-4-2); }
+.kplex-ontology-description-setting .setting-item-info { margin-right: 0; }
+.kplex-ontology-description-setting .setting-item-control { width: 100%; }
+.kplex-ontology-description-setting textarea { width: 100%; min-width: 0; resize: vertical; }
 .kplex-preset-help-preview { padding: 12px; }
 
 .kplex-view-region.is-water rect { fill: var(--color-blue); fill-opacity: 0.06; }
@@ -4120,3 +3955,36 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-number-value { min-width: 3em; text-align: end; font-variant-numeric: tabular-nums; color: var(--text-muted); }
 .kplex-number-setting .slider-value { display: none; }
 .kplex-literal-opacity .setting-item { padding: 0; border: 0; }
+
+/* Authored ontology text stays concise visually; full literal text remains in accessible names. */
+.kplex-ontology-description {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+.kplex-ontology-results .kplex-search-result { display: grid; gap: 2px; }
+.kplex-ontology-results .kplex-search-result small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+  text-align: left;
+}
+
+.kplex-drawing-template {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--size-4-2);
+  margin-block: var(--size-4-2);
+}
+
+.kplex-drawing-template select {
+  min-width: 0;
+  max-width: 70%;
+}

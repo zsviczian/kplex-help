@@ -82,7 +82,7 @@
                 }
               },
               "icon": "brain-circuit",
-              "title": "K-Plex"
+              "title": "Start Here"
             }
           }
         ],
@@ -282,16 +282,18 @@
   },
   "active": "f96c6c66434b3021",
   "lastOpenFiles": [
+    "11 Release notes/Release 0.3.0.md",
+    "Start Here.md",
+    "12 Automation/Use K-Plex through Obsidian CLI.md",
+    "11 Release notes/Release 0.4.0.md",
     "11 Release notes/Release 0.3.1.md",
     "Assets/Image - select canvas view.png",
     "04 Filter and focus/Facets.md",
     "Assets/Image - View Facets.png",
     "01 Core concepts/Canvas views.md",
-    "11 Release notes/Release 0.3.0.md",
     "09 Showcase examples/Example - A note with sections.md",
     "09 Showcase examples/Example - A visual note.md",
     "README.md",
-    "Start Here.md",
     "11 Release notes/Release 0.2.0.md",
     "04 Filter and focus/Expand a note into sections.md",
     "06 Indexing and troubleshooting/On demand vs Eager.md",
@@ -316,8 +318,6 @@
     "07 Use cases/Sequential workflows.md",
     "07 Use cases/Research and learning.md",
     "07 Use cases/Projects and decisions.md",
-    "07 Use cases/Build a help system like this vault.md",
-    "07 Use cases/Argument maps with Challengers.md",
     "Excalidraw",
     "Assets",
     "02 Navigate and explore",

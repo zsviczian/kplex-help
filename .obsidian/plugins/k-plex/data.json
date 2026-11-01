@@ -275,6 +275,7 @@
     ]
   },
   "ontologyPairingVersion": 1,
+  "ontologyDescriptions": {},
   "inferAllLinksAsFriends": false,
   "inverseInfer": false,
   "datePropertyRelations": "parent",
@@ -500,10 +501,6 @@
     }
   },
   "navigationHistory": [
-    "07 Use cases/Build a help system like this vault.md",
-    "07 Use cases/Build a Map of Content.md",
-    "07 Use cases/Garden your vault.md",
-    "03 Build and edit/Create notes and placeholders.md",
     "Assets/Screenshot - Named themes.png",
     "05 Personalize and workspace/Colors and themes.md",
     "03 Build and edit/Build and edit.md",
@@ -537,8 +534,12 @@
     "11 Release notes/Release 0.2.2.md",
     "11 Release notes/Release 0.2.3.md",
     "11 Release notes/Release 0.2.4.md",
+    "02 Navigate and explore/Editor node and web pages.md",
+    "12 Automation/Automation and scripting.md",
+    "12 Automation/Use K-Plex through Obsidian CLI.md",
     "11 Release notes/Release 0.3.0.md",
     "11 Release notes/Release 0.3.1.md",
+    "11 Release notes/Release 0.4.0.md",
     "Start Here.md"
   ],
   "allowOntologySuggester": true,
@@ -552,6 +553,7 @@
   "ontologySuggesterMidSentenceTrigger": "(",
   "boldFields": false,
   "allowAutozoom": false,
+  "trackpadNavigation": false,
   "allowAutofocuOnSearch": true,
   "defaultAlwaysOnTop": false,
   "embedCentralNode": false,
@@ -615,8 +617,9 @@
     "01 Core concepts/Relationship roles.md",
     "04 Filter and focus/Graph Lenses.md",
     "07 Use cases/Use cases.md",
-    "11 Release notes/Release 0.3.0.md",
-    "Start Here.md"
+    "Start Here.md",
+    "11 Release notes/Release 0.4.0.md",
+    "12 Automation/Use K-Plex through Obsidian CLI.md"
   ],
   "layoutProfiles": {
     "desktop:leaf": {
@@ -1139,7 +1142,9 @@
   "attachmentImageDisplay": "thumbnail-label",
   "allowRemoteNodeImages": false,
   "editNewNodeAfterCreate": false,
+  "newNodeAfterSaving": "return",
   "newNodeDefaultType": "excalidraw",
+  "lastDrawingTemplatePath": null,
   "startupIndexInfoBubbleSeen": true,
   "deletePromptInitialized": false,
   "confirmFileDelete": true,

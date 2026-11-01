@@ -26,6 +26,8 @@ Add meaningful relationships while writing, without remembering every property n
 
 The suggestion inserts a property name. Its configured role decides where the linked note appears in K-Plex. You can also use Obsidian's normal Properties editor.
 
+When a field has a description, suggestions show its guidance to help you choose. Paired fields can have separate explanations. Add or change them in **Manage ontology**; descriptions do not change the inserted property name or relationship role.
+
 ## When the right word is missing
 
 Use [[03 Build and edit/Manage and clean up ontology|Manage ontology]] to assign a field or pair its opposite meaning. If suggestions do not appear, check that the feature is enabled and the trigger matches your saved setting.

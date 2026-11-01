@@ -41,6 +41,8 @@ Compass is the default view. This K-Plex canvas is separate from Obsidian's **Ca
 
 Each canvas keeps its own view choice. You can compare the same topic in two canvases without changing your ontology. Switching views saves and closes the open node editor first. If saving fails, the current editor and view stay available for recovery.
 
+You can also right-click empty canvas space, or long-press on touch, and open **View**. Choose Compass, Mind Map or Facets; Facets lists its available presets in a submenu. This changes the selected canvas, so another open map can keep a different view.
+
 ## Find the settings that matter
 
 **Settings → K-Plex → Canvas behavior** holds shared navigation, visibility and editor defaults. Within Canvas behavior, **Views → Compass**, **Views → Mind Map** and **Views → Facets** contain the arrangement or preset choices for that view. View settings apply to canvases using that view; selecting a view or Facets preset belongs to the individual canvas.

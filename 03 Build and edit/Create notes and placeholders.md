@@ -26,7 +26,7 @@ Create a note or placeholder from a relationship gate or an Add parent/child/fri
 
 When folder nodes are visible, drag outward from a folder's **Child gate** to create a note in that folder. Physical location supplies the folder relationship; K-Plex does not need a redundant note-to-note property to represent it. A web relationship needs a Markdown origin in which to store the link.
 
-## choose the destination and the next action
+## Choose the destination and the next action
 
 Creation and placeholder materialization use a folder selector. Choose the destination deliberately; identical filenames are allowed in different folders, but an existing file at the exact destination is not overwritten.
 
@@ -44,6 +44,14 @@ The **After saving** control states what will happen:
 | Edit note | Center the new note and open it in the companion Sidecar's normal Markdown editor. |
 
 Folder-child creation produces a real Markdown note or Excalidraw drawing, not a placeholder: an unresolved link has no physical folder membership yet.
+
+## Start a drawing from a template
+
+When creating an Excalidraw drawing, choose **Drawing template** in the related-note composer, folder-child dialog or placeholder creation dialog. Choices come from the template file or folder configured in Excalidraw. Folder entries show relative paths so templates with the same name are distinguishable. **Blank drawing** explicitly starts without a template.
+
+K-Plex remembers the last selection after a drawing is successfully created. The choice is shared across these dialogs and survives restarts; cancelling does not change it. With no previous choice, the first configured template is selected. If a remembered template has disappeared, the first available template is used. A remembered **Blank drawing** choice stays blank.
+
+For example, configure planning and sketch templates in Excalidraw. Create a related drawing using the planning template, then open a folder-child drawing dialog: the planning choice is ready to reuse. Choose Blank drawing when the next idea needs a fresh page.
 
 ## When creation or refresh is still pending
 

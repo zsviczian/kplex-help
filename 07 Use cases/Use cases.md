@@ -18,6 +18,7 @@ Child:
 - '[[07 Use cases/Rediscover and remember your notes]]'
 - '[[07 Use cases/Develop visual ideas]]'
 - '[[07 Use cases/Build a help system like this vault]]'
+- '[[07 Use cases/Bring a connected outline into your writing]]'
 Friend:
 - '[[01 Core concepts/Relationship roles]]'
 - '[[00 Start Here/Recently added features]]'
@@ -50,6 +51,7 @@ Start with something you want to accomplish, not a feature you want to try. Thes
 7. **[[07 Use cases/Garden your vault|Garden your vault — one note at a time]].** Pin tags for quick classification, refine maturity or status in the following File properties pane, and use Graph Lenses to see improvements as you work.
 8. **[[07 Use cases/Rediscover and remember your notes|Make forgotten ideas useful again]].** Use Wander for rediscovery or manual recall, then connect an old insight to something you are working on now.
 9. **[[07 Use cases/Develop visual ideas|Turn a rough sketch into an idea you can explain]].** Develop visual notes with Excalidraw, connect their context and objections, and walk someone through the resulting reasoning.
+10. **[[07 Use cases/Bring a connected outline into your writing|Start writing from the map you have already built]].** Export a linked outline, share a PNG, or give a local assistant the context of one chosen canvas.
 
 ## Make the pattern your own
 

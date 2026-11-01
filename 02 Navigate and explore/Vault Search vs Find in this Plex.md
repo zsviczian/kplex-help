@@ -34,6 +34,8 @@ Go to another note, or find something on the map already in front of you. Search
 
 K-Plex fuzzy-matches names, display names, paths, aliases and URL substrings. Full filename/path lookup can work while richer indexing is in progress. URL discovery may still be incomplete.
 
+Results use transparent rows with faint separators. Search avoids unnecessary work when ranking candidates, helping the result list respond in a large vocabulary without changing which matches rank highest.
+
 Search includes folders and hierarchical tags, with type icons to distinguish results. Type **#** before a query to search tags only. Search, history and pins retain full tag paths, so similarly named child tags are easier to distinguish.
 
 Make a folder the center to explore its location and contents. Make a hierarchical tag the center to see its parent, child tags and associated notes—even when tags are hidden in ordinary note neighborhoods. Native folders and tags already known to Obsidian can appear during startup without waiting for the complete richer index.

@@ -39,6 +39,8 @@ Use **Up/Down** to move through the entries, **Home** for the newest, and **End*
 
 **Try it:** Start at a project, visit two related notes, return to the project and open Footprints. Notice that the project appears twice. Copy the trail into a working note, then choose **Start here** before exploring a different question.
 
+You can also copy the trail from the canvas context menu: **Export → Breadcrumbs to Markdown** uses the same newest-first list with repeated visits. To export the map's structure or a picture instead, see [[03 Build and edit/Export and share a canvas|Export and share a canvas]].
+
 ## How is this different from Past nodes and pins?
 
 | | Footprints (breadcrumbs) | Past nodes (bottom history) | Pins |

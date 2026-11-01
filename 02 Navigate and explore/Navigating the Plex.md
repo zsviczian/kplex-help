@@ -30,6 +30,28 @@ Follow an idea without losing its context. Make a note the center, explore a con
 > [!practice]
 > Center [[00 Start Here/K-Plex Help|K-Plex Help]], then click this note, [[02 Navigate and explore/Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]], and back. Watch how shared nodes move rather than being redrawn as unrelated points.
 
+## Open a file in K-Plex from Obsidian
+
+Right-click an existing file in Obsidian's file explorer, its tab or a resolved file link, then open the **K-Plex** submenu. Use long-press where the device provides that context menu.
+
+| Destination | Desktop | Tablet | Phone |
+| --- | --- | --- | --- |
+| **Open** | Yes | Yes | — |
+| **Open in new tab** | Yes | Yes | — |
+| **Open to the right** | Yes | Yes | — |
+| **Open in side panel** | Yes | Yes | Yes |
+| **Open in new window** | Yes | — | — |
+
+The chosen file becomes the center. This works for existing notes, attachments and drawings; folders and unresolved links do not offer this submenu. Ordinary K-Plex tabs show the centered file's basename with the K-Plex icon. A second tab or split can keep its own center while you continue in the first.
+
+To find a node's file, use its **Open** submenu. **Open in file navigation** reveals it in Obsidian when the Files core plugin is enabled. Desktop also offers **Open in Finder** on macOS, **Open in Explorer** on Windows, or **Show in system explorer** on Linux. These reveal the file without changing the map's center.
+
+## Use scrolling to pan with a trackpad
+
+Enable **Settings → K-Plex → Plex behavior → Navigation & interaction → Trackpad navigation**. Ordinary scrolling then pans the canvas in both directions. Pinch, or hold Control on Windows or Command on macOS while scrolling, to zoom around the pointer.
+
+The setting is off by default: ordinary scrolling normally zooms. Native editors and lists retain their own scrolling behavior in either mode. Touch panning and pinching remain available independently of this preference.
+
 ## Prefer the keyboard?
 
 [[02 Navigate and explore/Keyboard navigation|Keyboard navigation]] covers graph focus, selecting nodes with arrows and switching areas; [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] jumps to displayed labels. The [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] makes graph actions searchable. For an uncluttered workspace, use [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]].
