@@ -20,7 +20,9 @@ Let a terminal script or local assistant inspect your map without a separate ser
 
 ## Give an assistant the skill
 
-Point Codex, Claude or another local assistant at [skill.md](../skill.md). For example:
+Point Codex, Claude or another local assistant to [[skill.md]] available at https://github.com/zsviczian/kplex-help/blob/main/skill.md.
+
+For example:
 
 > Read the K-Plex skill at `https://github.com/zsviczian/kplex-help/blob/main/skill.md`. In vault `<my-vault>`, find my workshop plan and explain its direct Child relationships. Report any incomplete coverage. Do not change my notes.
 
