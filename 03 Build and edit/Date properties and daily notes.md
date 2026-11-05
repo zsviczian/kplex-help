@@ -50,3 +50,9 @@ K-Plex keeps Date-source evidence distinct from an ordinary linked property. **D
 Open [[09 Showcase examples/Example - Date and a daily note|Example - Date and a daily note]] and the root daily note `2026-10-09.md`. This help vault enables Obsidian's Daily notes core plugin and uses the default date-name convention; your own vault's Daily Notes settings may be different. Continue with [[07 Use cases/Meeting notes and daily notes|Meeting notes and daily notes]].
 
 For Obsidian's own behavior, see [Properties](https://obsidian.md/help/properties) and [Daily notes](https://obsidian.md/help/plugins/daily-notes).
+
+## Open the current daily note from a pin
+
+Enable **Today** under **Canvas behavior → Pins**. With **Use Daily Notes settings** enabled, K-Plex uses core Daily Notes' folder, date format and template. If today's note is missing, its pin asks before creating it and lets you choose where it opens afterward. Applicable Templater processing finishes before K-Plex adds properties.
+
+This is an explicit creation action, separate from the inferred Date relationships above. Weekly and monthly pins have their own location/format settings. See [[02 Navigate and explore/Past nodes and pins|Past nodes and pins]] for setup.

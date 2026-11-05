@@ -29,7 +29,7 @@ Drag a file from Obsidian's file explorer onto the central node to navigate to i
 
 Valid drop areas light up. After reclassifying a connection with several sources, inspect [[03 Build and edit/Connection details and evidence|Connection details]] rather than assuming every source has changed.
 
-## bring notes into and out of the canvas
+## Bring notes into and out of the canvas
 
 Resolved note links from **Bases** use the same center/relationship-area destinations as file-explorer notes. Dropping a sibling into a relationship area adds a direct relationship to the center without removing its shared parent or other relationships.
 
@@ -37,18 +37,30 @@ Drag a note, attachment, URL or placeholder **node body** into a Markdown editor
 
 Use the toolbar **+** or **New K-Plex tab** to open an adjacent canvas. Its central editor/normal-node choice and Markdown mode belong to that view. Each canvas can follow its own document tab; see [[05 Personalize and workspace/Note-tab synchronization]].
 
-## move files into folders
+## Move files into folders
 
 Drag a file or folder's **gate** onto a folder to move it there. With a folder in the center, you can also drag its gate onto a file or attachment to bring that item into the folder.
 
 Review the source and destination in the confirmation. Holding **Alt** on Windows or **Option** on macOS bypasses that confirmation, not collision or folder-ancestry checks. Obsidian updates links according to its file settings.
 
-A folder's Child gate dragged into empty space still creates a note inside that folder. Folder membership is physical location: it does not offer an Unlink or Hidden action that would pretend to remove the relationship without moving the file.
+For a deliberate move without a drag, right-click a real file or folder node and choose **Move…**, then select the destination. A folder's Child gate dragged into empty space instead offers **Create note** and **Create subfolder** inside that folder. Folder membership is physical location: it does not offer an Unlink or Hidden action that would pretend to remove the relationship without moving the file.
 
-## assign a tag or Note Type
+## Assign a tag or Note Type
 
 Drag a Markdown note onto a tag in history or pins to add it to the note's `tags` property. A tag's gate can also be dropped onto a Markdown note in the canvas, history or pins. A tag from another canvas can be dropped into a note's Parents area.
 
 Where offered, choose **Tag** or **Note Type**. A Note Type keeps the tag in the YAML `tags` list and also uses the configured Style property. A note has one Note Type; replacing an existing type requires an explicit choice, with the other remaining an ordinary tag.
 
 Tag connector menus can change between ordinary Tag and Note Type. Editable YAML membership can be removed; inline tag evidence remains inspectable rather than being silently rewritten. Note Type links are twice the ordinary tag-link width by default and have a separate styling control.
+
+## Import material from your computer
+
+On desktop, drag external files or a folder from your system file explorer onto a supported Markdown note or folder in K-Plex. A folder target imports into that real folder without adding note-to-note ontology. A Markdown target can also link the imported files to that note.
+
+Review the import in one dialog:
+
+1. Choose the destination **Folder** for the batch.
+2. For a Markdown target, review the direction and ontology. Dropping at a Child gate supplies a default, but you can change it; the same choice applies to the batch.
+3. Review filenames and **After saving**, then **Import**. A single file uses this dialog directly, without a separate configuration step.
+
+Folder imports copy their contents recursively, including empty subfolders, within the limits reported by the dialog. The original files stay outside the vault, and an existing destination is not silently overwritten. Progress shows folder creation, copying and linking. If a copy succeeds but linking fails, use recovery for that copied file rather than importing a duplicate.

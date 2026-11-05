@@ -12,6 +12,7 @@ Friend:
 - '[[12 Automation/Use K-Plex through Obsidian CLI]]'
 - '[[03 Build and edit/Connection details and evidence]]'
 Related:
+- '[[skill]]'
 - https://github.com/zsviczian/kplex/blob/main/docs/PUBLIC_API.md
 ---
 # K-Plex API examples
@@ -173,3 +174,57 @@ window.kplexApi.v1.query({
 ```
 
 Check the outer `ok` **and** `value.errors`. A successful envelope can contain individual field errors. GraphQL supplies read queries, not mutations or subscriptions. The [API reference](https://github.com/zsviczian/kplex/blob/main/docs/PUBLIC_API.md) documents schema discovery, revision checks, configuration import and limits.
+
+## Find documents using an ontology field
+
+This example reads one bounded page of stored usage for **Explains** in this Help vault. It does not read note bodies or start indexing. Discover the optional operation before using it:
+
+```js
+(async () => {
+  const api = window.kplexApi?.v1;
+  const capabilities = api?.capabilities();
+  if (!capabilities?.ok ||
+      !capabilities.value.operations.includes('ontologyDocuments') ||
+      typeof api.ontologyDocuments !== 'function') {
+    return {message: 'This K-Plex version does not offer ontology usage lookup'};
+  }
+  return await api.ontologyDocuments({field: 'Explains', limit: 20});
+})()
+```
+
+Read `value.documents` alongside coverage and `value.cursor`. A page can be empty and still have a continuation. For more results, pass that cursor with the same field; successful continuations consume their token. Cursors expire, and source changes or reload can invalidate them. Exhausting a posting list does **not** prove the field is absent from the whole vault. This pagination belongs to ontology usage, not ordinary search or neighbors.
+
+## Inspect exact fields in one saved note
+
+Use a selected path and request all relevant names together. In this vault:
+
+```js
+(async () => {
+  const api = window.kplexApi?.v1;
+  const capabilities = api?.capabilities();
+  if (!capabilities?.ok ||
+      !capabilities.value.operations.includes('inspectOntologyOccurrences') ||
+      typeof api.inspectOntologyOccurrences !== 'function') {
+    return {message: 'This K-Plex version does not offer occurrence inspection'};
+  }
+  return await api.inspectOntologyOccurrences({
+    path: '03 Build and edit/Date properties and daily notes.md',
+    fields: ['Guide', 'Related'],
+    limit: 100,
+  });
+})()
+```
+
+This explicitly reads that saved Markdown file. The result identifies physical field occurrences, syntax and an exact-content snapshot, without returning bodies or values. Check unsupported and truncated results. Body key ranges use half-open UTF-16 offsets in the inspected text; YAML fields instead expose a logical key. Do not use old offsets after another edit, and do not overwrite an unsaved editor buffer.
+
+## Reuse ontology suggestions
+
+An input integration can call `completeOntology({text, cursor, limit: 20})` after discovering that optional operation. Supply the current input text and its UTF-16 caret offset; your configured triggers determine whether it matches. Suggestions carry canonical field names, roles, inverse partners and descriptions. Description matches help find a term, but the inserted value is still the actual property name.
+
+Completion needs settings, not a prepared graph. The consumer owns the popup, insertion wrapper and caret; it must recheck the current input, API instance and configuration before applying a selection. See [the completion contract](https://github.com/zsviczian/kplex/blob/main/docs/PUBLIC_API.md#complete-ontology-fields-in-external-inputs).
+
+## Review a consolidation before changing it
+
+For an approved cleanup, `previewOntologyConfiguration({edits})` can prepare assignments, inverse pairs, descriptions or removals. Review its exact before/after definitions and conflicts. Only an explicitly approved, current preview should be passed to `applyOntologyConfiguration({previewId, confirm: true})`; an expired or stale preview needs a new review.
+
+These methods change **K-Plex configuration**, not the field names in notes. A saved receipt can still report pending graph refresh; inspect verified readback rather than replaying a potentially completed write. Use [the worked consolidation guide](https://github.com/zsviczian/kplex/blob/main/docs/ONTOLOGY_CONSOLIDATION.md) for backups, exact note edits, template handling and interruption recovery. The [[skill|CLI skill]] includes this workflow without granting migration permission.

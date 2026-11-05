@@ -519,7 +519,6 @@
     "04 Filter and focus/Facets.md",
     "09 Showcase examples/Example - Local map roles.md",
     "09 Showcase examples/Facets demonstrations.md",
-    "09 Showcase examples/Example - Wu Xing perspectives.md",
     "11 Release notes/Release 0.0.1.md",
     "11 Release notes/Release 0.0.2.md",
     "11 Release notes/Release 0.0.3.md",
@@ -540,6 +539,7 @@
     "11 Release notes/Release 0.4.0.md",
     "skill.md",
     "12 Automation/Use K-Plex through Obsidian CLI.md",
+    "09 Showcase examples/Example - Wu Xing perspectives.md",
     "Start Here.md"
   ],
   "allowOntologySuggester": true,
@@ -612,15 +612,35 @@
   "startInPopout": false,
   "lastActivePath": "Start Here.md",
   "pinnedNodes": [
+    "Start Here.md",
     "00 Start Here/K-Plex Help.md",
     "00 Start Here/Choose a topic.md",
     "01 Core concepts/Relationship roles.md",
     "04 Filter and focus/Graph Lenses.md",
     "07 Use cases/Use cases.md",
-    "Start Here.md",
-    "11 Release notes/Release 0.4.0.md",
-    "12 Automation/Use K-Plex through Obsidian CLI.md"
+    "12 Automation/Use K-Plex through Obsidian CLI.md",
+    "11 Release notes/Release 0.4.2.md"
   ],
+  "periodicPinSettings": {
+    "day": {
+      "folder": "",
+      "format": "YYYY-MM-DD",
+      "useDailyNotes": true,
+      "weekStart": "iso"
+    },
+    "week": {
+      "folder": "",
+      "format": "GGGG-[W]WW",
+      "useDailyNotes": false,
+      "weekStart": "iso"
+    },
+    "month": {
+      "folder": "",
+      "format": "YYYY-MM",
+      "useDailyNotes": false,
+      "weekStart": "iso"
+    }
+  },
   "layoutProfiles": {
     "desktop:leaf": {
       "compactingFactor": 1.35,
@@ -1040,6 +1060,108 @@
           "publishing": {
             "version": 1,
             "replacement": "help-workshop"
+          },
+          "wuxing": {
+            "version": 1,
+            "name": "",
+            "nameKey": "facets.presetWuXing",
+            "source": "property",
+            "field": "status",
+            "categories": {
+              "wood": {
+                "label": "",
+                "labelKey": "wuxing.wood",
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-green"
+                },
+                "values": [
+                  "🟢",
+                  "🟢️",
+                  "wood"
+                ],
+                "assignment": "🟢"
+              },
+              "fire": {
+                "label": "",
+                "labelKey": "wuxing.fire",
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-red"
+                },
+                "values": [
+                  "🔴",
+                  "🔴️",
+                  "fire"
+                ],
+                "assignment": "🔴"
+              },
+              "earth": {
+                "label": "",
+                "labelKey": "wuxing.earth",
+                "color": "#a16207",
+                "values": [
+                  "🟤",
+                  "🟤️",
+                  "earth"
+                ],
+                "assignment": "🟤"
+              },
+              "metal": {
+                "label": "",
+                "labelKey": "wuxing.metal",
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-yellow"
+                },
+                "values": [
+                  "🟡",
+                  "🟡️",
+                  "metal"
+                ],
+                "assignment": "🟡"
+              },
+              "water": {
+                "label": "",
+                "labelKey": "wuxing.water",
+                "color": {
+                  "kind": "theme",
+                  "variable": "--color-blue"
+                },
+                "values": [
+                  "🔵",
+                  "🔵️",
+                  "water"
+                ],
+                "assignment": "🔵"
+              }
+            },
+            "order": [
+              "wood",
+              "fire",
+              "earth",
+              "metal",
+              "water"
+            ],
+            "start": "wood",
+            "spacing": 56,
+            "regionWidth": 320,
+            "regionHeight": 280,
+            "guides": true,
+            "tints": true,
+            "conflictingColor": {
+              "kind": "theme",
+              "variable": "--color-orange"
+            },
+            "unassignedColor": {
+              "kind": "theme",
+              "variable": "--background-secondary"
+            },
+            "interpretation": "wuxing",
+            "relativeLabels": true,
+            "regulatingGuides": true,
+            "focusInCategory": true,
+            "centerAnchoredLinks": true
           }
         },
         "presetOrder": [
@@ -1143,6 +1265,9 @@
   "allowRemoteNodeImages": false,
   "editNewNodeAfterCreate": false,
   "newNodeAfterSaving": "return",
+  "periodicNoteAfterSaving": "sidecar",
+  "folderCreationTab": "note",
+  "linkAfterSaving": "return",
   "newNodeDefaultType": "excalidraw",
   "lastDrawingTemplatePath": null,
   "startupIndexInfoBubbleSeen": true,

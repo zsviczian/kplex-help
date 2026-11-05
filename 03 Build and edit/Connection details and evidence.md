@@ -27,7 +27,7 @@ The explanation view shows the resolved relationship, active ontology, and the s
 
 ![[Screenshot - Connection Details.png]]
 
-For an inferred relationship, **Specify ontology…** adds the first explicit ontology. For a relationship that already has ontology, **Add ontology…** adds another explicit property without deleting existing sources.
+Use the ontology action to add an explicit document property. For a connection that already has ontology, this adds another declaration rather than editing the existing one. Choose the owning note and field, review the resulting statement, then save. To change a configured field's meaning or description, use its pencil/**Edit** action. To edit an authored occurrence in Markdown, use **Go to source**.
 
 This is especially important when one edge is supported by several links or fields. A graph edge is a resolved view; evidence tells you what you would actually be editing.
 
@@ -38,3 +38,9 @@ This is especially important when one edge is supported by several links or fiel
 From **Connection details…**, an eligible frontmatter relationship source can now be **removed individually with confirmation**. This does not mean all evidence for the visible edge will be deleted. The action revalidates the source before writing, so an edited or replaced property occurrence is not removed based on a stale snapshot.
 
 Use [[03 Build and edit/Remove one relationship source|Remove one relationship source]] for a practical walkthrough. Inferred-only evidence remains different from an editable frontmatter declaration.
+
+## Move a property to the other note
+
+An eligible property source offers **Flip owner** alongside Edit and Go to source. This moves just that selected field-to-target declaration to the other Markdown note, using its inverse field. It is useful when the same connection should be written from the other endpoint.
+
+The confirmation shows **Current relationship** and **After saving** together. Review both, then **Save relationship** or **Cancel**. You do not need to flip it a second time inside the confirmation. Other properties and Markdown-body links stay in place; the new declaration is saved before the old one is removed. Both owners must be real Markdown notes. If the source changed while the dialog was open, inspect it again before retrying.

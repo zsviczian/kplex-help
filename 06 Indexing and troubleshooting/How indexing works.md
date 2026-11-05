@@ -43,3 +43,11 @@ The local graph can be **ready** even as web links or full indexing continue. In
 K-Plex reuses valid completed indexing work as notes are edited, rather than repeatedly starting the whole operation again. Reopening the vault can also reuse cached information after validation. This reduces repeated background work; the amount of time saved depends on the vault and cache state.
 
 Ordinary autosaves retain stable gate counts when relationships have not changed. Actual relationship changes still update the counts. Tag and folder nodes show zero for Friend and Challenger relationships that do not apply to them.
+
+## Reopen a saved graph while Sync catches up
+
+When a compatible saved graph is available, K-Plex can display it while validating changes received through Obsidian Sync. Cached relationships are useful context, but they are not a claim that every incoming edit has already been checked. Wider validation can continue without withholding all local work.
+
+After Eager preparation finishes, file changes update affected relationships instead of routinely turning the whole graph into unprepared neighborhoods. Canvas edits and the area you are actively using take priority over unrelated work. Source recovery also reuses valid information to reduce repeated cache reads.
+
+Timing still depends on vault size, changed files, disk access and Sync activity. If preparation repeatedly restarts or a gate stays at **…**, capture diagnostics with the active note and recent actions before rebuilding or purging.

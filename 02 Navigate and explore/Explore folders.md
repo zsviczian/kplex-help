@@ -24,6 +24,8 @@ Reach a note through its location, or move related files into a useful home. Cen
 2. Choose a result with the folder icon.
 3. Follow a parent folder, subfolder or file. Attachments are part of the same structure.
 
+You can also drag a folder from **Obsidian Files** onto the canvas center, or right-click it and choose **Open in K-Plex**.
+
 Folders reflect real vault locations, not a second categorization system maintained by K-Plex.
 
 ![[Assets/Screenshot - Folder navigation.png]]
@@ -32,9 +34,11 @@ Folders reflect real vault locations, not a second categorization system maintai
 
 ## Create or move a file
 
-Drag outward from a folder's **Child gate** to create a Markdown note or, when available, an Excalidraw drawing there. An identical filename in another folder is allowed; an existing file at the exact destination is not overwritten.
+Drag outward from a folder's **Child gate** into empty space. The **Create note** and **Create subfolder** tabs share this workflow and remember your last choice. Create a Markdown note or, when available, an Excalidraw drawing on the note tab. An identical filename in another folder is allowed; an existing file at the exact destination is not overwritten.
 
 Drag a file or folder's gate onto another folder to move it. With a folder centered, drag its gate onto a file to bring that file into the folder. Review the source and destination in the confirmation. **Alt/Option** skips the confirmation; it does not bypass collisions or invalid folder moves.
+
+You can also choose **Move…** from a real file or folder node's context menu. Import external files or folders by dropping them onto a folder; see [[03 Build and edit/Drag drop and reclassify|Drag, drop and organize]].
 
 Moving a file changes its real location. Obsidian applies its normal link-update preferences. Folder membership cannot be removed with Unlink or Hide connection: move the file when its location should change.
 

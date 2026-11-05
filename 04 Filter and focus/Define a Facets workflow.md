@@ -49,3 +49,12 @@ Write short help explaining the question, expected note data and any limits. The
 Delete unused presets through **Manage presets**. Choose a replacement so existing and closed canvases have a useful destination; deleting the preset leaves notes unchanged.
 
 Try [[09 Showcase examples/Example - Workshop board|the workshop board]] before adapting the pattern to your own project.
+
+## Place the active note and simplify connections
+
+The preset editor offers two independent choices:
+
+- **Display active note in matching container** places the focus note in its matching category as a larger card. Turn it off to keep the usual separate focus position.
+- **Hide gates, connect links from node centers** removes the gates and draws connections directly between cards.
+
+Save either, both or neither for each preset. These choices change presentation; they do not reclassify notes or rewrite relationships.

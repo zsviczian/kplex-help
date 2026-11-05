@@ -16,8 +16,11 @@ Child:
   - "[[11 Release notes/Early releases]]"
   - "[[Release 0.3.0]]"
   - "[[Release 0.3.1]]"
-  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[11 Release notes/Releases 0.4]]"
 Related:
+  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[11 Release notes/Release 0.4.1]]"
+  - "[[11 Release notes/Release 0.4.2]]"
   - "[[00 Start Here/Recently added features]]"
   - "[[README]]"
 ---
@@ -25,12 +28,14 @@ Related:
 
 Wondering whether an update helps your workflow? Browse what changed, then follow a feature link to learn how to use it.
 
-## K-Plex 0.4.0 — Put your map to work
+## K-Plex 0.4.2 — Create, organize and return to your work
 
-[[11 Release notes/Release 0.4.0|K-Plex 0.4.0]] adds PNG and linked Markdown export, a public API for local scripts and assistants, ontology descriptions, file-menu navigation, drawing templates and trackpad controls.
+[[11 Release notes/Release 0.4.2|K-Plex 0.4.2]] adds folder creation and imports, periodic pins, relationship ownership changes, new Facets options and steadier indexing during Sync. Browse [[11 Release notes/Releases 0.4|the 0.4 releases]] for export, automation and earlier improvements.
 
 ## Published releases
 
+- [[11 Release notes/Release 0.4.2|K-Plex 0.4.2]] — November 5, 2026: create and organize notes, return through periodic pins, and control relationship ownership.
+- [[11 Release notes/Release 0.4.1|K-Plex 0.4.1]] — November 2, 2026: keep Eager navigation current and remove references from either endpoint.
 - [[11 Release notes/Release 0.4.0|K-Plex 0.4.0]] — Put your map to work through export and automation, with easier navigation and editing.
 - [[Release 0.3.1|release 0.3.1]] — Create ontology fields as you connect notes, browse folders during indexing, and keep editing as you center another Mind Map note.
 - [[Release 0.3.0|K-Plex 0.3.0]] — Canvas views, reusable Facets workflows, sharing and in-place editing.

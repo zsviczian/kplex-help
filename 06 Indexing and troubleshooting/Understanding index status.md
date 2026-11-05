@@ -45,3 +45,9 @@ Read completion messages carefully. If an edit is saved but its graph refresh is
 Clear filters and inspect the affected connection's [[03 Build and edit/Connection details and evidence|details]]. If needed, [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|capture diagnostics]] before restarting, rebuilding or purging. Mention what you were trying to do and which status you saw.
 
 An unfinished website inventory alone is not a reason to purge the cache. Use the [[06 Indexing and troubleshooting/Troubleshooting checklist|troubleshooting checklist]] to choose a smaller first step.
+
+## Distinguish recovery from ordinary edits
+
+During startup, a cached graph can be visible while broader validation continues. Check the progress details for the current phase and counts rather than assuming that a visible map means all changes are validated. A gate showing **…** has not yet obtained its count; it is not zero.
+
+Eager mode maintains the completed graph as files change. Ordinary editing or Sync should not require a fresh full preparation on every navigation. If progress stops advancing or repeatedly starts over, capture diagnostics before clearing anything. Include whether Sync was active and whether you had just created, moved or deleted a note or folder.

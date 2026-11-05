@@ -7,7 +7,7 @@ tags:
 Guide:
   - "[[00 Start Here/Get started]]"
 Related:
-  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[11 Release notes/Release 0.4.2]]"
   - "[[12 Automation/Automation and scripting]]"
   - "[[Release 0.2.2]]"
   - https://github.com/zsviczian/kplex/releases/tag/0.2.4
@@ -28,7 +28,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-These guides cover **K-Plex 0.4.0**, including [[11 Release notes/Release 0.4.0|export, automation and easier navigation]]. The bundled executable is **0.3.1**; update K-Plex separately to try the newer controls.
+These guides cover **K-Plex 0.4.2**, including [[11 Release notes/Release 0.4.2|folder workflows, periodic pins and relationship editing]]. The bundled plugin is **0.4.2** and requires **Obsidian 1.13.0 or newer**.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 

@@ -96,3 +96,12 @@ if (!result.ok) process.exitCode = 1;
 
 Keep evals short and on one line. An `Error:` response can accompany a zero process exit code. A timeout after an action does not prove nothing happened: reacquire the API and read the affected state before retrying.
 
+## Inspect ontology usage for a cleanup proposal
+
+After capability discovery, CLI eval can await `ontologyDocuments` to find stored usage candidates, then await `inspectOntologyOccurrences` for exact fields in a selected saved note. These are different from passive graph queries: usage reads stored metadata, and occurrence inspection reads the selected source file.
+
+```sh
+obsidian vault=YOUR_VAULT eval 'code=(async()=>JSON.stringify(await window.kplexApi.v1.ontologyDocuments({field:"Explains",limit:20})))()'
+```
+
+Keep coverage, continuation and unsupported flags with your analysis. Requesting an audit does not authorize text migration or configuration changes. See [[12 Automation/K-Plex API examples|the examples]] for source inspection and reviewed configuration, and give an assistant the updated [[skill|CLI skill]].

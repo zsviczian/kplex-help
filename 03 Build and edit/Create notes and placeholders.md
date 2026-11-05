@@ -24,7 +24,7 @@ Capture an idea before you lose it. Create a note now, or add a placeholder so y
 
 Create a note or placeholder from a relationship gate or an Add parent/child/friend/challenger action. Excalidraw creation is available when its plugin is installed. Later, materialize a placeholder as a real note to develop the idea in the context already established.
 
-When folder nodes are visible, drag outward from a folder's **Child gate** to create a note in that folder. Physical location supplies the folder relationship; K-Plex does not need a redundant note-to-note property to represent it. A web relationship needs a Markdown origin in which to store the link.
+When folder nodes are visible, drag outward from a folder's **Child gate** into empty canvas space. Choose **Create note** or **Create subfolder**; K-Plex remembers the last tab. Enter a name, then create it in that folder. Physical location supplies the folder relationship; K-Plex does not need a redundant note-to-note property to represent it. A web relationship needs a Markdown origin in which to store the link.
 
 ## Choose the destination and the next action
 
@@ -41,7 +41,13 @@ The **After saving** control states what will happen:
 | Return | Finish and return without following the new node. |
 | Create another | Keep creating related material. |
 | Follow node | Make the new node the center. |
-| Edit note | Center the new note and open it in the companion Sidecar's normal Markdown editor. |
+| Edit in sidecar | Center the note and open it in the adjacent Sidecar. |
+| Edit in editor view | Center the note and open its editor inside K-Plex. |
+| Edit in editor view maximized | Open that editor maximized. |
+| Open in new tab | Open the file in a native Obsidian tab. |
+| Open in popout window | Open a separate desktop window. |
+
+K-Plex remembers one After saving choice for **creation** and another for **linking existing notes or web links**. Switching between those tasks restores the appropriate choice. Destinations adapt to the target and device: web links do not offer note editors, popouts are desktop-only, and a canvas in a side panel does not offer Sidecar. Placeholder materialization omits Create another and Follow node.
 
 Folder-child creation produces a real Markdown note or Excalidraw drawing, not a placeholder: an unresolved link has no physical folder membership yet.
 
@@ -58,3 +64,9 @@ For example, configure planning and sketch templates in Excalidraw. Create a rel
 A saved file and a fully refreshed graph are different things. If a file was created but linking or opening did not finish, use the dialog's recovery controls for that existing file rather than creating a duplicate. A saved relationship may offer a targeted refresh while indexing catches up.
 
 Newly created notes and drawings can become searchable while wider indexing continues. Their full relationships may still be loading.
+
+## Let templates finish before linking
+
+If Templater applies a folder or file-creation template, K-Plex waits for that processing before adding aliases, display names or relationship properties to the new note. This also matters when the new note will own a reversed relationship. The dialog can show **Waiting for the note template to finish…** while template commands run.
+
+Use the normal creation recovery flow if template processing fails; check the actual saved file before trying again. A template command that depends on whichever editor currently has focus can target a different pane when a note opens in Sidecar. Such automation should target the created file or its specific view.

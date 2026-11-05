@@ -26,3 +26,9 @@ If body references remain, K-Plex opens **Remaining references** so you can revi
 
 > [!warning]
 > Treat relationship editing and deletion as real vault edits. Keep backups and use test notes when learning the workflows.
+
+## Unlink from either end
+
+**Unlink connection** looks for the editable declaration in the note that owns it. If Note B has a property linking to Note A, centering Note A still lets you remove that property contribution from B. Inspect the source note and field before confirming; other evidence may keep the visible connection alive.
+
+**Delete placeholder…** also works when only Markdown-body links remain. It opens **Remaining references**, explains why the placeholder is still present, and lets you open the referring notes to edit their links manually. It does not silently rewrite prose.

@@ -5,9 +5,11 @@ tags:
 - kplex-help/release-notes
 Note type: ReleaseNotes
 Guide:
-- '[[11 Release notes/Release notes]]'
+- '[[11 Release notes/Releases 0.4]]'
 Previous:
 - '[[11 Release notes/Release 0.3.1]]'
+Next:
+- '[[11 Release notes/Release 0.4.1]]'
 Explains:
 - '[[03 Build and edit/Export and share a canvas]]'
 - '[[12 Automation/Automation and scripting]]'

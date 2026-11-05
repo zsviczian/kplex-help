@@ -25,7 +25,7 @@ Found a misspelled relationship property, or want to understand where a field is
 ## Find a field
 
 1. Open **Settings → K-Plex → Ontology → Manage ontology**.
-2. Search for part of a property name or its paired name. Use the role filter to narrow the list; **Unassigned** is useful when cleaning up unfamiliar fields.
+2. Search for part of a property name, its paired name or its description. Use the role filter to narrow the list; **Unassigned** is useful when cleaning up unfamiliar fields.
 3. Open a row to assign a role, configure **Pair with**, or inspect the existing assignment. Paired fields appear together.
 
 In this vault, search for **Guide**. Its partner **Explains** describes the same hierarchy from the opposite endpoint. See [[01 Core concepts/Ontology and relationship fields]] before changing the direction of an existing pair.
@@ -74,3 +74,9 @@ The manager does not rename note properties for you. Removing an assignment chan
 - [[01 Core concepts/Ontology and relationship fields]] — roles, pairs and ordinary note properties.
 - [[03 Build and edit/Remove one relationship source]] — remove one authored contribution safely.
 - [[07 Use cases/Garden your vault]] — make cleanup part of normal exploration.
+
+## Prepare a reviewed cleanup with a local assistant
+
+The public API can list stored documents using a field and inspect exact ontology occurrences in selected saved notes. An assistant can propose spelling repairs, consistent terms, inverse pairs and role changes, then preview configuration changes for review. See [[12 Automation/K-Plex API examples|the ontology API examples]] and the CLI skill.
+
+Changing a definition or description does not rename fields in notes. Usage lists can be incomplete, even when their pages are exhausted. Review the actual affected files and templates, keep a backup, and approve configuration changes and text migrations separately.

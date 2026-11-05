@@ -20,7 +20,7 @@ Explains:
   - "[[06 Indexing and troubleshooting/Indexing and troubleshooting]]"
   - "[[08 About/About K-Plex]]"
 Related:
-  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[11 Release notes/Release 0.4.2]]"
   - "[[03 Build and edit/Export and share a canvas]]"
   - "[[12 Automation/Automation and scripting]]"
   - "[[07 Use cases/Bring a connected outline into your writing]]"
@@ -50,17 +50,21 @@ Read your ontology, find indexed notes, inspect relationship evidence or describ
 
 ## Find and revisit ideas
 
-Search notes, folders and hierarchical tags. Pin landmarks, use Footprints to retrace a canvas's visit trail, or let Wander bring an old idea back into view. [[02 Navigate and explore/Navigate and explore|Choose a navigation guide]].
+Pin Today, This week or This month to return to the current periodic note, and reorder pins by dragging or their Move left/right actions. A missing periodic note opens a creation confirmation; Today can use your core Daily Notes template. Search notes, folders and hierarchical tags, use Footprints to retrace a canvas's visit trail, or let Wander bring an old idea back into view. [[02 Navigate and explore/Navigate and explore|Choose a navigation guide]].
 
 ## Connect and organize your work
 
 Drag supported nodes between canvases, bring links into a draft, choose a new note's destination, and classify notes with tags or a Note type. Manage paired ontology fields and inspect their document uses before cleaning them up. [[03 Build and edit/Build and edit|Choose an editing workflow]].
 
-Add descriptions to explain when to use each ontology field, including independent wording for inverse pairs. Choose a drawing template when creating a related drawing, a folder child or a real file for a placeholder; the last successful choice is remembered.
+Create notes or subfolders from a folder's Child gate, import external files or folders in one batch, or use a node's Move action to change its real location. Creation and linking remember independent After saving choices. Flip an eligible relationship property's owner after reviewing a before-and-after preview.
+
+Add descriptions to explain when to use each ontology field, including independent wording for inverse pairs. Search also matches those descriptions; local assistants can inspect field usage and prepare reviewed configuration changes. Choose a drawing template when creating a related drawing, a folder child or a real file for a placeholder; the last successful choice is remembered.
 
 ## Choose a perspective for the question
 
 Compass keeps the familiar directional neighborhood. Mind Map keeps a stable hierarchy root while you unfold branches. Facets compares direct neighbors through categories you define using properties, tags, note types or rules. [[01 Core concepts/Canvas views|Compare the three views]], then [[04 Filter and focus/Facets|make a useful workflow visible]].
+
+Each Facets preset can place the active note in its matching category, hide gates, or do both. Compass can flip its East–West axis without changing relationship meaning.
 
 ## Reveal the detail you need
 
@@ -74,8 +78,8 @@ Open files directly from Obsidian's **K-Plex** context submenu. Use **View** in 
 
 ## Get back to work while preparation continues
 
-Choose startup and Eager/On-demand behavior separately for desktop, tablet and phone. Recent indexing improvements reuse valid work during edits and warm starts; gate counters remain stable through ordinary autosaves. Current-neighborhood readiness and wider discovery remain separate. [[06 Indexing and troubleshooting/Indexing and troubleshooting|Understand loading and recovery]].
+Choose startup and Eager/On-demand behavior separately for desktop, tablet and phone. Recent indexing improvements reuse valid work during edits and warm starts; gate counters remain stable through ordinary autosaves. Compatible cached relationships remain useful while Sync changes are validated. Local work takes priority, and recovery avoids repeated reads. Current-neighborhood readiness and wider discovery remain separate. [[06 Indexing and troubleshooting/Indexing and troubleshooting|Understand loading and recovery]].
 
 ## Put it to work
 
-Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. Read [[11 Release notes/Release 0.4.0|what changed in 0.4.0]], or use the release archive for earlier history.
+Try [[07 Use cases/Never start a project with a blank page|starting a project from existing knowledge]], [[07 Use cases/Garden your vault|gardening one note at a time]], or [[07 Use cases/Research and learning|turning research into a draft]]. Read [[11 Release notes/Release 0.4.2|what changed in 0.4.2]], or use the release archive for earlier history.

@@ -42,7 +42,7 @@ Right-click an existing file in Obsidian's file explorer, its tab or a resolved 
 | **Open in side panel** | Yes | Yes | Yes |
 | **Open in new window** | Yes | — | — |
 
-The chosen file becomes the center. This works for existing notes, attachments and drawings; folders and unresolved links do not offer this submenu. Ordinary K-Plex tabs show the centered file's basename with the K-Plex icon. A second tab or split can keep its own center while you continue in the first.
+The chosen file becomes the center. This works for existing notes, attachments and drawings. Unresolved links in supported editor/reading context menus open their placeholder without creating a file. In Obsidian Files, folders offer **Open in K-Plex** and can also be dragged onto the canvas center. Ordinary K-Plex tabs show the centered file's basename with the K-Plex icon. A second tab or split can keep its own center while you continue in the first.
 
 To find a node's file, use its **Open** submenu. **Open in file navigation** reveals it in Obsidian when the Files core plugin is enabled. Desktop also offers **Open in Finder** on macOS, **Open in Explorer** on Windows, or **Show in system explorer** on Linux. These reveal the file without changing the map's center.
 
@@ -61,3 +61,13 @@ The setting is off by default: ordinary scrolling normally zooms. Native editors
 The small number beside a directional gate is a relationship count, not the number of line segments drawn. Gate badges count related notes, even when several sources support the same connection. Partial counts can still be marked while source data is loading.
 
 For each connector's underlying sources, open [[03 Build and edit/Connection details and evidence|Connection details and evidence]].
+
+## Open links using the right handler
+
+K-Plex recognizes `obsidian://` links as searchable URL nodes. Opening one delegates to Obsidian's URI handling, so a link can open its intended note or action rather than a web preview. Review unfamiliar URI actions before opening them.
+
+For ordinary web links, a Markdown label in frontmatter supplies a readable node title and remains available after a cached start. **Copy link** respects Obsidian's configured link format and path preferences when you paste into a note. Opening a section uses the section's own source file and heading.
+
+## Preview before navigating
+
+K-Plex's **Page Preview** preference applies across normal tabs, sidebars and popout windows. Use Obsidian's usual preview interaction to inspect a supported target without committing to a new center.

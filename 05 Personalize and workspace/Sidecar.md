@@ -47,3 +47,12 @@ A drawing can keep its chosen drawing or Markdown view when the same file is fol
 Alt/Option-select the Sidecar controls to maximize the document or the K-Plex canvas in one action. This is useful when you alternate between reading a long passage and exploring its context.
 
 Opening or closing the Sidecar recenters the canvas for the available space. With **Autozoom** off, this preserves your chosen zoom level; with Autozoom on, framing can adjust to the new space.
+
+## Attach the tab you can see
+
+The two attachment arrows act on the **active tab in the adjacent group**, even if a different tab in that group is already the attached Sidecar:
+
+- **Attach from center** aligns that pane with the current K-Plex center.
+- **Attach from pane** makes the visible pane's note the K-Plex center and attaches it.
+
+If the visible tab is empty, only Attach from center appears. When the attached Sidecar itself is the active tab, both arrows are hidden. Switching to another document in the same group shows the applicable arrows again. This also lets you align a remaining document tab after closing the old Sidecar.

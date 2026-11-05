@@ -45,3 +45,9 @@ flowchart TB
 ```
 
 A node can change position when the *center* changes, but its position still communicates the relationship it has to the new center. This predictable grammar is the main reason the canvas can remain readable even when the vault itself becomes large.
+
+## Reverse the horizontal reading direction
+
+Enable **Flip East–West axis** in **Settings → K-Plex → Canvas behavior → Views → Compass** to put Friends/Previous on the right and Challengers/Next on the left. Parent and Child keep their vertical positions. Gates, keyboard navigation and new-relationship defaults follow the displayed orientation; the fields in your notes keep the same meanings.
+
+A Challenger can be a competing idea, a counterargument, or something that transforms or supercharges the center. Friends include similar, analogous and otherwise related ideas. Choose a field whose description makes the distinction clear for your own work.
