@@ -5,15 +5,15 @@ tags:
   - kplex-help/reference
   - kplex/getting-started
 Guide:
-  - "[[00 Start Here/Get started]]"
+  - "[[Get started]]"
 Related:
-  - "[[11 Release notes/Release 0.4.2]]"
-  - "[[12 Automation/Automation and scripting]]"
+  - "[[Release 0.4.2]]"
+  - "[[Automation and scripting]]"
   - "[[Release 0.2.2]]"
   - https://github.com/zsviczian/kplex/releases/tag/0.2.4
-  - "[[01 Core concepts/Canvas views]]"
-  - "[[09 Showcase examples/Facets demonstrations]]"
-  - "[[11 Release notes/Release notes]]"
+  - "[[Canvas views]]"
+  - "[[Facets demonstrations]]"
+  - "[[Release notes]]"
 ---
 # Try K-Plex with a ready-made vault
 
@@ -24,29 +24,29 @@ Explore connected notes without first designing a structure of your own. This de
 1. Download and extract this repository, then open its folder as a vault in Obsidian. Keep the hidden `.obsidian` folder when copying it.
 2. Review the included community plugins before enabling them. **This repository includes executable plugin files**, not just notes.
 3. Open K-Plex and search for **K-Plex Help**. This vault's saved Search Vault shortcut is **F4**; your own shortcut may differ.
-4. Start with [[00 Start Here/First 5 minutes|the five-minute tour]] or [[07 Use cases/Use cases|a practical workflow]].
+4. Start with [[First 5 minutes|the five-minute tour]] or [[Use cases|a practical workflow]].
 
 ## Which features can I try?
 
-These guides cover **K-Plex 0.4.2**, including [[11 Release notes/Release 0.4.2|folder workflows, periodic pins and relationship editing]]. The bundled plugin is **0.4.2** and requires **Obsidian 1.13.0 or newer**.
+These guides cover **K-Plex 0.4.2**, including [[Release 0.4.2|folder workflows, periodic pins and relationship editing]]. The bundled plugin is **0.4.2** and requires **Obsidian 1.13.0 or newer**.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
-Use [[01 Core concepts/Canvas views|the view comparison]] to choose a perspective, or [[09 Showcase examples/Facets demonstrations|the four Facets examples]] to learn how to define your own workflows. [[11 Release notes/Release notes|The release archive]] records historical availability.
+Use [[Canvas views|the view comparison]] to choose a perspective, or [[Facets demonstrations|the four Facets examples]] to learn how to define your own workflows. [[Release notes|The release archive]] records historical availability.
 
 ## Choose how to explore
 
-- [[00 Start Here/K-Plex Help|Help Home]] groups the reference by subject.
-- [[00 Start Here/Choose a topic|Learning paths]] lead through a small set of guides for one task.
-- [[07 Use cases/Use cases|Everyday workflows]] combine features into useful results.
-- [[00 Start Here/Glossary|The glossary]] explains unfamiliar labels.
+- [[K-Plex Help|Help Home]] groups the reference by subject.
+- [[Choose a topic|Learning paths]] lead through a small set of guides for one task.
+- [[Use cases|Everyday workflows]] combine features into useful results.
+- [[Glossary|The glossary]] explains unfamiliar labels.
 
 The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
 
 ## Use scripts and local assistants
 
-The [automation guide](12%20Automation/Automation%20and%20scripting.md) includes API examples and Obsidian CLI instructions. Point Codex, Claude or another local assistant at [skill.md](skill.md) to explain how to access K-Plex in your chosen vault.
+The [[Automation and scripting|automation guide]] includes API examples and Obsidian CLI instructions. Point Codex, Claude or another local assistant at [[skill|skill.md]] to explain how to access K-Plex in your chosen vault.
 
 ## Find support
 
-[K-Plex and issues](https://github.com/zsviczian/kplex) · [Sketch Your Mind Community](https://community.sketch-your-mind.com/) · [[08 About/Support K-Plex|Support the project]].
+[K-Plex and issues](https://github.com/zsviczian/kplex) · [Sketch Your Mind Community](https://community.sketch-your-mind.com/) · [[Support K-Plex|Support the project]].

@@ -501,13 +501,9 @@
     }
   },
   "navigationHistory": [
-    "05 Personalize and workspace/Colors and themes.md",
-    "03 Build and edit/Build and edit.md",
-    "01 Core concepts/Relationship roles.md",
     "07 Use cases/Argument maps with Challengers.md",
     "07 Use cases/Develop visual ideas.md",
     "09 Showcase examples/Example - A note with sections.md",
-    "04 Filter and focus/Keep layout vs Reflow.md",
     "09 Showcase examples/Example - A visual note.md",
     "07 Use cases/Use cases.md",
     "00 Start Here/Choose a topic.md",
@@ -540,6 +536,10 @@
     "skill.md",
     "12 Automation/Use K-Plex through Obsidian CLI.md",
     "09 Showcase examples/Example - Wu Xing perspectives.md",
+    "06 Indexing and troubleshooting/How indexing works.md",
+    "11 Release notes/Release 0.4.2.md",
+    "06 Indexing and troubleshooting/Troubleshooting checklist.md",
+    "04 Filter and focus/Keep layout vs Reflow.md",
     "Start Here.md"
   ],
   "allowOntologySuggester": true,

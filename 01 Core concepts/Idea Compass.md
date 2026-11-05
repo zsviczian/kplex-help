@@ -7,9 +7,9 @@ aliases:
 ---
 Want a prompt when you are unsure what to connect next? Use the Idea Compass to ask where an idea comes from, where it leads, what supports it and what challenges it.
 
-Open [[01 Core concepts/Relationship roles|Relationship roles]] to turn these questions into connections. This drawing is a visual reminder of those four questions.
+Open [[Relationship roles|Relationship roles]] to turn these questions into connections. This drawing is a visual reminder of those four questions.
 
-![[Assets/Screenshot - Excalidraw idea compass.png]]
+![[Screenshot - Excalidraw idea compass.png]]
 
 *The existing Idea Compass opens as a normal Excalidraw drawing. K-Plex can keep such a drawing connected to written context.*
 

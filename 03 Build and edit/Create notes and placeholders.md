@@ -6,17 +6,17 @@ tags:
 - kplex/relationships
 - kplex/placeholders
 Friend:
-- '[[01 Core concepts/Node types]]'
+- '[[Node types]]'
 Previous:
-- '[[03 Build and edit/Create a relationship]]'
+- '[[Create a relationship]]'
 Next:
-- '[[03 Build and edit/Drag drop and reclassify]]'
+- '[[Drag drop and reclassify]]'
 ---
 # Create notes and placeholders
 
 Capture an idea before you lose it. Create a note now, or add a placeholder so you can connect the idea first and write it later.
 
-![[Assets/Screenshot - Choose a folder.png]]
+![[Screenshot - Choose a folder.png]]
 
 *The folder input searches parts of an existing path and shows the matching folder across the available width.*
 

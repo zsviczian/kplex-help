@@ -9,19 +9,19 @@ tags:
 - kplex/use-cases
 - kplex/argument
 Friend:
-- '[[01 Core concepts/Relationship roles]]'
-- '[[01 Core concepts/Idea Compass]]'
-- '[[05 Personalize and workspace/Visibility and connector styling]]'
+- '[[Relationship roles]]'
+- '[[Idea Compass]]'
+- '[[Visibility and connector styling]]'
 Previous:
-- '[[07 Use cases/Projects and decisions]]'
+- '[[Projects and decisions]]'
 Next:
-- '[[07 Use cases/Sequential workflows]]'
+- '[[Sequential workflows]]'
 ---
 # Argument maps with Challengers
 
 Need to make a decision you can explain and revisit? Put the proposal beside its evidence, objections and assumptions so you can see what would change your mind.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research example includes a scope caveat as a Challenger. In your own decision, use that direction for a genuine objection or condition.*
 
@@ -47,4 +47,4 @@ The Challenger region can hold:
 
 Friends and Challengers remain distinct relationships. You can configure `Supports` as Friend and `Opposes` as Challenger, then use connector styles or Graph Lenses to emphasize those fields. The map makes your reasoning inspectable; it does not determine whether an argument is true or assign evidence quality automatically.
 
-For a larger initiative, continue with [[07 Use cases/Projects and decisions]]. For visual idea cards, try [[07 Use cases/Develop visual ideas]].
+For a larger initiative, continue with [[Projects and decisions]]. For visual idea cards, try [[Develop visual ideas]].

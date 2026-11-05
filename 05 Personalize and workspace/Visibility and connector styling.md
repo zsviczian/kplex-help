@@ -6,21 +6,21 @@ tags:
 - kplex/styling
 - kplex/nodes
 Friend:
-- '[[01 Core concepts/Node types]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[05 Personalize and workspace/Colors and themes]]'
+- '[[Node types]]'
+- '[[Graph Lenses]]'
+- '[[Colors and themes]]'
 Previous:
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
+- '[[Note-tab synchronization]]'
 ---
 # Visibility and connector styling
 
 Want fewer distractions or clearer relationship lines? Choose which kinds of nodes appear, style the connections and reveal extra detail only when you need it.
 
-![[Assets/Screenshot - Connector styling.png]]
+![[Screenshot - Connector styling.png]]
 
 *Link styling shows line shape, width and labels together; colors retain their Light/Dark previews.*
 
-Connector appearance includes color, width, solid/dashed/dotted style, arrowheads, labels and text appearance. Ontology-specific styles can override the base connector. For a temporary perspective rather than persistent styling, use [[04 Filter and focus/Graph Lenses]].
+Connector appearance includes color, width, solid/dashed/dotted style, arrowheads, labels and text appearance. Ontology-specific styles can override the base connector. For a temporary perspective rather than persistent styling, use [[Graph Lenses]].
 
 This help configuration gives Challenger/Watch-out connections a stronger visual treatment and uses separate colors for hierarchical, lateral and sequential ontology fields.
 
@@ -47,4 +47,4 @@ The supplied configuration uses **Siblings off**, **cross-link opacity 50%**, an
 
 To hide cross-links, open **Views and lenses** in the active canvas and turn off **Show cross-links**. This is a per-view choice and starts on when a view opens; it is not kept across a restart. Opacity affects how visible those lines are when shown, not whether they are enabled.
 
-Use [[04 Filter and focus/Quick Filter]] to simplify the neighborhood further, or [[05 Personalize and workspace/Colors and themes]] to adapt the appearance without removing relationships.
+Use [[Quick Filter]] to simplify the neighborhood further, or [[Colors and themes]] to adapt the appearance without removing relationships.

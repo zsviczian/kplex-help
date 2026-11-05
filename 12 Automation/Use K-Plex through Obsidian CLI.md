@@ -6,9 +6,9 @@ tags:
 - kplex-help/how-to
 - kplex/automation
 Guide:
-- '[[12 Automation/Automation and scripting]]'
+- '[[Automation and scripting]]'
 Friend:
-- '[[12 Automation/K-Plex API examples]]'
+- '[[K-Plex API examples]]'
 Related:
 - '[[skill]]'
 - https://help.obsidian.md/cli
@@ -20,7 +20,7 @@ Let a terminal script or local assistant inspect your map without a separate ser
 
 ## Give an assistant the skill
 
-Point Codex, Claude or another local assistant to [[skill.md]] available at https://github.com/zsviczian/kplex-help/blob/main/skill.md.
+Point Codex, Claude or another local assistant to [[skill]] available at https://github.com/zsviczian/kplex-help/blob/main/skill.md.
 
 For example:
 
@@ -62,7 +62,7 @@ For a settled Mind Map, return Markdown and its warnings without saving a file:
 obsidian vault=YOUR_VAULT eval 'code=JSON.stringify(window.kplexApi.v1.exportMarkdown({canvasId:"RETURNED_CANVAS_ID"}))'
 ```
 
-Check `ok` before using `value`, then inspect coverage, truncation and export warnings. See [[12 Automation/K-Plex API examples|the examples]] for neighbors, evidence, GraphQL and navigation with readback. Canvas context does not include note bodies; use ordinary Obsidian reading commands when you deliberately need their content.
+Check `ok` before using `value`, then inspect coverage, truncation and export warnings. See [[K-Plex API examples|the examples]] for neighbors, evidence, GraphQL and navigation with readback. Canvas context does not include note bodies; use ordinary Obsidian reading commands when you deliberately need their content.
 
 ## Run from Windows or a script
 
@@ -104,4 +104,4 @@ After capability discovery, CLI eval can await `ontologyDocuments` to find store
 obsidian vault=YOUR_VAULT eval 'code=(async()=>JSON.stringify(await window.kplexApi.v1.ontologyDocuments({field:"Explains",limit:20})))()'
 ```
 
-Keep coverage, continuation and unsupported flags with your analysis. Requesting an audit does not authorize text migration or configuration changes. See [[12 Automation/K-Plex API examples|the examples]] for source inspection and reviewed configuration, and give an assistant the updated [[skill|CLI skill]].
+Keep coverage, continuation and unsupported flags with your analysis. Requesting an audit does not authorize text migration or configuration changes. See [[K-Plex API examples|the examples]] for source inspection and reviewed configuration, and give an assistant the updated [[skill|CLI skill]].

@@ -7,11 +7,11 @@ tags:
 - kplex-help/how-to
 - kplex/styling
 Parent:
-- '[[05 Personalize and workspace/Personalize and workspace]]'
+- '[[Personalize and workspace]]'
 Friend:
-- '[[05 Personalize and workspace/Node styles from help tags]]'
-- '[[05 Personalize and workspace/Visibility and connector styling]]'
-- '[[04 Filter and focus/Graph Lenses]]'
+- '[[Node styles from help tags]]'
+- '[[Visibility and connector styling]]'
+- '[[Graph Lenses]]'
 learningMode: "practice"
 sessionSize: "longer"
 ---
@@ -31,7 +31,7 @@ Default theme cannot be renamed, deleted or reset. Its first genuine saved appea
 
 Named themes store base and semantic appearance. Ontology, navigation, indexing strategy and lens rules remain shared; switching a theme does not create a separate knowledge structure or restore a deleted lens.
 
-![[Assets/Screenshot - Named themes.png]]
+![[Screenshot - Named themes.png]]
 
 *Visual styling in this vault: native base colors with the existing semantic colors retained.*
 
@@ -59,7 +59,7 @@ Under **Colors → Named colors**, create and manage Light/Dark pairs. Renaming 
 
 ## Add a subtle directional cue
 
-![[Assets/Screenshot - Directional tint.png]]
+![[Screenshot - Directional tint.png]]
 
 *The directional-tint editor compares Light and Dark colors and keeps Save and Cancel visible.*
 

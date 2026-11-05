@@ -5,16 +5,16 @@ tags:
 - kplex-help/how-to
 - kplex/navigation
 Guide:
-- '[[02 Navigate and explore/Tags and folders]]'
+- '[[Tags and folders]]'
 Friend:
-- '[[03 Build and edit/Drag drop and reclassify]]'
-- '[[03 Build and edit/Create notes and placeholders]]'
+- '[[Drag drop and reclassify]]'
+- '[[Create notes and placeholders]]'
 ---
 # Explore folders
 
 Reach a note through its location, or move related files into a useful home. Center a folder to browse its contents and manage their location.
 
-![[Assets/Screenshot - Search folders.png]]
+![[Screenshot - Search folders.png]]
 
 *Search matches parts of folder names and paths. Folder icons distinguish locations from notes in the same result list.*
 
@@ -28,7 +28,7 @@ You can also drag a folder from **Obsidian Files** onto the canvas center, or ri
 
 Folders reflect real vault locations, not a second categorization system maintained by K-Plex.
 
-![[Assets/Screenshot - Folder navigation.png]]
+![[Screenshot - Folder navigation.png]]
 
 *A folder is a navigable location: its files and subfolders keep their real vault membership.*
 
@@ -38,8 +38,8 @@ Drag outward from a folder's **Child gate** into empty space. The **Create note*
 
 Drag a file or folder's gate onto another folder to move it. With a folder centered, drag its gate onto a file to bring that file into the folder. Review the source and destination in the confirmation. **Alt/Option** skips the confirmation; it does not bypass collisions or invalid folder moves.
 
-You can also choose **Move…** from a real file or folder node's context menu. Import external files or folders by dropping them onto a folder; see [[03 Build and edit/Drag drop and reclassify|Drag, drop and organize]].
+You can also choose **Move…** from a real file or folder node's context menu. Import external files or folders by dropping them onto a folder; see [[Drag drop and reclassify|Drag, drop and organize]].
 
 Moving a file changes its real location. Obsidian applies its normal link-update preferences. Folder membership cannot be removed with Unlink or Hide connection: move the file when its location should change.
 
-A placeholder has no file to move yet. Choose its destination when [[03 Build and edit/Create notes and placeholders|creating the real note]].
+A placeholder has no file to move yet. Choose its destination when [[Create notes and placeholders|creating the real note]].

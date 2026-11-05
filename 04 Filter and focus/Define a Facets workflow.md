@@ -3,14 +3,14 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Friend:
-- "[[04 Filter and focus/Facets layouts and classification]]"
-- "[[04 Filter and focus/Share presets and lenses]]"
+- "[[Facets layouts and classification]]"
+- "[[Share presets and lenses]]"
 Related:
-- "[[Assets/Screenshot - Facets preset help.png]]"
-- "[[Assets/Screenshot - Facets preset configuration.png]]"
-- "[[09 Showcase examples/Example - Workshop board]]"
+- "[[Screenshot - Facets preset help.png]]"
+- "[[Screenshot - Facets preset configuration.png]]"
+- "[[Example - Workshop board]]"
 ---
 # Define a Facets workflow
 
@@ -24,7 +24,7 @@ Turn a distinction you already make into a reusable view. Begin with a small set
 4. Enter matching values for a property, tags or note types. For **Category rule**, use the condition editor to define what makes each category match.
 5. Choose a layout and **Save**. Select the preset on a Facets canvas centered on your example note.
 
-![[Assets/Screenshot - Facets preset configuration.png]]
+![[Screenshot - Facets preset configuration.png]]
 
 *The desktop preset editor shows Workshop stage using **Markdown property** and **Horizontal spread**, with the focused note above the categories. Source, property, layout and dimensions belong to the preset.*
 
@@ -42,13 +42,13 @@ Tags, note types and category rules classify notes here; they are not writable c
 
 Write short help explaining the question, expected note data and any limits. The help can travel with the preset. **Cancel** keeps the installed version; **Save** applies the edited preset to canvases using it. Selecting a preset is local to a canvas, while editing its definition is shared.
 
-![[Assets/Screenshot - Facets preset help.png]]
+![[Screenshot - Facets preset help.png]]
 
 *The preset’s own help names the starting note, shows its YAML data and explains which values are recognized. Write the same kind of practical guidance for a workflow you share.*
 
 Delete unused presets through **Manage presets**. Choose a replacement so existing and closed canvases have a useful destination; deleting the preset leaves notes unchanged.
 
-Try [[09 Showcase examples/Example - Workshop board|the workshop board]] before adapting the pattern to your own project.
+Try [[Example - Workshop board|the workshop board]] before adapting the pattern to your own project.
 
 ## Place the active note and simplify connections
 

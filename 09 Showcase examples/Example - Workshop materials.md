@@ -5,12 +5,12 @@ tags:
 - kplex-help/example
 - kplex/projects
 Parent:
-- '[[09 Showcase examples/Example - Workshop plan]]'
+- '[[Example - Workshop plan]]'
 Child:
-- '[[09 Showcase examples/Example - A visual note]]'
-- '[[09 Showcase examples/Example - Research question]]'
+- '[[Example - A visual note]]'
+- '[[Example - Research question]]'
 Next:
-- '[[09 Showcase examples/Example - Workshop review]]'
+- '[[Example - Workshop review]]'
 Workshop stage: "Collect"
 status: 🟤
 ---
@@ -18,7 +18,7 @@ status: 🟤
 
 Use a useful starting set of workshop examples. Keep the source ideas connected to one preparation note so you can return to them while building your session.
 
-![[Assets/Screenshot - Expanded neighbors.png]]
+![[Screenshot - Expanded neighbors.png]]
 
 *The workshop plan stays central while the material branch reveals its two source notes one level further down.*
 

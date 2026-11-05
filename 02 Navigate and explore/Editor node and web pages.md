@@ -6,17 +6,17 @@ tags:
 - kplex/navigation
 - kplex/web
 Friend:
-- '[[05 Personalize and workspace/Sidecar]]'
+- '[[Sidecar]]'
 Previous:
-- '[[02 Navigate and explore/Past nodes and pins]]'
+- '[[Past nodes and pins]]'
 Next:
-- '[[02 Navigate and explore/Mobile and touch]]'
+- '[[Mobile and touch]]'
 ---
 # Editor node and web pages
 
 Read a note or website without losing the ideas around it. Open it inside the canvas and keep the surrounding map visible.
 
-![[Assets/Screenshot - Read inside the center.png]]
+![[Screenshot - Read inside the center.png]]
 
 *Reading view expands the document inside the central node; its surrounding connections remain part of the map.*
 
@@ -27,9 +27,9 @@ On desktop, websites use a webview with normal browser authentication behavior. 
 > [!privacy]
 > Expanding a website loads that site. It receives normal browser requests and may store its own cookies.
 
-Try the URL friend attached to [[08 About/Community GitHub and contributing|Community GitHub and contributing]] once URL nodes are visible.
+Try the URL friend attached to [[Community GitHub and contributing|Community GitHub and contributing]] once URL nodes are visible.
 
-**Keyboard focus:** **Ctrl/Cmd+Shift+E** focuses an existing editor associated with K-Plex; **Ctrl/Cmd+Shift+G** returns keyboard focus to the graph. In the editor, **Ctrl/Cmd+F** remains native Find rather than K-Plex Find. Read [[02 Navigate and explore/Keyboard navigation|Keyboard navigation]] for details.
+**Keyboard focus:** **Ctrl/Cmd+Shift+E** focuses an existing editor associated with K-Plex; **Ctrl/Cmd+Shift+G** returns keyboard focus to the graph. In the editor, **Ctrl/Cmd+F** remains native Find rather than K-Plex Find. Read [[Keyboard navigation|Keyboard navigation]] for details.
 
 ## Edit a note where it belongs
 

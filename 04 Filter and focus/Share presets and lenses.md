@@ -3,13 +3,13 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Friend:
-- "[[04 Filter and focus/Graph Lenses]]"
+- "[[Graph Lenses]]"
 Related:
-- "[[Assets/Screenshot - Preset import collision review.png]]"
-- "[[Assets/Screenshot - Preset export.png]]"
-- "[[04 Filter and focus/Define a Facets workflow]]"
+- "[[Screenshot - Preset import collision review.png]]"
+- "[[Screenshot - Preset export.png]]"
+- "[[Define a Facets workflow]]"
 ---
 # Reuse a preset or lens in another vault
 
@@ -25,13 +25,13 @@ Keep a useful workflow when you move between vaults, or share it with someone wh
 
 A preset can include its own Markdown help, category colors, layout, sizing and workflow guides. A standalone Graph Lens can be shared without a Facets preset. Sharing a definition does not send the notes it describes, nor does importing one enable it on every canvas.
 
-![[Assets/Screenshot - Preset export.png]]
+![[Screenshot - Preset export.png]]
 
 *The desktop export shows the definition as JSON. Companion lenses are an explicit choice; copying or downloading the package does not copy the notes it describes.*
 
 ## Review a collision before replacing anything
 
-![[Assets/Screenshot - Preset import collision review.png]]
+![[Screenshot - Preset import collision review.png]]
 
 *This desktop preview detects an existing help-workshop ID. **Replace this installed entry** is off, so import is blocked. Choose an unused target ID or deliberately review replacement; this is a collision review, not a completed import.*
 
@@ -39,4 +39,4 @@ A preset can include its own Markdown help, category colors, layout, sizing and 
 
 An export can include authoring context that explains the supported data format. If you choose to give that text to an AI service, review it yourself and remove private terms first. K-Plex does not silently send your notes to a service. Generated JSON still needs the normal import preview and validation.
 
-Use [[04 Filter and focus/Define a Facets workflow|the workflow guide]] to decide what the definition should accomplish before sharing it.
+Use [[Define a Facets workflow|the workflow guide]] to decide what the definition should accomplish before sharing it.

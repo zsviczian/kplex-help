@@ -4,7 +4,7 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Early releases]]"
+  - "[[Early releases]]"
 Next:
   - "[[Release 0.0.2]]"
 Related:
@@ -27,4 +27,4 @@ Checking what changed in this version? Read the published notes below, or follow
 
 ## Previous and next
 
-First published release · [[11 Release notes/Release notes|All releases]] · [[Release 0.0.2|Next release →]]
+First published release · [[Release notes|All releases]] · [[Release 0.0.2|Next release →]]

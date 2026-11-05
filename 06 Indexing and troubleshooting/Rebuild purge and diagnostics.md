@@ -6,17 +6,17 @@ tags:
 - kplex/indexing
 - kplex/troubleshooting
 Friend:
-- '[[08 About/Community GitHub and contributing]]'
+- '[[Community GitHub and contributing]]'
 Previous:
-- '[[06 Indexing and troubleshooting/Large vault behavior]]'
+- '[[Large vault behavior]]'
 Next:
-- '[[06 Indexing and troubleshooting/Troubleshooting checklist]]'
+- '[[Troubleshooting checklist]]'
 ---
 # Rebuild purge and diagnostics
 
 Is the graph still wrong after checking the affected note? Capture diagnostics first, then choose a recovery step that leaves your notes intact.
 
-![[Assets/Screenshot - Report a problem.png]]
+![[Screenshot - Report a problem.png]]
 
 *Report a bug copies diagnostics and opens this review dialog. Nothing is submitted automatically.*
 
@@ -38,4 +38,4 @@ Elapsed times can include waits and overlapping work. They are not CPU measureme
 
 After recording the problem, refresh the current view if graph data looks stale. Use **Rebuild index** when K-Plex needs to re-evaluate derived graph data. Reserve **Indexing config → Purge index cache** for a cache problem that warrants deleting the persistent IndexedDB cache; your notes are unchanged, but restart Obsidian before continuing with K-Plex.
 
-The cache-size display is an approximate logical payload estimate, not necessarily the physical disk allocation. An incomplete URL inventory alone is not a reason to purge. See [[06 Indexing and troubleshooting/Understanding index status]].
+The cache-size display is an approximate logical payload estimate, not necessarily the physical disk allocation. An incomplete URL inventory alone is not a reason to purge. See [[Understanding index status]].

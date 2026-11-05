@@ -3,14 +3,14 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[01 Core concepts/Canvas views]]"
+- "[[Canvas views]]"
 Related:
-- "[[Assets/Screenshot - Mind Map workshop.png]]"
-- "[[09 Showcase examples/Example - Workshop plan]]"
-- "[[02 Navigate and explore/Compass]]"
-- "[[04 Filter and focus/Facets]]"
+- "[[Screenshot - Mind Map workshop.png]]"
+- "[[Example - Workshop plan]]"
+- "[[Compass]]"
+- "[[Facets]]"
 Friend:
-- "[[04 Filter and focus/Expand a note into sections]]"
+- "[[Expand a note into sections]]"
 ---
 # Develop a hierarchy with Mind Map
 
@@ -18,14 +18,14 @@ Keep an outline in view while exploring its branches. Mind Map keeps its root wh
 
 ## Try the workshop hierarchy
 
-1. Center [[09 Showcase examples/Example - Workshop plan|the workshop plan]], then choose **Mind Map** in **Views and lenses**.
+1. Center [[Example - Workshop plan|the workshop plan]], then choose **Mind Map** in **Views and lenses**.
 2. Unfold the materials branch to reveal its source notes. Use **Expand one generation** to reveal another layer, or fold an individual branch.
 3. Use the arrow keys to select and reveal a source note. The plan remains the map root; moving keyboard selection does not change the centered note.
 4. Click a note or press **Enter** to center it and make it the map root. **Use as map root** and **Use current note as map root** also offer explicit root changes.
 
 With the default shortcuts, **Alt/Option+Enter** folds or unfolds the selected branch; its chevron does the same without centering the note. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Your saved shortcuts may override these defaults.
 
-![[Assets/Screenshot - Mind Map workshop.png]]
+![[Screenshot - Mind Map workshop.png]]
 
 *Desktop layout example: the workshop plan stays at the root while the materials branch unfolds. The visible Incomplete metadata labels and attachment placeholders are preparation states; this image illustrates arrangement and branch controls.*
 
@@ -43,8 +43,8 @@ Close an editor before folding away the branch that contains it. Switching views
 
 ## Use your outline elsewhere
 
-Choose **Export → Canvas to MindMap Markdown** in the canvas context menu to copy or save the constructed map or a selected branch. The outline keeps links and supported cross-links; folds and filters still limit its scope. Choose **Canvas to image** for a PNG instead. See [[03 Build and edit/Export and share a canvas|Export and share a canvas]] for preview choices and limitations.
+Choose **Export → Canvas to MindMap Markdown** in the canvas context menu to copy or save the constructed map or a selected branch. The outline keeps links and supported cross-links; folds and filters still limit its scope. Choose **Canvas to image** for a PNG instead. See [[Export and share a canvas|Export and share a canvas]] for preview choices and limitations.
 
 ## Use the view that suits the task
 
-Return to [[02 Navigate and explore/Compass|Compass]] when you want the selected note's immediate neighborhood. Try [[04 Filter and focus/Facets|Facets]] when the useful question is which category each connected note belongs to.
+Return to [[Compass|Compass]] when you want the selected note's immediate neighborhood. Try [[Facets|Facets]] when the useful question is which category each connected note belongs to.

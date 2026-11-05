@@ -7,20 +7,20 @@ tags:
   - "kplex/use-cases"
   - "kplex/documentation"
 Related:
-  - "[[00 Start Here/How to use this help vault]]"
-  - "[[05 Personalize and workspace/Node styles from help tags]]"
-  - "[[00 Start Here/K-Plex Help]]"
+  - "[[How to use this help vault]]"
+  - "[[Node styles from help tags]]"
+  - "[[K-Plex Help]]"
 Previous:
-  - "[[07 Use cases/Sequential workflows]]"
+  - "[[Sequential workflows]]"
 Friend:
-- '[[03 Build and edit/Manage and clean up ontology]]'
-- '[[00 Start Here/Choose a topic]]'
+- '[[Manage and clean up ontology]]'
+- '[[Choose a topic]]'
 ---
 # Build a help system like this vault
 
 Want people to find an answer without reading a manual from beginning to end? Connect short, useful guides into a help graph with several paths to the same answer.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The help's own notes form a navigable map: broader guides, related explanations and a caveat surround a small example.*
 
@@ -41,10 +41,10 @@ Hierarchical tags distinguish how-to notes, conceptual explanations, reference p
 
 ## See it for yourself
 
-- Start at [[00 Start Here/K-Plex Help|the help home]] and navigate downward to a section.
-- Center [[00 Start Here/Choose a topic|Choose a topic]], then choose [[10 Discover by topic/04 Research and challenge ideas|Research and challenge ideas]].
+- Start at [[K-Plex Help|the help home]] and navigate downward to a section.
+- Center [[Choose a topic|Choose a topic]], then choose [[04 Research and challenge ideas|Research and challenge ideas]].
 - Open a route's **Children** to reveal its ordered reading stops.
-- Go to [[00 Start Here/How to use this help vault|How to use this help vault]] for the exact field-to-role ontology used here.
+- Go to [[How to use this help vault|How to use this help vault]] for the exact field-to-role ontology used here.
 
 > [!tip] Avoid over-classifying
 > Use explicit ontology for relationships whose meaning matters. Keep ordinary Markdown links for quick references, and use Challenger nodes for real caveats — not as a replacement for warnings in the text.

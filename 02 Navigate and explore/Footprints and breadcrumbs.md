@@ -8,13 +8,13 @@ tags:
 - kplex-help/how-to
 - kplex/navigation
 Guide:
-- '[[02 Navigate and explore/Navigate and explore]]'
+- '[[Navigate and explore]]'
 Friend:
-- '[[02 Navigate and explore/Past nodes and pins]]'
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
-- '[[07 Use cases/Rediscover and remember your notes]]'
+- '[[Past nodes and pins]]'
+- '[[Note-tab synchronization]]'
+- '[[Rediscover and remember your notes]]'
 Watch out:
-- '[[02 Navigate and explore/Past nodes and pins]]'
+- '[[Past nodes and pins]]'
 ---
 # Footprints and breadcrumbs
 
@@ -28,7 +28,7 @@ Select an earlier entry to navigate back to it. This **adds another visit** at t
 
 Use **Up/Down** to move through the entries, **Home** for the newest, and **End** for the oldest. Escape or clicking outside closes the panel. You can scroll through a long trail; Copy as Markdown includes the whole list.
 
-![[Assets/Screenshot - Footprints trail.png]]
+![[Screenshot - Footprints trail.png]]
 
 *A real exploration through this help vault, newest visit first. Copy as Markdown and Start here sit beside the visit count.*
 
@@ -39,7 +39,7 @@ Use **Up/Down** to move through the entries, **Home** for the newest, and **End*
 
 **Try it:** Start at a project, visit two related notes, return to the project and open Footprints. Notice that the project appears twice. Copy the trail into a working note, then choose **Start here** before exploring a different question.
 
-You can also copy the trail from the canvas context menu: **Export → Breadcrumbs to Markdown** uses the same newest-first list with repeated visits. To export the map's structure or a picture instead, see [[03 Build and edit/Export and share a canvas|Export and share a canvas]].
+You can also copy the trail from the canvas context menu: **Export → Breadcrumbs to Markdown** uses the same newest-first list with repeated visits. To export the map's structure or a picture instead, see [[Export and share a canvas|Export and share a canvas]].
 
 ## How is this different from Past nodes and pins?
 
@@ -54,4 +54,4 @@ Each native canvas owns its own Footprints. A second canvas has a different trai
 
 Footprints records navigation, **not the structure of your notes**. It is a chronological list, not a visual, branching breadcrumb tree, timeline or metro map. A renamed note's saved visits follow its updated location; a deleted or unavailable target can appear unavailable and cannot be reopened by selecting it.
 
-For persistent navigation and gate-to-pin actions, see [[02 Navigate and explore/Past nodes and pins]]. To use the trail while developing an idea, try [[07 Use cases/Rediscover and remember your notes]].
+For persistent navigation and gate-to-pin actions, see [[Past nodes and pins]]. To use the trail while developing an idea, try [[Rediscover and remember your notes]].

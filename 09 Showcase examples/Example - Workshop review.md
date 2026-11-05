@@ -5,9 +5,9 @@ tags:
 - kplex-help/example
 - kplex/projects
 Parent:
-- '[[09 Showcase examples/Example - Workshop plan]]'
+- '[[Example - Workshop plan]]'
 Friend:
-- '[[07 Use cases/Projects and decisions]]'
+- '[[Projects and decisions]]'
 Workshop stage: "Share"
 status: 🟡
 ---
@@ -15,7 +15,7 @@ status: 🟡
 
 Want the next workshop to benefit from this one? Keep a review beside the plan so observations do not disappear into an unrelated daily note.
 
-![[Assets/Screenshot - Expanded neighbors.png]]
+![[Screenshot - Expanded neighbors.png]]
 
 *The workshop plan stays central while the material branch reveals its two source notes one level further down.*
 

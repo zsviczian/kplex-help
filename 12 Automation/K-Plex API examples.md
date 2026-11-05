@@ -7,10 +7,10 @@ tags:
 - kplex-help/reference
 - kplex/automation
 Guide:
-- '[[12 Automation/Automation and scripting]]'
+- '[[Automation and scripting]]'
 Friend:
-- '[[12 Automation/Use K-Plex through Obsidian CLI]]'
-- '[[03 Build and edit/Connection details and evidence]]'
+- '[[Use K-Plex through Obsidian CLI]]'
+- '[[Connection details and evidence]]'
 Related:
 - '[[skill]]'
 - https://github.com/zsviczian/kplex/blob/main/docs/PUBLIC_API.md
@@ -88,7 +88,7 @@ Check `coverage` and `truncated` on **both** results. Reads inspect already publ
 })()
 ```
 
-Evidence identifies the owning note, physical field or source location, active decisions and overridden contributions. It does not return note bodies or authorize deleting a source. Compare the result with [[03 Build and edit/Connection details and evidence|Connection details]] when investigating an unexpected direction.
+Evidence identifies the owning note, physical field or source location, active decisions and overridden contributions. It does not return note bodies or authorize deleting a source. Compare the result with [[Connection details and evidence|Connection details]] when investigating an unexpected direction.
 
 ## Describe one open canvas
 

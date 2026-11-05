@@ -2,11 +2,11 @@
 tags:
   - kplex-help/release-notes
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Explains:
-  - "[[06 Indexing and troubleshooting/How indexing works]]"
-  - "[[06 Indexing and troubleshooting/Large vault behavior]]"
-  - "[[06 Indexing and troubleshooting/On demand vs Eager]]"
+  - "[[How indexing works]]"
+  - "[[Large vault behavior]]"
+  - "[[On demand vs Eager]]"
 Previous:
   - "[[Release 0.2.2]]"
 Next:

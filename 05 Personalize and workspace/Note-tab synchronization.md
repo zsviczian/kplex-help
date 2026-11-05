@@ -6,19 +6,19 @@ tags:
 - kplex/workspace
 - kplex/navigation
 Friend:
-- '[[02 Navigate and explore/Past nodes and pins]]'
-- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
-- '[[07 Use cases/Research and learning]]'
+- '[[Past nodes and pins]]'
+- '[[Footprints and breadcrumbs]]'
+- '[[Research and learning]]'
 Previous:
-- '[[05 Personalize and workspace/Sidecar]]'
+- '[[Sidecar]]'
 Next:
-- '[[05 Personalize and workspace/Visibility and connector styling]]'
+- '[[Visibility and connector styling]]'
 ---
 # Note-tab synchronization
 
 Use a document to follow your exploration, or stay fixed while you investigate another idea. Choose how this canvas relates to its note tab.
 
-![[Assets/Screenshot - Two independent Plexes.png]]
+![[Screenshot - Two independent Plexes.png]]
 
 *Two adjacent canvases keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
@@ -38,9 +38,9 @@ Use **Show linked/pinned tab** to reveal the connected tab and briefly outline i
 
 The toolbar **+**, or **New K-Plex tab** in the Command Palette, opens an adjacent canvas. Each canvas can have its own center, document-following choice and companion Sidecar. Keep a reference in one and develop an idea in the other; changing one pair does not replace the other.
 
-Each view also keeps its own central editor and Markdown reading/editing choice. Drag supported nodes between the two views to [[03 Build and edit/Drag drop and reclassify|connect material without copying it]].
+Each view also keeps its own central editor and Markdown reading/editing choice. Drag supported nodes between the two views to [[Drag drop and reclassify|connect material without copying it]].
 
-Saved pins and Past nodes remain shared. [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] is different: each canvas keeps its own temporary visit trail, which clears when that canvas closes.
+Saved pins and Past nodes remain shared. [[Footprints and breadcrumbs|Footprints]] is different: each canvas keeps its own temporary visit trail, which clears when that canvas closes.
 
 ## Edit the current note's properties
 
@@ -48,4 +48,4 @@ An unpinned, ungrouped Obsidian **File properties** pane follows the open node e
 
 Passive document following reuses an existing destination rather than opening another pane. Use an explicit Open or Sync action when you want to create a destination. Ordinary K-Plex tab captions show the centered file's name and the K-Plex icon, helping you tell independent maps apart.
 
-For a document that travels with the map, use a [[05 Personalize and workspace/Sidecar|Sidecar]]. For a practical two-view workflow, try [[07 Use cases/Never start a project with a blank page|starting a project from your existing notes]].
+For a document that travels with the map, use a [[Sidecar|Sidecar]]. For a practical two-view workflow, try [[Never start a project with a blank page|starting a project from your existing notes]].

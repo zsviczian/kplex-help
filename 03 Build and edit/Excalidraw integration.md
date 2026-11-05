@@ -7,16 +7,16 @@ tags:
   - kplex/excalidraw
   - excalidraw
 Friend:
-  - "[[08 About/From ExcaliBrain to K-Plex]]"
+  - "[[From ExcaliBrain to K-Plex]]"
 Previous:
-  - "[[03 Build and edit/Unlink and delete]]"
+  - "[[Unlink and delete]]"
 excalidraw-plugin: parsed
 ---
 # Excalidraw integration
 
 Use a sketch to be part of the same thinking process as your written notes. Create or open an Excalidraw drawing from the canvas while keeping its related ideas nearby.
 
-![[Assets/Screenshot - Excalidraw idea compass.png]]
+![[Screenshot - Excalidraw idea compass.png]]
 
 *The existing Idea Compass opens as a normal Excalidraw drawing. K-Plex can keep such a drawing connected to written context.*
 
@@ -24,7 +24,7 @@ K-Plex itself no longer depends on Excalidraw as its renderer. This is an import
 
 For full integration, Excalidraw needs to create Markdown-backed drawing files. Legacy non-Markdown drawings can open in compatibility mode but cannot act as ordinary K-Plex Markdown relationship endpoints.
 
-Read [[08 About/From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]] for the product lineage.
+Read [[From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]] for the product lineage.
 
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

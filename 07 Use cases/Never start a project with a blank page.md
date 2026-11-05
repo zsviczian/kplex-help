@@ -9,22 +9,22 @@ tags:
 - kplex/use-cases
 - kplex/projects
 Parent:
-- '[[07 Use cases/Use cases]]'
+- '[[Use cases]]'
 Friend:
-- '[[07 Use cases/Build a Map of Content]]'
-- '[[07 Use cases/Projects and decisions]]'
+- '[[Build a Map of Content]]'
+- '[[Projects and decisions]]'
 Explains:
-- '[[02 Navigate and explore/Past nodes and pins]]'
-- '[[02 Navigate and explore/Wander]]'
-- '[[03 Build and edit/Create a relationship]]'
-- '[[03 Build and edit/Drag drop and reclassify]]'
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
+- '[[Past nodes and pins]]'
+- '[[Wander]]'
+- '[[Create a relationship]]'
+- '[[Drag drop and reclassify]]'
+- '[[Note-tab synchronization]]'
 ---
 # Never start a project with a blank page
 
 **The situation:** You're starting a new project, researching an unfamiliar topic or preparing something you want to create. Your Obsidian vault already contains ideas, articles, meeting notes, sketches and lessons from earlier work. You know some of these could help—but finding them and bringing them together can feel like more work than starting over.
 
-![[Assets/Screenshot - Two independent Plexes.png]]
+![[Screenshot - Two independent Plexes.png]]
 
 *Two adjacent canvases keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
@@ -43,7 +43,7 @@ Imagine you're preparing a workshop on visual thinking. You create a new note ca
 
 Start with a new project note (or a Map of Content) and **pin it**. Explore your existing graph as you normally would. When a useful note turns up, connect it back to your pinned project instead of losing your exploration context. Keep browsing, adding and removing connections as ideas emerge.
 
-A project can gradually become its own Map of Content. It need not begin as a carefully curated index. See [[02 Navigate and explore/Past nodes and pins]], [[03 Build and edit/Create a relationship]], and [[07 Use cases/Build a Map of Content]].
+A project can gradually become its own Map of Content. It need not begin as a carefully curated index. See [[Past nodes and pins]], [[Create a relationship]], and [[Build a Map of Content]].
 
 ### 2. Keep your destination in one canvas and search in another
 
@@ -51,17 +51,17 @@ Open **two K-Plex views**. Keep the new project centered in one as your *destina
 
 You don't have to collect everything as Children. A useful source might be a Child, a supporting example a Friend, an objection a Challenger, or a broader idea a Parent. These directions give the growing project useful context, but you can change relationships later. Keep exploring in the source canvas without losing your destination.
 
-See [[05 Personalize and workspace/Note-tab synchronization]] and [[03 Build and edit/Drag drop and reclassify]].
+See [[Note-tab synchronization]] and [[Drag drop and reclassify]].
 
 ### 3. Bring in notes found through Bases or the file explorer
 
 Your search doesn't have to happen inside K-Plex. Use an Obsidian **Base**, the file explorer, or another supported native surface to find candidate notes. Drag a supported file or resolved note link into the project canvas to navigate or create a connection.
 
-This bridges familiar file- and table-based discovery with a project you are developing visually. Not every kind of Bases cell or drag payload is supported: use a resolved note link, and check the behavior explained in [[03 Build and edit/Drag drop and reclassify]].
+This bridges familiar file- and table-based discovery with a project you are developing visually. Not every kind of Bases cell or drag payload is supported: use a resolved note link, and check the behavior explained in [[Drag drop and reclassify]].
 
 ### 4. Wander until something sparks an idea
 
-When you don't know what you're looking for, use [[02 Navigate and explore/Wander|Wander]]. Let K-Plex guide you through connected notes. An unexpected example, sketch or old insight may be exactly what your new project needs.
+When you don't know what you're looking for, use [[Wander|Wander]]. Let K-Plex guide you through connected notes. An unexpected example, sketch or old insight may be exactly what your new project needs.
 
 **Pause Wander** when something catches your attention. Look at the note, then link it to your pinned project—or bring it into the destination canvas. Resume exploring when you're ready. This combines serendipity with a place to capture what matters.
 
@@ -77,6 +77,6 @@ You don't need to move files or copy their contents. The project grows through r
 
 ## Try next
 
-- [[07 Use cases/Build a Map of Content|Turn the emerging project into a Map of Content]].
-- [[07 Use cases/Projects and decisions|Develop the project into goals, decisions and next steps]].
-- [[07 Use cases/Research and learning|Turn the collected material into a draft]].
+- [[Build a Map of Content|Turn the emerging project into a Map of Content]].
+- [[Projects and decisions|Develop the project into goals, decisions and next steps]].
+- [[Research and learning|Turn the collected material into a draft]].

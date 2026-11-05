@@ -3,19 +3,19 @@ tags:
 - "kplex-help/example"
 - "kplex/facets"
 Guide:
-- "[[09 Showcase examples/Facets demonstrations]]"
+- "[[Facets demonstrations]]"
 Child:
-- "[[01 Core concepts/What K-Plex is]]"
-- "[[01 Core concepts/The spatial relationship model]]"
-- "[[03 Build and edit/Create a relationship]]"
-- "[[04 Filter and focus/Quick Filter]]"
-- "[[07 Use cases/Research and learning]]"
-- "[[07 Use cases/Garden your vault]]"
+- "[[What K-Plex is]]"
+- "[[The spatial relationship model]]"
+- "[[Create a relationship]]"
+- "[[Quick Filter]]"
+- "[[Research and learning]]"
+- "[[Garden your vault]]"
 Friend:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Note type: "Guide"
 Related:
-- "[[Assets/Screenshot - Facets learning route.png]]"
+- "[[Screenshot - Facets learning route.png]]"
 ---
 # Choose a useful learning route
 
@@ -29,7 +29,7 @@ Understand an idea, try a small action, then apply it to something useful. This 
 
 The two concept notes explain the map, two guides offer small actions, and two use cases put the skills to work. The focus sits beside the sequence. Wider category areas leave room for cards beside one another.
 
-![[Assets/Screenshot - Facets learning route.png]]
+![[Screenshot - Facets learning route.png]]
 
 *Desktop example: Concept, Guide and Use case values become Understand, Try and Apply. The focus sits beside the vertical sequence, with two cards across each category.*
 

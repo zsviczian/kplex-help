@@ -3,14 +3,14 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[01 Core concepts/Core concepts]]"
+- "[[Core concepts]]"
 Explains:
-- "[[02 Navigate and explore/Compass]]"
-- "[[02 Navigate and explore/Mind Map]]"
-- "[[04 Filter and focus/Facets]]"
+- "[[Compass]]"
+- "[[Mind Map]]"
+- "[[Facets]]"
 Related:
-- "[[Assets/Screenshot - Compass workshop.png]]"
-- "[[09 Showcase examples/Example - Workshop plan]]"
+- "[[Screenshot - Compass workshop.png]]"
+- "[[Example - Workshop plan]]"
 map-role: supporting-map
 ---
 # Choose a canvas view
@@ -29,13 +29,13 @@ The same connected notes can answer different questions. Choose a view that make
 
 Compass is the default view. This K-Plex canvas is separate from Obsidian's **Canvas** file format; choosing a view does not create a `.canvas` file.
 
-![[Assets/Screenshot - Compass workshop.png]]
+![[Screenshot - Compass workshop.png]]
 
 *Compass is the default directional view. This desktop workshop example shows its Parent, Child and companion areas; the dashed attachment card is a placeholder.*
 
 ## Try another perspective
 
-1. Center a familiar note, such as [[09 Showcase examples/Example - Workshop plan|the workshop plan]].
+1. Center a familiar note, such as [[Example - Workshop plan|the workshop plan]].
 2. Open **Views and lenses** and choose a **Canvas view**.
 3. Compare the result, then return to **Compass** whenever the directional neighborhood is useful.
 
@@ -47,4 +47,4 @@ You can also right-click empty canvas space, or long-press on touch, and open **
 
 **Settings → K-Plex → Canvas behavior** holds shared navigation, visibility and editor defaults. Within Canvas behavior, **Views → Compass**, **Views → Mind Map** and **Views → Facets** contain the arrangement or preset choices for that view. View settings apply to canvases using that view; selecting a view or Facets preset belongs to the individual canvas.
 
-Start with [[02 Navigate and explore/Compass|Compass]], [[02 Navigate and explore/Mind Map|Mind Map]] or [[04 Filter and focus/Facets|Facets]].
+Start with [[Compass|Compass]], [[Mind Map|Mind Map]] or [[Facets|Facets]].

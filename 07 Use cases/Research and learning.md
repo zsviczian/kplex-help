@@ -9,11 +9,11 @@ tags:
 - kplex/use-cases
 - kplex/research
 Friend:
-- '[[07 Use cases/Argument maps with Challengers]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[07 Use cases/Build a Map of Content]]'
+- '[[Argument maps with Challengers]]'
+- '[[Graph Lenses]]'
+- '[[Build a Map of Content]]'
 Next:
-- '[[07 Use cases/Projects and decisions]]'
+- '[[Projects and decisions]]'
 learningMode: "read"
 sessionSize: "longer"
 ---
@@ -21,7 +21,7 @@ sessionSize: "longer"
 
 Have plenty of reading notes but no clear argument yet? Build an article around a question, connect its claims to sources and keep counter-evidence visible.
 
-![[Assets/Screenshot - Read beside the map.png]]
+![[Screenshot - Read beside the map.png]]
 
 *A normal Markdown pane sits beside the canvas so you can read or write while keeping the note's context visible.*
 
@@ -43,10 +43,10 @@ A research collection can instead use Parents for disciplines or umbrella questi
 
 These are different perspectives, not competing rules about where every paper must go. Configure custom relationship fields deliberately and inspect **Connection details…** when a connection is unclear.
 
-This vault contains [[09 Showcase examples/Example - Research question]]. That example declares **this note as its Parent**, so it appears below this guide without a reciprocal Child property here.
+This vault contains [[Example - Research question]]. That example declares **this note as its Parent**, so it appears below this guide without a reciprocal Child property here.
 
 ## From graph to draft
 
-Drag a file-backed note, URL or placeholder node into a Markdown editor to insert its link. You still write the synthesis yourself; K-Plex does not export an automatically ordered article. See [[03 Build and edit/Drag drop and reclassify]].
+Drag a file-backed note, URL or placeholder node into a Markdown editor to insert its link. You still write the synthesis yourself; K-Plex does not export an automatically ordered article. See [[Drag drop and reclassify]].
 
-Use [[05 Personalize and workspace/Note-tab synchronization]] to control whether the open document follows navigation. Each canvas owns its document-sync target and Sidecar association, so two views can follow different working notes.
+Use [[Note-tab synchronization]] to control whether the open document follows navigation. Each canvas owns its document-sync target and Sidecar association, so two views can follow different working notes.

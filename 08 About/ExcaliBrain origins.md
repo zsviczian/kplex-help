@@ -6,9 +6,9 @@ tags:
   - "kplex/about"
   - "kplex/excalibrain"
 Friend:
-  - "[[01 Core concepts/Relationship roles]]"
+  - "[[Relationship roles]]"
 Next:
-  - "[[08 About/From ExcaliBrain to K-Plex]]"
+  - "[[From ExcaliBrain to K-Plex]]"
 ---
 # ExcaliBrain origins
 
@@ -22,6 +22,6 @@ K-Plex preserves the strongest interaction idea — **spatially stable relations
 
 ## Related projects
 
-The optional [Obsidian Excalidraw plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) remains a separate drawing experience. The design journey also connects to [[08 About/Sketch Your Mind book|Sketch Your Mind]], a book about working with ideas visually.
+The optional [Obsidian Excalidraw plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) remains a separate drawing experience. The design journey also connects to [[Sketch Your Mind book|Sketch Your Mind]], a book about working with ideas visually.
 
 For current K-Plex features and issue reports, use [the K-Plex repository](https://github.com/zsviczian/kplex).

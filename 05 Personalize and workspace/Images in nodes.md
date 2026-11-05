@@ -6,18 +6,18 @@ tags:
 - kplex/styling
 - kplex/images
 Friend:
-- '[[01 Core concepts/Node types]]'
-- '[[07 Use cases/Develop visual ideas]]'
+- '[[Node types]]'
+- '[[Develop visual ideas]]'
 Previous:
-- '[[05 Personalize and workspace/Node styles from help tags]]'
+- '[[Node styles from help tags]]'
 Next:
-- '[[05 Personalize and workspace/Sidecar]]'
+- '[[Sidecar]]'
 ---
 # Images in nodes
 
 Recognize an idea by its picture rather than its title. Add a thumbnail or image to a note, or display an image attachment directly in the map.
 
-![[Assets/Screenshot - A note with a thumbnail.png]]
+![[Screenshot - A note with a thumbnail.png]]
 
 *A local Compass thumbnail appears beside the example's label. Local images do not need remote-image permission.*
 
@@ -36,4 +36,4 @@ Remote node images are disabled by default. Enable **Allow remote node images** 
 
 A remote image embedded in an ordinary Obsidian note and that same image used as a K-Plex node image are different display paths. A book cover visible in the document is not proof that K-Plex's remote-node-image permission is enabled.
 
-For visual thinking, local images or Excalidraw notes can give ideas a recognizable identity. The workflows here do not assume an interface for choosing a particular Excalidraw focus frame as the graph card. See [[03 Build and edit/Excalidraw integration]] and [[07 Use cases/Develop visual ideas]].
+For visual thinking, local images or Excalidraw notes can give ideas a recognizable identity. The workflows here do not assume an interface for choosing a particular Excalidraw focus frame as the graph card. See [[Excalidraw integration]] and [[Develop visual ideas]].

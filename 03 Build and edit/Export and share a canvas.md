@@ -7,12 +7,12 @@ tags:
 - kplex-help/how-to
 - kplex/export
 Guide:
-- '[[03 Build and edit/Build and edit]]'
+- '[[Build and edit]]'
 Friend:
-- '[[02 Navigate and explore/Mind Map]]'
-- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
-- '[[12 Automation/Automation and scripting]]'
-- '[[07 Use cases/Bring a connected outline into your writing]]'
+- '[[Mind Map]]'
+- '[[Footprints and breadcrumbs]]'
+- '[[Automation and scripting]]'
+- '[[Bring a connected outline into your writing]]'
 ---
 # Export and share a canvas
 
@@ -32,7 +32,7 @@ Image export also has a toolbar button. Image and Markdown export are available 
 
 ## Share a picture
 
-1. Center [[09 Showcase examples/Example - Workshop plan|the workshop plan]] and arrange the map as you want to share it.
+1. Center [[Example - Workshop plan|the workshop plan]] and arrange the map as you want to share it.
 2. Choose **Export → Canvas to image**.
 3. Select **Whole canvas** to include content beyond the camera view, or **Current viewport** for your current framing.
 4. Choose **Image scale** (1×, 2× or 3×) and, if useful, **Transparent background**. Check the preview and any warnings.
@@ -58,4 +58,4 @@ Paste the result into a Markdown note, or use Excalidraw's **MindMap Builder** t
 
 ## Keep a record of your exploration
 
-Choose **Export → Breadcrumbs to Markdown** after exploring. It copies this canvas's visit trail, including returns to the same note, rather than a deduplicated reading list. See [[02 Navigate and explore/Footprints and breadcrumbs|Footprints and breadcrumbs]].
+Choose **Export → Breadcrumbs to Markdown** after exploring. It copies this canvas's visit trail, including returns to the same note, rather than a deduplicated reading list. See [[Footprints and breadcrumbs|Footprints and breadcrumbs]].

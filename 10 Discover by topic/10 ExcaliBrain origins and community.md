@@ -7,17 +7,17 @@ tags:
 - kplex/about
 - kplex/migration
 Explains:
-- '[[08 About/ExcaliBrain origins]]'
-- '[[08 About/From ExcaliBrain to K-Plex]]'
-- '[[03 Build and edit/Excalidraw integration]]'
-- '[[08 About/Community GitHub and contributing]]'
-- '[[08 About/Support K-Plex]]'
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
-- "[[08 About/Sketch Your Mind book]]"
+- '[[ExcaliBrain origins]]'
+- '[[From ExcaliBrain to K-Plex]]'
+- '[[Excalidraw integration]]'
+- '[[Community GitHub and contributing]]'
+- '[[Support K-Plex]]'
+- '[[Actions and shortcuts]]'
+- "[[Sketch Your Mind book]]"
 Related:
-- '[[10 Discover by topic/01 First steps with K-Plex]]'
-- '[[00 Start Here/K-Plex Help]]'
-- '[[00 Start Here/Choose a topic]]'
+- '[[01 First steps with K-Plex]]'
+- '[[K-Plex Help]]'
+- '[[Choose a topic]]'
 - 'https://community.sketch-your-mind.com/'
 - 'https://github.com/zsviczian/kplex'
 - 'https://github.com/zsviczian/obsidian-excalidraw-plugin'
@@ -33,15 +33,15 @@ You used ExcaliBrain, want to migrate settings, or want to support the project.
 
 Follow the links below, or center this path in K-Plex and explore its Children.
 
-1. **[[08 About/ExcaliBrain origins|ExcaliBrain origins]]** — Understand the original spatial model.
-2. **[[08 About/From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]]** — Review the independent plugin and compatibility boundary.
-3. **[[03 Build and edit/Excalidraw integration|Excalidraw integration]]** — See what the optional Excalidraw integration can do.
-4. **[[08 About/Community GitHub and contributing|Community GitHub and contributing]]** — Find issue reports, source code and community discussion.
-5. **[[08 About/Support K-Plex|Support K-Plex]]** — Help sustain independent development.
+1. **[[ExcaliBrain origins|ExcaliBrain origins]]** — Understand the original spatial model.
+2. **[[From ExcaliBrain to K-Plex|From ExcaliBrain to K-Plex]]** — Review the independent plugin and compatibility boundary.
+3. **[[Excalidraw integration|Excalidraw integration]]** — See what the optional Excalidraw integration can do.
+4. **[[Community GitHub and contributing|Community GitHub and contributing]]** — Find issue reports, source code and community discussion.
+5. **[[Support K-Plex|Support K-Plex]]** — Help sustain independent development.
 
 ## More ways to reach your goal
 
-- [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]] — see why K-Plex shortcut preferences remain independent of ExcaliBrain imports
+- [[Actions and shortcuts|Actions and shortcuts]] — see why K-Plex shortcut preferences remain independent of ExcaliBrain imports
 
 ## Try it in your own vault
 
@@ -53,10 +53,10 @@ When comparing imported and new preferences, check **Actions and shortcuts** sep
 
 ## Continue discovering
 
-- [[10 Discover by topic/01 First steps with K-Plex|First steps with K-Plex]] — a useful neighboring path.
-- [[00 Start Here/Choose a topic|All discovery paths]] — choose another goal.
-- [[00 Start Here/K-Plex Help|Help home]] — return to the main map.
+- [[01 First steps with K-Plex|First steps with K-Plex]] — a useful neighboring path.
+- [[Choose a topic|All discovery paths]] — choose another goal.
+- [[K-Plex Help|Help home]] — return to the main map.
 
 ## Read and participate
 
-Start with [[08 About/Sketch Your Mind book|Sketch Your Mind — the book]] and its cover, then join the [community conversation](https://community.sketch-your-mind.com/). Project references: [K-Plex](https://github.com/zsviczian/kplex), [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin), and [Ko-fi support](https://ko-fi.com/zsolt).
+Start with [[Sketch Your Mind book|Sketch Your Mind — the book]] and its cover, then join the [community conversation](https://community.sketch-your-mind.com/). Project references: [K-Plex](https://github.com/zsviczian/kplex), [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin), and [Ko-fi support](https://ko-fi.com/zsolt).

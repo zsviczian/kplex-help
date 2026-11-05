@@ -7,14 +7,14 @@ tags:
 - kplex-help/section
 - kplex/automation
 Guide:
-- '[[03 Build and edit/Build and edit]]'
+- '[[Build and edit]]'
 Child:
-- '[[12 Automation/K-Plex API examples]]'
-- '[[12 Automation/Use K-Plex through Obsidian CLI]]'
+- '[[K-Plex API examples]]'
+- '[[Use K-Plex through Obsidian CLI]]'
 Friend:
-- '[[03 Build and edit/Manage and clean up ontology]]'
-- '[[03 Build and edit/Export and share a canvas]]'
-- '[[07 Use cases/Bring a connected outline into your writing]]'
+- '[[Manage and clean up ontology]]'
+- '[[Export and share a canvas]]'
+- '[[Bring a connected outline into your writing]]'
 Related:
 - '[[skill]]'
 - https://github.com/zsviczian/kplex/blob/main/docs/PUBLIC_API.md
@@ -25,9 +25,9 @@ Give a local script or assistant the context your map already contains. K-Plex's
 
 ## Choose your starting point
 
-- **Write JavaScript inside Obsidian:** [[12 Automation/K-Plex API examples|try the API examples]]. The exact entry point is `window.kplexApi.v1` — capital A, lowercase pi.
-- **Work from a terminal:** [[12 Automation/Use K-Plex through Obsidian CLI|call the same API through Obsidian CLI]].
-- **Point Codex, Claude or another local assistant at the interface:** give it the [skill.md file](../skill.md), or copy that file into your tool's skill setup under its required filename. The skill explains vault selection, read results and deliberate canvas actions.
+- **Write JavaScript inside Obsidian:** [[K-Plex API examples|try the API examples]]. The exact entry point is `window.kplexApi.v1` — capital A, lowercase pi.
+- **Work from a terminal:** [[Use K-Plex through Obsidian CLI|call the same API through Obsidian CLI]].
+- **Point Codex, Claude or another local assistant at the interface:** give it the [[skill|skill.md file]], or copy that file into your tool's skill setup under its required filename. The skill explains vault selection, read results and deliberate canvas actions.
 
 ## What you can ask for
 
@@ -45,4 +45,4 @@ The API runs locally inside Obsidian and opens no network service. Connecting an
 
 ## Plan a consistent ontology
 
-Local tools can discover which documents use a field, inspect exact occurrences in selected saved notes, and prepare reviewed assignments, descriptions and inverse pairs. Ontology completion also shares K-Plex's configured suggestions with other inputs. Start with [[12 Automation/K-Plex API examples|the examples]] and the [[12 Automation/Use K-Plex through Obsidian CLI|CLI guide]]. Configuration review and note-text migration remain separate actions; an analysis request authorizes neither automatically.
+Local tools can discover which documents use a field, inspect exact occurrences in selected saved notes, and prepare reviewed assignments, descriptions and inverse pairs. Ontology completion also shares K-Plex's configured suggestions with other inputs. Start with [[K-Plex API examples|the examples]] and the [[Use K-Plex through Obsidian CLI|CLI guide]]. Configuration review and note-text migration remain separate actions; an analysis request authorizes neither automatically.

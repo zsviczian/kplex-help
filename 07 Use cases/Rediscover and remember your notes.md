@@ -8,18 +8,18 @@ tags:
 - kplex/use-cases
 - kplex/research
 Parent:
-- '[[07 Use cases/Use cases]]'
+- '[[Use cases]]'
 Friend:
-- '[[02 Navigate and explore/Wander]]'
-- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
-- '[[07 Use cases/Research and learning]]'
-- '[[07 Use cases/Garden your vault]]'
+- '[[Wander]]'
+- '[[Footprints and breadcrumbs]]'
+- '[[Research and learning]]'
+- '[[Garden your vault]]'
 ---
 # Rediscover and remember your notes
 
 Feel that useful ideas are getting lost in your archive? Revisit connected notes and bring an old insight into something you are working on now.
 
-![[Assets/Screenshot - Wander controls.png]]
+![[Screenshot - Wander controls.png]]
 
 *Wander keeps pause/play, pace and stop controls at the bottom while the map is in Zen mode.*
 
@@ -39,10 +39,10 @@ Capture the result. Add a sentence to a current project explaining how the old i
 
 For **rediscovery**, follow curiosity and unexpected associations. For **manual active recall**, pause before reading and test what you remember. K-Plex does not generate questions, score your answers or schedule spaced-repetition reviews.
 
-Wander follows displayed, navigable connections, so filters affect the route. It is not a vault-wide random-note sampler or an automatic chronological review of last month's notes. See [[02 Navigate and explore/Wander]] for the controls and [[04 Filter and focus/Graph Lenses]] for choosing a perspective.
+Wander follows displayed, navigable connections, so filters affect the route. It is not a vault-wide random-note sampler or an automatic chronological review of last month's notes. See [[Wander]] for the controls and [[Graph Lenses]] for choosing a perspective.
 
 ## Keep a trail of this exploration
 
-After a Wander or manual research session, open [[02 Navigate and explore/Footprints and breadcrumbs|Footprints]] to see **every accepted center visit in this canvas**, including times you came back to a familiar idea. Select a surprising earlier stop to revisit it, or **Copy as Markdown** and paste the complete newest-first trail into a note before ending the session.
+After a Wander or manual research session, open [[Footprints and breadcrumbs|Footprints]] to see **every accepted center visit in this canvas**, including times you came back to a familiar idea. Select a surprising earlier stop to revisit it, or **Copy as Markdown** and paste the complete newest-first trail into a note before ending the session.
 
 Footprints is temporary and local to each canvas; it is not the persisted shared history below the graph, and it does not turn your exploratory route into a branching mind map. **Start here** begins a fresh trail while preserving your notes and the shared navigation history.

@@ -7,12 +7,12 @@ tags:
 - kplex/getting-started
 - kplex/concepts
 Related:
-- '[[01 Core concepts/Relationship roles]]'
-- '[[06 Indexing and troubleshooting/How indexing works]]'
-- '[[00 Start Here/Choose a topic]]'
-- '[[02 Navigate and explore/Keyboard shortcuts reference]]'
-- '[[03 Build and edit/Date properties and daily notes]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
+- '[[Relationship roles]]'
+- '[[How indexing works]]'
+- '[[Choose a topic]]'
+- '[[Keyboard shortcuts reference]]'
+- '[[Date properties and daily notes]]'
+- '[[Fullscreen and Zen mode]]'
 ---
 # Glossary
 
@@ -51,11 +51,11 @@ Seen an unfamiliar word in K-Plex? Use this reference to understand the label an
 | **Explicit field ontology** | A role assigned to a named property. It overrides fallback Date roles, even when the field is Hidden. |
 | **Local graph ready** | The requested canvas is prepared; this does not promise a complete URL inventory or full-vault background pass. |
 
-Continue with [[01 Core concepts/The spatial relationship model|The spatial relationship model]] for the positions, [[01 Core concepts/Relationship sources and inference|Relationship sources and inference]] for where connections come from, or [[00 Start Here/Choose a topic|Choose a topic]] for a task-led route.
+Continue with [[The spatial relationship model|The spatial relationship model]] for the positions, [[Relationship sources and inference|Relationship sources and inference]] for where connections come from, or [[Choose a topic|Choose a topic]] for a task-led route.
 
 ## Feature-specific explanations
 
-[[02 Navigate and explore/Keyboard shortcuts reference|Keyboard shortcuts reference]] · [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]] · [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]] · [[06 Indexing and troubleshooting/Understanding index status|Index status]]
+[[Keyboard shortcuts reference|Keyboard shortcuts reference]] · [[Fullscreen and Zen mode|Fullscreen and Zen mode]] · [[Date properties and daily notes|Date properties and daily notes]] · [[Understanding index status|Index status]]
 
 ## New terms in the latest updates
 
@@ -68,4 +68,4 @@ Continue with [[01 Core concepts/The spatial relationship model|The spatial rela
 | **Label-length limit** | Maximum characters in a regular node label, separate from density. This help vault sets it to 100. |
 | **Cache inactivity recovery** | Retirement of startup restore work that stops making progress; not a total time limit on healthy indexing. |
 
-Explore [[03 Build and edit/Remove one relationship source|Single-source removal]], [[05 Personalize and workspace/Visibility and connector styling|cross-links]], and [[03 Build and edit/Excalidraw integration|representation switching]] in more detail.
+Explore [[Remove one relationship source|Single-source removal]], [[Visibility and connector styling|cross-links]], and [[Excalidraw integration|representation switching]] in more detail.

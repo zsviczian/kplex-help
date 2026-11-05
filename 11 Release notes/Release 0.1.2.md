@@ -4,7 +4,7 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Previous:
   - "[[Release 0.1.1]]"
 Next:
@@ -28,4 +28,4 @@ Added crosslinks to plugin settings.
 
 ## Previous and next
 
-← [[Release 0.1.1|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.3|Next release →]]
+← [[Release 0.1.1|Previous release]] · [[Release notes|All releases]] · [[Release 0.1.3|Next release →]]

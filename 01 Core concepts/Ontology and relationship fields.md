@@ -6,12 +6,12 @@ tags:
 - kplex/ontology
 - kplex/relationships
 Friend:
-- '[[03 Build and edit/Create a relationship]]'
-- '[[03 Build and edit/Manage and clean up ontology]]'
+- '[[Create a relationship]]'
+- '[[Manage and clean up ontology]]'
 Previous:
-- '[[01 Core concepts/Relationship roles]]'
+- '[[Relationship roles]]'
 Next:
-- '[[01 Core concepts/Relationship sources and inference]]'
+- '[[Relationship sources and inference]]'
 ---
 # Ontology and relationship fields
 
@@ -35,9 +35,9 @@ K-Plex supports YAML/frontmatter properties and compatible Dataview-style inline
 > [!note] An ontology role is not a guarantee about every link
 > Ordinary Markdown links, folders, tags, URLs and other sources can also contribute to the graph. K-Plex resolves them using source evidence and precedence, rather than treating every mention as an explicit ontology relationship.
 
-Continue with [[01 Core concepts/Relationship sources and inference|Relationship sources and inference]] or follow [[10 Discover by topic/03 Model and edit relationships|Model and edit relationships]].
+Continue with [[Relationship sources and inference|Relationship sources and inference]] or follow [[03 Model and edit relationships|Model and edit relationships]].
 
-![[Assets/Screenshot - Ontology pairs.png]]
+![[Screenshot - Ontology pairs.png]]
 
 *The live manager finds the Guide/Explains pair by either property name.*
 
@@ -64,8 +64,8 @@ From the topic you follow **Guide** to the help home. From the help home the inv
 
 To inspect a real pair, open **Settings → K-Plex → Ontology → Manage ontology**, search for **Guide**, and open the row. **Pair with** shows **Explains**. Alternatively, a role field in Settings can contain `Guide/Explains` once. Prefer the structured editor when learning the syntax; it validates roles and partner choices.
 
-Read [[03 Build and edit/Manage and clean up ontology]] to find documents using either physical field. Changing a displayed inverse caption does not rename properties across your vault.
+Read [[Manage and clean up ontology]] to find documents using either physical field. Changing a displayed inverse caption does not rename properties across your vault.
 
 ## Date properties are a special case
 
-An Obsidian Date value that resolves to a Daily Note has a configurable **Default Date role** (initially Parent). A configured named field mapping—even **Hidden**—overrides that fallback. Unlike a wikilink property, a Date scalar is edited in Obsidian’s property editor. Read [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]].
+An Obsidian Date value that resolves to a Daily Note has a configurable **Default Date role** (initially Parent). A configured named field mapping—even **Hidden**—overrides that fallback. Unlike a wikilink property, a Date scalar is edited in Obsidian’s property editor. Read [[Date properties and daily notes|Date properties and daily notes]].

@@ -8,15 +8,15 @@ tags:
 - kplex-help/example
 - kplex/use-cases
 Parent:
-- '[[07 Use cases/Use cases]]'
+- '[[Use cases]]'
 Explains:
-- '[[03 Build and edit/Drag drop and reclassify]]'
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[05 Personalize and workspace/Node styles from help tags]]'
+- '[[Drag drop and reclassify]]'
+- '[[Note-tab synchronization]]'
+- '[[Graph Lenses]]'
+- '[[Node styles from help tags]]'
 Friend:
-- '[[03 Build and edit/Connection details and evidence]]'
-- '[[07 Use cases/Build a Map of Content]]'
+- '[[Connection details and evidence]]'
+- '[[Build a Map of Content]]'
 learningMode: "practice"
 sessionSize: "longer"
 ---
@@ -24,7 +24,7 @@ sessionSize: "longer"
 
 **The situation:** Your Obsidian vault keeps growing. Some notes are useful but hard to rediscover, others have vague labels or outdated statuses, and some promising ideas are still seedlings. Cleaning up everything at once feels overwhelming, so the maintenance never happens.
 
-![[Assets/Screenshot - Tag hierarchy.png]]
+![[Screenshot - Tag hierarchy.png]]
 
 *Centering #kplex-help reveals narrower tags you can explore, such as how-to, concept and example.*
 
@@ -39,7 +39,7 @@ Imagine you have notes about books, sketches and workshop ideas. Some contain on
 
 Keep the Obsidian **File properties** pane open beside K-Plex. As you move from note to note in the canvas, the unpinned, ungrouped Properties pane follows the central file, letting you adjust its metadata without losing the surrounding graph. If the center is a folder or tag rather than a file, the pane clears. A pinned or grouped Properties pane intentionally does not follow.
 
-Turn on an appropriate [[04 Filter and focus/Graph Lenses|Graph Lens]] with **Style matching** rules to show the maturity values visually: for example, bright styling for seedlings and quieter styling for mature notes. Navigate, update a value, and inspect the changing visual pattern. A Lens operates on the current canvas neighborhood; it is not an automatic quality audit of the entire vault.
+Turn on an appropriate [[Graph Lenses|Graph Lens]] with **Style matching** rules to show the maturity values visually: for example, bright styling for seedlings and quieter styling for mature notes. Navigate, update a value, and inspect the changing visual pattern. A Lens operates on the current canvas neighborhood; it is not an automatic quality audit of the entire vault.
 
 ## Two simple gardening workflows
 
@@ -52,19 +52,19 @@ Where K-Plex offers the choice, apply a tag either as an **ordinary Tag** or as 
 - **Ordinary Tag:** adds useful membership and retrieval context. A note can have several tags.
 - **Note Type:** also sets the configured note-style property, giving that kind of note a recognizable appearance. A note has one Note Type; choosing another explicitly replaces that type, while other tags can remain.
 
-Both are useful. Use ordinary tags for multiple overlapping topics, and Note Types for categories you want to recognize at a glance. Tags and Note Types are properties of the underlying notes, not temporary colors drawn only in the graph. See [[03 Build and edit/Drag drop and reclassify]] and [[05 Personalize and workspace/Node styles from help tags]].
+Both are useful. Use ordinary tags for multiple overlapping topics, and Note Types for categories you want to recognize at a glance. Tags and Note Types are properties of the underlying notes, not temporary colors drawn only in the graph. See [[Drag drop and reclassify]] and [[Node styles from help tags]].
 
 ### 2. Improve properties while keeping context
 
 Put K-Plex beside Obsidian's built-in **File properties** pane and navigate through a project or topic. Set or refine properties such as `maturity`, `status`, `reviewed`, or `needs-follow-up` as you go.
 
-Pair these properties with saved [[04 Filter and focus/Graph Lenses|Graph Lenses]]: one may highlight early-stage notes, another active projects, and another items worth revisiting. Switch Lenses to view the same neighborhood from a different perspective. For a project, a status-based Lens can make ongoing and finished work look different without moving notes to new folders.
+Pair these properties with saved [[Graph Lenses|Graph Lenses]]: one may highlight early-stage notes, another active projects, and another items worth revisiting. Switch Lenses to view the same neighborhood from a different perspective. For a project, a status-based Lens can make ongoing and finished work look different without moving notes to new folders.
 
 For a broader candidate list, use Obsidian **Bases** or Search to find items matching a property, then bring those notes into K-Plex to inspect their relationships. Bases can also provide a table for batch metadata review; K-Plex adds *why a note matters in context*.
 
 ## Beyond tagging
 
-Sometimes the best improvement is not another property. Add a missing source link, connect an idea to its project, clarify a title, or inspect an unexpected edge in [[03 Build and edit/Connection details and evidence|Connection details]] before changing it. Keep the edit small, then continue exploring.
+Sometimes the best improvement is not another property. Add a missing source link, connect an idea to its project, clarify a title, or inspect an unexpected edge in [[Connection details and evidence|Connection details]] before changing it. Keep the edit small, then continue exploring.
 
 ## Why it matters
 
@@ -74,10 +74,10 @@ A vault doesn't become useful merely because it holds more notes. Gardening make
 
 ## Explore further
 
-- [[07 Use cases/Never start a project with a blank page|Reuse your better-connected notes in a new project]].
-- [[07 Use cases/Build a Map of Content|Give a growing subject an entry point]].
-- [[05 Personalize and workspace/Note-tab synchronization|Understand how the Properties pane follows the canvas]].
+- [[Never start a project with a blank page|Reuse your better-connected notes in a new project]].
+- [[Build a Map of Content|Give a growing subject an entry point]].
+- [[Note-tab synchronization|Understand how the Properties pane follows the canvas]].
 
 ## Tidy the relationship vocabulary too
 
-If you find a misspelled or unfamiliar relationship property, use [[03 Build and edit/Manage and clean up ontology]]. **Show documents** reveals its notes so you can correct the actual source rather than merely hiding the connection. Afterward, **Refresh counts** removes unused Unassigned discoveries while preserving intentional assignments.
+If you find a misspelled or unfamiliar relationship property, use [[Manage and clean up ontology]]. **Show documents** reveals its notes so you can correct the actual source rather than merely hiding the connection. Afterward, **Refresh counts** removes unused Unassigned discoveries while preserving intentional assignments.

@@ -2,18 +2,18 @@
 tags:
   - kplex-help/release-notes
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Previous:
   - "[[Release 0.3.0]]"
 Next:
-  - "[[11 Release notes/Release 0.4.0]]"
+  - "[[Release 0.4.0]]"
 Explains:
-  - "[[03 Build and edit/Manage and clean up ontology]]"
-  - "[[03 Build and edit/Connection details and evidence]]"
-  - "[[02 Navigate and explore/Explore folders]]"
-  - "[[02 Navigate and explore/Mind Map]]"
-  - "[[02 Navigate and explore/Editor node and web pages]]"
-  - "[[06 Indexing and troubleshooting/Understanding index status]]"
+  - "[[Manage and clean up ontology]]"
+  - "[[Connection details and evidence]]"
+  - "[[Explore folders]]"
+  - "[[Mind Map]]"
+  - "[[Editor node and web pages]]"
+  - "[[Understanding index status]]"
 Related:
   - https://github.com/zsviczian/kplex/pull/228
   - https://github.com/zsviczian/kplex/pull/230
@@ -29,7 +29,7 @@ When configuring **Pair with**, type a new property name and choose **Create …
 
 The **Note property** selector in **Add connection ontology** also offers **Create ontology…**. Define the new field, optionally give it a partner, then return to the connection with that field selected. Creating the definition saves your vocabulary; confirming the connection applies the property to the note. Existing relationship properties and Markdown-body links are preserved.
 
-See [[03 Build and edit/Manage and clean up ontology|managing relationship fields]] and [[03 Build and edit/Connection details and evidence|adding ontology to a connection]].
+See [[Manage and clean up ontology|managing relationship fields]] and [[Connection details and evidence|adding ontology to a connection]].
 
 ## Keep exploring while the index catches up
 
@@ -39,7 +39,7 @@ Folder browsing follows Obsidian's current file and folder structure. Adding or 
 
 The startup indicator also clears when verification finishes, fixing a case where **Verifying cached notes** could remain at 99% after the work had completed.
 
-See [[02 Navigate and explore/Explore folders|exploring and organizing folders]] and [[06 Indexing and troubleshooting/Understanding index status|understanding index status]].
+See [[Explore folders|exploring and organizing folders]] and [[Understanding index status|understanding index status]].
 
 ## Keep writing as you move through a Mind Map
 
@@ -47,7 +47,7 @@ With the central Markdown note open in a node editor, click another Markdown not
 
 If saving fails, the current editor stays available so you can recover your work. Clicking a note centers it; the branch chevron folds or unfolds it. A notice about folding away an open editor now describes that action rather than appearing when you simply navigate to a new center.
 
-See [[02 Navigate and explore/Mind Map|Mind Map]] and [[02 Navigate and explore/Editor node and web pages|reading and writing inside the canvas]].
+See [[Mind Map|Mind Map]] and [[Editor node and web pages|reading and writing inside the canvas]].
 
 ## Learn more
 

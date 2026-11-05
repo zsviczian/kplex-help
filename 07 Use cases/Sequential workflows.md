@@ -9,17 +9,17 @@ tags:
 - kplex/use-cases
 - kplex/sequences
 Friend:
-- '[[01 Core concepts/The spatial relationship model]]'
+- '[[The spatial relationship model]]'
 Previous:
-- '[[07 Use cases/Argument maps with Challengers]]'
+- '[[Argument maps with Challengers]]'
 Next:
-- '[[07 Use cases/Build a help system like this vault]]'
+- '[[Build a help system like this vault]]'
 ---
 # Sequential workflows
 
 Need a process you or someone else can follow again? Connect its stages in order, with the instructions, examples and exceptions close to each step.
 
-![[Assets/Screenshot - Expanded neighbors.png]]
+![[Screenshot - Expanded neighbors.png]]
 
 *The workshop plan stays central while the material branch reveals its two source notes one level further down.*
 
@@ -41,6 +41,6 @@ Parent/Child answers “Where does this belong?” Previous/Next answers “What
 
 Sequential roles share the lateral regions with Friends and Challengers in the standard layout. Their relationship labels retain the distinction. They are useful for procedures, reading sequences, journal chains, document versions and release histories—not only project tasks.
 
-**Dates do not automatically mean Previous/Next.** Use a Date relationship that genuinely represents your intended meaning; see [[03 Build and edit/Date properties and daily notes]]. K-Plex does not execute the procedure, enforce completion order or calculate a timeline.
+**Dates do not automatically mean Previous/Next.** Use a Date relationship that genuinely represents your intended meaning; see [[Date properties and daily notes]]. K-Plex does not execute the procedure, enforce completion order or calculate a timeline.
 
-For an example of navigable documentation, continue with [[07 Use cases/Build a help system like this vault]].
+For an example of navigable documentation, continue with [[Build a help system like this vault]].

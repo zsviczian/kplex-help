@@ -7,17 +7,17 @@ tags:
 - kplex/navigation
 - kplex/search
 Related:
-- '[[04 Filter and focus/Quick Filter]]'
+- '[[Quick Filter]]'
 Previous:
-- '[[02 Navigate and explore/Navigating the Plex]]'
+- '[[Navigating the Plex]]'
 Next:
-- '[[02 Navigate and explore/Past nodes and pins]]'
+- '[[Past nodes and pins]]'
 ---
 # Vault Search vs Find in this canvas
 
 Go to another note, or find something on the map already in front of you. Search Vault changes your destination; Find in this canvas locates a visible match.
 
-![[Assets/Screenshot - Find on this map.png]]
+![[Screenshot - Find on this map.png]]
 
 *Local Find highlights a matching note on the displayed map without changing its center.*
 
@@ -40,7 +40,7 @@ Search includes folders and hierarchical tags, with type icons to distinguish re
 
 Make a folder the center to explore its location and contents. Make a hierarchical tag the center to see its parent, child tags and associated notes—even when tags are hidden in ordinary note neighborhoods. Native folders and tags already known to Obsidian can appear during startup without waiting for the complete richer index.
 
-To change membership or move files rather than simply navigate, see [[03 Build and edit/Drag drop and reclassify]].
+To change membership or move files rather than simply navigate, see [[Drag drop and reclassify]].
 
 ## Use Find in this canvas to locate
 
@@ -48,11 +48,11 @@ Local Find searches the projected graph, including ontology labels. Turn on **In
 
 Select **Filter matching notes** to retain label-matching nodes and reflow the local canvas. Switch it off to restore the previous filter/layout; editing Views and lenses manually takes ownership of that temporary filter. Matching a note does not automatically highlight all its surrounding connections.
 
-**Try it:** Use Vault Search to navigate to **Ontology and relationship fields**, then local Find to locate **Child** in its displayed canvas. See [[10 Discover by topic/02 Find and navigate knowledge]].
+**Try it:** Use Vault Search to navigate to **Ontology and relationship fields**, then local Find to locate **Child** in its displayed canvas. See [[02 Find and navigate knowledge]].
 
 ## A third choice: type to select
 
-With the graph focused, type a phrase to select matching displayed node labels and use Tab/Shift+Tab to cycle through them. This is temporary selection, not Vault Search or a Find filter. See [[02 Navigate and explore/Type to select visible nodes]].
+With the graph focused, type a phrase to select matching displayed node labels and use Tab/Shift+Tab to cycle through them. This is temporary selection, not Vault Search or a Find filter. See [[Type to select visible nodes]].
 
 The node highlight is shared by keyboard selection and Find, making it easier to follow the selected item when switching methods. Neither alone changes the canvas center.
 

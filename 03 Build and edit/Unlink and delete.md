@@ -6,17 +6,17 @@ tags:
   - "kplex/relationships"
   - "kplex/delete"
 Friend:
-  - "[[06 Indexing and troubleshooting/Troubleshooting checklist]]"
+  - "[[Troubleshooting checklist]]"
 Previous:
-  - "[[03 Build and edit/Connection details and evidence]]"
+  - "[[Connection details and evidence]]"
 Next:
-  - "[[03 Build and edit/Excalidraw integration]]"
+  - "[[Excalidraw integration]]"
 ---
 # Unlink and delete
 
 Disconnect two ideas, or remove a note entirely. Choose the action that changes only what you intend: a relationship source or the file itself.
 
-![[Assets/Screenshot - Connection Details Context Menu.png]]
+![[Screenshot - Connection Details Context Menu.png]]
 
 *Open a connection's context menu to inspect its details before choosing an edit.*
 

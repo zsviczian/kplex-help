@@ -5,16 +5,16 @@ tags:
 - kplex-help/how-to
 - kplex/navigation
 Guide:
-- '[[02 Navigate and explore/Tags and folders]]'
+- '[[Tags and folders]]'
 Friend:
-- '[[07 Use cases/Garden your vault]]'
-- '[[05 Personalize and workspace/Node styles from help tags]]'
+- '[[Garden your vault]]'
+- '[[Node styles from help tags]]'
 ---
 # Explore hierarchical tags
 
 Move from a broad topic to a more specific one. Center a tag to explore its parent tag, child tags and the notes that use it.
 
-![[Assets/Screenshot - Search tags.png]]
+![[Screenshot - Search tags.png]]
 
 *Type # and a name in Search Vault to distinguish tags from similarly named notes; each result also shows its full tag path.*
 
@@ -26,7 +26,7 @@ Move from a broad topic to a more specific one. Center a tag to explore its pare
 
 A slash separates levels: `#project/workshop` belongs beneath `#project`. You can center tags even if tag nodes are hidden around ordinary notes.
 
-![[Assets/Screenshot - Tag hierarchy.png]]
+![[Screenshot - Tag hierarchy.png]]
 
 *A tag can be the center of the map. Its narrower topics appear beneath it.*
 

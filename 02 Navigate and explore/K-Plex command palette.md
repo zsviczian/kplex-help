@@ -4,18 +4,18 @@ tags:
 - kplex/navigation
 - kplex/keyboard
 Guide:
-- '[[02 Navigate and explore/Navigate and explore]]'
+- '[[Navigate and explore]]'
 Related:
-- '[[02 Navigate and explore/Keyboard navigation]]'
-- '[[02 Navigate and explore/Keyboard shortcuts reference]]'
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
-- '[[03 Build and edit/Create a relationship]]'
+- '[[Keyboard navigation]]'
+- '[[Keyboard shortcuts reference]]'
+- '[[Actions and shortcuts]]'
+- '[[Create a relationship]]'
 ---
 # K-Plex command palette
 
 Know what you want to do but cannot remember the button or shortcut? Search K-Plex's command palette for an action in the current graph.
 
-![[Assets/Screenshot - Command palette.png]]
+![[Screenshot - Command palette.png]]
 
 *Search the local palette for an action; descriptions and shortcut hints help you choose it.*
 
@@ -36,6 +36,6 @@ Try searching for **Pin**, **Rename**, **Connect**, **Open**, **History**, **Zoo
 - **Obsidian's Command Palette** contains actions **published** by K-Plex plus commands from other plugins. Published actions can receive Obsidian-wide hotkeys under **Settings → Hotkeys**.
 - Publishing an action does not automatically create a global shortcut. Hiding a command from Obsidian does **not** disable its graph-local shortcut or local palette availability.
 
-You can manage both dimensions from [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]]. For a quick read-only list of your current bindings, press **Alt/Option+?** to open **Keyboard help** while the graph is focused.
+You can manage both dimensions from [[Actions and shortcuts|Actions and shortcuts]]. For a quick read-only list of your current bindings, press **Alt/Option+?** to open **Keyboard help** while the graph is focused.
 
-**Try it:** Highlight a node, open the palette, search for **Pin**, then navigate elsewhere and use [[02 Navigate and explore/Past nodes and pins|pins]] to return.
+**Try it:** Highlight a node, open the palette, search for **Pin**, then navigate elsewhere and use [[Past nodes and pins|pins]] to return.

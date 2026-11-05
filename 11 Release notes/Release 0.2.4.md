@@ -2,12 +2,12 @@
 tags:
   - kplex-help/release-notes
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Explains:
-  - "[[05 Personalize and workspace/Sidecar]]"
-  - "[[02 Navigate and explore/Editor node and web pages]]"
-  - "[[05 Personalize and workspace/Visibility and connector styling]]"
-  - "[[06 Indexing and troubleshooting/How indexing works]]"
+  - "[[Sidecar]]"
+  - "[[Editor node and web pages]]"
+  - "[[Visibility and connector styling]]"
+  - "[[How indexing works]]"
 Previous:
   - "[[Release 0.2.3]]"
 Next:

@@ -8,17 +8,17 @@ tags:
 - kplex/indexing
 - kplex/performance
 Guide:
-- '[[06 Indexing and troubleshooting/Indexing and troubleshooting]]'
+- '[[Indexing and troubleshooting]]'
 Related:
-- '[[06 Indexing and troubleshooting/Large vault behavior]]'
+- '[[Large vault behavior]]'
 Previous:
-- '[[06 Indexing and troubleshooting/How indexing works]]'
+- '[[How indexing works]]'
 Next:
-- '[[06 Indexing and troubleshooting/Web link indexing]]'
+- '[[Web link indexing]]'
 Friend:
-- '[[02 Navigate and explore/Mobile and touch]]'
+- '[[Mobile and touch]]'
 Watch out:
-- '[[06 Indexing and troubleshooting/Understanding index status]]'
+- '[[Understanding index status]]'
 ---
 # On demand vs Eager
 
@@ -38,7 +38,7 @@ Missing device preferences receive these defaults on upgrade. Your saved device 
 
 Deferring preparation avoids starting that pipeline in a session where you never open K-Plex. The first opening may take longer. Once admitted, closing and reopening a canvas reuses the same session rather than starting everything over.
 
-![[Assets/Screenshot - Device indexing.png]]
+![[Screenshot - Device indexing.png]]
 
 *The running demo shows the default startup switches and strategies for all three device types.*
 
@@ -55,8 +55,8 @@ Both the startup choice and strategy apply after **restarting Obsidian or reload
 
 **Background indexing speed** is different: it applies immediately. **Responsive (recommended)** gives Obsidian more time between background tasks; **Faster** can finish work sooner at greater foreground cost.
 
-Web links retain their own background discovery after preparation starts. Local readiness does not mean every URL is already known. See [[06 Indexing and troubleshooting/Web link indexing]].
+Web links retain their own background discovery after preparation starts. Local readiness does not mean every URL is already known. See [[Web link indexing]].
 
-While waiting for first use, diagnostics can report **Waiting for K-Plex to open**. Once open, On-demand readiness describes the selected neighborhood; Eager can show genuine full-index progress. See [[06 Indexing and troubleshooting/Understanding index status]].
+While waiting for first use, diagnostics can report **Waiting for K-Plex to open**. Once open, On-demand readiness describes the selected neighborhood; Eager can show genuine full-index progress. See [[Understanding index status]].
 
 Choose the defaults that fit when you use K-Plex. You can change them later without changing your notes.

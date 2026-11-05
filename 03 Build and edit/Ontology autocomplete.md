@@ -4,17 +4,17 @@ tags:
 - kplex/ontology
 - kplex/relationships
 Guide:
-- '[[03 Build and edit/Build and edit]]'
+- '[[Build and edit]]'
 Related:
-- '[[01 Core concepts/Ontology and relationship fields]]'
-- '[[03 Build and edit/Create a relationship]]'
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
+- '[[Ontology and relationship fields]]'
+- '[[Create a relationship]]'
+- '[[Actions and shortcuts]]'
 ---
 # Ontology autocomplete
 
 Add meaningful relationships while writing, without remembering every property name. Use ontology suggestions to insert a configured field and keep typing.
 
-![[Assets/Screenshot - Ontology suggestions.png]]
+![[Screenshot - Ontology suggestions.png]]
 
 *The editor-suggester Settings page shows the triggers for each direction and for all ontology fields.*
 
@@ -30,6 +30,6 @@ When a field has a description, suggestions show its guidance to help you choose
 
 ## When the right word is missing
 
-Use [[03 Build and edit/Manage and clean up ontology|Manage ontology]] to assign a field or pair its opposite meaning. If suggestions do not appear, check that the feature is enabled and the trigger matches your saved setting.
+Use [[Manage and clean up ontology|Manage ontology]] to assign a field or pair its opposite meaning. If suggestions do not appear, check that the feature is enabled and the trigger matches your saved setting.
 
-For dates, use [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]]: a Date value is different from a note-link list.
+For dates, use [[Date properties and daily notes|Date properties and daily notes]]: a Date value is different from a note-link list.

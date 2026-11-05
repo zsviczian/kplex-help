@@ -5,16 +5,16 @@ tags:
 - kplex/search
 - kplex/keyboard
 Guide:
-- '[[02 Navigate and explore/Keyboard navigation]]'
+- '[[Keyboard navigation]]'
 Related:
-- '[[02 Navigate and explore/Vault Search vs Find in this Plex]]'
-- '[[02 Navigate and explore/K-Plex command palette]]'
+- '[[Vault Search vs Find in this Plex]]'
+- '[[K-Plex command palette]]'
 ---
 # Type to select visible nodes
 
 Can you see the right neighborhood but not the note you need? Type part of its label to select it without scanning every node.
 
-![[Assets/Screenshot - Type to select.png]]
+![[Screenshot - Type to select.png]]
 
 *Typing gather selects the visible workshop-material note. The center stays on the plan.*
 
@@ -27,8 +27,8 @@ The query is temporary. It highlights and reveals matches without filtering the 
 
 | Need | Use |
 | --- | --- |
-| Find a note anywhere in the vault | [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] |
-| Highlight a currently shown node by its name or ontology | [[02 Navigate and explore/Vault Search vs Find in this Plex|Find in canvas]] |
+| Find a note anywhere in the vault | [Search Vault](<Vault Search vs Find in this Plex.md>) |
+| Highlight a currently shown node by its name or ontology | [Find in canvas](<Vault Search vs Find in this Plex.md>) |
 | Jump through currently displayed labels without opening another field | **Type to select** |
 
 > [!note] Text entry belongs to editors

@@ -6,7 +6,7 @@ tags:
 - kplex/markdown
 - kplex/filtering
 Guide:
-- '[[04 Filter and focus/Expand a note into sections]]'
+- '[[Expand a note into sections]]'
 Workshop stage: "Shape"
 status: 🔵
 ---
@@ -18,10 +18,10 @@ This is a small, live example of a note with ordinary links under headings. Cent
 
 ## Explore the context
 
-- [[07 Use cases/Research and learning]]
-- [[07 Use cases/Garden your vault]]
+- [[Research and learning]]
+- [[Garden your vault]]
 
 ## Keep the thread
 
-- [[02 Navigate and explore/Footprints and breadcrumbs]]
-- [[02 Navigate and explore/Past nodes and pins]]
+- [[Footprints and breadcrumbs]]
+- [[Past nodes and pins]]

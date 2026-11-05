@@ -7,16 +7,16 @@ tags:
 - kplex/styling
 - kplex/layout
 Friend:
-- '[[02 Navigate and explore/Mobile and touch]]'
-- '[[04 Filter and focus/Keep layout vs Reflow]]'
+- '[[Mobile and touch]]'
+- '[[Keep layout vs Reflow]]'
 Next:
-- '[[05 Personalize and workspace/Node styles from help tags]]'
+- '[[Node styles from help tags]]'
 ---
 # Layout density and typography
 
 Are long titles hard to read, or is the map too crowded for your screen? Adjust spacing, text and columns, or use One-sided layout in a narrow pane.
 
-![[Assets/Screenshot - Layout controls.png]]
+![[Screenshot - Layout controls.png]]
 
 *The layout panel combines spacing, columns and readable labels; One-sided layout applies to the current device and pane context.*
 
@@ -24,9 +24,9 @@ Large Parents, Children, Friends, Challengers and Siblings regions get their own
 
 Typography is also global presentation policy: increasing **Maximum label length**, **Maximum node width**, or enabling **Wrap node labels** makes long titles easier to scan without changing note names.
 
-For working space rather than text density, use [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]]. Neither mode automatically fits the graph; use Fit to screen if desired.
+For working space rather than text density, use [[Fullscreen and Zen mode|Fullscreen and Zen mode]]. Neither mode automatically fits the graph; use Fit to screen if desired.
 
-![[Assets/Screenshot - Node styling.png]]
+![[Screenshot - Node styling.png]]
 
 *Settings provides shared text defaults as well as the live layout controls beside the graph.*
 
@@ -46,4 +46,4 @@ The checkbox changes the current device and pane context. All six choices are av
 
 This is a compact alternative to the standard four-direction layout, not a custom layout engine or an additional ontology region. **One-sided layout** is the current label; earlier development notes called it Simplified layout.
 
-For color rather than geometry, see [[05 Personalize and workspace/Colors and themes]]. For temporarily hiding the whole graph group, see [[05 Personalize and workspace/Sidecar]].
+For color rather than geometry, see [[Colors and themes]]. For temporarily hiding the whole graph group, see [[Sidecar]].

@@ -3,20 +3,20 @@ tags:
 - "kplex-help/example"
 - "kplex/facets"
 Guide:
-- "[[09 Showcase examples/Facets demonstrations]]"
+- "[[Facets demonstrations]]"
 Child:
-- "[[09 Showcase examples/Example - Workshop materials]]"
-- "[[09 Showcase examples/Example - Research question]]"
-- "[[09 Showcase examples/Example - A visual note]]"
-- "[[09 Showcase examples/Example - A note with sections]]"
-- "[[09 Showcase examples/Example - Workshop review]]"
-- "[[07 Use cases/Develop visual ideas]]"
+- "[[Example - Workshop materials]]"
+- "[[Example - Research question]]"
+- "[[Example - A visual note]]"
+- "[[Example - A note with sections]]"
+- "[[Example - Workshop review]]"
+- "[[Develop visual ideas]]"
 Friend:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Note type: "Guide"
 Workshop stage: "Shape"
 Related:
-- "[[Assets/Screenshot - Facets workshop stage.png]]"
+- "[[Screenshot - Facets workshop stage.png]]"
 ---
 # Where does the workshop material stand?
 
@@ -30,7 +30,7 @@ Prepare a workshop without losing track of the material you already have. This b
 
 The areas deliberately have different widths: compare a wider collection with a narrower shaping list. The arrows describe a suggested workflow; they do not create additional links.
 
-![[Assets/Screenshot - Facets workshop stage.png]]
+![[Screenshot - Facets workshop stage.png]]
 
 *Desktop example: the same project material appears in Collect, Shape and Share. Different area widths give the card lists different arrangements; the dashed guides describe the workflow.*
 

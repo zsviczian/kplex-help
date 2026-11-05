@@ -10,9 +10,9 @@ Related:
   - "https://github.com/zsviczian/kplex/issues"
   - "https://community.sketch-your-mind.com"
   - "https://ko-fi.com/zsolt"
-  - "[[08 About/Sketch Your Mind book]]"
+  - "[[Sketch Your Mind book]]"
 Previous:
-  - "[[08 About/Support K-Plex]]"
+  - "[[Support K-Plex]]"
 ---
 # Community GitHub and contributing
 
@@ -34,4 +34,4 @@ Bug reports are most useful when they include reproducible steps, expected vs ac
 
 For issues, code and release history, visit **[K-Plex on GitHub](https://github.com/zsviczian/kplex)**. For drawing workflows and its separate issue tracker, visit **[Obsidian Excalidraw on GitHub](https://github.com/zsviczian/obsidian-excalidraw-plugin)**. To exchange K-Plex practices and questions, use the **[Sketch Your Mind Community](https://community.sketch-your-mind.com/)**.
 
-The community is also home to **[Sketch Your Mind — the book](https://community.sketch-your-mind.com/sym)**. Learn more at [[08 About/Sketch Your Mind book|Sketch Your Mind book]].
+The community is also home to **[Sketch Your Mind — the book](https://community.sketch-your-mind.com/sym)**. Learn more at [[Sketch Your Mind book|Sketch Your Mind book]].

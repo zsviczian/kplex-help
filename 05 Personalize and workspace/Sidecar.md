@@ -6,17 +6,17 @@ tags:
 - kplex/workspace
 - kplex/navigation
 Friend:
-- '[[02 Navigate and explore/Editor node and web pages]]'
+- '[[Editor node and web pages]]'
 Previous:
-- '[[05 Personalize and workspace/Images in nodes]]'
+- '[[Images in nodes]]'
 Next:
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
+- '[[Note-tab synchronization]]'
 ---
 # Sidecar
 
 Read or edit a note while keeping its connections in view. Open a Sidecar: a normal Obsidian document pane beside the canvas.
 
-![[Assets/Screenshot - Read beside the map.png]]
+![[Screenshot - Read beside the map.png]]
 
 *A normal Markdown pane sits beside the canvas so you can read or write while keeping the note's context visible.*
 
@@ -26,7 +26,7 @@ Read or edit a note while keeping its connections in view. Open a Sidecar: a nor
 2. Select the **Sidecar control** on the graph's edge to open its normal Obsidian document pane.
 3. Read or edit the note while following its connections in K-Plex.
 
-Move the Sidecar left, right, above or below the graph with its position control. It can display Markdown or a supported file view such as Excalidraw. Use [[05 Personalize and workspace/Note-tab synchronization|document-following choices]] to decide whether its content should follow your navigation.
+Move the Sidecar left, right, above or below the graph with its position control. It can display Markdown or a supported file view such as Excalidraw. Use [[Note-tab synchronization|document-following choices]] to decide whether its content should follow your navigation.
 
 You can deliberately attach an eligible adjacent document pane or detach the Sidecar to keep it as an independent tab. Closing K-Plex does not automatically close the document you were reading.
 
@@ -38,9 +38,9 @@ Other tabs in the folded group are hidden too. If the layout cannot safely prese
 
 ## Move attention, not the layout
 
-**Ctrl/Cmd+Shift+E** focuses the existing editor and **Ctrl/Cmd+Shift+G** returns to the graph. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Use the Sidecar edge control when you want an adjacent managed document. Your [[05 Personalize and workspace/Actions and shortcuts|saved shortcuts]] can override these defaults.
+**Ctrl/Cmd+Shift+E** focuses the existing editor and **Ctrl/Cmd+Shift+G** returns to the graph. **Ctrl/Cmd+Enter** opens the selected note in a new native tab. Use the Sidecar edge control when you want an adjacent managed document. Your [[Actions and shortcuts|saved shortcuts]] can override these defaults.
 
-A drawing can keep its chosen drawing or Markdown view when the same file is followed. Use an explicit open or representation command when you want to change it. See [[03 Build and edit/Excalidraw integration]].
+A drawing can keep its chosen drawing or Markdown view when the same file is followed. Use an explicit open or representation command when you want to change it. See [[Excalidraw integration]].
 
 ## Give either side the available space
 

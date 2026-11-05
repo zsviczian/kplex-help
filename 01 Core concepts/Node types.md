@@ -6,18 +6,18 @@ tags:
 - "kplex/concepts"
 - "kplex/nodes"
 Friend:
-- "[[05 Personalize and workspace/Visibility and connector styling]]"
-- "[[03 Build and edit/Create notes and placeholders]]"
-- "[[02 Navigate and explore/Editor node and web pages]]"
-- '[[02 Navigate and explore/Tags and folders]]'
+- "[[Visibility and connector styling]]"
+- "[[Create notes and placeholders]]"
+- "[[Editor node and web pages]]"
+- '[[Tags and folders]]'
 Previous:
-- "[[01 Core concepts/Relationship sources and inference]]"
+- "[[Relationship sources and inference]]"
 ---
 # Node types
 
 Explore more than notes. K-Plex can bring files, websites, tags, folders and ideas you have not written yet into the same navigable map.
 
-![[Assets/Screenshot - Search tags.png]]
+![[Screenshot - Search tags.png]]
 
 *Type # and a name in Search Vault to distinguish tags from similarly named notes; each result also shows its full tag path.*
 
@@ -33,8 +33,8 @@ Explore more than notes. K-Plex can bring files, websites, tags, folders and ide
 | A tag | Its parent tag, child tags and associated notes |
 | A section | Links beneath a heading in an expanded document |
 
-Use [[02 Navigate and explore/Vault Search vs Find in this Plex|Search Vault]] to find a destination. Visibility settings determine which kinds of nodes appear around an ordinary note; a folder or tag can still be a useful center.
+Use [[Vault Search vs Find in this Plex|Search Vault]] to find a destination. Visibility settings determine which kinds of nodes appear around an ordinary note; a folder or tag can still be a useful center.
 
-Open file-backed nodes in Obsidian, websites in a browser or [[02 Navigate and explore/Editor node and web pages|central editor]], and [[03 Build and edit/Create notes and placeholders|turn a placeholder into a note]] when you are ready to write.
+Open file-backed nodes in Obsidian, websites in a browser or [[Editor node and web pages|central editor]], and [[Create notes and placeholders|turn a placeholder into a note]] when you are ready to write.
 
-Try [[02 Navigate and explore/Tags and folders|browsing by tag or folder]] when a note title is not the easiest way in.
+Try [[Tags and folders|browsing by tag or folder]] when a note title is not the easiest way in.

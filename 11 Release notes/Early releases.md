@@ -3,7 +3,7 @@ tags:
   - kplex-help/section
   - kplex-help/release-notes
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Child:
   - "[[Release 0.0.5]]"
   - "[[Release 0.0.4]]"

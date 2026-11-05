@@ -4,21 +4,21 @@ tags:
 - kplex/navigation
 - kplex/keyboard
 Guide:
-- '[[02 Navigate and explore/Navigate and explore]]'
+- '[[Navigate and explore]]'
 Explains:
-- '[[02 Navigate and explore/Type to select visible nodes]]'
-- '[[02 Navigate and explore/Keyboard shortcuts reference]]'
+- '[[Type to select visible nodes]]'
+- '[[Keyboard shortcuts reference]]'
 Related:
-- "[[Assets/Screenshot - Canvas keyboard shortcuts.png]]"
-- '[[02 Navigate and explore/K-Plex command palette]]'
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
-- '[[02 Navigate and explore/Past nodes and pins]]'
+- "[[Screenshot - Canvas keyboard shortcuts.png]]"
+- '[[K-Plex command palette]]'
+- '[[Actions and shortcuts]]'
+- '[[Past nodes and pins]]'
 ---
 # Keyboard navigation
 
 Explore and connect notes without reaching for the mouse. Give the graph focus, select a nearby node and navigate or run an action from the keyboard.
 
-![[Assets/Screenshot - Canvas keyboard shortcuts.png]]
+![[Screenshot - Canvas keyboard shortcuts.png]]
 
 *The current desktop keyboard reference shows effective canvas shortcuts, including Enter to center a note and Alt+Enter to fold a supported branch or section. Saved shortcuts and platform labels can differ.*
 
@@ -34,11 +34,11 @@ Selection follows what is currently displayed, including filtering and repacked 
 
 ## Find a visible node by typing
 
-Just type part of its displayed label while the **graph** is focused. See [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]] for Tab, Backspace and Escape behavior. This is not Vault search or Find in canvas.
+Just type part of its displayed label while the **graph** is focused. See [[Type to select visible nodes|Type to select visible nodes]] for Tab, Backspace and Escape behavior. This is not Vault search or Find in canvas.
 
 ## Do more without leaving the graph
 
-Use **Alt/Option+.** to open the [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]], **Alt/Option+?** for keyboard help, and [[02 Navigate and explore/Keyboard shortcuts reference|Keyboard shortcuts reference]] for the default bindings. All local actions can be customized in [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].
+Use **Alt/Option+.** to open the [[K-Plex command palette|K-Plex command palette]], **Alt/Option+?** for keyboard help, and [[Keyboard shortcuts reference|Keyboard shortcuts reference]] for the default bindings. All local actions can be customized in [[Actions and shortcuts|Actions and shortcuts]].
 
 > [!tip] When keys do not move the graph
 > Check whether the caret is in a Search/Find/editor input, and use **Ctrl/Cmd+Shift+G** to focus the graph deliberately. A remapped, disabled or conflicting shortcut may also explain a missing action.

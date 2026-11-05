@@ -7,19 +7,19 @@ tags:
 - kplex/filtering
 - kplex/navigation
 Explains:
-- '[[04 Filter and focus/Quick Filter]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[04 Filter and focus/Graph Lenses are local]]'
-- '[[04 Filter and focus/Keep layout vs Reflow]]'
-- '[[04 Filter and focus/Expand a note into sections]]'
-- '[[04 Filter and focus/Expanded relationship view]]'
-- '[[04 Filter and focus/Group nodes by note type]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
+- '[[Quick Filter]]'
+- '[[Graph Lenses]]'
+- '[[Graph Lenses are local]]'
+- '[[Keep layout vs Reflow]]'
+- '[[Expand a note into sections]]'
+- '[[Expanded relationship view]]'
+- '[[Group nodes by note type]]'
+- '[[Fullscreen and Zen mode]]'
 Related:
-- '[[10 Discover by topic/02 Find and navigate knowledge]]'
-- '[[10 Discover by topic/13 Present and concentrate]]'
-- '[[00 Start Here/K-Plex Help]]'
-- '[[00 Start Here/Choose a topic]]'
+- '[[02 Find and navigate knowledge]]'
+- '[[13 Present and concentrate]]'
+- '[[K-Plex Help]]'
+- '[[Choose a topic]]'
 ---
 # Reduce clutter and reveal detail
 
@@ -31,17 +31,17 @@ The graph contains too many nodes or you need one temporary perspective.
 
 Follow the links below, or center this path in K-Plex and explore its Children.
 
-1. **[[04 Filter and focus/Quick Filter|Quick Filter]]** — Reduce the neighborhood with a temporary keyword, tag or type.
-2. **[[04 Filter and focus/Graph Lenses|Graph Lenses]]** — Save a reusable Note, Relationship or Evidence rule.
-3. **[[04 Filter and focus/Graph Lenses are local|Graph Lenses are local]]** — Know why a lens cannot find disconnected vault notes.
-4. **[[04 Filter and focus/Keep layout vs Reflow|Keep layout vs Reflow]]** — Choose between spatial continuity and compact arrangement.
-5. **[[04 Filter and focus/Expand a note into sections|Expand a note into sections]]** — Explore headings inside a long note.
-6. **[[04 Filter and focus/Expanded relationship view|Expanded relationship view]]** — Show the children of visible first-level neighbors.
-7. **[[04 Filter and focus/Group nodes by note type|Group nodes by note type]]** — Start with a compact overview, then unfold the kind of material you need.
+1. **[[Quick Filter|Quick Filter]]** — Reduce the neighborhood with a temporary keyword, tag or type.
+2. **[[Graph Lenses|Graph Lenses]]** — Save a reusable Note, Relationship or Evidence rule.
+3. **[[Graph Lenses are local|Graph Lenses are local]]** — Know why a lens cannot find disconnected vault notes.
+4. **[[Keep layout vs Reflow|Keep layout vs Reflow]]** — Choose between spatial continuity and compact arrangement.
+5. **[[Expand a note into sections|Expand a note into sections]]** — Explore headings inside a long note.
+6. **[[Expanded relationship view|Expanded relationship view]]** — Show the children of visible first-level neighbors.
+7. **[[Group nodes by note type|Group nodes by note type]]** — Start with a compact overview, then unfold the kind of material you need.
 
 ## More ways to reach your goal
 
-- [[05 Personalize and workspace/Fullscreen and Zen mode|Fullscreen and Zen mode]] — temporarily remove chrome while keeping graph filters and controls
+- [[Fullscreen and Zen mode|Fullscreen and Zen mode]] — temporarily remove chrome while keeping graph filters and controls
 
 ## Try it in your own vault
 
@@ -53,10 +53,10 @@ While a filter is active, enter Zen and check that the current layout and select
 
 ## Continue discovering
 
-- [[10 Discover by topic/02 Find and navigate knowledge|Find and navigate knowledge]] — a useful neighboring path.
-- [[00 Start Here/Choose a topic|All discovery paths]] — choose another goal.
-- [[00 Start Here/K-Plex Help|Help home]] — return to the main map.
+- [[02 Find and navigate knowledge|Find and navigate knowledge]] — a useful neighboring path.
+- [[Choose a topic|All discovery paths]] — choose another goal.
+- [[K-Plex Help|Help home]] — return to the main map.
 
 ## Cross-links in the help vault
 
-Siblings are disabled in this help vault. For a simpler canvas, open **Views and lenses** and turn **Show cross-links** off. This toggle is currently view-local even though the saved `crossLinkOpacity` is 50%; consult [[05 Personalize and workspace/Visibility and connector styling|Visibility and connector styling]].
+Siblings are disabled in this help vault. For a simpler canvas, open **Views and lenses** and turn **Show cross-links** off. This toggle is currently view-local even though the saved `crossLinkOpacity` is 50%; consult [[Visibility and connector styling|Visibility and connector styling]].

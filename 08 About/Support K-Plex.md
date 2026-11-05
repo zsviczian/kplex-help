@@ -9,11 +9,11 @@ Friend:
   - "https://ko-fi.com/zsolt"
   - "https://community.sketch-your-mind.com"
 Previous:
-  - "[[08 About/From ExcaliBrain to K-Plex]]"
+  - "[[From ExcaliBrain to K-Plex]]"
 Next:
-  - "[[08 About/Community GitHub and contributing]]"
+  - "[[Community GitHub and contributing]]"
 Related:
-- "[[08 About/Sketch Your Mind book]]"
+- "[[Sketch Your Mind book]]"
 ---
 # Support K-Plex
 

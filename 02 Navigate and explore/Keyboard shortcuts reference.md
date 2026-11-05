@@ -4,19 +4,19 @@ tags:
 - kplex/navigation
 - kplex/keyboard
 Guide:
-- '[[02 Navigate and explore/Navigate and explore]]'
+- '[[Navigate and explore]]'
 Related:
-- "[[Assets/Screenshot - Canvas keyboard shortcuts.png]]"
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
-- '[[02 Navigate and explore/Keyboard navigation]]'
-- '[[02 Navigate and explore/K-Plex command palette]]'
+- "[[Screenshot - Canvas keyboard shortcuts.png]]"
+- '[[Actions and shortcuts]]'
+- '[[Keyboard navigation]]'
+- '[[K-Plex command palette]]'
 map-role: reference
 ---
 # Keyboard shortcuts reference
 
 Use a faster way to perform a familiar action. Find its default shortcut here, then check your saved bindings if your vault behaves differently.
 
-![[Assets/Screenshot - Canvas keyboard shortcuts.png]]
+![[Screenshot - Canvas keyboard shortcuts.png]]
 
 *The current desktop keyboard reference shows effective canvas shortcuts, including Enter to center a note and Alt+Enter to fold a supported branch or section. Saved shortcuts and platform labels can differ.*
 
@@ -65,6 +65,6 @@ Use a faster way to perform a familiar action. Find its default shortcut here, t
 - Shortcut bindings and command publication are independent. No global Obsidian hotkey is installed automatically for these local graph actions.
 
 > [!tip] Your keyboard may differ
-> The Alt/Option punctuation shortcuts use physical-key defaults so modified letters or punctuation that produce accents can still work. Check **Keyboard help** and [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]] for active mappings, alternate layouts, disabled commands or collisions.
+> The Alt/Option punctuation shortcuts use physical-key defaults so modified letters or punctuation that produce accents can still work. Check **Keyboard help** and [[Actions and shortcuts|Actions and shortcuts]] for active mappings, alternate layouts, disabled commands or collisions.
 
-Full feature guidance: [[02 Navigate and explore/Keyboard navigation|Keyboard navigation]], [[02 Navigate and explore/Type to select visible nodes|Type to select visible nodes]], and [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]].
+Full feature guidance: [[Keyboard navigation|Keyboard navigation]], [[Type to select visible nodes|Type to select visible nodes]], and [[K-Plex command palette|K-Plex command palette]].

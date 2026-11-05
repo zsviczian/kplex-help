@@ -5,15 +5,15 @@ tags:
 - kplex-help/how-to
 - kplex/relationships
 Related:
-- '[[01 Core concepts/Ontology and relationship fields]]'
-- '[[01 Core concepts/Relationship roles]]'
+- '[[Ontology and relationship fields]]'
+- '[[Relationship roles]]'
 Next:
-- '[[03 Build and edit/Create notes and placeholders]]'
+- '[[Create notes and placeholders]]'
 Friend:
-- '[[03 Build and edit/Drag drop and reclassify]]'
-- '[[07 Use cases/Never start a project with a blank page]]'
+- '[[Drag drop and reclassify]]'
+- '[[Never start a project with a blank page]]'
 Watch out:
-- '[[03 Build and edit/Connection details and evidence]]'
+- '[[Connection details and evidence]]'
 Note type: "Guide"
 learningMode: "practice"
 sessionSize: "short"
@@ -22,7 +22,7 @@ sessionSize: "short"
 
 Show how two ideas belong together. Add a relationship from a gate and choose an existing note, a new note or an idea to write later.
 
-![[Assets/Screenshot - Create a related note.png]]
+![[Screenshot - Create a related note.png]]
 
 *Direction and relationship field sit together. Choose an existing note or create a new one, then decide what should happen after saving.*
 
@@ -33,15 +33,15 @@ Show how two ideas belong together. Add a relationship from a gate and choose an
 3. Check the direction beside the relationship-field selector. The starting gate supplies the default; dropping onto another node's gate does not replace it. **All** lets you browse fields from every direction.
 4. Find an existing note, then select **Link**. Alternatively, type a new name and create a note or placeholder.
 
-For example, center a project and add a source as a Parent, an example as a Child or a risk as a Challenger. Choose a property name that fits your work; [[01 Core concepts/Ontology and relationship fields|ontology settings]] decide where it appears.
+For example, center a project and add a source as a Parent, an example as a Child or a risk as a Challenger. Choose a property name that fits your work; [[Ontology and relationship fields|ontology settings]] decide where it appears.
 
 ## Keep your flow
 
-**After saving** shows the next action, including Return, Create another, Follow node and the available editing/opening destinations. Use Return to keep collecting connections around the same center. Creating a note and linking an existing note or web link remember separate choices. See [[03 Build and edit/Create notes and placeholders|creation destinations]] for the full list.
+**After saving** shows the next action, including Return, Create another, Follow node and the available editing/opening destinations. Use Return to keep collecting connections around the same center. Creating a note and linking an existing note or web link remember separate choices. See [[Create notes and placeholders|creation destinations]] for the full list.
 
-A relationship is saved in the supported source note, not just drawn on screen. When several sources support a connection, [[03 Build and edit/Connection details and evidence|inspect its details]] before changing it.
+A relationship is saved in the supported source note, not just drawn on screen. When several sources support a connection, [[Connection details and evidence|inspect its details]] before changing it.
 
-Continue with [[03 Build and edit/Create notes and placeholders|capturing an unwritten idea]] or [[07 Use cases/Never start a project with a blank page|building a project from existing notes]].
+Continue with [[Create notes and placeholders|capturing an unwritten idea]] or [[Never start a project with a blank page|building a project from existing notes]].
 
 ## Keep direction and property ownership clear
 

@@ -6,15 +6,15 @@ tags:
   - "kplex/concepts"
   - "kplex/limits"
 Friend:
-  - "[[01 Core concepts/What K-Plex is]]"
-  - "[[04 Filter and focus/Graph Lenses are local]]"
-  - "[[06 Indexing and troubleshooting/How indexing works]]"
+  - "[[What K-Plex is]]"
+  - "[[Graph Lenses are local]]"
+  - "[[How indexing works]]"
 ---
 # What K-Plex is not
 
 Trying to decide whether K-Plex is the right tool for a task? Use it to explore a meaningful neighborhood; use a vault-wide search or query when you need a complete inventory.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 

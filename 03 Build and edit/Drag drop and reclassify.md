@@ -7,19 +7,19 @@ tags:
 - kplex/relationships
 - kplex/interaction
 Friend:
-- '[[02 Navigate and explore/Past nodes and pins]]'
-- '[[07 Use cases/Build a Map of Content]]'
-- '[[07 Use cases/Garden your vault]]'
+- '[[Past nodes and pins]]'
+- '[[Build a Map of Content]]'
+- '[[Garden your vault]]'
 Previous:
-- '[[03 Build and edit/Create notes and placeholders]]'
+- '[[Create notes and placeholders]]'
 Next:
-- '[[03 Build and edit/Connection details and evidence]]'
+- '[[Connection details and evidence]]'
 ---
 # Drag drop and reclassify
 
 Connect notes, bring material into a project or move a file into a folder. Drag the item to its destination and review the change before applying it.
 
-![[Assets/Screenshot - Two independent Plexes.png]]
+![[Screenshot - Two independent Plexes.png]]
 
 *Two adjacent canvases keep different centers. Keep a destination in one while exploring possible sources in the other.*
 
@@ -27,7 +27,7 @@ Connect notes, bring material into a project or move a file into a folder. Drag 
 
 Drag a file from Obsidian's file explorer onto the central node to navigate to it, or into a Parent, Friend, Challenger or Child area to open the linking dialog with that role selected. Drag an existing direct neighbor to another relationship area to reclassify it. Drag a gate to a pin or Past nodes entry to create that gate's relationship.
 
-Valid drop areas light up. After reclassifying a connection with several sources, inspect [[03 Build and edit/Connection details and evidence|Connection details]] rather than assuming every source has changed.
+Valid drop areas light up. After reclassifying a connection with several sources, inspect [[Connection details and evidence|Connection details]] rather than assuming every source has changed.
 
 ## Bring notes into and out of the canvas
 
@@ -35,7 +35,7 @@ Resolved note links from **Bases** use the same center/relationship-area destina
 
 Drag a note, attachment, URL or placeholder **node body** into a Markdown editor to insert its link. Tags insert `#tag` text. Drag supported nodes into another canvas to navigate or start a relationship there. Gates retain their connection gestures.
 
-Use the toolbar **+** or **New K-Plex tab** to open an adjacent canvas. Its central editor/normal-node choice and Markdown mode belong to that view. Each canvas can follow its own document tab; see [[05 Personalize and workspace/Note-tab synchronization]].
+Use the toolbar **+** or **New K-Plex tab** to open an adjacent canvas. Its central editor/normal-node choice and Markdown mode belong to that view. Each canvas can follow its own document tab; see [[Note-tab synchronization]].
 
 ## Move files into folders
 

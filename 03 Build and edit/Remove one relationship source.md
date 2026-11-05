@@ -7,19 +7,19 @@ tags:
 - kplex/relationships
 - kplex/safety
 Guide:
-- "[[03 Build and edit/Build and edit]]"
+- "[[Build and edit]]"
 Related:
-- "[[03 Build and edit/Connection details and evidence]]"
-- "[[03 Build and edit/Unlink and delete]]"
-- "[[03 Build and edit/Date properties and daily notes]]"
+- "[[Connection details and evidence]]"
+- "[[Unlink and delete]]"
+- "[[Date properties and daily notes]]"
 Watch out:
-- "[[01 Core concepts/Relationship sources and inference]]"
+- "[[Relationship sources and inference]]"
 ---
 # Remove one relationship source
 
 Remove one reason for a connection while keeping the others. Open Connection details and remove the specific editable property entry you no longer need.
 
-![[Assets/Screenshot - Connection Details.png]]
+![[Screenshot - Connection Details.png]]
 
 *Inspect each source before removing an eligible property entry; another source may still support the connection.*
 
@@ -35,6 +35,6 @@ K-Plex rechecks the selected file and property occurrence before writing, rather
 > [!warning] Confirm the source, not just the line
 > If several fields or files support the same visual relationship, removing one entry should not silently delete the others. When in doubt, inspect the underlying Markdown frontmatter in Obsidian first. Keep a current vault backup before testing graph edits on important data.
 
-Native scalar **Date properties** are not editable wiki-link lists; change the date value in the source note instead. See [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]].
+Native scalar **Date properties** are not editable wiki-link lists; change the date value in the source note instead. See [[Date properties and daily notes|Date properties and daily notes]].
 
-**Also see:** [[03 Build and edit/Connection details and evidence|Connection details and evidence]] and [[03 Build and edit/Unlink and delete|Unlink and delete]].
+**Also see:** [[Connection details and evidence|Connection details and evidence]] and [[Unlink and delete|Unlink and delete]].

@@ -4,18 +4,18 @@ tags:
 - kplex/ontology
 - kplex/dates
 Guide:
-- '[[03 Build and edit/Build and edit]]'
+- '[[Build and edit]]'
 Related:
-- '[[01 Core concepts/Ontology and relationship fields]]'
-- '[[01 Core concepts/Relationship sources and inference]]'
-- '[[07 Use cases/Meeting notes and daily notes]]'
-- '[[03 Build and edit/Connection details and evidence]]'
+- '[[Ontology and relationship fields]]'
+- '[[Relationship sources and inference]]'
+- '[[Meeting notes and daily notes]]'
+- '[[Connection details and evidence]]'
 ---
 # Date properties and daily notes
 
 Connect a meeting or event to the day it happened. A Date property can link it to your Daily Note without adding a separate wikilink.
 
-![[Assets/Screenshot - Date connections.png]]
+![[Screenshot - Date connections.png]]
 
 *The Date example connects to its daily note as well as its broader topic. These are separate reasons for the two relationships.*
 
@@ -47,7 +47,7 @@ K-Plex keeps Date-source evidence distinct from an ordinary linked property. **D
 
 ## See the feature in this vault
 
-Open [[09 Showcase examples/Example - Date and a daily note|Example - Date and a daily note]] and the root daily note `2026-10-09.md`. This help vault enables Obsidian's Daily notes core plugin and uses the default date-name convention; your own vault's Daily Notes settings may be different. Continue with [[07 Use cases/Meeting notes and daily notes|Meeting notes and daily notes]].
+Open [[Example - Date and a daily note|Example - Date and a daily note]] and the root daily note `2026-10-09.md`. This help vault enables Obsidian's Daily notes core plugin and uses the default date-name convention; your own vault's Daily Notes settings may be different. Continue with [[Meeting notes and daily notes|Meeting notes and daily notes]].
 
 For Obsidian's own behavior, see [Properties](https://obsidian.md/help/properties) and [Daily notes](https://obsidian.md/help/plugins/daily-notes).
 
@@ -55,4 +55,4 @@ For Obsidian's own behavior, see [Properties](https://obsidian.md/help/propertie
 
 Enable **Today** under **Canvas behavior → Pins**. With **Use Daily Notes settings** enabled, K-Plex uses core Daily Notes' folder, date format and template. If today's note is missing, its pin asks before creating it and lets you choose where it opens afterward. Applicable Templater processing finishes before K-Plex adds properties.
 
-This is an explicit creation action, separate from the inferred Date relationships above. Weekly and monthly pins have their own location/format settings. See [[02 Navigate and explore/Past nodes and pins|Past nodes and pins]] for setup.
+This is an explicit creation action, separate from the inferred Date relationships above. Weekly and monthly pins have their own location/format settings. See [[Past nodes and pins|Past nodes and pins]] for setup.

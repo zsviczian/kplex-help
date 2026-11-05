@@ -5,15 +5,15 @@ tags:
 - kplex-help/example
 - kplex/projects
 Guide:
-- '[[04 Filter and focus/Expanded relationship view]]'
+- '[[Expanded relationship view]]'
 Friend:
-- '[[07 Use cases/Never start a project with a blank page]]'
+- '[[Never start a project with a blank page]]'
 ---
 # Plan a short workshop
 
 Reuse your notes when preparing a workshop. Start with a plan, connect the material you need and leave a place to capture what you learn afterward.
 
-![[Assets/Screenshot - Expanded neighbors.png]]
+![[Screenshot - Expanded neighbors.png]]
 
 *The workshop plan stays central while the material branch reveals its two source notes one level further down.*
 

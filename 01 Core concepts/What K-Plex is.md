@@ -7,9 +7,9 @@ tags:
 Related:
   - "https://obsidian.md"
 Challenger:
-  - "[[01 Core concepts/What K-Plex is not]]"
+  - "[[What K-Plex is not]]"
 Next:
-  - "[[01 Core concepts/The spatial relationship model]]"
+  - "[[The spatial relationship model]]"
 Note type: "Concept"
 learningMode: "read"
 sessionSize: "short"
@@ -18,7 +18,7 @@ sessionSize: "short"
 
 Make use of the connections already in your Obsidian notes. K-Plex puts one note in focus and shows the nearby ideas that give it context.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
@@ -39,4 +39,4 @@ The center can be a note, supported attachment, URL, folder, tag or unresolved p
 
 Navigate notes, create explicit relationships, see why links exist, work with web resources, filter visible context, and keep a reading/editing pane alongside the graph. **Excalidraw and Dataview are not required.**
 
-K-Plex complements Obsidian's Markdown editor and search; it does not replace a whole-vault database/query system. See [[01 Core concepts/What K-Plex is not|What K-Plex is not]], then try [[00 Start Here/Choose a topic|Choose a topic]].
+K-Plex complements Obsidian's Markdown editor and search; it does not replace a whole-vault database/query system. See [[What K-Plex is not|What K-Plex is not]], then try [[Choose a topic|Choose a topic]].

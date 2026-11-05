@@ -6,15 +6,15 @@ tags:
 - "kplex/concepts"
 - "kplex/navigation"
 Friend:
-- "[[02 Navigate and explore/Navigating the Plex]]"
-- '[[01 Core concepts/Idea Compass]]'
-- '[[01 Core concepts/Relationship roles]]'
+- "[[Navigating the Plex]]"
+- '[[Idea Compass]]'
+- '[[Relationship roles]]'
 Previous:
-- "[[01 Core concepts/What K-Plex is]]"
+- "[[What K-Plex is]]"
 Next:
-- "[[01 Core concepts/Relationship roles]]"
+- "[[Relationship roles]]"
 Watch out:
-- '[[05 Personalize and workspace/Layout density and typography]]'
+- '[[Layout density and typography]]'
 Note type: "Concept"
 learningMode: "read"
 sessionSize: "longer"
@@ -24,7 +24,7 @@ map-role: concept
 
 Understand a note at a glance in Compass, the default view. Read the space around it: broader context above, details below, related ideas to the left and challenges to the right.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 

@@ -3,13 +3,13 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Related:
-- "[[Assets/Screenshot - Facets read by topic.png]]"
-- "[[Assets/Screenshot - Facets learning route.png]]"
-- "[[09 Showcase examples/Example - Read by topic]]"
-- "[[09 Showcase examples/Example - Workbench questions]]"
-- "[[04 Filter and focus/Graph Lenses]]"
+- "[[Screenshot - Facets read by topic.png]]"
+- "[[Screenshot - Facets learning route.png]]"
+- "[[Example - Read by topic]]"
+- "[[Example - Workbench questions]]"
+- "[[Graph Lenses]]"
 ---
 # Choose layouts and read classification
 
@@ -31,7 +31,7 @@ Set category width and height defaults in the preset, or resize an area on the c
 
 For a linear workflow, guides can use arrows, plain lines or no visible line, with optional captions and per-step overrides. They explain the order of categories; only note connectors represent actual note relationships.
 
-![[Assets/Screenshot - Facets learning route.png]]
+![[Screenshot - Facets learning route.png]]
 
 *The desktop Learning route example uses Vertical stack with the focus to the left. Wider category areas arrange these cards side by side.*
 
@@ -58,8 +58,8 @@ Opening or navigating does not assign a phase. Missing, conflicting or unavailab
 
 You can combine these into **Diagnostics** or keep separate areas, choose the dock position and hide empty status areas. Combined diagnostics keeps a badge on each note so the reason stays visible. Missing information is not evidence that a rule is false.
 
-Compare [[09 Showcase examples/Example - Read by topic|the tag example]] with [[09 Showcase examples/Example - Workbench questions|the rule example]] to see why both classification and uncertainty matter.
+Compare [[Example - Read by topic|the tag example]] with [[Example - Workbench questions|the rule example]] to see why both classification and uncertainty matter.
 
-![[Assets/Screenshot - Facets read by topic.png]]
+![[Screenshot - Facets read by topic.png]]
 
 *The desktop tag example uses Circular. Its separate Conflicting area preserves Sidecar’s two matching topics rather than guessing a winner.*

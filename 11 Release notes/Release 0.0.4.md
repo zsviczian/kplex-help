@@ -4,14 +4,14 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Early releases]]"
+  - "[[Early releases]]"
 Previous:
   - "[[Release 0.0.3]]"
 Next:
   - "[[Release 0.0.5]]"
 Explains:
-  - "[[03 Build and edit/Build and edit]]"
-  - "[[02 Navigate and explore/Navigate and explore]]"
+  - "[[Build and edit]]"
+  - "[[Navigate and explore]]"
 Related:
   - https://github.com/zsviczian/kplex/compare/0.0.3...0.0.4
   - https://github.com/zsviczian/kplex/releases/tag/0.0.4
@@ -25,8 +25,8 @@ Checking what changed in this version? Read the published notes below, or follow
 
 ## Explore these changes in K-Plex Help
 
-- [[03 Build and edit/Build and edit]]
-- [[02 Navigate and explore/Navigate and explore]]
+- [[Build and edit]]
+- [[Navigate and explore]]
 
 ## Original published release notes
 
@@ -323,4 +323,4 @@ Compatible ExcaliBrain settings can be imported automatically on first use or ma
 
 ## Previous and next
 
-← [[Release 0.0.3|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.0.5|Next release →]]
+← [[Release 0.0.3|Previous release]] · [[Release notes|All releases]] · [[Release 0.0.5|Next release →]]

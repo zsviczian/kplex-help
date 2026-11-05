@@ -3,16 +3,16 @@ tags:
   - kplex-help/how-to
   - kplex/canvas
 Guide:
-  - "[[01 Core concepts/Canvas views]]"
+  - "[[Canvas views]]"
 Explains:
-  - "[[04 Filter and focus/Define a Facets workflow]]"
-  - "[[04 Filter and focus/Facets layouts and classification]]"
-  - "[[04 Filter and focus/Share presets and lenses]]"
-  - "[[09 Showcase examples/Facets demonstrations]]"
+  - "[[Define a Facets workflow]]"
+  - "[[Facets layouts and classification]]"
+  - "[[Share presets and lenses]]"
+  - "[[Facets demonstrations]]"
 Watch out:
-  - "[[04 Filter and focus/Graph Lenses are local]]"
+  - "[[Graph Lenses are local]]"
 Related:
-  - "[[Assets/Screenshot - Facets workbench questions.png]]"
+  - "[[Screenshot - Facets workbench questions.png]]"
 ---
 # Make your own workflow visible with Facets
 
@@ -48,16 +48,16 @@ This Help vault offers four custom presets and demonstrations of the two built-i
 | **Wu Xing** | How does this material relate to my current phase? | A saved phase property and changing relative labels, around the center |
 | **Local map roles** | What does each page contribute to this map? | A map-role property, in concentric regions |
 
-Open [[09 Showcase examples/Facets demonstrations|the demonstration guide]] for the exact starting note and the result to look for.
+Open [[Facets demonstrations|the demonstration guide]] for the exact starting note and the result to look for.
 
-![[Assets/Screenshot - Facets workbench questions.png]]
+![[Screenshot - Facets workbench questions.png]]
 
 *This desktop workbench is one example of a question you can define yourself. Its four categories combine two recorded properties; your categories can serve a different purpose.*
 
 ## Build something useful for your notes
 
-[[04 Filter and focus/Define a Facets workflow|Define a workflow]] from three to seven categories. Rename labels, choose colors and supply the exact values or category rules that make sense in your vault. A label can be friendly while its recognized property values remain unchanged.
+[[Define a Facets workflow|Define a workflow]] from three to seven categories. Rename labels, choose colors and supply the exact values or category rules that make sense in your vault. A label can be friendly while its recognized property values remain unchanged.
 
-[[04 Filter and focus/Facets layouts and classification|Choose an arrangement and understand classification]] before treating an empty category as missing work. Property, tag, note-type and rule sources are separate choices; Facets does not silently try another source when a value is missing.
+[[Facets layouts and classification|Choose an arrangement and understand classification]] before treating an empty category as missing work. Property, tag, note-type and rule sources are separate choices; Facets does not silently try another source when a value is missing.
 
-When a workflow is useful, [[04 Filter and focus/Share presets and lenses|share its preset]] with another vault. You choose any companion lenses explicitly; referenced palette colors travel with the definition.
+When a workflow is useful, [[Share presets and lenses|share its preset]] with another vault. You choose any companion lenses explicitly; referenced palette colors travel with the definition.

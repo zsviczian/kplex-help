@@ -3,19 +3,19 @@ tags:
 - "kplex-help/example"
 - "kplex/facets"
 Guide:
-- "[[09 Showcase examples/Facets demonstrations]]"
+- "[[Facets demonstrations]]"
 Child:
-- "[[02 Navigate and explore/Navigating the Plex]]"
-- "[[04 Filter and focus/Graph Lenses]]"
-- "[[04 Filter and focus/Quick Filter]]"
-- "[[05 Personalize and workspace/Colors and themes]]"
-- "[[05 Personalize and workspace/Layout density and typography]]"
-- "[[05 Personalize and workspace/Sidecar]]"
+- "[[Navigating the Plex]]"
+- "[[Graph Lenses]]"
+- "[[Quick Filter]]"
+- "[[Colors and themes]]"
+- "[[Layout density and typography]]"
+- "[[Sidecar]]"
 Friend:
-- "[[04 Filter and focus/Facets]]"
+- "[[Facets]]"
 Note type: "Guide"
 Related:
-- "[[Assets/Screenshot - Facets read by topic.png]]"
+- "[[Screenshot - Facets read by topic.png]]"
 ---
 # Find help by topic
 
@@ -31,7 +31,7 @@ The notes use normal YAML tags without a leading `#`; the preset recognizes thei
 
 The circular layout makes these topics peers rather than stages. Narrow areas keep the guides in short stacks. Other connected notes without one of these tags belong in Unassigned.
 
-![[Assets/Screenshot - Facets read by topic.png]]
+![[Screenshot - Facets read by topic.png]]
 
 *Desktop example: actual topic tags place guides in Navigation, Filtering and Workspace. Sidecar stays in Conflicting because it matches both navigation and workspace.*
 

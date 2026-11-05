@@ -3,14 +3,14 @@ tags:
 - "kplex-help/how-to"
 - "kplex/canvas"
 Guide:
-- "[[01 Core concepts/Canvas views]]"
+- "[[Canvas views]]"
 Related:
-- "[[Assets/Screenshot - Compass workshop.png]]"
-- "[[09 Showcase examples/Example - Research question]]"
-- "[[01 Core concepts/The spatial relationship model]]"
-- "[[04 Filter and focus/Group nodes by note type]]"
-- "[[04 Filter and focus/Expanded relationship view]]"
-- "[[05 Personalize and workspace/Sidecar]]"
+- "[[Screenshot - Compass workshop.png]]"
+- "[[Example - Research question]]"
+- "[[The spatial relationship model]]"
+- "[[Group nodes by note type]]"
+- "[[Expanded relationship view]]"
+- "[[Sidecar]]"
 ---
 # Read relationships with Compass
 
@@ -18,11 +18,11 @@ Understand an idea by looking at its context, detail, companions and objections.
 
 ## Try the directional map
 
-1. Center [[09 Showcase examples/Example - Research question|the research question]].
+1. Center [[Example - Research question|the research question]].
 2. Look above for broader context, below for detail, left for companions or previous steps, and right for challenges or next steps.
 3. Select a neighbor to make it the new center and explore its context.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research question is surrounded by its real relationships. Compass keeps the same directional vocabulary as you move.*
 
@@ -34,13 +34,13 @@ Eligible Markdown notes can open in a native node editor in their place on the c
 
 ## Compare the workshop plan in Compass
 
-![[Assets/Screenshot - Compass workshop.png]]
+![[Screenshot - Compass workshop.png]]
 
 *Desktop layout example: the workshop plan has its Guide above, companions to the left and material below. The dashed attachment placeholder is an unresolved reference in this capture.*
 
 ## Continue with your task
 
-- [[01 Core concepts/The spatial relationship model|Learn what the directions mean]].
-- [[04 Filter and focus/Group nodes by note type|Group a busy neighborhood]].
-- [[04 Filter and focus/Expanded relationship view|Look one layer into neighboring branches]].
-- [[05 Personalize and workspace/Sidecar|Read or write beside the map]].
+- [[The spatial relationship model|Learn what the directions mean]].
+- [[Group nodes by note type|Group a busy neighborhood]].
+- [[Expanded relationship view|Look one layer into neighboring branches]].
+- [[Sidecar|Read or write beside the map]].

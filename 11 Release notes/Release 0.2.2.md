@@ -3,10 +3,10 @@ aliases:
 tags:
   - kplex-help/release-notes
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Explains:
-  - "[[04 Filter and focus/Group nodes by note type]]"
-  - "[[04 Filter and focus/Graph Lenses]]"
+  - "[[Group nodes by note type]]"
+  - "[[Graph Lenses]]"
 Previous:
   - "[[Release 0.2.0]]"
 Next:
@@ -29,9 +29,9 @@ The new **Group nodes by note type** toggle sits beside **Expanded view** in the
 
 Select a group to unfold it without leaving the current center. Keep other groups compact, navigate to another note to start grouped again, or turn grouping off to reveal every group member. Parents and Children group separately; One-sided layout groups the shared lateral area together.
 
-This is a way to explore the current map without rewriting your notes or their relationships. See [[04 Filter and focus/Group nodes by note type|how to group a busy neighborhood]].
+This is a way to explore the current map without rewriting your notes or their relationships. See [[Group nodes by note type|how to group a busy neighborhood]].
 
-![[Assets/Screenshot - Grouped workshop relations.png]]
+![[Screenshot - Grouped workshop relations.png]]
 
 *A desktop workshop example shows the new grouping toggle, note-type colors and member counts. Open one group when you need its individual notes.*
 
@@ -39,7 +39,7 @@ This is a way to explore the current map without rewriting your notes or their r
 
 When editing a **Style matching** Graph Lens, the fill, border and text color editors now open in front of **Filters and lenses**. You can reach the color controls directly, including the theme-color chooser, without dragging the lens panel out of the way.
 
-See [[04 Filter and focus/Graph Lenses|Graph Lenses]] for reusable views and styling rules.
+See [[Graph Lenses|Graph Lenses]] for reusable views and styling rules.
 
 ## About 0.2.1
 

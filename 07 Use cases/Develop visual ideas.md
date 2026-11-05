@@ -7,19 +7,19 @@ tags:
 - kplex-help/example
 - kplex/use-cases
 Parent:
-- '[[07 Use cases/Use cases]]'
+- '[[Use cases]]'
 Friend:
-- '[[01 Core concepts/Idea Compass]]'
-- '[[03 Build and edit/Excalidraw integration]]'
-- '[[05 Personalize and workspace/Images in nodes]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
+- '[[Idea Compass]]'
+- '[[Excalidraw integration]]'
+- '[[Images in nodes]]'
+- '[[Fullscreen and Zen mode]]'
 Workshop stage: "Share"
 ---
 # Develop visual ideas
 
 Have a rough sketch that is not yet easy to explain? Develop it alongside related notes, examples and objections while preserving your visual starting point.
 
-![[Assets/Screenshot - Excalidraw idea compass.png]]
+![[Screenshot - Excalidraw idea compass.png]]
 
 *The existing Idea Compass opens as a normal Excalidraw drawing. K-Plex can keep such a drawing connected to written context.*
 
@@ -41,6 +41,6 @@ Return to the drawing and improve it using what you discovered. Keep a large vis
 
 Use fullscreen or Zen mode to walk someone through the central sketch, its supporting notes and its alternatives. Open a drawing when you need detail and return to the graph for context. This is an interactive explanation rather than an automatically generated slide deck.
 
-Node images help you recognize important notes. Use a local image when you want an offline visual cue without remote-image permission; see [[05 Personalize and workspace/Images in nodes]].
+Node images help you recognize important notes. Use a local image when you want an offline visual cue without remote-image permission; see [[Images in nodes]].
 
-Start with [[03 Build and edit/Excalidraw integration]] and [[07 Use cases/Argument maps with Challengers|Challenge an assumption before acting]].
+Start with [[Excalidraw integration]] and [[Argument maps with Challengers|Challenge an assumption before acting]].

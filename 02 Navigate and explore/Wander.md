@@ -5,18 +5,18 @@ tags:
 - kplex-help/how-to
 - kplex/navigation
 Parent:
-- '[[02 Navigate and explore/Navigate and explore]]'
+- '[[Navigate and explore]]'
 Friend:
-- '[[07 Use cases/Rediscover and remember your notes]]'
-- '[[05 Personalize and workspace/Fullscreen and Zen mode]]'
-- '[[04 Filter and focus/Graph Lenses]]'
-- '[[02 Navigate and explore/Footprints and breadcrumbs]]'
+- '[[Rediscover and remember your notes]]'
+- '[[Fullscreen and Zen mode]]'
+- '[[Graph Lenses]]'
+- '[[Footprints and breadcrumbs]]'
 ---
 # Wander
 
 Rediscover useful notes without choosing a destination. Let Wander walk through connected ideas, then pause when something catches your attention.
 
-![[Assets/Screenshot - Wander controls.png]]
+![[Screenshot - Wander controls.png]]
 
 *Wander keeps pause/play, pace and stop controls at the bottom while the map is in Zen mode.*
 
@@ -32,6 +32,6 @@ The bottom controls let you pause or resume, choose **3–15 seconds per move**,
 
 Wander uses displayed, navigable nodes. Visibility choices and filters therefore affect what it can visit. It is not a random sample of every file in your vault, an automatically extracted reasoning trail, or a chronological diary.
 
-Pause to read, connect an idea to a current project, or test what you remember before opening a note. For a practical session, try [[07 Use cases/Rediscover and remember your notes]].
+Pause to read, connect an idea to a current project, or test what you remember before opening a note. For a practical session, try [[Rediscover and remember your notes]].
 
 [Introduced in release 0.1.3](https://github.com/zsviczian/kplex/releases/tag/0.1.3).

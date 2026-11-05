@@ -3,16 +3,16 @@ tags:
   - kplex-help/example
   - kplex/facets
 Guide:
-  - "[[09 Showcase examples/Facets demonstrations]]"
+  - "[[Facets demonstrations]]"
 Child:
-  - "[[00 Start Here/Choose a topic]]"
-  - "[[01 Core concepts/Canvas views]]"
-  - "[[01 Core concepts/The spatial relationship model]]"
-  - "[[02 Navigate and explore/Keyboard shortcuts reference]]"
+  - "[[Choose a topic]]"
+  - "[[Canvas views]]"
+  - "[[The spatial relationship model]]"
+  - "[[Keyboard shortcuts reference]]"
 Friend:
-  - "[[04 Filter and focus/Facets layouts and classification]]"
+  - "[[Facets layouts and classification]]"
 Related:
-  - "[[Assets/Screenshot - Facets Local map roles.png]]"
+  - "[[Screenshot - Facets Local map roles.png]]"
 Note type: Guide
 map-role: hub
 ---
@@ -36,7 +36,7 @@ Decide whether you need another starting point, a focused map, an explanation or
 
 This starting note also uses `hub`, shown as **Major maps** on its centered category badge. Other connected pages without **map-role** appear in **Unassigned**. That is useful feedback about this particular classification, not a claim that those pages lack purpose.
 
-![[Assets/Screenshot - Facets Local map roles.png]]
+![[Screenshot - Facets Local map roles.png]]
 
 *Desktop overview: the four roles form nested regions around the focus. This Fit view shows the complete arrangement; zoom in to read individual cards and return to Fit for the overview. Unassigned companion pages stay in Diagnostics beside the map.*
 

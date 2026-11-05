@@ -4,16 +4,16 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Previous:
   - "[[Release 0.0.5]]"
 Next:
   - "[[Release 0.1.1]]"
 Explains:
-  - "[[02 Navigate and explore/Navigate and explore]]"
-  - "[[03 Build and edit/Build and edit]]"
-  - "[[04 Filter and focus/Graph Lenses]]"
-  - "[[06 Indexing and troubleshooting/Understanding index status]]"
+  - "[[Navigate and explore]]"
+  - "[[Build and edit]]"
+  - "[[Graph Lenses]]"
+  - "[[Understanding index status]]"
 Related:
   - https://github.com/user-attachments/assets/53d4e74f-2e41-478a-bf8e-af75522c3989
   - https://github.com/user-attachments/assets/a2a985be-4466-41cb-912b-2d53c10ed63d
@@ -51,10 +51,10 @@ Checking what changed in this version? Read the published notes below, or follow
 
 ## Explore these changes in K-Plex Help
 
-- [[02 Navigate and explore/Navigate and explore]]
-- [[03 Build and edit/Build and edit]]
-- [[04 Filter and focus/Graph Lenses]]
-- [[06 Indexing and troubleshooting/Understanding index status]]
+- [[Navigate and explore]]
+- [[Build and edit]]
+- [[Graph Lenses]]
+- [[Understanding index status]]
 
 ## Original published release notes
 
@@ -285,4 +285,4 @@ K-Plex now consistently uses K-Plex naming and canonical K-Plex command IDs. If 
 
 ## Previous and next
 
-← [[Release 0.0.5|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.1|Next release →]]
+← [[Release 0.0.5|Previous release]] · [[Release notes|All releases]] · [[Release 0.1.1|Next release →]]

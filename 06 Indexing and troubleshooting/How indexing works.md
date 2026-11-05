@@ -6,16 +6,16 @@ tags:
 - kplex/indexing
 - kplex/performance
 Friend:
-- '[[01 Core concepts/Relationship sources and inference]]'
-- '[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]'
+- '[[Relationship sources and inference]]'
+- '[[Rebuild purge and diagnostics]]'
 Next:
-- '[[06 Indexing and troubleshooting/On demand vs Eager]]'
+- '[[On demand vs Eager]]'
 ---
 # How indexing works
 
 Know whether you can start exploring while K-Plex is still preparing. Your current neighborhood can be usable before every relationship and website has been discovered.
 
-![[Assets/Screenshot - Index status.png]]
+![[Screenshot - Index status.png]]
 
 *The status details explain the current preparation phase. This capture shows the real update in progress while the help notes were being edited.*
 
@@ -32,11 +32,11 @@ In **On demand** mode, local counts can reflect only prepared relationships; bod
 
 ## What do I need to do?
 
-Usually nothing. Explore the current note. If you need relationships throughout the vault, review [[06 Indexing and troubleshooting/On demand vs Eager|On demand vs Eager]]. If a particular source looks wrong, inspect [[03 Build and edit/Connection details and evidence|Connection details]] before taking the more disruptive maintenance steps in [[06 Indexing and troubleshooting/Troubleshooting checklist|Troubleshooting checklist]].
+Usually nothing. Explore the current note. If you need relationships throughout the vault, review [[On demand vs Eager|On demand vs Eager]]. If a particular source looks wrong, inspect [[Connection details and evidence|Connection details]] before taking the more disruptive maintenance steps in [[Troubleshooting checklist|Troubleshooting checklist]].
 
 ## What the index indicator is measuring
 
-The local graph can be **ready** even as web links or full indexing continue. In **On demand** mode, the status describes the neighborhood you are using. **Eager** full-index work can show an `x of y` count. See [[06 Indexing and troubleshooting/Understanding index status|Understanding index status]].
+The local graph can be **ready** even as web links or full indexing continue. In **On demand** mode, the status describes the neighborhood you are using. **Eager** full-index work can show an `x of y` count. See [[Understanding index status|Understanding index status]].
 
 ## Keep useful progress while notes change
 

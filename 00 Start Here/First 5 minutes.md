@@ -5,16 +5,16 @@ tags:
 - kplex-help/how-to
 - kplex/getting-started
 Related:
-- '[[02 Navigate and explore/Navigating the Plex]]'
-- '[[03 Build and edit/Create a relationship]]'
+- '[[Navigating the Plex]]'
+- '[[Create a relationship]]'
 Next:
-- '[[00 Start Here/How to use this help vault]]'
+- '[[How to use this help vault]]'
 ---
 # First 5 minutes
 
 Understand the map before changing your own notes. Take a short walk through this help vault: find a note, follow its connections and return to where you started.
 
-![[Assets/Screenshot - Reading relationships.png]]
+![[Screenshot - Reading relationships.png]]
 
 *The research example keeps a question and its surrounding context together. Open a neighbor to explore it.*
 
@@ -33,7 +33,7 @@ Understand the map before changing your own notes. Take a short walk through thi
 
 ## Try one small discovery
 
-Open [[00 Start Here/Choose a topic|Choose a topic]], select **First steps with K-Plex**, then follow its child notes. You can also go straight to [[01 Core concepts/Relationship roles|Relationship roles]].
+Open [[Choose a topic|Choose a topic]], select **First steps with K-Plex**, then follow its child notes. You can also go straight to [[Relationship roles|Relationship roles]].
 
 [Watch a K-Plex introduction](https://youtu.be/O-7JHDj5d7Y)
 
@@ -44,4 +44,4 @@ Open [[00 Start Here/Choose a topic|Choose a topic]], select **First steps with 
 
 Focus the graph with **Ctrl/Cmd+Shift+G**, type `Glossary` to select a visible label, and press Enter to navigate. Open the **K-Plex command palette** with **Alt/Option+.**; use **Alt/Option+?** for keyboard help. For a larger view, try **Expand** for Zen mode (all devices) and **Maximize** for fullscreen (desktop).
 
-Follow [[10 Discover by topic/11 Work without the mouse|Work without the mouse]] or [[10 Discover by topic/13 Present and concentrate|Present and concentrate]] for a guided exercise.
+Follow [[11 Work without the mouse|Work without the mouse]] or [[13 Present and concentrate|Present and concentrate]] for a guided exercise.

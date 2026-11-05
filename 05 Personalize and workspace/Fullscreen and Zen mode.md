@@ -4,18 +4,18 @@ tags:
 - kplex/workspace
 - kplex/navigation
 Guide:
-- '[[05 Personalize and workspace/Personalize and workspace]]'
+- '[[Personalize and workspace]]'
 Related:
-- '[[02 Navigate and explore/Navigating the Plex]]'
-- '[[05 Personalize and workspace/Sidecar]]'
-- '[[05 Personalize and workspace/Layout density and typography]]'
-- '[[05 Personalize and workspace/Actions and shortcuts]]'
+- '[[Navigating the Plex]]'
+- '[[Sidecar]]'
+- '[[Layout density and typography]]'
+- '[[Actions and shortcuts]]'
 ---
 # Fullscreen and Zen mode
 
 Need more room to think, or fewer controls competing for attention? Use fullscreen for workspace space and Zen mode for a quieter map.
 
-![[Assets/Screenshot - Focus without toolbars.png]]
+![[Screenshot - Focus without toolbars.png]]
 
 *Fullscreen and Zen make more room for the map. The lower graph controls remain available so you can return to the normal view.*
 
@@ -28,7 +28,7 @@ Need more room to think, or fewer controls competing for attention? Use fullscre
 
 1. On the bottom-right graph controls, beside **Fit to screen**, choose **Maximize** to enter fullscreen; choose **Minimize** to restore the original layout.
 2. Choose **Expand** for Zen; choose **Shrink** to show the toolbars again.
-3. You can also find **Toggle fullscreen** and **Toggle Zen mode** in the [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] or assign custom shortcuts in [[05 Personalize and workspace/Actions and shortcuts|Actions and shortcuts]].
+3. You can also find **Toggle fullscreen** and **Toggle Zen mode** in the [[K-Plex command palette|K-Plex command palette]] or assign custom shortcuts in [[Actions and shortcuts|Actions and shortcuts]].
 
 K-Plex keeps the **same graph, camera zoom/pan, selection and navigation history** when toggling either mode. Nothing is automatically fitted; use **Fit to screen** yourself if needed. Bottom-right graph controls remain available in Zen.
 

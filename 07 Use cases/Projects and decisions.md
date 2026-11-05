@@ -9,18 +9,18 @@ tags:
 - kplex/use-cases
 - kplex/projects
 Friend:
-- '[[01 Core concepts/Ontology and relationship fields]]'
-- '[[04 Filter and focus/Graph Lenses]]'
+- '[[Ontology and relationship fields]]'
+- '[[Graph Lenses]]'
 Previous:
-- '[[07 Use cases/Research and learning]]'
+- '[[Research and learning]]'
 Next:
-- '[[07 Use cases/Argument maps with Challengers]]'
+- '[[Argument maps with Challengers]]'
 ---
 # Projects and decisions
 
 Returning to a project after a break? Put goals, deliverables, decisions and risks together so you can see where things stand and choose the next action.
 
-![[Assets/Screenshot - Expanded neighbors.png]]
+![[Screenshot - Expanded neighbors.png]]
 
 *The workshop plan stays central while the material branch reveals its two source notes one level further down.*
 
@@ -48,6 +48,6 @@ Use a property such as `status: blocked` and a style lens to make a problem stan
 | Challenger | What risk, alternative or objection challenges the current path? |
 | Previous / Next | What is the intended order of work? |
 
-**Dates as context:** [[07 Use cases/Meeting notes and daily notes]] connects project work to the days on which it happened. [[07 Use cases/Sequential workflows]] keeps chronology, hierarchy and procedural order distinct.
+**Dates as context:** [[Meeting notes and daily notes]] connects project work to the days on which it happened. [[Sequential workflows]] keeps chronology, hierarchy and procedural order distinct.
 
 K-Plex does not expand Markdown checkbox tasks into separate graph items, calculate a project schedule, or enforce dependencies. Use normal checklists for small actions and notes for activities whose context and outcome are worth keeping.

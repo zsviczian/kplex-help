@@ -4,16 +4,16 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Previous:
   - "[[Release 0.1.0]]"
 Next:
   - "[[Release 0.1.2]]"
 Explains:
-  - "[[02 Navigate and explore/Keyboard navigation]]"
-  - "[[02 Navigate and explore/K-Plex command palette]]"
-  - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
-  - "[[06 Indexing and troubleshooting/Understanding index status]]"
+  - "[[Keyboard navigation]]"
+  - "[[K-Plex command palette]]"
+  - "[[Fullscreen and Zen mode]]"
+  - "[[Understanding index status]]"
 Related:
   - https://community.sketch-your-mind.com
   - https://github.com/zsviczian/kplex
@@ -45,10 +45,10 @@ Checking what changed in this version? Read the published notes below, or follow
 
 ## Explore these changes in K-Plex Help
 
-- [[02 Navigate and explore/Keyboard navigation]]
-- [[02 Navigate and explore/K-Plex command palette]]
-- [[05 Personalize and workspace/Fullscreen and Zen mode]]
-- [[06 Indexing and troubleshooting/Understanding index status]]
+- [[Keyboard navigation]]
+- [[K-Plex command palette]]
+- [[Fullscreen and Zen mode]]
+- [[Understanding index status]]
 
 ## Original published release notes
 
@@ -165,4 +165,4 @@ Thank you for helping shape K-Plex!
 
 ## Previous and next
 
-← [[Release 0.1.0|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.1.2|Next release →]]
+← [[Release 0.1.0|Previous release]] · [[Release notes|All releases]] · [[Release 0.1.2|Next release →]]

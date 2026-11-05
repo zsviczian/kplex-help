@@ -4,16 +4,16 @@ tags:
   - kplex-help/release-notes
   - kplex/released
 Guide:
-  - "[[11 Release notes/Release notes]]"
+  - "[[Release notes]]"
 Previous:
   - "[[Release 0.1.2]]"
 Next:
   - "[[Release 0.2.0]]"
 Explains:
-  - "[[02 Navigate and explore/Wander]]"
-  - "[[05 Personalize and workspace/Sidecar]]"
-  - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
-  - "[[05 Personalize and workspace/Images in nodes]]"
+  - "[[Wander]]"
+  - "[[Sidecar]]"
+  - "[[Fullscreen and Zen mode]]"
+  - "[[Images in nodes]]"
 Related:
   - https://community.sketch-your-mind.com/
   - https://github.com/zsviczian/kplex
@@ -45,10 +45,10 @@ Checking what changed in this version? Read the published notes below, or follow
 
 ## Explore these changes in K-Plex Help
 
-- [[02 Navigate and explore/Wander]]
-- [[05 Personalize and workspace/Sidecar]]
-- [[05 Personalize and workspace/Fullscreen and Zen mode]]
-- [[05 Personalize and workspace/Images in nodes]]
+- [[Wander]]
+- [[Sidecar]]
+- [[Fullscreen and Zen mode]]
+- [[Images in nodes]]
 
 ## Original published release notes
 
@@ -188,4 +188,4 @@ Happy exploring!
 
 ## Previous and next
 
-← [[Release 0.1.2|Previous release]] · [[11 Release notes/Release notes|All releases]] · [[Release 0.2.0|Next release →]]
+← [[Release 0.1.2|Previous release]] · [[Release notes|All releases]] · [[Release 0.2.0|Next release →]]

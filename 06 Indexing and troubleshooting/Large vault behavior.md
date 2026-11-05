@@ -6,18 +6,18 @@ tags:
   - "kplex/indexing"
   - "kplex/performance"
 Friend:
-  - "[[06 Indexing and troubleshooting/On demand vs Eager]]"
-  - "[[06 Indexing and troubleshooting/Troubleshooting checklist]]"
+  - "[[On demand vs Eager]]"
+  - "[[Troubleshooting checklist]]"
 Previous:
-  - "[[06 Indexing and troubleshooting/Web link indexing]]"
+  - "[[Web link indexing]]"
 Next:
-  - "[[06 Indexing and troubleshooting/Rebuild purge and diagnostics]]"
+  - "[[Rebuild purge and diagnostics]]"
 ---
 # Large vault behavior
 
 Have a large vault and want to get to work without waiting for everything? Start with the note you need while K-Plex prepares more context in the background.
 
-![[Assets/Screenshot - Index status.png]]
+![[Screenshot - Index status.png]]
 
 *The status details explain the current preparation phase. This capture shows the real update in progress while the help notes were being edited.*
 
@@ -29,7 +29,7 @@ If one note exceeds the supported relationship-loading bound, K-Plex can report 
 
 ## If the graph still looks incomplete
 
-Check the [[06 Indexing and troubleshooting/Understanding index status|status indicator]] and try navigating to the particular note you need. If a result stays wrong, [[06 Indexing and troubleshooting/Rebuild purge and diagnostics|capture diagnostics]] before restarting.
+Check the [[Understanding index status|status indicator]] and try navigating to the particular note you need. If a result stays wrong, [[Rebuild purge and diagnostics|capture diagnostics]] before restarting.
 
 ## Keep useful progress while notes change
 

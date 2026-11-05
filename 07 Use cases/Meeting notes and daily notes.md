@@ -8,19 +8,19 @@ tags:
 - kplex/use-cases
 - kplex/dates
 Guide:
-- '[[07 Use cases/Use cases]]'
+- '[[Use cases]]'
 Child:
-- '[[09 Showcase examples/Example - Date and a daily note]]'
+- '[[Example - Date and a daily note]]'
 Related:
-- '[[03 Build and edit/Date properties and daily notes]]'
-- '[[07 Use cases/Sequential workflows]]'
-- '[[07 Use cases/Projects and decisions]]'
+- '[[Date properties and daily notes]]'
+- '[[Sequential workflows]]'
+- '[[Projects and decisions]]'
 ---
 # Meeting notes and daily notes
 
 Trying to remember what was decided, when it happened and which project it belonged to? Connect meetings to both their project and their day.
 
-![[Assets/Screenshot - Date connections.png]]
+![[Screenshot - Date connections.png]]
 
 *The Date example connects to its daily note as well as its broader topic. These are separate reasons for the two relationships.*
 
@@ -46,7 +46,7 @@ Set the default for your general case, then map individual Date property names s
 
 For a deliberate journal chain, connect entries with Previous/Next. Do not assume that every date is a sequence or that K-Plex sorts your project into a timeline automatically.
 
-Try [[09 Showcase examples/Example - Date and a daily note]], then read [[03 Build and edit/Date properties and daily notes]] for the exact conditions and limits. The example is intentionally static; your own vault uses its own daily-note configuration.
+Try [[Example - Date and a daily note]], then read [[Date properties and daily notes]] for the exact conditions and limits. The example is intentionally static; your own vault uses its own daily-note configuration.
 
 > [!warning] Avoid accidental chronology
 > Dates describe when something happened. Previous and Next describe an explicit order. A date-scoped automatic Wander retrospective is not part of this workflow.

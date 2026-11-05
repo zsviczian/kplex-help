@@ -7,11 +7,11 @@ tags:
 - kplex/about
 - kplex/book
 Guide:
-- "[[08 About/About K-Plex]]"
+- "[[About K-Plex]]"
 Related:
-- "[[08 About/ExcaliBrain origins]]"
-- "[[08 About/Support K-Plex]]"
-- "[[07 Use cases/Research and learning]]"
+- "[[ExcaliBrain origins]]"
+- "[[Support K-Plex]]"
+- "[[Research and learning]]"
 Friend:
 - "https://community.sketch-your-mind.com/sym"
 - "https://github.com/zsviczian/sketch-your-mind/blob/main/images/cover.jpg"
@@ -30,6 +30,6 @@ The image is embedded from the [official book-cover file on GitHub](https://gith
 
 ## Related work
 
-K-Plex is an independent Obsidian plugin for navigating connected knowledge. [[08 About/ExcaliBrain origins|ExcaliBrain]] helped establish its spatial navigation model; the [[08 About/Community GitHub and contributing|community]] is a place to share techniques, ask questions and compare visual thinking workflows.
+K-Plex is an independent Obsidian plugin for navigating connected knowledge. [[ExcaliBrain origins|ExcaliBrain]] helped establish its spatial navigation model; the [[Community GitHub and contributing|community]] is a place to share techniques, ask questions and compare visual thinking workflows.
 
-For ways to support the software project, visit [[08 About/Support K-Plex|Support K-Plex]].
+For ways to support the software project, visit [[Support K-Plex|Support K-Plex]].

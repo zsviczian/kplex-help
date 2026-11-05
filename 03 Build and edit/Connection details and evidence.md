@@ -6,14 +6,14 @@ tags:
 - kplex/relationships
 - kplex/evidence
 Friend:
-- '[[01 Core concepts/Relationship sources and inference]]'
-- '[[04 Filter and focus/Graph Lenses]]'
+- '[[Relationship sources and inference]]'
+- '[[Graph Lenses]]'
 Previous:
-- '[[03 Build and edit/Drag drop and reclassify]]'
+- '[[Drag drop and reclassify]]'
 Next:
-- '[[03 Build and edit/Unlink and delete]]'
+- '[[Unlink and delete]]'
 Related:
-- "[[03 Build and edit/Remove one relationship source]]"
+- "[[Remove one relationship source]]"
 learningMode: "read"
 sessionSize: "short"
 ---
@@ -31,13 +31,13 @@ Use the ontology action to add an explicit document property. For a connection t
 
 This is especially important when one edge is supported by several links or fields. A graph edge is a resolved view; evidence tells you what you would actually be editing.
 
-**Date edges:** Connection details can identify a `Date` source. Its scalar date value is not a list of physical wikilinks that K-Plex can directly relink or unlink; edit the native Date property in the original note. See [[03 Build and edit/Date properties and daily notes|Date properties and daily notes]].
+**Date edges:** Connection details can identify a `Date` source. Its scalar date value is not a list of physical wikilinks that K-Plex can directly relink or unlink; edit the native Date property in the original note. See [[Date properties and daily notes|Date properties and daily notes]].
 
 ## Remove only the source you mean to change
 
 From **Connection details…**, an eligible frontmatter relationship source can now be **removed individually with confirmation**. This does not mean all evidence for the visible edge will be deleted. The action revalidates the source before writing, so an edited or replaced property occurrence is not removed based on a stale snapshot.
 
-Use [[03 Build and edit/Remove one relationship source|Remove one relationship source]] for a practical walkthrough. Inferred-only evidence remains different from an editable frontmatter declaration.
+Use [[Remove one relationship source|Remove one relationship source]] for a practical walkthrough. Inferred-only evidence remains different from an editable frontmatter declaration.
 
 ## Move a property to the other note
 

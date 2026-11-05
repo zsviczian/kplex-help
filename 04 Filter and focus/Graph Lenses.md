@@ -6,19 +6,19 @@ tags:
   - "kplex/filtering"
   - "kplex/lenses"
 Friend:
-  - "[[03 Build and edit/Connection details and evidence]]"
+  - "[[Connection details and evidence]]"
 Watch out:
-  - "[[04 Filter and focus/Graph Lenses are local]]"
+  - "[[Graph Lenses are local]]"
 Previous:
-  - "[[04 Filter and focus/Quick Filter]]"
+  - "[[Quick Filter]]"
 Next:
-  - "[[04 Filter and focus/Graph Lenses are local]]"
+  - "[[Graph Lenses are local]]"
 ---
 # Graph Lenses
 
 Revisit the same perspective on different notes. Save a Graph Lens that filters or styles the visible map according to a reusable rule.
 
-![[Assets/Screenshot - Quick filters and lenses.png]]
+![[Screenshot - Quick filters and lenses.png]]
 
 *Quick Filter, layout choices and saved lenses share one panel. These choices refine the visible neighborhood.*
 
@@ -37,6 +37,6 @@ The normal editor is a visual rule builder. Advanced expression mode is declarat
 The bundled settings include disabled example lenses for how-to notes, cautions, and Challenger relationships. You can inspect and enable them without losing the original content.
 
 > [!important] A Lens is not a whole-vault query
-> It does not fetch disconnected notes merely because they match a condition. Read [[04 Filter and focus/Graph Lenses are local|Graph Lenses are local]] for the scope limit.
+> It does not fetch disconnected notes merely because they match a condition. Read [[Graph Lenses are local|Graph Lenses are local]] for the scope limit.
 
-**Try it:** With [[00 Start Here/K-Plex Help|K-Plex Help]] centered, open **Views and lenses** and inspect the example named **Help · How-to notes**. Compare its filter effect with **Style matching**. Then learn [[04 Filter and focus/Keep layout vs Reflow|Keep layout vs Reflow]].
+**Try it:** With [[K-Plex Help|K-Plex Help]] centered, open **Views and lenses** and inspect the example named **Help · How-to notes**. Compare its filter effect with **Style matching**. Then learn [[Keep layout vs Reflow|Keep layout vs Reflow]].

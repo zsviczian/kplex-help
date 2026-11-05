@@ -4,18 +4,18 @@ tags:
   - kplex/settings
   - kplex/keyboard
 Guide:
-  - "[[05 Personalize and workspace/Personalize and workspace]]"
+  - "[[Personalize and workspace]]"
 Related:
-  - "[[02 Navigate and explore/Keyboard shortcuts reference]]"
-  - "[[02 Navigate and explore/K-Plex command palette]]"
-  - "[[02 Navigate and explore/Keyboard navigation]]"
-  - "[[05 Personalize and workspace/Fullscreen and Zen mode]]"
+  - "[[Keyboard shortcuts reference]]"
+  - "[[K-Plex command palette]]"
+  - "[[Keyboard navigation]]"
+  - "[[Fullscreen and Zen mode]]"
 ---
 # Actions and shortcuts
 
 Want K-Plex actions to be easier to reach? Choose local keyboard shortcuts, publish useful actions to Obsidian's Command Palette, or use both.
 
-![[Assets/Screenshot - Action preferences.png]]
+![[Screenshot - Action preferences.png]]
 
 *Actions and shortcuts lets you find an action and keep its local key separate from its Obsidian command setting.*
 
@@ -43,7 +43,7 @@ Existing customized shortcuts, explicitly disabled bindings and published-comman
 > [!important] Local and global are different
 > A graph-local shortcut is scoped to K-Plex; Obsidian's **Settings → Hotkeys** applies to published commands. Turning off command publication does not remove the local action. Some actions require a selected node or live canvas and will be unavailable without it.
 
-See [[02 Navigate and explore/Keyboard shortcuts reference|Keyboard shortcuts reference]] for examples and [[02 Navigate and explore/K-Plex command palette|K-Plex command palette]] for using the catalog without memorizing keys.
+See [[Keyboard shortcuts reference|Keyboard shortcuts reference]] for examples and [[K-Plex command palette|K-Plex command palette]] for using the catalog without memorizing keys.
 
 ## Local shortcuts and Obsidian command publication
 

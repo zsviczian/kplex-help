@@ -5,23 +5,23 @@ tags:
 - kplex-help/release-notes
 Note type: ReleaseNotes
 Guide:
-- '[[11 Release notes/Releases 0.4]]'
+- '[[Releases 0.4]]'
 Previous:
-- '[[11 Release notes/Release 0.3.1]]'
+- '[[Release 0.3.1]]'
 Next:
-- '[[11 Release notes/Release 0.4.1]]'
+- '[[Release 0.4.1]]'
 Explains:
-- '[[03 Build and edit/Export and share a canvas]]'
-- '[[12 Automation/Automation and scripting]]'
-- '[[03 Build and edit/Manage and clean up ontology]]'
-- '[[02 Navigate and explore/Navigating the Plex]]'
-- '[[02 Navigate and explore/Editor node and web pages]]'
-- '[[03 Build and edit/Create notes and placeholders]]'
-- '[[01 Core concepts/Canvas views]]'
-- '[[07 Use cases/Bring a connected outline into your writing]]'
+- '[[Export and share a canvas]]'
+- '[[Automation and scripting]]'
+- '[[Manage and clean up ontology]]'
+- '[[Navigating the Plex]]'
+- '[[Editor node and web pages]]'
+- '[[Create notes and placeholders]]'
+- '[[Canvas views]]'
+- '[[Bring a connected outline into your writing]]'
 Related:
-- '[[02 Navigate and explore/Vault Search vs Find in this Plex]]'
-- '[[05 Personalize and workspace/Note-tab synchronization]]'
+- '[[Vault Search vs Find in this Plex]]'
+- '[[Note-tab synchronization]]'
 ---
 # K-Plex 0.4.0 — Put your map to work
 
@@ -37,7 +37,7 @@ Whole-canvas images include content beyond the edge of your current view. Scroll
 
 **Export your route** with **Export → Breadcrumbs to Markdown**. This copies the current canvas's Footprints, newest first, including repeated visits.
 
-See [[03 Build and edit/Export and share a canvas|Export and share a canvas]], or try [[07 Use cases/Bring a connected outline into your writing|bringing a connected outline into your writing]].
+See [[Export and share a canvas|Export and share a canvas]], or try [[Bring a connected outline into your writing|bringing a connected outline into your writing]].
 
 ## Give scripts and assistants the context of your notes
 
@@ -47,13 +47,13 @@ Use `window.kplexApi.v1` inside Obsidian, or call it through Obsidian CLI from t
 
 The API works locally. It does not create a web service or send your notes to an AI provider. It reports how complete each result is; reading a partially indexed neighborhood does not silently start a whole-vault indexing pass. Note creation and relationship edits still use Obsidian's normal note and property tools.
 
-Start with [[12 Automation/Automation and scripting|Automation and scripting]].
+Start with [[Automation and scripting|Automation and scripting]].
 
 ## Explain what your relationship fields mean
 
 Add an optional **Description** when editing an ontology field. Each member of a pair has its own wording: for example, explain when to use **Guide** separately from **Explains**. Descriptions appear in the manager and suggestions, and scripts can read the same guidance through the API.
 
-This helps you choose a field by its intended use, without renaming properties or changing existing relationships. See [[03 Build and edit/Manage and clean up ontology|Manage and clean up ontology]].
+This helps you choose a field by its intended use, without renaming properties or changing existing relationships. See [[Manage and clean up ontology|Manage and clean up ontology]].
 
 ## Open the right map from where you are
 
@@ -61,13 +61,13 @@ Right-click a file in Obsidian's file explorer, its tab, or a resolved file link
 
 K-Plex tabs now show the centered file's name with the K-Plex icon, making independent maps easier to tell apart. From a node's **Open** menu, reveal its file in Obsidian's file navigation or your desktop system's file explorer.
 
-Right-click empty canvas space and use **View** to change between Compass, Mind Map and Facets; Facets offers its presets in a submenu. See [[02 Navigate and explore/Navigating the Plex|Navigating the canvas]] and [[01 Core concepts/Canvas views|Choose a canvas view]].
+Right-click empty canvas space and use **View** to change between Compass, Mind Map and Facets; Facets offers its presets in a submenu. See [[Navigating the Plex|Navigating the canvas]] and [[Canvas views|Choose a canvas view]].
 
 ## Create drawings with a familiar starting point
 
 When creating an Excalidraw drawing from a relationship, a folder's Child gate or a placeholder, choose a **Drawing template** from your configured templates. Relative paths distinguish templates with the same name. Choose **Blank drawing** when you want to start fresh.
 
-K-Plex remembers the last successfully used choice across these dialogs and restarts. Cancelling leaves that choice unchanged. See [[03 Build and edit/Create notes and placeholders|Create notes and placeholders]].
+K-Plex remembers the last successfully used choice across these dialogs and restarts. Cancelling leaves that choice unchanged. See [[Create notes and placeholders|Create notes and placeholders]].
 
 ## Move and edit with less friction
 
