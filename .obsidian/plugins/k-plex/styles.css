@@ -10,6 +10,21 @@
   min-height: 0;
 }
 
+.kplex-canvas-usage-tips {
+  position: absolute;
+  z-index: 4;
+  /* Leave the first row for the view heading and relationship-area captions. */
+  top: 32px;
+  left: 16px;
+  right: 16px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  text-align: center;
+  pointer-events: none;
+  overflow-wrap: anywhere;
+}
+.kplex-canvas-usage-tips.is-contextual { color: var(--text-normal); }
+
 .kplex-app {
   position: relative;
   color: var(--kplex-text, var(--text-normal));
@@ -56,6 +71,10 @@
   border-radius: 50%;
   border: 1px solid var(--background-modifier-border);
   cursor: pointer;
+}
+
+.kplex-index-activities {
+  white-space: pre-line;
 }
 
 /* Keep the compact dot layout while giving mouse/touch users a larger invisible hit target. */
@@ -114,6 +133,8 @@
 
 .kplex-info-bubble {
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   padding: 12px;
   color: var(--text-normal);
@@ -122,6 +143,8 @@
   border-radius: var(--radius-m);
   box-shadow: var(--shadow-s);
 }
+
+.kplex-info-bubble-content { min-height: 0; overflow: auto; overflow-wrap: anywhere; }
 
 .kplex-info-bubble-pointer {
   position: absolute;
@@ -143,6 +166,7 @@
 
 .kplex-info-bubble-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   justify-content: flex-end;
   margin-top: 10px;
@@ -287,7 +311,10 @@ button.kplex-sidecar-unfold-plex:hover,
 
 .kplex-workspace { min-height: 0; display: flex; }
 .kplex-graph-area { position: relative; min-width: 0; min-height: 0; flex: 1; overflow: hidden; }
-.kplex-plex { position: absolute; inset: 0; overflow: hidden; user-select: none; cursor: grab; }
+/* Native editor startup may focus content beyond the canvas aperture. hidden would let the
+   browser scroll this viewport, displacing HUD/tint and invalidating gate pointer coordinates.
+   clip keeps the camera as the only canvas motion owner; editor/list scroll lanes stay native. */
+.kplex-plex { position: absolute; inset: 0; overflow: clip; user-select: none; cursor: grab; }
 .kplex-plex:active { cursor: grabbing; }
 .kplex-plex::after {
   content: "";
@@ -489,7 +516,7 @@ button.kplex-sidecar-unfold-plex:hover,
 .kplex-sibling-scroll::-webkit-scrollbar-thumb { background: var(--background-modifier-hover); border-radius: 8px; }
 .kplex-sibling-content { position: relative; width: 100%; min-height: 100%; }
 
-.kplex-zoom-controls { position: absolute; z-index: 20; right: 12px; bottom: 12px; display: flex; gap: 5px; }
+.kplex-zoom-controls { position: absolute; z-index: 20; right: 12px; bottom: clamp(0px, calc(100% - 42px), 12px); display: flex; gap: 5px; }
 .kplex-zoom-controls button,
 button.kplex-layout-toggle,
 button.kplex-zone-filter-button,
@@ -510,8 +537,10 @@ button.kplex-sidecar-unfold-plex,
 }
 .kplex-history-label { flex: 0 0 auto; font-size: 8px; font-weight: 700; letter-spacing: .13em; color: var(--text-muted); }
 .kplex-history-list { min-width: 0; display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; user-select: none; }
-.kplex-history-list.is-mouse-scrolling, .kplex-history-list.is-mouse-scrolling button { cursor: grabbing; }
-.kplex-history-list::-webkit-scrollbar { display: none; }
+.kplex-history-list.is-mouse-scrolling, .kplex-history-list.is-mouse-scrolling button,
+.kplex-pinned-bar.is-mouse-scrolling, .kplex-pinned-bar.is-mouse-scrolling button { cursor: grabbing; }
+.kplex-history-list::-webkit-scrollbar, .kplex-pinned-bar::-webkit-scrollbar { display: none; }
+.kplex-history-list, .kplex-pinned-bar { touch-action: pan-x pinch-zoom; overscroll-behavior-x: contain; }
 .kplex-history-list button { flex: 0 0 auto; width: 180px; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; justify-content: flex-start; color: var(--text-normal); border: 1px solid var(--background-modifier-border); border-radius: 6px; background: var(--background-primary); padding: 5px 9px; cursor: pointer; font-size: 11px; }
 .kplex-history-list button { display: flex; align-items: center; gap: 5px; }
 .kplex-history-list button > .kplex-icon,
@@ -576,6 +605,18 @@ button.kplex-sidecar-unfold-plex,
 /* Font ink may extend outside its line box (notably Segoe UI descenders). Keep ellipsis clipping
    around a padded text box; node geometry reserves the same 0.4em of vertical ink space. */
 .kplex-thought-text { padding: .2em 0; box-sizing: content-box; }
+.kplex-thought-caption { display: flex; flex-direction: column; min-width: 0; width: 100%; gap: 4px; }
+.kplex-thought-caption > .kplex-thought-label { flex-shrink: 0; }
+.kplex-node-properties { display: flex; flex-direction: column; min-width: 0; font-size: var(--kplex-node-property-font-size, 12px); line-height: 1.4; font-weight: normal; text-align: start; }
+.kplex-node-property { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kplex-node-details-editor { min-width: 0; }
+.kplex-node-detail-row .setting-item-info { display: none; }
+.kplex-node-detail-row .setting-item-control { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+.kplex-node-detail-row .setting-item-control input[type=text] { flex: 1 1 140px; min-width: 0; }
+.kplex-node-details-preview { padding: 16px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); margin-block: 16px; }
+.kplex-note-type-review-group { margin-block-end: 16px; }
+.kplex-note-type-change-preview { white-space: pre-wrap; overflow-wrap: anywhere; }
+@media (max-width: 480px) { .kplex-node-detail-row .setting-item-control input[type=text] { flex-basis: 100%; } }
 .kplex-thought.is-dragging { cursor: grabbing; z-index: 28; filter: brightness(1.16); box-shadow: 0 0 0 2px var(--interactive-accent), var(--shadow-s); }
 .kplex-role-parent,
 .kplex-role-child,
@@ -650,35 +691,14 @@ button.kplex-sidecar-unfold-plex,
 }
 .modal.kplex-style-editor-modal .modal-content { min-width: 0; overflow-x: hidden; }
 .kplex-style-editor > p {
-  max-width: 58ch;
-  margin: 0 0 14px;
-  color: var(--text-muted);
-  line-height: 1.45;
+  margin: 0 0 var(--kplex-form-gap, var(--size-4-4));
 }
 .kplex-style-form {
-  display: grid;
-  gap: 0;
-  border-top: 1px solid var(--background-modifier-border);
+  min-width: 0;
 }
 .kplex-style-row {
-  display: grid;
-  grid-template-columns: minmax(120px, .75fr) minmax(0, 1.25fr);
-  align-items: center;
-  gap: 16px;
   min-width: 0;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--background-modifier-border);
 }
-.kplex-style-row label { min-width: 0; color: var(--text-normal); font-weight: 500; }
-.kplex-style-row input[type="text"],
-.kplex-style-row input[type="number"],
-.kplex-style-row select {
-  width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-}
-.kplex-style-row input[type="color"] { justify-self: start; width: 44px; height: 30px; padding: 2px; }
-.kplex-style-row input[type="checkbox"] { justify-self: start; }
 .kplex-style-actions {
   display: flex;
   justify-content: flex-end;
@@ -692,7 +712,6 @@ button.kplex-sidecar-unfold-plex,
 .kplex-input-suggestion-line .kplex-lucide { flex: 0 0 auto; width: 16px; height: 16px; color: var(--text-muted); }
 .kplex-input-suggestion-line span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 520px) {
-  .kplex-style-row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
   .kplex-style-actions button { flex: 1 1 auto; }
 }
 
@@ -1123,7 +1142,7 @@ button.kplex-sidecar-unfold-plex,
 
 .kplex-layout-controls {
   left: 14px;
-  bottom: 15px;
+  bottom: clamp(0px, calc(100% - 45px), 15px);
   gap: 8px;
   padding: 0;
   border: 0;
@@ -1270,7 +1289,29 @@ button.kplex-sidecar-unfold-plex,
   border-bottom: 0;
   box-shadow: none;
 }
+.kplex-pinned-row {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  background: var(--background-secondary);
+}
+.kplex-pin-tools { display: flex; flex: 0 0 auto; gap: 2px; padding: 2px 2px 6px 8px; }
+.kplex-pin-tools .kplex-icon-button { width: 28px; height: 28px; }
+.kplex-calendar-modal { width: 360px; max-width: calc(100vw - 24px); }
+.kplex-calendar-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.kplex-calendar-heading > span { font-weight: 600; text-align: center; }
+.kplex-calendar-weekdays, .kplex-calendar-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; }
+.kplex-calendar-weekdays { color: var(--text-muted); text-align: center; font-size: var(--font-ui-smaller); margin-bottom: 4px; }
+.kplex-calendar-grid { margin-bottom: 12px; }
+.kplex-calendar-grid button { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; height: 40px; padding: 2px; }
+.kplex-calendar-grid .is-other-month { color: var(--text-muted); }
+.kplex-calendar-grid .is-today { outline: 2px solid var(--interactive-accent); outline-offset: -2px; }
+.kplex-calendar-grid .has-note { font-weight: 600; }
+.kplex-calendar-note-dot { height: 9px; line-height: 9px; color: var(--interactive-accent); }
+.kplex-calendar-picker input[type="date"] { width: 100%; }
 .kplex-pinned-bar {
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1278,7 +1319,8 @@ button.kplex-sidecar-unfold-plex,
   padding: 2px 10px 6px;
   overflow-x: auto;
   overflow-y: hidden;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  user-select: none;
   background: var(--background-secondary);
 }
 .kplex-pinned-chip {
@@ -2326,6 +2368,11 @@ button.kplex-sidecar-unfold-plex,
   background: var(--background-primary-alt, var(--background-primary));
   box-shadow: var(--shadow-s);
 }
+/* Bounded mobile disclosures share the canvas's local stack rather than the body's native
+   popover stack. Keep every shared disclosure above scene tools and Sidecar edge controls. */
+.kplex-app[data-floating-layer-boundary] > :is(.kplex-filter-portal, .kplex-footprints-panel, .kplex-info-bubble) {
+  z-index: 95;
+}
 /* Obsidian's styled tooltip is also portalled outside the filter panel. While this overlay is
    open, keep those tooltips one layer above it instead of letting the panel cover them. */
 body.kplex-filter-panel-open .tooltip { z-index: 100300; }
@@ -2436,7 +2483,6 @@ body.kplex-filter-panel-open .tooltip { z-index: 100300; }
 .kplex-gate-count { white-space: nowrap; min-width: max-content; }
 
 @media (max-width: 520px) {
-  .kplex-filter-portal { width: calc(100vw - 16px); left: 8px; }
   .kplex-lens-editor-row { grid-template-columns: 1fr; }
   .kplex-lens-condition-field,
   .kplex-lens-condition-property,
@@ -2902,6 +2948,7 @@ button.kplex-style-manager-row { height: fit-content; }
   white-space: normal;
 }
 .tooltip.kplex-control-tooltip.is-measuring { visibility: hidden; }
+.tooltip.kplex-control-tooltip.is-multiline { white-space: pre-line; text-align: left; }
 
 /* Consolidated filter / lens controls ------------------------------------- */
 .kplex-filter-visibility-grid {
@@ -2942,7 +2989,7 @@ button.kplex-style-manager-row { height: fit-content; }
 }
 .kplex-quick-lens-row {
   display: grid;
-  grid-template-columns: minmax(105px, .9fr) minmax(115px, 1fr) minmax(130px, 1.4fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
   gap: 7px;
   align-items: end;
 }
@@ -2957,8 +3004,6 @@ button.kplex-style-manager-row { height: fit-content; }
 
 @media (max-width: 520px) {
   .kplex-filter-visibility-grid { grid-template-columns: 1fr; }
-  .kplex-quick-lens-row { grid-template-columns: 1fr 1fr; }
-  .kplex-quick-lens-row label:last-child { grid-column: 1 / -1; }
   .kplex-create-name-pair { gap: 6px; }
   .kplex-create-alias-input { min-width: 62px; }
 }
@@ -3327,9 +3372,13 @@ button.kplex-style-manager-row { height: fit-content; }
   padding: 0;
 }
 .kplex-scene-tools.is-suspended { display: none; }
+/* In phone landscape, native chrome can leave only one row of canvas. Reuse the measured
+   viewport state to place search beside the bottom controls instead of covering Zen/full screen. */
+.kplex-plex.is-short-canvas .kplex-scene-tools { top: 0; left: 60px; right: auto; }
 .kplex-find { display: flex; align-items: center; gap: 4px; min-width: 0; }
 .kplex-footprints-panel {
   position: fixed;
+  box-sizing: border-box;
   z-index: var(--layer-popover);
   display: flex;
   flex-direction: column;
@@ -3341,7 +3390,7 @@ button.kplex-style-manager-row { height: fit-content; }
   box-shadow: var(--shadow-s);
 }
 .kplex-footprints-heading { display: flex; align-items: center; gap: var(--size-4-2); padding: var(--size-4-2); }
-.kplex-footprints-heading strong { flex: 1; }
+.kplex-footprints-heading strong { flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .kplex-footprints-heading > span, .kplex-footprints-empty { color: var(--text-muted); font-size: var(--font-ui-small); }
 .kplex-footprints-empty { padding: var(--size-4-3); }
 .kplex-footprints-list { max-height: 320px; min-height: 0; overflow-y: auto; overscroll-behavior: contain; touch-action: pan-y; }
@@ -3640,6 +3689,11 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-action-filters .kplex-action-conflicts-filter.is-active { color: var(--text-on-accent); background-color: var(--background-modifier-error); border-color: var(--background-modifier-error); }
 
 /* One owning-document fullscreen lease covers workspace chrome below native popovers/dialogs. */
+/* Match the native layout docking used by Excalidraw: reserve the bar's actual height rather
+   than guessing bottom padding. Native safe-area, keyboard, floating/hidden-nav and tablet rules
+   remain authoritative; the active view's lease restores them on tab change or close. */
+body.is-mobile > .app-container > .mobile-navbar.kplex-mobile-navbar-docked { position: relative; }
+body.is-mobile > .app-container > .mobile-navbar.kplex-mobile-navbar-hidden { display: none; }
 .kplex-fullscreen-anchor { display: none; }
 .kplex-fullscreen-overlay {
   position: fixed;
@@ -4002,6 +4056,13 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--background-modifier-border); margin-bottom: 16px; padding-bottom: 8px; }
 .kplex-tabs > [role="tab"] { flex: 1 1 140px; box-shadow: none; }
 .kplex-tabs > [aria-selected="true"] { color: var(--text-accent); background: var(--background-modifier-active-hover); outline: 1px solid var(--interactive-accent); }
+/* Creation kinds share one panel; native fields and actions retain their own control chrome. */
+.kplex-creation-types { min-width: 0; }
+.kplex-add-related-footer > .kplex-creation-types { margin-top: 16px; }
+.kplex-creation-types > .kplex-tabs { gap: 4px; margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+.kplex-creation-types > .kplex-tabs > [role="tab"] { flex: 1 1 90px; min-width: 0; min-height: var(--input-height); height: auto; white-space: normal; overflow-wrap: anywhere; border-end-start-radius: 0; border-end-end-radius: 0; }
+.kplex-creation-type-panel { min-width: 0; padding: 16px; border: 1px solid var(--background-modifier-border); border-radius: 0 0 var(--radius-m) var(--radius-m); }
+.kplex-creation-type-panel > .kplex-form-actions { margin-bottom: 0; }
 .kplex-create-folder-note-modal [role="tabpanel"][hidden] { display: none; }
 .kplex-ownership-preview { padding: 12px 16px; margin-bottom: 12px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); }
 .kplex-ownership-preview.is-after { border-color: var(--interactive-accent); }
@@ -4113,6 +4174,9 @@ button.kplex-sidecar-unfold-plex:focus-visible,
   box-shadow: none;
 }
 .kplex-native-combobox > input[type="text"]:focus { box-shadow: none; }
+.kplex-template-picker > input[type="text"] { padding-inline: 0 24px; }
+/* The search shell's horizontal flex basis must not become height in a stacked form field. */
+.kplex-drawing-template > .kplex-template-picker { flex: 0 0 auto; }
 .kplex-native-combobox:focus-within { box-shadow: 0 0 0 3px var(--background-modifier-border-focus); }
 .kplex-native-combobox .kplex-search-icon { top: 50%; transform: translateY(-50%); }
 .kplex-native-combobox > .kplex-fuzzy-disclosure {
@@ -4139,8 +4203,9 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 .kplex-relationship-selection { width: 100%; min-width: 0; }
 .kplex-relationship-selection-detail { margin-top: var(--size-4-2); white-space: pre-line; overflow-wrap: anywhere; }
 .modal.kplex-modal .kplex-relationship-selection-detail { font-size: var(--font-ui-smaller, var(--font-ui-small)); }
-.modal.kplex-modal .kplex-form-select-row { display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: center; }
-.kplex-form-select-row > .setting-item-info { margin: 0; max-width: 200px; min-width: 0; }
+/* Bound label width so larger native UI fonts keep enough room for the selector. */
+.modal.kplex-modal .kplex-form-select-row { display: grid; grid-template-columns: fit-content(calc(40% - var(--kplex-control-gap))) minmax(0, 1fr); align-items: center; }
+.kplex-form-select-row > .setting-item-info { margin: 0; max-width: 200px; min-width: 0; overflow-wrap: anywhere; }
 .kplex-form-select-row > .setting-item-control { width: 100%; }
 .kplex-form-select-row > .setting-item-control > select { width: 100%; max-width: none; }
 .kplex-form-select-row > .setting-item-description { grid-column: 1 / -1; }
@@ -4151,9 +4216,10 @@ button.kplex-sidecar-unfold-plex:focus-visible,
   .kplex-form-select-row > .setting-item-info { max-width: none; }
 }
 /* Native Setting markup owns colors and finite choices; only their group geometry differs. */
-.kplex-style-row.setting-item { display: flex; }
 .kplex-style-color-row > .setting-item-control { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: var(--size-4-2); }
-.kplex-style-color-row button { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.kplex-style-color-row button { flex: 1 1 0; min-width: 0; max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.kplex-style-row .kplex-number-value { flex: 0 0 7.5em; min-width: 0; white-space: nowrap; }
+.kplex-style-row .setting-item-control > input[type="range"] { flex: 1 1 0; min-width: 0; }
 .kplex-form-options .setting-item:not(.kplex-form-field) > .setting-item-info { flex: 1 1 50%; min-width: 0; margin: 0; }
 .kplex-form-options .setting-item:not(.kplex-form-field) > .setting-item-control { flex: 1 1 50%; min-width: 0; }
 .kplex-form-options .setting-item-control > select { width: 100%; max-width: none; }
@@ -4162,4 +4228,30 @@ button.kplex-sidecar-unfold-plex:focus-visible,
   .kplex-form-options .setting-item:not(.kplex-form-field) { flex-wrap: wrap; }
   .kplex-form-options .setting-item:not(.kplex-form-field) > .setting-item-info,
   .kplex-form-options .setting-item:not(.kplex-form-field) > .setting-item-control { flex-basis: 100%; }
+}
+
+/* Compact authored rows keep a short visible label and all remaining width for the native input. */
+.kplex-modal .kplex-form-inline {
+  display: grid;
+  grid-template-columns: minmax(0, 5em) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--kplex-control-gap);
+  min-width: 0;
+  width: 100%;
+}
+.kplex-form-inline > label { margin: 0; overflow-wrap: anywhere; }
+.kplex-modal .kplex-form-inline > :not(label):not(.kplex-field-actions) { min-width: 0; width: 100%; max-width: none; box-sizing: border-box; }
+.kplex-modal .kplex-form-inline.has-actions { grid-template-columns: minmax(0, 5em) minmax(0, 1fr) auto; }
+.kplex-field-actions { display: flex; align-items: center; justify-content: flex-end; min-width: 0; gap: var(--kplex-control-gap); }
+.kplex-field-actions .kplex-add-related-action-area { min-width: 0; height: auto; }
+.kplex-creation-types { container-type: inline-size; }
+.kplex-creation-type-panel { padding: 12px; }
+.kplex-creation-type-actions { display: flex; justify-content: flex-end; }
+.kplex-creation-status { margin-top: 8px; color: var(--text-muted); font-size: var(--font-ui-small); overflow-wrap: anywhere; }
+.kplex-creation-status .kplex-add-related-create-hint { margin-top: 0; }
+@container (max-width: 360px) {
+  .kplex-modal .kplex-drawing-template.has-actions { grid-template-columns: minmax(0, 1fr) auto; }
+  .kplex-drawing-template.has-actions > label { grid-column: 1 / -1; }
+  .kplex-drawing-template.has-actions > .kplex-template-picker { grid-column: 1; }
+  .kplex-drawing-template.has-actions > .kplex-field-actions { grid-column: 2; }
 }

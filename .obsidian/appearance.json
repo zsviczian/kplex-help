@@ -1,5 +1,6 @@
 {
   "theme": "system",
   "cssTheme": "Obsidian gruvbox",
-  "accentColor": "#ffa200"
+  "accentColor": "#ffa200",
+  "showRibbon": true
 }

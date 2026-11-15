@@ -23,6 +23,9 @@ Note type: ReleaseNotes
 ---
 Create the relationship fields you need without leaving the connection you are working on. This update also keeps folder browsing and visible relationships more responsive during indexing, and lets you continue editing as you move through a Mind Map.
 
+released on:: [[2026-10-29]]
+
+
 ## Define a relationship without a detour
 
 When configuring **Pair with**, type a new property name and choose **Create … as paired field**. Save to define both sides together, with the partner assigned the reciprocal role. You no longer need to add the property to a note first just to make it available for pairing.

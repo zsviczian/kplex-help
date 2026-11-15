@@ -34,7 +34,7 @@ A placeholder can retain its intended path and a link display alias, for example
 
 **Control-click** on Windows or **Command-click** on macOS opens a placeholder's creation dialog without moving the originating canvas center. Double-click also provides the normal materialization route.
 
-The **After saving** control states what will happen:
+The **Action** control, above the creation tabs, chooses what happens after saving:
 
 | Choice | Result |
 | --- | --- |
@@ -47,17 +47,33 @@ The **After saving** control states what will happen:
 | Open in new tab | Open the file in a native Obsidian tab. |
 | Open in popout window | Open a separate desktop window. |
 
-K-Plex remembers one After saving choice for **creation** and another for **linking existing notes or web links**. Switching between those tasks restores the appropriate choice. Destinations adapt to the target and device: web links do not offer note editors, popouts are desktop-only, and a canvas in a side panel does not offer Sidecar. Placeholder materialization omits Create another and Follow node.
+K-Plex remembers one Action choice for **creation** and another for **linking existing notes or web links**. Switching between those tasks restores the appropriate choice. Destinations adapt to the target and device: web links do not offer note editors, popouts are desktop-only, and a canvas in a side panel does not offer Sidecar. Placeholder materialization omits Create another and Follow node.
 
 Folder-child creation produces a real Markdown note or Excalidraw drawing, not a placeholder: an unresolved link has no physical folder membership yet.
 
+## Choose Markdown, Excalidraw or Placeholder
+
+The creation type is a tab, separate from the **Action** above it. Choose **Markdown** for a written note, **Excalidraw** for a drawing, or **Placeholder** to keep an unwritten idea. Unavailable tabs are hidden: Excalidraw needs its enabled integration, and folder-child creation offers physical files rather than placeholders. K-Plex opens the tab you used last time.
+
+Under **Settings → K-Plex → Ontology → Relationship behavior**, set **Markdown template folder**. Start typing to find and complete an existing folder. The Markdown tab lists templates from that folder; **No K-Plex template** leaves ordinary creation automation in control. An explicit K-Plex selection replaces automatic creation templates for that note. Templates requiring Templater need its supported, enabled parser.
+
+Each type has its own Template list. Escape dismisses an open list first; a second Escape can close the dialog. Name, Alias, Folder and Action fit beside their controls, adapting to smaller screens.
+
+![[Screenshot - Creation type tabs.png]]
+
+*Desktop: Action stays above the type tabs. The Markdown tab has selected the supplied Workshop plan template; its create button names the file type.*
+
 ## Start a drawing from a template
 
-When creating an Excalidraw drawing, choose **Drawing template** in the related-note composer, folder-child dialog or placeholder creation dialog. Choices come from the template file or folder configured in Excalidraw. Folder entries show relative paths so templates with the same name are distinguishable. **Blank drawing** explicitly starts without a template.
+On the **Excalidraw** tab, choose **Template** in the related-note composer, folder-child dialog or placeholder creation dialog. Choices come from the template file or folder configured in Excalidraw. Folder entries show relative paths so templates with the same name are distinguishable. **Blank drawing** explicitly starts without a template.
 
 K-Plex remembers the last selection after a drawing is successfully created. The choice is shared across these dialogs and survives restarts; cancelling does not change it. With no previous choice, the first configured template is selected. If a remembered template has disappeared, the first available template is used. A remembered **Blank drawing** choice stays blank.
 
 For example, configure planning and sketch templates in Excalidraw. Create a related drawing using the planning template, then open a folder-child drawing dialog: the planning choice is ready to reuse. Choose Blank drawing when the next idea needs a fresh page.
+
+![[Screenshot - Excalidraw creation tab.png]]
+
+*Desktop: Excalidraw has its own tab and Template field. Blank drawing starts without a drawing template.*
 
 ## When creation or refresh is still pending
 
@@ -70,3 +86,7 @@ Newly created notes and drawings can become searchable while wider indexing cont
 If Templater applies a folder or file-creation template, K-Plex waits for that processing before adding aliases, display names or relationship properties to the new note. This also matters when the new note will own a reversed relationship. The dialog can show **Waiting for the note template to finish…** while template commands run.
 
 Use the normal creation recovery flow if template processing fails; check the actual saved file before trying again. A template command that depends on whichever editor currently has focus can target a different pane when a note opens in Sidecar. Such automation should target the created file or its specific view.
+
+## Try the supplied Markdown templates
+
+[[Example - Start from a Markdown template]] walks through creating a real page from the Workshop plan or Reading note template supplied in this vault. Cancel before saving if you only want to inspect the dialog.

@@ -25,7 +25,10 @@ Related:
 ---
 # K-Plex 0.4.0 — Put your map to work
 
+
 Take an outline into your writing, share a picture of your thinking, or let a local script explore your notes' relationships. K-Plex 0.4.0 adds export and automation alongside easier ways to open, navigate and edit your maps.
+
+released on:: [[2026-11-01]]
 
 ## Share the map you have built
 

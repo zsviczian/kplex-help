@@ -8,6 +8,8 @@ tags:
 Friend:
 - '[[Relationship sources and inference]]'
 - '[[Graph Lenses]]'
+- '[[Release 0.4.4]]'
+- '[[Release days]]'
 Previous:
 - '[[Drag drop and reclassify]]'
 Next:
@@ -44,3 +46,11 @@ Use [[Remove one relationship source|Remove one relationship source]] for a prac
 An eligible property source offers **Flip owner** alongside Edit and Go to source. This moves just that selected field-to-target declaration to the other Markdown note, using its inverse field. It is useful when the same connection should be written from the other endpoint.
 
 The confirmation shows **Current relationship** and **After saving** together. Review both, then **Save relationship** or **Cancel**. You do not need to flip it a second time inside the confirmation. Other properties and Markdown-body links stay in place; the new declaration is saved before the old one is removed. Both owners must be real Markdown notes. If the source changed while the dialog was open, inspect it again before retrying.
+
+## Jump directly to a single source
+
+Right-click or long-press a connector. If it has **one distinct physical source occurrence**, **Go to source** opens that location directly. Repeated evidence describing the same occurrence counts once; two different locations in the same note still need your choice in Connection details.
+
+Under **Canvas behavior → Navigation & interaction**, **Connector source shortcut** can use Ctrl/Cmd-click or Shift-click. It starts at None. If the source is ambiguous, stale, unavailable or inferred-only, the same action opens Connection details instead of guessing. Ordinary clicks and connection dragging keep their normal behavior.
+
+Try the single **released on** connection from [[Release 0.4.3]] to its daily note. For the explicit day-chain example, use [[Release days]]; inspect its earlier/later connectors and compare their physical declarations.

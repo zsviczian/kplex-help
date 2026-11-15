@@ -249,16 +249,19 @@
     ],
     "parents": [
       "Guide/Explains",
-      "Parent/Child"
+      "Parent/Child",
+      "earlier/later"
     ],
     "children": [
       "Child",
       "Explains",
-      "Learn more"
+      "Learn more",
+      "later"
     ],
     "leftFriends": [
       "Friend",
-      "Related"
+      "Related",
+      "released on"
     ],
     "rightFriends": [
       "Challenger",
@@ -288,6 +291,10 @@
   "toggleEmbedTogglesAutoOpen": true,
   "showInferredNodes": true,
   "showAttachments": false,
+  "showDocumentAttachments": false,
+  "showImageAttachments": false,
+  "showMediaAttachments": false,
+  "showOtherAttachments": false,
   "showURLNodes": true,
   "showVirtualNodes": true,
   "showFolderNodes": false,
@@ -301,6 +308,7 @@
     }
   },
   "baseFontSize": 13,
+  "propertyFontSize": 12,
   "showFullTagName": false,
   "maxItemCount": 120,
   "renderSiblings": false,
@@ -366,6 +374,14 @@
       "borderColor": "#94a3b8ff",
       "strokeWidth": 1
     },
+    "#kplex-help/path": {
+      "icon": "route",
+      "backgroundColor": "#164e63ff",
+      "textColor": "#ffffffff",
+      "borderColor": "#67e8f9ff",
+      "strokeWidth": 2,
+      "fontSize": 16
+    },
     "#kplex-help/concept": {
       "icon": "lightbulb",
       "backgroundColor": "#115e59ff",
@@ -408,13 +424,33 @@
       "borderColor": "#d8b4feff",
       "strokeWidth": 1
     },
-    "#kplex-help/path": {
-      "icon": "route",
-      "backgroundColor": "#164e63ff",
-      "textColor": "#ffffffff",
-      "borderColor": "#67e8f9ff",
-      "strokeWidth": 2,
-      "fontSize": 16
+    "#excalidraw": {
+      "icon": "lucide-palette",
+      "backgroundColor": "#ece6a2ff",
+      "textColor": "#000000ff",
+      "borderColor": "#e09900ff"
+    },
+    "#kplex-help/release-notes": {
+      "backgroundColor": {
+        "kind": "theme",
+        "variable": "--text-highlight-bg"
+      },
+      "borderColor": {
+        "kind": "theme",
+        "variable": "--color-orange"
+      },
+      "icon": "lucide-rocket"
+    },
+    "#ReleaseNotes": {
+      "icon": "lucide-rocket",
+      "backgroundColor": {
+        "kind": "theme",
+        "variable": "--text-highlight-bg"
+      },
+      "borderColor": {
+        "kind": "theme",
+        "variable": "--color-orange"
+      }
     }
   },
   "tagStyleList": [
@@ -426,7 +462,10 @@
     "#kplex-help/reference",
     "#kplex-help/caution",
     "#kplex-help/example",
-    "#kplex-help/about"
+    "#kplex-help/about",
+    "#excalidraw",
+    "#kplex-help/release-notes",
+    "#ReleaseNotes"
   ],
   "primaryTagField": "Note type",
   "primaryTagFieldLowerCase": "note-type",
@@ -501,8 +540,6 @@
     }
   },
   "navigationHistory": [
-    "07 Use cases/Argument maps with Challengers.md",
-    "07 Use cases/Develop visual ideas.md",
     "09 Showcase examples/Example - A note with sections.md",
     "09 Showcase examples/Example - A visual note.md",
     "07 Use cases/Use cases.md",
@@ -540,6 +577,8 @@
     "11 Release notes/Release 0.4.2.md",
     "06 Indexing and troubleshooting/Troubleshooting checklist.md",
     "04 Filter and focus/Keep layout vs Reflow.md",
+    "2026-11-15.md",
+    "11 Release notes/Release 0.4.4.md",
     "Start Here.md"
   ],
   "allowOntologySuggester": true,
@@ -554,6 +593,7 @@
   "boldFields": false,
   "allowAutozoom": false,
   "trackpadNavigation": false,
+  "connectionSourceModifier": "none",
   "allowAutofocuOnSearch": true,
   "defaultAlwaysOnTop": false,
   "embedCentralNode": false,
@@ -578,36 +618,7 @@
   "parentMaxHeight": 229,
   "childMaxHeight": 548,
   "noteTypeField": "Note type",
-  "noteTypeStyles": {
-    "excalidraw": {
-      "icon": "lucide-palette",
-      "backgroundColor": "#ece6a2ff",
-      "textColor": "#000000ff",
-      "borderColor": "#e09900ff"
-    },
-    "kplex-help/release-notes": {
-      "backgroundColor": {
-        "kind": "theme",
-        "variable": "--text-highlight-bg"
-      },
-      "borderColor": {
-        "kind": "theme",
-        "variable": "--color-orange"
-      },
-      "icon": "lucide-rocket"
-    },
-    "ReleaseNotes": {
-      "icon": "lucide-rocket",
-      "backgroundColor": {
-        "kind": "theme",
-        "variable": "--text-highlight-bg"
-      },
-      "borderColor": {
-        "kind": "theme",
-        "variable": "--color-orange"
-      }
-    }
-  },
+  "noteTypeProperties": {},
   "kplexInitialized": true,
   "startInPopout": false,
   "lastActivePath": "Start Here.md",
@@ -619,7 +630,7 @@
     "04 Filter and focus/Graph Lenses.md",
     "07 Use cases/Use cases.md",
     "12 Automation/Use K-Plex through Obsidian CLI.md",
-    "11 Release notes/Release 0.4.2.md"
+    "11 Release notes/Release 0.4.4.md"
   ],
   "periodicPinSettings": {
     "day": {
@@ -640,6 +651,11 @@
       "useDailyNotes": false,
       "weekStart": "iso"
     }
+  },
+  "showDailyCalendar": true,
+  "dailyNoteLinkFields": {
+    "previous": "",
+    "next": ""
   },
   "layoutProfiles": {
     "desktop:leaf": {
@@ -1201,6 +1217,10 @@
     "previous": "Previous",
     "next": "Next"
   },
+  "lateralCreationRoles": {
+    "left": "left",
+    "right": "right"
+  },
   "documentSyncMode": "pinned",
   "animationSpeed": 0.5,
   "graphLenses": [
@@ -1269,13 +1289,16 @@
   "folderCreationTab": "note",
   "linkAfterSaving": "return",
   "newNodeDefaultType": "excalidraw",
+  "newNodeCreationTab": null,
   "lastDrawingTemplatePath": null,
+  "markdownTemplateFolder": "Templates",
+  "alsoWriteInverseOntology": false,
   "startupIndexInfoBubbleSeen": true,
   "deletePromptInitialized": false,
   "confirmFileDelete": true,
   "removeOntologyLinksOnDelete": true,
   "appearanceThemes": {
-    "version": 1,
+    "version": 2,
     "migrationComplete": true,
     "selectedId": "native-base",
     "migrationNotice": false,
@@ -1370,14 +1393,6 @@
             "backgroundColor": "#0c3e6aff"
           },
           "semantic": {
-            "noteTypeStyles": {
-              "excalidraw": {
-                "icon": "lucide-palette",
-                "backgroundColor": "#ece6a2ff",
-                "textColor": "#000000ff",
-                "borderColor": "#e09900ff"
-              }
-            },
             "tagNodeStyles": {
               "#kplex-help/home": {
                 "icon": "home",
@@ -1393,6 +1408,14 @@
                 "textColor": "#ffffffff",
                 "borderColor": "#94a3b8ff",
                 "strokeWidth": 1
+              },
+              "#kplex-help/path": {
+                "icon": "route",
+                "backgroundColor": "#164e63ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#67e8f9ff",
+                "strokeWidth": 2,
+                "fontSize": 16
               },
               "#kplex-help/concept": {
                 "icon": "lightbulb",
@@ -1436,13 +1459,11 @@
                 "borderColor": "#d8b4feff",
                 "strokeWidth": 1
               },
-              "#kplex-help/path": {
-                "icon": "route",
-                "backgroundColor": "#164e63ff",
-                "textColor": "#ffffffff",
-                "borderColor": "#67e8f9ff",
-                "strokeWidth": 2,
-                "fontSize": 16
+              "#excalidraw": {
+                "icon": "lucide-palette",
+                "backgroundColor": "#ece6a2ff",
+                "textColor": "#000000ff",
+                "borderColor": "#e09900ff"
               }
             },
             "tagStyleList": [
@@ -1454,7 +1475,8 @@
               "#kplex-help/reference",
               "#kplex-help/caution",
               "#kplex-help/example",
-              "#kplex-help/about"
+              "#kplex-help/about",
+              "#excalidraw"
             ],
             "hierarchyLinkStyles": {
               "parent": {
@@ -1607,36 +1629,6 @@
             "standardStyleDefaults": "native"
           },
           "semantic": {
-            "noteTypeStyles": {
-              "excalidraw": {
-                "icon": "lucide-palette",
-                "backgroundColor": "#ece6a2ff",
-                "textColor": "#000000ff",
-                "borderColor": "#e09900ff"
-              },
-              "kplex-help/release-notes": {
-                "backgroundColor": {
-                  "kind": "theme",
-                  "variable": "--text-highlight-bg"
-                },
-                "borderColor": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                },
-                "icon": "lucide-rocket"
-              },
-              "ReleaseNotes": {
-                "icon": "lucide-rocket",
-                "backgroundColor": {
-                  "kind": "theme",
-                  "variable": "--text-highlight-bg"
-                },
-                "borderColor": {
-                  "kind": "theme",
-                  "variable": "--color-orange"
-                }
-              }
-            },
             "tagNodeStyles": {
               "#kplex-help/home": {
                 "icon": "home",
@@ -1652,6 +1644,14 @@
                 "textColor": "#ffffffff",
                 "borderColor": "#94a3b8ff",
                 "strokeWidth": 1
+              },
+              "#kplex-help/path": {
+                "icon": "route",
+                "backgroundColor": "#164e63ff",
+                "textColor": "#ffffffff",
+                "borderColor": "#67e8f9ff",
+                "strokeWidth": 2,
+                "fontSize": 16
               },
               "#kplex-help/concept": {
                 "icon": "lightbulb",
@@ -1695,13 +1695,33 @@
                 "borderColor": "#d8b4feff",
                 "strokeWidth": 1
               },
-              "#kplex-help/path": {
-                "icon": "route",
-                "backgroundColor": "#164e63ff",
-                "textColor": "#ffffffff",
-                "borderColor": "#67e8f9ff",
-                "strokeWidth": 2,
-                "fontSize": 16
+              "#excalidraw": {
+                "icon": "lucide-palette",
+                "backgroundColor": "#ece6a2ff",
+                "textColor": "#000000ff",
+                "borderColor": "#e09900ff"
+              },
+              "#kplex-help/release-notes": {
+                "backgroundColor": {
+                  "kind": "theme",
+                  "variable": "--text-highlight-bg"
+                },
+                "borderColor": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                },
+                "icon": "lucide-rocket"
+              },
+              "#ReleaseNotes": {
+                "icon": "lucide-rocket",
+                "backgroundColor": {
+                  "kind": "theme",
+                  "variable": "--text-highlight-bg"
+                },
+                "borderColor": {
+                  "kind": "theme",
+                  "variable": "--color-orange"
+                }
               }
             },
             "tagStyleList": [
@@ -1713,7 +1733,10 @@
               "#kplex-help/reference",
               "#kplex-help/caution",
               "#kplex-help/example",
-              "#kplex-help/about"
+              "#kplex-help/about",
+              "#excalidraw",
+              "#kplex-help/release-notes",
+              "#ReleaseNotes"
             ],
             "hierarchyLinkStyles": {
               "parent": {
@@ -1865,7 +1888,6 @@
             "standardStyleDefaults": "native"
           },
           "semantic": {
-            "noteTypeStyles": {},
             "tagNodeStyles": {},
             "tagStyleList": [],
             "hierarchyLinkStyles": {},

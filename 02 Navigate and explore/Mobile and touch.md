@@ -29,4 +29,10 @@ Existing files also offer a **K-Plex** submenu in supported Obsidian file, tab a
 
 The Rename dialog adjusts to the on-screen keyboard so its controls stay within reach. Native editor nodes keep their own scrolling and recovery controls; desktop trackpad navigation is a separate preference from touch pan and pinch.
 
-**Display modes:** [[Fullscreen and Zen mode|Zen mode]] is supported on tablet and phone, where it hides K-Plex toolbars while leaving graph controls accessible. Workspace **fullscreen** is desktop-only. External keyboard navigation is configurable, but native text inputs and touch gestures keep their own behavior.
+**Display modes:** [[Fullscreen and Zen mode|Zen and fullscreen]] work on phone and tablet. In a normal main tab, Obsidian's mobile navigation sits below K-Plex, leaving Pins, the canvas and Past nodes above it. Zen or fullscreen hides that native navigation; returning to another Obsidian tab restores its normal behavior. External keyboard navigation is configurable, but native text inputs and touch gestures keep their own behavior.
+
+## Use a sidebar without clipped controls
+
+Views and lenses and other floating controls stay within their own canvas as the sidebar changes width. Scroll the panel to reach further settings. Long-press a connector for its menu or a saved chip for its actions; swipe horizontally along Pins or Past nodes to scroll them, and drag outward to start a link drop.
+
+For an explicit ordinary web-link opening, K-Plex uses native external-link handling on mobile or when the desktop Web viewer is unavailable. Native Obsidian settings determine the destination. Protocol links such as obsidian:// still require their explicit Open action.

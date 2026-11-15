@@ -19,7 +19,10 @@ Related:
 ---
 # K-Plex 0.4.1 — Keep exploring as notes change
 
+
 Move between notes with less repeated preparation. This update improves Eager indexing and makes it easier to remove unwanted references from either end of a connection.
+
+released on:: [[2026-11-02]]
 
 Published November 2, 2026. This is a reader-facing summary of the [published release](https://github.com/zsviczian/kplex/releases/tag/0.4.1).
 

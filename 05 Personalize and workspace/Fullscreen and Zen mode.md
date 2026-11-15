@@ -21,7 +21,7 @@ Need more room to think, or fewer controls competing for attention? Use fullscre
 
 | Mode | What changes | Where |
 | --- | --- | --- |
-| **Fullscreen** | K-Plex covers the **Obsidian workspace inside its current window**. The existing pane is restored when fullscreen ends. It is **not** the operating system's/browser fullscreen mode. | Desktop only. |
+| **Fullscreen** | K-Plex covers the **Obsidian workspace inside its current window**. The existing pane is restored when fullscreen ends. It is **not** the operating system's/browser fullscreen mode. | Desktop, tablet and phone. |
 | **Zen mode** | Hides K-Plex's **top toolbar, pins and bottom Past nodes/history**, keeping the graph and its bottom-right controls. | Desktop, tablet and phone. |
 
 ## Turn a mode on or off
@@ -36,9 +36,9 @@ K-Plex keeps the **same graph, camera zoom/pan, selection and navigation history
 
 With graph focus, **Escape** exits Zen **first**, then fullscreen when pressed again, provided no other interface has claimed Escape. An active query, menu, native editor/dialog or connection session has its own Escape priority. Switching to another Obsidian pane or closing the K-Plex view exits fullscreen; closing/unloading the view also cleans up its temporary modes.
 
-Neither state is a saved vault preference. Modes last for **this view session**; reopening the view starts with its normal layout. On a phone or tablet the fullscreen button is unavailable, but Zen still works.
+Neither state is a saved vault preference. Modes last for **this view session**; reopening the view starts with its normal layout. On a phone or tablet, Zen and fullscreen also hide Obsidian's mobile navigation bar. A normal main tab reserves space for that bar beneath K-Plex.
 
-**Try it:** Center a note, pan or zoom slightly, enter Zen, then fullscreen (desktop), and exit both. The camera should be retained throughout; press **Fit to screen** only if you want a new framing.
+**Try it:** Center a note, pan or zoom slightly, enter Zen, then fullscreen, and exit both. The camera should be retained throughout; press **Fit to screen** only if you want a new framing.
 
 ## Windows and narrow-window controls
 

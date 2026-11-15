@@ -22,14 +22,14 @@ sessionSize: "short"
 
 Show how two ideas belong together. Add a relationship from a gate and choose an existing note, a new note or an idea to write later.
 
-![[Screenshot - Create a related note.png]]
+![[Screenshot - Creation type tabs.png]]
 
 *Direction and relationship field sit together. Choose an existing note or create a new one, then decide what should happen after saving.*
 
 ## Connect two ideas
 
 1. Center the note you want to build from.
-2. Drag outward from a relationship gate, or choose **Add parent**, **Add child**, **Add friend** or **Add challenger** from its actions.
+2. Drag outward from a relationship gate, or choose **Add parent**, **Add child**, **Add friend**, **Add challenger**, **Add previous** or **Add next** from its actions.
 3. Check the direction beside the relationship-field selector. The starting gate supplies the default; dropping onto another node's gate does not replace it. **All** lets you browse fields from every direction.
 4. Find an existing note, then select **Link**. Alternatively, type a new name and create a note or placeholder.
 
@@ -45,6 +45,12 @@ Continue with [[Create notes and placeholders|capturing an unwritten idea]] or [
 
 ## Keep direction and property ownership clear
 
-K-Plex remembers the last ontology within each direction. For example, choosing **supercharged by** for a Challenger does not replace your last Child field. Hold a modifier key while dragging from Friend or Challenger to start Previous or Next instead. With Compass's East–West axis flipped, those roles follow the flipped gates.
+K-Plex remembers the last ontology within each direction, and lateral drags also remember which family you last committed: Friend versus Previous on one side, Challenger versus Next on the other. Hold **Alt/Option** to request Previous/Next, or **Ctrl/Cmd** to request Friend/Challenger. The canvas hint shows the alternatives while connecting or dropping into a lateral area. With Compass's East–West axis flipped, the roles follow the displayed gates.
 
 For eligible Markdown endpoints, **Flip owner** changes which note will store the relationship property. Read the statement showing the owner, field and target before saving. Attachments, folders, tags, URLs and placeholders cannot own Markdown properties.
+
+## Use one declaration or write both ends
+
+One explicit property normally describes the relationship from both endpoints. If you also need its inverse physically written in the other note, enable **Also write inverse ontology** in Relationship behavior settings. It starts off and needs a configured inverse pair and two eligible Markdown notes. Review the owning note and field before saving. The writes are separate; if one succeeds and the other fails, use the offered recovery for the missing write rather than creating the connection again.
+
+**Add relationship** opens the composer in All mode; **Add previous** and **Add next** select those sequence directions. Find them in Obsidian's Command Palette or configure them in Actions and shortcuts.

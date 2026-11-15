@@ -56,3 +56,9 @@ The two settings are deliberately independent:
 | Trigger a published command from anywhere Obsidian permits | Assign a **global hotkey** under Obsidian's own **Settings → Hotkeys**. |
 
 Removing a local key should **not** silently unpublish the command, and unpublishing should **not** erase a local key assignment. Review the separate warnings when an action overlaps an Obsidian global hotkey.
+
+## Modifier-click the toolbar
+
+Hover **New canvas tab** or **Settings menu** for the available click shortcuts on your device. For New canvas, **Ctrl/Cmd-click** opens a new tab in the same group; **Ctrl/Cmd+Alt/Option-click** opens a new tab group; **Alt/Option-click** opens a sidebar canvas; **Ctrl/Cmd+Alt/Option+Shift-click** opens a desktop popout. An ordinary click keeps the default new-group behavior. Settings opens plugin settings with **Ctrl/Cmd-click**, or toggles area settings with **Alt/Option-click**.
+
+The action catalog also includes **Add relationship** (All), **Add previous** and **Add next**. Assign local keys or publish Obsidian commands using the same controls as other actions.

@@ -23,16 +23,23 @@ Related:
   - "[[Release 0.4.2]]"
   - "[[Recently added features]]"
   - "[[README]]"
+Friend:
+- '[[Release 0.4.4]]'
+- '[[Release 0.4.3]]'
+- '[[Release days]]'
 ---
 # K-Plex release notes
 
 Wondering whether an update helps your workflow? Browse what changed, then follow a feature link to learn how to use it.
 
-## K-Plex 0.4.2 — Create, organize and return to your work
+## K-Plex 0.4.4 — Create in context and keep your place
 
-[[Release 0.4.2|K-Plex 0.4.2]] adds folder creation and imports, periodic pins, relationship ownership changes, new Facets options and steadier indexing during Sync. Browse [[Releases 0.4|the 0.4 releases]] for export, automation and earlier improvements.
+[[Release 0.4.4]] adds separate creation tabs and templates, richer note types, saved-list previews, journal links, mobile layout improvements and faster plugin initialization. Browse [[Releases 0.4]] for calendar navigation, folder workflows, export and automation.
 
-## Published releases
+## Release archive
+
+- [[Release 0.4.4|K-Plex 0.4.4]] — create in context and keep your place.
+- [[Release 0.4.3|K-Plex 0.4.3]] — November 9, 2026: Daily Notes calendar, journal gap links and indexing improvements.
 
 - [[Release 0.4.2|K-Plex 0.4.2]] — November 5, 2026: create and organize notes, return through periodic pins, and control relationship ownership.
 - [[Release 0.4.1|K-Plex 0.4.1]] — November 2, 2026: keep Eager navigation current and remove references from either endpoint.

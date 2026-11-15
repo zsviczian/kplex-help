@@ -33,7 +33,7 @@ Understand a note at a glance in Compass, the default view. Read the space aroun
 - **Friend** — left; lateral, supportive or closely related idea.
 - **Challenger** — right; opposing, competing or tension-producing idea.
 - **Previous / Next** — left / right; ordered movement through a sequence.
-- **Siblings** — a separate peripheral region; other children of the current node's parents.
+- **Siblings** — a separate peripheral region of second-order neighbors reached through the center's direct Parents, Children, Friends, Challengers, Previous or Next notes. Directly displayed notes and expanded Child rows are not repeated there.
 
 ```mermaid
 flowchart TB

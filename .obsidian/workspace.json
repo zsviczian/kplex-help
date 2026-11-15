@@ -6,6 +6,7 @@
       {
         "id": "6ad9b265c7d9e229",
         "type": "tabs",
+        "dimension": 65.45556176634992,
         "children": [
           {
             "id": "f396e0b44d530569",
@@ -35,7 +36,7 @@
                   "version": 1,
                   "ownerId": "f96c6c66434b3021",
                   "centerPath": "Start Here.md",
-                  "targetId": null,
+                  "targetId": "b94fc5b8ee5c5f92",
                   "plexView": {
                     "version": 1,
                     "id": "classic",
@@ -73,10 +74,10 @@
                     },
                     "editors": null
                   },
-                  "documentSyncMode": "off",
-                  "sidecarOpen": false,
+                  "documentSyncMode": "pinned",
+                  "sidecarOpen": true,
                   "sidecarPosition": "right",
-                  "sidecarLastFilePath": "",
+                  "sidecarLastFilePath": "Start Here.md",
                   "sidecarLastUrl": "",
                   "sidecarMarkdownMode": "source"
                 }
@@ -87,6 +88,27 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "9da98b2add198ad1",
+        "type": "tabs",
+        "dimension": 34.544438233650084,
+        "children": [
+          {
+            "id": "b94fc5b8ee5c5f92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Start Here.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Start Here"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -282,6 +304,13 @@
   },
   "active": "f96c6c66434b3021",
   "lastOpenFiles": [
+    "Start Here.md",
+    "09 Showcase examples/Example - Start from a Markdown template.md",
+    "Templates/Template - Workshop plan.md",
+    "Templates/Template - Reading note.md",
+    "Templates",
+    "11 Release notes/Release 0.4.4.md",
+    "11 Release notes/Release 0.4.3.md",
     "04 Filter and focus/Keep layout vs Reflow.md",
     "06 Indexing and troubleshooting/Troubleshooting checklist.md",
     "11 Release notes/Releases 0.4.md",
@@ -290,7 +319,6 @@
     "12 Automation/Use K-Plex through Obsidian CLI.md",
     "skill.md",
     "11 Release notes/Release 0.3.0.md",
-    "Start Here.md",
     "11 Release notes/Release 0.4.0.md",
     "11 Release notes/Release 0.3.1.md",
     "Assets/Image - select canvas view.png",
@@ -311,13 +339,8 @@
     "Assets/Screenshot - Ontology documents.png",
     "Assets/Screenshot - Ontology pairs.png",
     "00 Start Here/K-Plex Help.md",
-    "08 About/About K-Plex.md",
     "Assets/About - kplex.png",
     "Assets/Image - About.png",
-    "00 Start Here/First 5 minutes.md",
-    "09 Showcase examples/Example - Research question.md",
-    "08 About/Support K-Plex.md",
-    "08 About/From ExcaliBrain to K-Plex.md",
     "Excalidraw",
     "Assets",
     "02 Navigate and explore",
@@ -326,7 +349,6 @@
     "09 Showcase examples",
     "08 About",
     "07 Use cases",
-    "06 Indexing and troubleshooting",
-    "05 Personalize and workspace"
+    "06 Indexing and troubleshooting"
   ]
 }

@@ -63,3 +63,7 @@ The [[Recently added features|recent features hub]] links to the Action Manager,
 The default **Compass** view teaches the relationship vocabulary used throughout the help. **Mind Map** follows a hierarchy from a stable root. **Facets** lets you define categories for the direct neighbors of a note.
 
 Open [[Facets demonstrations|the four Facets demonstrations]] to see property, tag, note-type and category-rule sources with different arrangements. Each preset has a useful starting note and its own help. Treat them as examples for a workflow you define, rather than a system you must adopt.
+
+## Follow release dates
+
+[[Release days]] is a real journal demonstration. **released on** is a Friend relationship from a release to its daily note. Daily notes use **earlier / later** to link the nearest entries, while release pages keep **Previous / Next** for version order. Several releases can share one day. The original October 9 Date-property example remains a demonstration rather than a release event.

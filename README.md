@@ -7,7 +7,7 @@ tags:
 Guide:
   - "[[Get started]]"
 Related:
-  - "[[Release 0.4.2]]"
+  - "[[Release 0.4.4]]"
   - "[[Automation and scripting]]"
   - "[[Release 0.2.2]]"
   - https://github.com/zsviczian/kplex/releases/tag/0.2.4
@@ -28,7 +28,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-These guides cover **K-Plex 0.4.2**, including [[Release 0.4.2|folder workflows, periodic pins and relationship editing]]. The bundled plugin is **0.4.2** and requires **Obsidian 1.13.0 or newer**.
+These guides cover **K-Plex 0.4.4**, including [[Release 0.4.4|creation templates, note types, journal links and mobile improvements]]. K-Plex requires **Obsidian 1.13.0 or newer**.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
@@ -41,7 +41,7 @@ Use [[Canvas views|the view comparison]] to choose a perspective, or [[Facets de
 - [[Use cases|Everyday workflows]] combine features into useful results.
 - [[Glossary|The glossary]] explains unfamiliar labels.
 
-The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
+The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. Release notes connect to their actual daily notes through the Friend field `released on`; those days use `earlier` and `later` to form a journal chain. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
 
 ## Use scripts and local assistants
 

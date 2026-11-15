@@ -56,6 +56,9 @@ Note type: ReleaseNotes
 
 Organize your knowledge while exploring it, keep your place and make room for the document you are working on. K-Plex is becoming more than a way to navigate connected notes. Organize knowledge directly from the graph, keep different tasks in separate Plex views, retrace an exploration, and make the workspace fit your preferred appearance.
 
+released on:: [[2026-10-20]]
+
+
 **Published:** 2026-10-20 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.2.0)
 
 This page is a reader-facing summary of the published release. The linked GitHub release contains the complete original notes. The technical 0.2.1 republication has no separate feature notes.

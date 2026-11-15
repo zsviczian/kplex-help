@@ -58,3 +58,7 @@ The preset editor offers two independent choices:
 - **Hide gates, connect links from node centers** removes the gates and draws connections directly between cards.
 
 Save either, both or neither for each preset. These choices change presentation; they do not reclassify notes or rewrite relationships.
+
+## Grow the workflow deliberately
+
+The supplied Facets layouts support **up to 12 categories** per preset. Start with fewer categories where possible; add more only when each answers a useful question. This limit does not add support for custom layouts.

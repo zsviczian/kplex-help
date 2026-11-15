@@ -71,3 +71,7 @@ For ordinary web links, a Markdown label in frontmatter supplies a readable node
 ## Preview before navigating
 
 K-Plex's **Page Preview** preference applies across normal tabs, sidebars and popout windows. Use Obsidian's usual preview interaction to inspect a supported target without committing to a new center.
+
+## Rename while preserving a useful display name
+
+A node's Rename action follows native file renaming and link maintenance. When the note already has a configured display-name property such as aliases or title, the dialog offers **Update** for that property. Choose whether it should follow the new filename. Other aliases remain intact; K-Plex does not add an unrelated display field merely because you rename.

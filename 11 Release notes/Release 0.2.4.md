@@ -26,6 +26,9 @@ Note type: ReleaseNotes
 
 Give a document or its map more space with one action, and keep exploring while edits are indexed. This update improves Sidecar controls, framing, editor shortcuts and gate-count stability.
 
+released on:: [[2026-10-24]]
+
+
 Published **2026-10-24**. The original GitHub release text is reproduced below.
 
 ## Original published notes

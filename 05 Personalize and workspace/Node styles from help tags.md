@@ -16,9 +16,9 @@ Next:
 
 Tell a task, concept or caution apart before opening it. Use note types or tags to give those kinds of notes a consistent visual identity.
 
-![[Screenshot - Node style rules.png]]
+![[Screenshot - Shared note type style.png]]
 
-*The same style manager lists note-property rules and the help vault's imported tag styles, with previews for comparison.*
+*Desktop: the shared #Guide style includes Node details for optional document properties. Add fields deliberately; the editor does not populate existing notes automatically.*
 
 | Style tag | Meaning in the help |
 | --- | --- |
@@ -34,6 +34,14 @@ Tell a task, concept or caution apart before opening it. Use note types or tags 
 
 Topic tags (such as `#kplex/indexing` or `#kplex/navigation`) add a second way to browse and filter notes. A topic tag is not the same as the visual style tag.
 
-K-Plex can also style nodes using a **Node style property** (default: `Note type`). Property-value styles are the current first-class system; imported tag-prefix styles remain supported and are deliberately used here. The **first matching imported tag style** determines that style when multiple style tags apply.
+K-Plex uses one shared style per tag, displayed with its # prefix. The configured **Node style property** (default: `Note type`) selects the tag style that has priority for that note. Existing note-type and tag styles migrate into the shared definitions; the same tag can still classify other notes normally.
 
 **Try it:** Visit [[Choose a topic|Choose a topic]] and compare the look of a path, section, concept and how-to note. Then inspect **Settings → K-Plex → Visual styling → Node styling → Node styles**.
+
+## Give a note a type and useful details
+
+Use a Markdown node's **Set note type** action to choose a valid tag/type. K-Plex updates the configured document property and matching YAML tag together. Review whether to keep the old type as an ordinary tag when replacing it; Clear removes the selected type deliberately.
+
+In the shared style editor, define up to **16 ordered document properties** to show below the name. Enable the useful rows and inspect the preview for your selected note. Property text has its own global font size. These definitions describe what to display; they do not silently add data to existing notes.
+
+**Add missing properties** previews a single eligible note's absent fields before writing them. **Review note types** finds invalid types, missing matching tags and missing configured properties for explicit review. Existing values, including empty, false or null values, are kept. A Markdown node can also open Obsidian's native **File properties** sidebar.

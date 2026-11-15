@@ -28,7 +28,11 @@ Pins are useful for anchors such as a project home, a research question, a dashb
 
 Past nodes and pins use your node styles, including note-type and tag colors, borders, icons and prefixes. They keep compact list sizes; the current destination has a separate accent outline.
 
-To scroll Past nodes with a mouse, hold the primary button and drag left or right. A short click still opens the chosen note. Touch swiping, trackpad scrolling and keyboard activation remain available.
+To scroll **Pins or Past nodes** with a mouse, hold the primary button and drag horizontally along the bar. You can also hold the **middle mouse button** and drag. A short primary click still opens the destination. Touch swiping, trackpad scrolling and keyboard activation remain available.
+
+Drag outward from a chip to use it like another node: drop into a relationship area or gate to review a connection, or into an Obsidian editor/tab to bring its link or file there. Horizontal movement scrolls the bar; outward movement starts link dragging.
+
+Hold **Ctrl** on Windows/Linux or **Cmd** on macOS while hovering a chip for Obsidian's native page preview. Its ordinary tooltip yields to the preview. Enable K-Plex Page Preview and Obsidian's Page preview core plugin if needed.
 
 In Mind Map, selecting a history entry or pin starts the map at that note as its new root. The full History and pins pickers do the same, within the canvas that opened them.
 
@@ -44,9 +48,13 @@ This help vault starts with a few useful pins, including [[K-Plex Help|K-Plex He
 
 Selecting an earlier Footprints visit appends another visit. **Start here** resets only that canvas's trail, while **Copy as Markdown** exports the whole list for pasting into a note. Neither action clears Past nodes or pins. For a practical exercise, try [[Rediscover and remember your notes]].
 
+![[Screenshot - Pin editing.png]]
+
+*Desktop: pencil mode reveals each pin?s separate reorder grip and remove control. Drag the body along the bar to scroll; the grip changes its order.*
+
 ## Put pins in your preferred order
 
-Drag a pin by its reorder handle and follow the insertion marker, then release to save its position. Its context menu also offers **Move left** and **Move right**. Reordering is shared across your canvases; it does not change History. Cancelling the drag leaves the order unchanged.
+Choose the **pencil** button to enter pin editing mode. Drag a pin by its reorder handle and follow the insertion marker, then release to save its position. Dragging its body still scrolls; the exposed remove control removes that pin. Choose the pencil again to leave editing mode. Its context menu also offers **Move left** and **Move right**. Reordering is shared across your canvases; it does not change History. Cancelling the drag leaves the order unchanged.
 
 ## Pin today, this week or this month
 
@@ -60,3 +68,11 @@ The destinations follow this device's local date and update as the day, week or 
 If the destination does not exist, activating the pin asks **Create periodic note?**. Review the path and **After saving** destination, then create it or cancel. The opening choice is remembered separately from ordinary creation and linking. Notes are never created merely because the date changes.
 
 Today with Daily Notes settings enabled uses core Daily Notes creation and its configured template. Custom daily, weekly and monthly pins use their configured paths; they do not automatically inherit a separate periodic-notes plugin's template settings. Applicable Templater creation automation still runs. See [[Date properties and daily notes|Date properties and daily notes]] for relationships based on dates in other notes.
+
+![[Screenshot - Daily note calendar.png]]
+
+*Desktop: the calendar marks dates with existing notes. November 15 is today in this capture; selecting a missing date opens a review.*
+
+## Choose a day in the calendar
+
+Use the calendar button beside Pins to jump to a date. Dots mark days with existing Daily Notes; selecting a missing date opens a creation review using your Daily Notes configuration. The button can be hidden in Pins settings. When creating today without yesterday's note, an optional earlier-entry offer can help join the gap; see [[Date properties and daily notes]].

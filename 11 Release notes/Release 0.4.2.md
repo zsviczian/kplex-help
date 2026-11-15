@@ -23,10 +23,15 @@ Explains:
 Related:
 - https://github.com/zsviczian/kplex/releases/tag/0.4.2
 - https://github.com/zsviczian/kplex/compare/0.4.1...0.4.2
+Next:
+- '[[Release 0.4.3]]'
 ---
 # K-Plex 0.4.2 — Create, organize and return to your work
 
+
 Capture notes in the right folder, bring outside material into your map, and keep today's work one click away. K-Plex 0.4.2 adds folder workflows, periodic pins and more control over relationships, alongside steadier indexing during Obsidian Sync.
+
+released on:: [[2026-11-05]]
 
 Published November 5, 2026. This page summarizes the [published release](https://github.com/zsviczian/kplex/releases/tag/0.4.2); the guides below explain how to use the changes.
 

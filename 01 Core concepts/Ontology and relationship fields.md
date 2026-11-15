@@ -43,13 +43,15 @@ Continue with [[Relationship sources and inference|Relationship sources and infe
 
 ## Pairs describe the two ends of one relationship
 
-This help vault is configured with three pairs:
+This help vault uses these pairs:
 
 | Pair | From the first field's note | From the other endpoint |
 | --- | --- | --- |
 | Guide / Explains | Guide points up to the guide | Explains names the guide’s connection to its topic |
 | Parent / Child | Parent points up to the broader note | Child names the parent’s connection to its detail |
 | Previous / Next | Previous points to the preceding step | Next names the forward connection from that step |
+| earlier / later | earlier points to the nearest earlier journal entry | later points forward through the daily-note chain |
+| earlier / later | earlier points to the nearest earlier journal entry | later points forward through the daily-note chain |
 
 The `/` belongs in **K-Plex Settings**, not in your Markdown property name. Keep using ordinary `Guide`, `Explains`, `Parent`, `Child`, `Previous` or `Next` properties in the notes.
 
@@ -69,3 +71,5 @@ Read [[Manage and clean up ontology]] to find documents using either physical fi
 ## Date properties are a special case
 
 An Obsidian Date value that resolves to a Daily Note has a configurable **Default Date role** (initially Parent). A configured named field mapping—even **Hidden**—overrides that fallback. Unlike a wikilink property, a Date scalar is edited in Obsidian’s property editor. Read [[Date properties and daily notes|Date properties and daily notes]].
+
+The Friend field **released on** connects each release note to its actual daily note. It uses an explicit wikilink, not a Date value. Follow [[Release days]] to compare the day chain with the release-version sequence.

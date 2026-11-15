@@ -12,6 +12,8 @@ Friend:
   - "[[Choose a topic]]"
   - "[[Glossary]]"
   - "[[Use cases]]"
+  - '[[Release 0.4.4]]'
+  - '[[Release 0.4.3]]'
 Explains:
   - "[[Navigate and explore]]"
   - "[[Build and edit]]"
@@ -39,6 +41,10 @@ Related:
 # Find a useful improvement
 
 Returning to K-Plex and wondering what is worth trying? Start with the task you want to make easier, then open the relevant guide.
+
+## Create in context and keep your place
+
+Choose Markdown, Excalidraw or Placeholder tabs with separate templates. Give note types useful property details, preview pinned/history destinations, and drag them into relationships or Obsidian tabs. Follow explicit journal gaps, filter attachment kinds separately, and keep mobile navigation clear of the map. [[Release 0.4.4]] connects these improvements to their guides.
 
 ## Take the map into your next task
 
@@ -82,4 +88,4 @@ Choose startup and Eager/On-demand behavior separately for desktop, tablet and p
 
 ## Put it to work
 
-Try [[Never start a project with a blank page|starting a project from existing knowledge]], [[Garden your vault|gardening one note at a time]], or [[Research and learning|turning research into a draft]]. Read [[Release 0.4.2|what changed in 0.4.2]], or use the release archive for earlier history.
+Try [[Never start a project with a blank page|starting a project from existing knowledge]], [[Garden your vault|gardening one note at a time]], or [[Research and learning|turning research into a draft]]. Read [[Release 0.4.4|what changed in 0.4.4]], or use the release archive for earlier history.

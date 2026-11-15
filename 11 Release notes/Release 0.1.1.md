@@ -41,6 +41,9 @@ Note type: ReleaseNotes
 
 Checking what changed in this version? Read the published notes below, or follow the guide links for current instructions.
 
+released on:: [[2026-10-10]]
+
+
 **Published:** 2026-10-10 · [Original GitHub release](https://github.com/zsviczian/kplex/releases/tag/0.1.1)
 
 ## Explore these changes in K-Plex Help

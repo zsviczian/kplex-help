@@ -15,6 +15,8 @@ Related:
 - '[[Date properties and daily notes]]'
 - '[[Sequential workflows]]'
 - '[[Projects and decisions]]'
+Friend:
+- '[[Release days]]'
 ---
 # Meeting notes and daily notes
 
@@ -50,3 +52,9 @@ Try [[Example - Date and a daily note]], then read [[Date properties and daily n
 
 > [!warning] Avoid accidental chronology
 > Dates describe when something happened. Previous and Next describe an explicit order. A date-scoped automatic Wander retrospective is not part of this workflow.
+
+## Try a real dated sequence in this vault
+
+Open [[Release days]] and follow the days on which K-Plex releases appeared. A release note connects laterally to its day through **released on**, while daily notes connect to their nearest earlier/later entry. Several releases can share a day. Follow the release-version sequence separately to compare version order with journal chronology.
+
+For your own journal, open the Pins calendar, create a missing day, or review a proposed link to an earlier entry. Keep the dates and wording that fit your own work; the Help example does not require a note for every calendar day.

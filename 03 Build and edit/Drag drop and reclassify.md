@@ -64,3 +64,7 @@ Review the import in one dialog:
 3. Review filenames and **After saving**, then **Import**. A single file uses this dialog directly, without a separate configuration step.
 
 Folder imports copy their contents recursively, including empty subfolders, within the limits reported by the dialog. The original files stay outside the vault, and an existing destination is not silently overwritten. Progress shows folder creation, copying and linking. If a copy succeeds but linking fails, use recovery for that copied file rather than importing a duplicate.
+
+## Choose a lateral relationship while dragging
+
+Friend/Previous and Challenger/Next share the lateral areas. K-Plex remembers which family you last committed. Hold **Alt/Option** for Previous/Next or **Ctrl/Cmd** for Friend/Challenger; the canvas hint shows the choices. Pins and Past nodes can be drag sources too: move outward to export their node link, or along the bar to scroll.

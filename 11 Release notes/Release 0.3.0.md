@@ -20,6 +20,9 @@ Note type: ReleaseNotes
 
 Choose a perspective that suits the work in front of you. Explore a note’s context with Compass, develop a hierarchy with Mind Map, or organize connected notes through your own Facets workflow.
 
+released on:: [[2026-10-27]]
+
+
 ## Keep your familiar map, choose another perspective
 
 **Compass** is the name of the default directional view. Each canvas can choose its own view through **Views and lenses**, so one topic can have a relationship map alongside a hierarchy or classified neighborhood. Shared navigation and editor defaults live under **Canvas behavior**; view-specific arrangement and presets live in its **Views** group.

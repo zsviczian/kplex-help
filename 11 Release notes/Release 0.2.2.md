@@ -21,6 +21,9 @@ Note type: ReleaseNotes
 
 Get an overview of a busy neighborhood before opening its individual notes. Fixed Graph Lens style editor bug where color editor appeared behind the lens settings.
 
+released on:: [[2026-10-21]]
+
+
 Published **2026-10-21**. This is a reader-facing summary of [the published 0.2.2 release](https://github.com/zsviczian/kplex/releases/tag/0.2.2).
 
 ## Open the detail you need

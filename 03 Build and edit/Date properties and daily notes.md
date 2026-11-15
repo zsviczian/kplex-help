@@ -10,6 +10,8 @@ Related:
 - '[[Relationship sources and inference]]'
 - '[[Meeting notes and daily notes]]'
 - '[[Connection details and evidence]]'
+Friend:
+- '[[Release days]]'
 ---
 # Date properties and daily notes
 
@@ -22,7 +24,7 @@ Connect a meeting or event to the day it happened. A Date property can link it t
 ## Choose a default role
 
 1. Enable Obsidian's **Daily notes** core plugin and ensure the target daily note follows your configured date format and folder. Give the source property Obsidian's **Date** property type.
-2. Open **Settings → K-Plex → Canvas behavior → Relationship behavior → Default Date role**.
+2. Open **Settings → K-Plex → Ontology → Relationship behavior → Default Date role**.
 3. Choose **Parent** (default), **Friend**, **Child**, **Challenger**, **Previous**, or **Next**. This is the fallback for Date properties **without** a configured ontology role.
 4. Navigate to a note with a recognized Date value and an existing resolvable Daily Note. K-Plex shows the relationship in the chosen direction. **Connection details** retains its Date provenance.
 
@@ -56,3 +58,23 @@ For Obsidian's own behavior, see [Properties](https://obsidian.md/help/propertie
 Enable **Today** under **Canvas behavior → Pins**. With **Use Daily Notes settings** enabled, K-Plex uses core Daily Notes' folder, date format and template. If today's note is missing, its pin asks before creating it and lets you choose where it opens afterward. Applicable Templater processing finishes before K-Plex adds properties.
 
 This is an explicit creation action, separate from the inferred Date relationships above. Weekly and monthly pins have their own location/format settings. See [[Past nodes and pins|Past nodes and pins]] for setup.
+
+## Bridge a gap in your journal
+
+Open the calendar beside Pins to choose a date; existing entries are marked. For an existing daily note, its context menu offers **Connect to previous daily note** or **Connect to next daily note** when that neighboring calendar day is missing. K-Plex proposes the nearest existing entry, including entries in nested folders, and opens the normal composer so you can review the ontology and save or cancel.
+
+When you create **today's** Daily Note and yesterday is missing, the creation dialog can offer **Link to** the nearest earlier entry. Choose that option to continue into the relationship review after creation. There is no offer for a different selected date, no earlier entry, or an existing yesterday. It never silently writes the link.
+
+![[Screenshot - Daily note calendar.png]]
+
+*Desktop: dots mark existing November daily notes, including the release dates. The Date field selects a day; Go navigates or asks before creation.*
+
+## Follow the release-day demonstration
+
+Open [[Release days]]. The release archive points to real daily notes using an inline field such as:
+
+```markdown
+released on:: [[2026-11-09]]
+```
+
+In this vault, **released on** is a Friend field. The daily notes use **earlier / later** for the nearest existing entry, even across missing days. This is deliberate journal chronology; release pages retain their own **Previous / Next** version sequence. The original Date-property example remains separate, so you can compare a scalar Date with an explicit wikilink field.

@@ -26,6 +26,9 @@ Note type: ReleaseNotes
 
 Get to work with existing notes while K-Plex prepares their connections. This update reduces repeated indexing work and improves startup and editing responsiveness.
 
+released on:: [[2026-10-24]]
+
+
 Published **2026-10-24**. The original GitHub release text is reproduced below.
 
 ## Original published notes
