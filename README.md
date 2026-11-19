@@ -42,7 +42,7 @@ Use [[Canvas views|the view comparison]] to choose a perspective, or [[Facets de
 - [[Use cases|Everyday workflows]] combine features into useful results.
 - [[Glossary|The glossary]] explains unfamiliar labels.
 
-The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. Release notes connect to their actual daily notes through the Friend field `released on`; those days use `earlier` and `later` to form a journal chain. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
+The examples use paired Guide/Explains, Parent/Child and Previous/Next relationships. Release notes connect to their actual daily notes through the Friend field `released on`. Journal days use `earlier` as Parent and `later` as Child; release versions use their own Previous/Next sequence. You can navigate them in K-Plex or read the same notes normally. Screenshots show real controls from the demo; illustrations are visual introductions.
 
 ## Use scripts and local assistants
 

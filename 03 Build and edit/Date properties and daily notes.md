@@ -77,4 +77,4 @@ Open [[Release days]]. The release archive points to real daily notes using an i
 released on:: [[2026-11-09]]
 ```
 
-In this vault, **released on** is a Friend field. The daily notes use **earlier / later** for the nearest existing entry, even across missing days. This is deliberate journal chronology; release pages retain their own **Previous / Next** version sequence. The original Date-property example remains separate, so you can compare a scalar Date with an explicit wikilink field.
+In this vault, **released on** is a Friend field. Daily notes deliberately use **earlier / later** as a **Parent / Child** pair: the nearest earlier entry is a Parent and the nearest later entry is a Child, even across missing days. Release pages retain their separate **Previous / Next** version sequence. The original Date-property example remains separate, so you can compare a scalar Date with an explicit wikilink field.

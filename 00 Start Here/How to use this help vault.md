@@ -66,4 +66,4 @@ Open [[Facets demonstrations|the four Facets demonstrations]] to see property, t
 
 ## Follow release dates
 
-[[Release days]] is a real journal demonstration. **released on** is a Friend relationship from a release to its daily note. Daily notes use **earlier / later** to link the nearest entries, while release pages keep **Previous / Next** for version order. Several releases can share one day. The original October 9 Date-property example remains a demonstration rather than a release event.
+[[Release days]] is a real journal demonstration. **released on** is a Friend relationship from a release to its daily note. Daily notes use **earlier / later** as a **Parent / Child** pair: the nearest earlier entry is a Parent, and the nearest later entry is a Child. Release pages use **Previous / Next** for their separate version sequence. Several releases can share one day. The original October 9 Date-property example remains a demonstration rather than a release event.

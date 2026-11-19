@@ -23,7 +23,7 @@ Remember when a feature arrived, or explore what changed around a day. These dai
 ## Try the two routes
 
 1. Center [[Release 0.4.3]] and follow its **released on** Friend connection to [[2026-11-09]].
-2. Follow **earlier** to [[2026-11-05]], then **later** to return. The chain crosses days without an entry.
+2. Follow the **earlier** Parent to [[2026-11-05]], then its **later** Child to return. The chain crosses days without an entry.
 3. Open [[2026-10-24]] to see two releases on one day. Version order lives in each release page's **Previous / Next**, independently of the journal chain.
 4. Compare [[Example - Date and a daily note]]: it uses a scalar Date property, while release days use explicit inline wikilinks.
 
