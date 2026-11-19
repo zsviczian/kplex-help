@@ -24,6 +24,7 @@ Related:
   - "[[Recently added features]]"
   - "[[README]]"
 Friend:
+- '[[Release 0.4.5]]'
 - '[[Release 0.4.4]]'
 - '[[Release 0.4.3]]'
 - '[[Release days]]'
@@ -32,12 +33,17 @@ Friend:
 
 Wondering whether an update helps your workflow? Browse what changed, then follow a feature link to learn how to use it.
 
+## K-Plex 0.4.5 — Keep working while your map catches up
+
+[[Release 0.4.5]] adds live control over background effort, steadier connections through prose edits, saved-graph recovery, appearance-source navigation and web-link improvements. Browse [[Releases 0.4]] for earlier updates.
+
 ## K-Plex 0.4.4 — Create in context and keep your place
 
 [[Release 0.4.4]] adds separate creation tabs and templates, richer note types, saved-list previews, journal links, mobile layout improvements and faster plugin initialization. Browse [[Releases 0.4]] for calendar navigation, folder workflows, export and automation.
 
 ## Release archive
 
+- [[Release 0.4.5|K-Plex 0.4.5]] — keep working while your map catches up.
 - [[Release 0.4.4|K-Plex 0.4.4]] — create in context and keep your place.
 - [[Release 0.4.3|K-Plex 0.4.3]] — November 9, 2026: Daily Notes calendar, journal gap links and indexing improvements.
 

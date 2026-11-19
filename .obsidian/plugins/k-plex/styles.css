@@ -599,6 +599,7 @@ button.kplex-sidecar-unfold-plex,
 .kplex-icon { display: inline-flex; align-items: center; justify-content: center; line-height: 0; flex: 0 0 auto; }
 .kplex-icon svg { display: block; stroke: currentColor; }
 .kplex-brand-mark { color: var(--interactive-accent); filter: none; }
+.kplex-index-background .kplex-icon.kplex-brand-mark { opacity: 0.5; }
 .kplex-node-icon { opacity: .88; margin-right: 4px; }
 .kplex-thought-label { display: inline-flex; align-items: center; justify-content: center; min-width: 0; }
 .kplex-thought-label > span:last-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -1573,14 +1574,14 @@ button.kplex-sidecar-unfold-plex,
    scenes visibly migrate between their actual old/new positions. CSS only handles connector
    appearance; duplicating positional CSS transitions here makes the FLIP transform fight layout. */
 @keyframes kplex-edge-arrive { from { opacity: 0; } to { opacity: 1; } }
-/* Arrival opacity belongs to an inner paint group. A finished fill-both animation on the
-   focus group would override is-dimmed forever, keeping relationship captions opaque. */
-.kplex-edge-paint {
+/* Only actual scene transitions animate arrival. Follow/focus and source updates must not
+   restart opacity on stationary connectors. Keep the inner group separate from hover dimming. */
+.kplex-plex.is-scene-transitioning .kplex-edge-paint {
   animation: kplex-edge-arrive max(120ms, calc(var(--kplex-motion-ms, 560ms) * .55)) ease-out both;
 }
 .kplex-plex.is-following-document .kplex-edge-paint { animation: none; }
 @media (prefers-reduced-motion: reduce) {
-  .kplex-edge-paint { animation: none; }
+  .kplex-plex.is-scene-transitioning .kplex-edge-paint { animation: none; }
 }
 
 .kplex-plex.is-section-expanded .kplex-thought.is-selected {
@@ -3695,6 +3696,12 @@ button.kplex-sidecar-unfold-plex:focus-visible,
 body.is-mobile > .app-container > .mobile-navbar.kplex-mobile-navbar-docked { position: relative; }
 body.is-mobile > .app-container > .mobile-navbar.kplex-mobile-navbar-hidden { display: none; }
 .kplex-fullscreen-anchor { display: none; }
+/* An emptied native mobile drawer/backdrop must not cover its canvas at popover z-index 30/32.
+   Keep the fullscreen overlay below native previews, dialogs and menus. */
+.workspace-drawer.kplex-fullscreen-drawer,
+.workspace-drawer-backdrop.kplex-fullscreen-drawer,
+.workspace-split.mod-root.is-sliding-sidebar.kplex-fullscreen-drawer,
+.workspace-split.mod-root > .workspace-drawer-backdrop.kplex-fullscreen-drawer { z-index: var(--layer-sidedock, 10); }
 .kplex-fullscreen-overlay {
   position: fixed;
   inset: 0;

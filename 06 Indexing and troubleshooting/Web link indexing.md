@@ -25,6 +25,8 @@ Looking for a website you know you linked from a note? Web links may still be ap
 - **Incremental updates:** changed notes are rescanned rather than every note on every navigation.
 - **Current URL gains referrers:** an open web-link node can update as more referring notes are discovered.
 
+Labels authored in Markdown links are retained for web-link nodes. For example, `[Obsidian documentation](https://docs.obsidian.md)` supplies a readable name alongside the address.
+
 In **Settings → K-Plex → Indexing config**, the status may read **Preparing web link index**, **Loading cached web links — … notes loaded**, **Discovering web links — … / … notes**, or **Web link discovery incomplete**. The last state need not prevent ordinary local graph navigation.
 
 ## Try it here

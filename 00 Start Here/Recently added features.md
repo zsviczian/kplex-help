@@ -9,6 +9,7 @@ tags:
   - kplex/getting-started
   - kplex/navigation
 Friend:
+  - '[[Release 0.4.5]]'
   - "[[Choose a topic]]"
   - "[[Glossary]]"
   - "[[Use cases]]"
@@ -41,6 +42,10 @@ Related:
 # Find a useful improvement
 
 Returning to K-Plex and wondering what is worth trying? Start with the task you want to make easier, then open the relevant guide.
+
+## Keep working while your map catches up
+
+Set live **Background effort** to reduce or pause indexing while you write, draw or browse elsewhere. Unchanged connections stay steady through prose edits and focus changes. Inspect a node or connection's **Appearance sources**, and keep readable labels on web links. [[Release 0.4.5]] connects these improvements to their guides.
 
 ## Create in context and keep your place
 

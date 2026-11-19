@@ -26,6 +26,9 @@ The indicator near **K-Plex** explains what is happening. Open its details when 
 | Status or cue | What it means for you |
 | --- | --- |
 | **Waiting for K-Plex to open** | Preparation is deferred until a canvas is opened. |
+| **Background indexing paused** | Pending automatic work waits for K-Plex focus at zero background effort. |
+| **Background indexing reduced** | K-Plex is inactive and working at reduced background effort. |
+| **Cache save waiting for K-Plex focus** | A new complete-cache save will start when K-Plex has focus. An already-started save is allowed to finish. |
 | **Preparing local graph** | The selected note's neighborhood is still being prepared. |
 | **Local graph ready** | You can work with this neighborhood even if wider discovery continues. |
 | **≥** beside a gate count | This is a lower bound; more related notes may arrive. |

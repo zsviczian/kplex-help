@@ -38,6 +38,8 @@ With graph focus, **Escape** exits Zen **first**, then fullscreen when pressed a
 
 Neither state is a saved vault preference. Modes last for **this view session**; reopening the view starts with its normal layout. On a phone or tablet, Zen and fullscreen also hide Obsidian's mobile navigation bar. A normal main tab reserves space for that bar beneath K-Plex.
 
+Fullscreen also works from a mobile side panel: it fills the owning Obsidian workspace, then restores the pane when you exit.
+
 **Try it:** Center a note, pan or zoom slightly, enter Zen, then fullscreen, and exit both. The camera should be retained throughout; press **Fit to screen** only if you want a new framing.
 
 ## Windows and narrow-window controls

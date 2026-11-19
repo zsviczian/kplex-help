@@ -23,7 +23,9 @@ Have a large vault and want to get to work without waiting for everything? Start
 
 Filename/path search and Obsidian-known relationships can appear while indexing continues. A note that belongs to a large tag or folder does not require all of its siblings to load before the note opens. A **≥** gate count means relationships prepared so far are shown, with more potentially arriving as the neighborhood loads.
 
-When every K-Plex surface is hidden, automatic indexing pauses and waiting changes are gathered for later. Showing K-Plex again catches up. Incoming updates preserve your position on the map instead of repeatedly recentering the graph.
+When K-Plex loses focus, **Background effort** controls how much automatic work continues. Choose **0 — Paused** to gather changes for later, or allow reduced background work; the default is **10**. Returning focus to a K-Plex canvas lets it catch up. This also applies when the map remains visible beside another editor. See [[On demand vs Eager]].
+
+Initial preparation finishes uninterrupted. New complete-cache saves wait for K-Plex focus, while an already-started save finishes after you switch away. Incoming updates preserve your position on the map instead of repeatedly recentering the graph.
 
 If one note exceeds the supported relationship-loading bound, K-Plex can report that its local graph counts are unavailable without implying that the entire index has failed.
 

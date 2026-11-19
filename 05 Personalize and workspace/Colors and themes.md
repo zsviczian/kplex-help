@@ -49,6 +49,10 @@ Resets preserve rule names, matching keys, tag order, icons, fonts, sizes, shape
 
 For this help vault, **Default base + my semantic colors** is a useful starting point when adopting native colors while retaining the meaning of its custom help styles.
 
+## Find where a node or connection gets its appearance
+
+Right-click a node or connection and open **Appearance sources**. Its styling layers point to the existing settings or styling-lens editor, so you can inspect the relevant rule directly. A displayed color can combine base styling, semantic rules and a Graph Lens; follow the source you intend to change.
+
 ## Choose what a color follows
 
 **Default** inherits the applicable style or native color. **Fixed color** uses one literal color. **Named color** refers to a saved Light/Dark pair. **Theme color** follows an Obsidian or custom CSS variable, such as `--interactive-accent`.

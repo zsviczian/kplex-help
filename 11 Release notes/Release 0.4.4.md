@@ -8,6 +8,8 @@ Guide:
 - '[[Releases 0.4]]'
 Previous:
 - '[[Release 0.4.3]]'
+Next:
+- '[[Release 0.4.5]]'
 Explains:
 - '[[Create notes and placeholders]]'
 - '[[Create a relationship]]'

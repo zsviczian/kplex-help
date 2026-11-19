@@ -10,6 +10,7 @@ tags:
 Guide:
 - '[[Indexing and troubleshooting]]'
 Related:
+- '[[Screenshot - Background indexing effort.png]]'
 - '[[Large vault behavior]]'
 Previous:
 - '[[How indexing works]]'
@@ -54,6 +55,24 @@ Deferring preparation avoids starting that pipeline in a session where you never
 Both the startup choice and strategy apply after **restarting Obsidian or reloading K-Plex**. Changing them does not stop, clear or restart the current index. These are device preferences, not K-Plex theme settings.
 
 **Background indexing speed** is different: it applies immediately. **Responsive (recommended)** gives Obsidian more time between background tasks; **Faster** can finish work sooner at greater foreground cost.
+
+## Choose what happens when K-Plex loses focus
+
+In **Indexing config → When K-Plex is inactive**, set **Background effort** independently of startup and strategy. This applies when another tab or pane is active, or when you use another application—even if K-Plex remains visible beside your editor.
+
+| Background effort | What happens |
+| --- | --- |
+| **0 — Paused** | Pending changes wait for K-Plex focus. |
+| **1–99** | Indexing continues with reduced effort. The default is **10**. |
+| **100 — Same as foreground** | Indexing uses the selected foreground speed. |
+
+![[Screenshot - Background indexing effort.png]]
+
+*Desktop: Background effort is set to the default 10. Moving it to 0 pauses automatic work while K-Plex is inactive.*
+
+Changes apply immediately in both indexing strategies. K-Plex's brand mark dims when it is inactive. Select its canvas again to let it catch up. Choose **Paused** if ongoing preparation makes writing or drawing less smooth; allow more effort if you prefer indexing to progress while you work elsewhere.
+
+Initial index preparation finishes uninterrupted. New complete-cache saves wait for K-Plex focus; a save that has already started finishes after you switch away. Pausing background indexing does not clear saved progress or change your notes.
 
 Web links retain their own background discovery after preparation starts. Local readiness does not mean every URL is already known. See [[Web link indexing]].
 

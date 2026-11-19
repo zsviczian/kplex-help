@@ -30,6 +30,10 @@ Follow an idea without losing its context. Make a note the center, explore a con
 > [!practice]
 > Center [[K-Plex Help|K-Plex Help]], then click this note, [[Vault Search vs Find in this Plex|Vault Search vs Find in this canvas]], and back. Watch how shared nodes move rather than being redrawn as unrelated points.
 
+## Open an already-central web link with one click
+
+Enable **Single-click external navigation** in K-Plex's navigation settings if you want this behavior. The first click on a neighboring web link still makes it central; a click on the already-central web link opens it. This preference is off by default. Double-click and the node's Open actions remain available.
+
 ## Open a file in K-Plex from Obsidian
 
 Right-click an existing file in Obsidian's file explorer, its tab or a resolved file link, then open the **K-Plex** submenu. Use long-press where the device provides that context menu.

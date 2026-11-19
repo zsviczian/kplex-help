@@ -7,6 +7,7 @@ tags:
 Guide:
   - "[[Get started]]"
 Related:
+  - "[[Release 0.4.5]]"
   - "[[Release 0.4.4]]"
   - "[[Automation and scripting]]"
   - "[[Release 0.2.2]]"
@@ -28,7 +29,7 @@ Explore connected notes without first designing a structure of your own. This de
 
 ## Which features can I try?
 
-These guides cover **K-Plex 0.4.4**, including [[Release 0.4.4|creation templates, note types, journal links and mobile improvements]]. K-Plex requires **Obsidian 1.13.0 or newer**.
+Start with [[Release 0.4.5|background indexing controls, steadier connections and appearance sources]], or revisit [[Release 0.4.4|creation templates, note types, journal links and mobile improvements]]. K-Plex requires **Obsidian 1.13.0 or newer**.
 
 These living guides explain the current interface, including Compass, Mind Map and Facets. Check the version installed in **Settings → Community plugins** when comparing controls with the guides. Update the plugin separately and preserve this vault's supplied settings: they contain its ontology, colors and demonstration presets.
 
