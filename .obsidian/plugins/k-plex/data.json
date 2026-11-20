@@ -236,6 +236,7 @@
   "indexingMode": "on-demand",
   "urlIndexingMode": "background",
   "indexingThrottle": "responsive",
+  "backgroundIndexingEffort": 30,
   "hierarchy": {
     "exclusions": [
       "alias",
@@ -540,9 +541,6 @@
     }
   },
   "navigationHistory": [
-    "09 Showcase examples/Example - A note with sections.md",
-    "09 Showcase examples/Example - A visual note.md",
-    "07 Use cases/Use cases.md",
     "00 Start Here/Choose a topic.md",
     "04 Filter and focus/Expand a note into sections.md",
     "10 Discover by topic/06 Reduce clutter and reveal detail.md",
@@ -579,6 +577,9 @@
     "04 Filter and focus/Keep layout vs Reflow.md",
     "2026-11-15.md",
     "11 Release notes/Release 0.4.4.md",
+    "11 Release notes/Releases 0.4.md",
+    "Assets/Screenshot - Background indexing effort.png",
+    "11 Release notes/Release 0.4.5.md",
     "Start Here.md"
   ],
   "allowOntologySuggester": true,
@@ -593,6 +594,7 @@
   "boldFields": false,
   "allowAutozoom": false,
   "trackpadNavigation": false,
+  "singleClickExternalNavigation": false,
   "connectionSourceModifier": "none",
   "allowAutofocuOnSearch": true,
   "defaultAlwaysOnTop": false,
@@ -1202,6 +1204,7 @@
   "hoverHighlightRequiresAlt": true,
   "areaOutlineRequiresAlt": true,
   "gateTooltipRequiresAlt": true,
+  "showCanvasHints": true,
   "toolbarExpanded": false,
   "sidecarOpen": true,
   "sidecarPosition": "right",
